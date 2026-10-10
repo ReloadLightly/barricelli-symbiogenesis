@@ -1,0 +1,141 @@
+{
+  "declared_utc": "2026-10-10T21:00:13.378699+00:00",
+  "question": "How do Confluence, Strata and Fault lines unfold when the same saved world is shown at three fixed cumulative horizons?",
+  "kind": "temporal numerical art; aesthetic observation, not a new search or complexity test",
+  "worlds": [
+    {
+      "slug": "confluence",
+      "title": "Confluence / 2026",
+      "source_run": "results/reconstruction/galloway2026",
+      "seed": 2026,
+      "profile": "galloway_published",
+      "norm": "galloway_B",
+      "updates": 511,
+      "initial_sha256": "9314f8af73294a88f2f4cbe2ac0c38f23ad57fd4fa6a685f6b10d52045f94d5b",
+      "trajectory_sha256": "48fcff7c2a3ef292dabac9cf7c72649b062ef276abd01298062d943601b35090",
+      "config_sha256": "4aebb0bc8b88e1730f88a607b1a932157f305e4cb2f74702ee8dba856fd947d2",
+      "provenance_sha256": "b56e84e0f0bd33823dd1d65bbd506c947bceaa4acbf6dfbd1d01da94252a1cd1",
+      "original_recipe_sha256": "8d173f4a53a168d6f91c4809936a14dc47897e72fe8ea7d0ac13de8d4435f900"
+    },
+    {
+      "slug": "strata",
+      "title": "Strata / 2029",
+      "source_run": "results/ensemble/galloway2029",
+      "seed": 2029,
+      "profile": "galloway_published",
+      "norm": "galloway_B",
+      "updates": 511,
+      "initial_sha256": "872b872578245d9bec8774f87d6b613c5ec8c8392ad83c9128fb4ae182f99985",
+      "trajectory_sha256": "1fef8742dbe71ac444f0fc11634fe95f0e681785322a6fa50cf201d3b48aa701",
+      "config_sha256": "3c20bb55555586995e16b6de90f4ace77a00bd44551cb2d13f27d92b1de8cbf9",
+      "provenance_sha256": "29b4cc76588a1de6bdf2058a4ee2a7f07599a0c8785283f25ecc1e2f6541e6a2",
+      "original_recipe_sha256": "0988e2400c5ee221c8d38b5be3e335093f284d58beff543d07348dea4872a639"
+    },
+    {
+      "slug": "fault-lines",
+      "title": "Fault lines / 2030",
+      "source_run": "results/ensemble/galloway2030",
+      "seed": 2030,
+      "profile": "galloway_published",
+      "norm": "galloway_B",
+      "updates": 511,
+      "initial_sha256": "abf6b79807c843c9e3a19194458ed63be374aed61bb28d11930f53c8a3172a3e",
+      "trajectory_sha256": "238f2635514158c0dc4ea57df7fb45b3696f6fd0565d5ae7c4630dcc9cd8b508",
+      "config_sha256": "073c3bd7b003b7016bf4fa1d0a1cf59635bffced1f1d6badbc9e7b0dfe7d549c",
+      "provenance_sha256": "67e6b754daad78a5b1a26354d71e80f100d612691db1bf05f897ad6c46052483",
+      "original_recipe_sha256": "eacc7548d8954996193160a3c7a4cc5c9932f5087d50b48c7fc5b44dbcf18ed2"
+    }
+  ],
+  "elapsed_steps": [
+    170,
+    341,
+    511
+  ],
+  "row_convention": "t0 is the exact initial row; a panel at step s includes rows 0 through s, inclusive",
+  "fixed_presentation": {
+    "canvas_dimensions": [
+      4919,
+      4968
+    ],
+    "integer_cell_scale": 9,
+    "numerical_origin": [
+      160,
+      180
+    ],
+    "full_numeric_extent": [
+      4599,
+      4608
+    ],
+    "palette_file": "configs/palette.json",
+    "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+    "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    "background": "#080f1c",
+    "axes": "position x right; time t downward",
+    "unreached_time": "blank background, never stretched",
+    "triptych": "full-resolution panels pasted side by side at 1:1; same scale, no resampling"
+  },
+  "budget": {
+    "new_native_simulations": 0,
+    "new_model_api_calls": 0,
+    "serial_rendering": true,
+    "stage_panels": 9,
+    "composed_triptychs": 3,
+    "animation_frames_exported": 0,
+    "target_peak_rss_mib": 600
+  },
+  "measures": [
+    "exact saved source hashes",
+    "dimensions and equal spatial/time scales",
+    "all reached numerical pixels against saved CSV",
+    "all unreached numerical pixels blank",
+    "triptych pixels equal their source panels",
+    "unchanged existing prints, recipes, animations and numerical provenance",
+    "offline gallery links and navigation"
+  ],
+  "completion_criteria": [
+    "all nine stage panels and three triptychs exported with recipes and previews",
+    "atlas publishes panels, triptychs and access to each exact saved world",
+    "observations describe actual changes without assuming increasing complexity",
+    "numerical pixel, preservation and browser checks pass; documented offline regeneration"
+  ],
+  "protected_files_sha256": {
+    "results/art/confluence.gif": "0aa24deefbd295aec3659b8e1049396a0c0dcd9fa37398995fd7cfbeaa927753",
+    "results/art/confluence.png": "b7203595094724989a4b2ffc47d03aee719775316c69e23028de1c55ac068860",
+    "results/art/confluence.preview.png": "638e5d9ad6ba1a8418bd5f71fd50d93414036a7ec5b5df06ce15b3cffe1bcda9",
+    "results/art/confluence.recipe.json": "8d173f4a53a168d6f91c4809936a14dc47897e72fe8ea7d0ac13de8d4435f900",
+    "results/art/curation.json": "cf9e307024e50e7eca46bee862e0a4c5caf82963d563b776627ec26f34113954",
+    "results/art/fault-lines.gif": "819c2f330ce36873fa7bf8e642af7b303f1963a0b7ef49857704011ccdc1e391",
+    "results/art/fault-lines.png": "c07a677f76862f3ef284bc8a520d73517a0d35f22a151c2ef8a8bf0bc0311e76",
+    "results/art/fault-lines.preview.png": "71431b7c7b206e1de67453087f50b9a92fb4e3db2c5ea0894a239878c5e065b3",
+    "results/art/fault-lines.recipe.json": "eacc7548d8954996193160a3c7a4cc5c9932f5087d50b48c7fc5b44dbcf18ed2",
+    "results/art/manifest.json": "0c1d9d8376d152568a0246a2505790f6ab4a712d7a3879550e03b6c9bf388cf2",
+    "results/art/strata.gif": "43d4d4e8c8bd3099ea343962b2d20c89e662a84eb7798f86a29fe73fb2ef52ee",
+    "results/art/strata.png": "8343d5622c2fc0b83788f835c1d83fd3d855a9b851447d5f15f8ce5d3f424da4",
+    "results/art/strata.preview.png": "a6e6fd6d032f8fb26d32c5fb7ff281c41f1144f66be7e89ffc643c30c86cdca3",
+    "results/art/strata.recipe.json": "0988e2400c5ee221c8d38b5be3e335093f284d58beff543d07348dea4872a639",
+    "results/ensemble/galloway2029/config.json": "3c20bb55555586995e16b6de90f4ace77a00bd44551cb2d13f27d92b1de8cbf9",
+    "results/ensemble/galloway2029/initial.csv": "872b872578245d9bec8774f87d6b613c5ec8c8392ad83c9128fb4ae182f99985",
+    "results/ensemble/galloway2029/java_oracle.csv": "1fef8742dbe71ac444f0fc11634fe95f0e681785322a6fa50cf201d3b48aa701",
+    "results/ensemble/galloway2029/provenance.json": "29b4cc76588a1de6bdf2058a4ee2a7f07599a0c8785283f25ecc1e2f6541e6a2",
+    "results/ensemble/galloway2029/resource.json": "8c369601098fee369d2bcf59fb1b1b3a7e40f264b8b35f96dd130b274840f369",
+    "results/ensemble/galloway2029/statistics.json": "1dfec9c21f14088b7716e61b4b73cbf951debfb91cf186953bd69fd6616cd219",
+    "results/ensemble/galloway2029/trajectory.csv": "1fef8742dbe71ac444f0fc11634fe95f0e681785322a6fa50cf201d3b48aa701",
+    "results/ensemble/galloway2029/trajectory.npz": "e81b9c9c84c5c361e9eb1b83d7661be696611581da85f315d9a7359081ea1860",
+    "results/ensemble/galloway2030/config.json": "073c3bd7b003b7016bf4fa1d0a1cf59635bffced1f1d6badbc9e7b0dfe7d549c",
+    "results/ensemble/galloway2030/initial.csv": "abf6b79807c843c9e3a19194458ed63be374aed61bb28d11930f53c8a3172a3e",
+    "results/ensemble/galloway2030/java_oracle.csv": "238f2635514158c0dc4ea57df7fb45b3696f6fd0565d5ae7c4630dcc9cd8b508",
+    "results/ensemble/galloway2030/provenance.json": "67e6b754daad78a5b1a26354d71e80f100d612691db1bf05f897ad6c46052483",
+    "results/ensemble/galloway2030/resource.json": "d2c7cd76659547c132980d33cbdfff1803895efe6d9af539b457979c4902493e",
+    "results/ensemble/galloway2030/statistics.json": "c88e94fdacfea0c08c0a3b1c89e485d14e6490c7c48e1341a132be21482151d5",
+    "results/ensemble/galloway2030/trajectory.csv": "238f2635514158c0dc4ea57df7fb45b3696f6fd0565d5ae7c4630dcc9cd8b508",
+    "results/ensemble/galloway2030/trajectory.npz": "c11dbf141b4615652e28a38e98ebbc5b10e4c246d0f4a96cc6e475ec711e2e31",
+    "results/reconstruction/galloway2026/config.json": "4aebb0bc8b88e1730f88a607b1a932157f305e4cb2f74702ee8dba856fd947d2",
+    "results/reconstruction/galloway2026/initial.csv": "9314f8af73294a88f2f4cbe2ac0c38f23ad57fd4fa6a685f6b10d52045f94d5b",
+    "results/reconstruction/galloway2026/java_oracle.csv": "48fcff7c2a3ef292dabac9cf7c72649b062ef276abd01298062d943601b35090",
+    "results/reconstruction/galloway2026/provenance.json": "b56e84e0f0bd33823dd1d65bbd506c947bceaa4acbf6dfbd1d01da94252a1cd1",
+    "results/reconstruction/galloway2026/resource.json": "d2c7cd76659547c132980d33cbdfff1803895efe6d9af539b457979c4902493e",
+    "results/reconstruction/galloway2026/statistics.json": "ab75a26cffc34d67a0ec165080e41e2fa941585fadf18757db2820b5e62ce833",
+    "results/reconstruction/galloway2026/trajectory.csv": "48fcff7c2a3ef292dabac9cf7c72649b062ef276abd01298062d943601b35090",
+    "results/reconstruction/galloway2026/trajectory.npz": "c839a951ec127812834ab5f913b01d8c4db2a3c63260eb6bb16842f8e27cc9f8"
+  }
+}
