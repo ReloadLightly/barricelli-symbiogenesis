@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/ReloadLightly/barricelli-symbiogenesis",
+  "description": "Reproducible artificial-life laboratory and numerical art instrument: verified Barricelli/Galloway dynamics, offline atlas, fair conversational Codex search comparisons, and causal assays of propagation and reproduction.",
+  "topics": [
+    "artificial-life",
+    "cellular-automata",
+    "generative-art",
+    "reproducible-research",
+    "symbiogenesis",
+    "barricelli"
+  ],
+  "checkpoint_policy": "Commit and push each completed design, implementation, execution, and verification stage; preserve all logged outcomes.",
+  "initial_milestone_commit": "28499b8"
+}
