@@ -16,10 +16,11 @@ test_incomplete_and_corrupted_trace_rejected (test_lineage.Lineage) ... ok
 test_mutation_does_not_invent_copied_ancestry (test_lineage.Lineage) ... ok
 test_native_common_founder_copying_and_no_helper_claim (test_lineage.Lineage) ... ok
 test_overwrite_removes_prior_root (test_lineage.Lineage) ... ok
+test_possible_root_coverage_does_not_guarantee_all_components (test_lineage.Lineage) ... ok
 test_unrelated_equal_templates_do_not_share_founder (test_lineage.Lineage) ... ok
 test_untraced_mutation_helper_prevents_dependency_certificate (test_lineage.Lineage) ... ok
 
 ----------------------------------------------------------------------
-Ran 20 tests in 0.275s
+Ran 21 tests in 0.272s
 
 OK

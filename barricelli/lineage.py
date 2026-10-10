@@ -132,13 +132,18 @@ def propagate_step(old, expected, previous, events):
 
 
 def child_support(states, x, motif, founder_mask):
-    roots = dependencies = helpers = 0
+    roots = guaranteed_roots = dependencies = helpers = 0
     unknown = False
     dependency_unknown = False
     for offset, value in enumerate(motif):
         if value:
             node = states[x + offset]
             roots |= node.roots
+            # A union of alternative origins only shows possible coverage.
+            # Require every founding component to occur as an unambiguous
+            # initial-cell origin somewhere in each descendant footprint.
+            if node.roots.bit_count() == 1 and not node.unknown:
+                guaranteed_roots |= node.roots
             dependencies |= node.dependencies
             helpers |= node.helpers
             unknown |= node.unknown or not node.roots
@@ -146,11 +151,12 @@ def child_support(states, x, motif, founder_mask):
     return {
         'position': x,
         'copy_roots': root_positions(roots),
+        'guaranteed_copy_roots': root_positions(guaranteed_roots),
         'dependency_roots': root_positions(dependencies),
         'helper_roots': root_positions(helpers),
         'unknown_copy_origin': unknown,
         'unknown_dependency_origin': dependency_unknown,
-        'exclusive_full_founder_copying': not unknown and roots == founder_mask,
+        'exclusive_full_founder_copying': not unknown and roots == founder_mask and guaranteed_roots == founder_mask,
         'dependencies_confined_to_founder': not dependency_unknown and not (dependencies & ~founder_mask),
         'internal_helper_support': bool(helpers & founder_mask),
     }

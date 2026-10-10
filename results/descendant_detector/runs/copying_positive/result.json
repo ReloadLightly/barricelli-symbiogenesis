@@ -19,6 +19,10 @@
           64,
           65
         ],
+        "guaranteed_copy_roots": [
+          64,
+          65
+        ],
         "dependency_roots": [
           64,
           65
@@ -33,6 +37,10 @@
       {
         "position": 72,
         "copy_roots": [
+          64,
+          65
+        ],
+        "guaranteed_copy_roots": [
           64,
           65
         ],
@@ -70,7 +78,7 @@
   "copying_geometry_ancestry_recovery_pass": true,
   "dependency_supported_detached_reproduction": false,
   "events_audited": 544,
-  "analysis_and_resume_seconds": 0.12576544399962586,
+  "analysis_and_resume_seconds": 0.02836694899997383,
   "native_process_seconds": 0.005769811999925878,
   "native_max_rss_kib": 3712
 }

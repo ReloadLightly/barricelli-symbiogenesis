@@ -8,7 +8,7 @@
     "tiling_expands_without_detached_branch": true
   },
   "design_sha256": "2ee4b9364ecbdc1a7ca3374602ebe4ddaaaba5c288814030d22dc7252a28f5a1",
-  "analyzer_sha256": "021146042eb1462024774ec94c58cf49e7d7ad68178b171845c951ee800b8a59",
+  "analyzer_sha256": "e2a5deada1bc930823d361128e8067a5c603406d861c0560242d7c64e918f00d",
   "test_log": "results/descendant_detector/test-results.txt",
   "limitation": "No independently known native partner-assisted detached collective positive is available; only the detector core is calibrated."
 }

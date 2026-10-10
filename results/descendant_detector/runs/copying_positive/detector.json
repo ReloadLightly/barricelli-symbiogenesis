@@ -22,6 +22,10 @@
           64,
           65
         ],
+        "guaranteed_copy_roots": [
+          64,
+          65
+        ],
         "dependency_roots": [
           64,
           65
@@ -36,6 +40,10 @@
       {
         "position": 72,
         "copy_roots": [
+          64,
+          65
+        ],
+        "guaranteed_copy_roots": [
           64,
           65
         ],
@@ -180,5 +188,5 @@
     "trajectory.csv": "d951f4328152fd936700257a392036b937efaed5005474ee6e50abb100d35f79",
     "events.csv": "aefb8b32df4c66febd5d7f22f699721bb0e0e266af0309b37a318fbeec7c2901"
   },
-  "analyzer_sha256": "021146042eb1462024774ec94c58cf49e7d7ad68178b171845c951ee800b8a59"
+  "analyzer_sha256": "e2a5deada1bc930823d361128e8067a5c603406d861c0560242d7c64e918f00d"
 }

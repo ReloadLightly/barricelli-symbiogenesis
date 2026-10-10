@@ -9,7 +9,7 @@ from pathlib import Path
 
 import numpy as np
 
-from barricelli.lineage import CellLineage, analyze, initial_lineages, propagate_step, root_positions
+from barricelli.lineage import CellLineage, analyze, child_support, initial_lineages, propagate_step, root_positions
 from barricelli.run import ROOT, read_csv
 
 
@@ -117,6 +117,13 @@ class Lineage(unittest.TestCase):
         states, _, _, _ = propagate_step(arr[0], arr[1], previous, events)
         self.assertFalse(states[7].unknown)
         self.assertTrue(states[7].dependency_unknown)
+
+    def test_possible_root_coverage_does_not_guarantee_all_components(self):
+        ambiguous = [CellLineage(3, 3), CellLineage(3, 3)]
+        support = child_support(ambiguous, 0, [8, 8], 3)
+        self.assertEqual(support['copy_roots'], [0, 1])
+        self.assertEqual(support['guaranteed_copy_roots'], [])
+        self.assertFalse(support['exclusive_full_founder_copying'])
 
 
 if __name__ == '__main__':

@@ -1,0 +1,24 @@
+{
+  "model": "research",
+  "variant": "r6_exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+  "norm": "conditional",
+  "width": 512,
+  "steps": 48,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_wrong_helper_same_occupancy/frozen.csv",
+  "trace_steps": 48,
+  "modifications": [
+    "R6 designed inoculation or extraction; historical numerical norm unchanged",
+    "complete observation-only event trace; external interventions specified in experiment"
+  ],
+  "experiment": {
+    "id": "exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+    "stage": "exploration",
+    "candidate": "generated_conditional3002",
+    "condition": "wrong_helper_same_occupancy",
+    "placement": 192,
+    "helper_offset": 1
+  }
+}
