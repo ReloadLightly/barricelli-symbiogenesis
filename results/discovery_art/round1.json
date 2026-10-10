@@ -1,0 +1,23 @@
+{
+  "round": "R8a feedback batch1",
+  "declared_utc": "2026-10-10T20:03:50.106791+00:00",
+  "question": "Can erasure, sparse layouts and heterogeneous schedules escape the common high-occupancy periodic bins?",
+  "measures": {
+    "primary": "5\u00d75\u00d75 archive coverage from tail occupancy/activity/repeated4; search repeats are units",
+    "supplementary": [
+      "mean nearest-neighbor descriptor diversity",
+      "whole-world recurrence with environment phase",
+      "retained signatures",
+      "late novel signatures",
+      "unique vs ambiguous translation",
+      "engine/process/descriptor time and model use separately"
+    ],
+    "controls": "existing saved stationary, periodic, noisy controls reanalyzed in C1; high scores do not establish life"
+  },
+  "budget": {
+    "native_runs": 72,
+    "cell_updates": 5308416
+  },
+  "completion": "six untested proposals per repeat/method; retain all trajectories, visuals and feedback before batch2",
+  "input_scope": "own bootstrap histories only; all four Codex contact sheets actually viewed"
+}

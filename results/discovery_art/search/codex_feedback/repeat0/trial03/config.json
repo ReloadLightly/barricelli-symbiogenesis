@@ -1,0 +1,31 @@
+{
+  "model": "research",
+  "variant": "r8_conditional",
+  "norm": "conditional",
+  "width": 192,
+  "steps": 384,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": 24003,
+  "initial_state_file": "results/discovery_art/search/codex_feedback/repeat0/trial03/frozen.csv",
+  "trace_steps": 0,
+  "initial_design": {
+    "norm": "conditional",
+    "alphabet_id": 0,
+    "density": 0.65,
+    "layout": "two_patches",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8a",
+    "method": "codex_feedback",
+    "repeat": 0,
+    "trial": 3,
+    "space_index": 788
+  }
+}

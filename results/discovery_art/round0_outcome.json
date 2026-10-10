@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-10-10T20:03:50.106791+00:00",
+  "native_runs": 48,
+  "codex_coverage": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "finding": "B and conditional anchors often settle into saturated periodic domains; halves show variable transients. Images show oblique interfaces, regular stripes and eroding gaps; these are numerical structures, not organisms.",
+  "decision": "Probe less occupied regimes using erasure/exclusion and sparse initialization, plus two heterogeneous schedules. Expand coverage rather than tune artistic rendering."
+}

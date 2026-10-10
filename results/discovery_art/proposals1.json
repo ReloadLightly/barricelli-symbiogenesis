@@ -1,0 +1,155 @@
+{
+  "batch": 1,
+  "submitted_utc": "2026-10-10T20:03:50.106791+00:00",
+  "feedback_sha256": "cfe49c37acaef77bdc4bcdaec148b1ddb6e1a219a1e3d086db68d39a6d2be499",
+  "viewed_visuals": [
+    {
+      "repeat": 0,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat0.png",
+      "sha256": "73bae305e43d6ef5834bf7d75f12812abb34315b53b7286966b783b42438848d",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 1,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat1.png",
+      "sha256": "675e5e4d5ed8889d42acb4f768fcb8991ce6c748365ab1407c1d53c8efbb53d3",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 2,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat2.png",
+      "sha256": "e60f2a28fbcb8c6b641f9d10119aa63ab352179567564d936e9b5c9a7df7d1c4",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 3,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat3.png",
+      "sha256": "ee1ef14701e7c4d7a4a612c23f46e0f7421e4d3a7a914c9910bfb497547caa93",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    }
+  ],
+  "visual_observations": [
+    "B and conditional commonly become broad regular oblique stripes, agreeing with recurrence; high repetition is not proof of organization.",
+    "A and spatial halves show finer interfaces and empty diagonal corridors; changes across initial seeds are conspicuous.",
+    "This batch seeks missing low-occupancy/low-activity regimes, retaining the palette."
+  ],
+  "repeats": {
+    "0": [
+      {
+        "space_index": 288,
+        "hypothesis": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin."
+      },
+      {
+        "space_index": 974,
+        "hypothesis": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors."
+      },
+      {
+        "space_index": 740,
+        "hypothesis": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime."
+      },
+      {
+        "space_index": 567,
+        "hypothesis": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention."
+      },
+      {
+        "space_index": 3,
+        "hypothesis": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic."
+      },
+      {
+        "space_index": 254,
+        "hypothesis": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor."
+      }
+    ],
+    "1": [
+      {
+        "space_index": 320,
+        "hypothesis": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin."
+      },
+      {
+        "space_index": 940,
+        "hypothesis": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors."
+      },
+      {
+        "space_index": 738,
+        "hypothesis": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime."
+      },
+      {
+        "space_index": 567,
+        "hypothesis": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention."
+      },
+      {
+        "space_index": 5,
+        "hypothesis": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic."
+      },
+      {
+        "space_index": 254,
+        "hypothesis": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor."
+      }
+    ],
+    "2": [
+      {
+        "space_index": 296,
+        "hypothesis": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin."
+      },
+      {
+        "space_index": 982,
+        "hypothesis": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors."
+      },
+      {
+        "space_index": 748,
+        "hypothesis": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime."
+      },
+      {
+        "space_index": 631,
+        "hypothesis": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention."
+      },
+      {
+        "space_index": 3,
+        "hypothesis": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic."
+      },
+      {
+        "space_index": 254,
+        "hypothesis": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor."
+      }
+    ],
+    "3": [
+      {
+        "space_index": 328,
+        "hypothesis": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin."
+      },
+      {
+        "space_index": 948,
+        "hypothesis": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors."
+      },
+      {
+        "space_index": 746,
+        "hypothesis": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime."
+      },
+      {
+        "space_index": 631,
+        "hypothesis": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention."
+      },
+      {
+        "space_index": 5,
+        "hypothesis": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic."
+      },
+      {
+        "space_index": 254,
+        "hypothesis": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor."
+      }
+    ]
+  },
+  "feedback_to_submission_wall_seconds": 79.666766,
+  "model_use": {
+    "mode": "conversational Codex assistance",
+    "automated_integration": false,
+    "external_api_calls": 0,
+    "paid_calls": 0,
+    "serving_model": "not separately identified by this interface",
+    "exact_token_and_cost_metering": "unavailable; retain conversation and proposal timestamps; do not invent quantities"
+  }
+}

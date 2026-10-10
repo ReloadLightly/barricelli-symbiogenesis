@@ -1,0 +1,39 @@
+{
+  "indexes": [
+    80,
+    168,
+    507,
+    788
+  ],
+  "theta": [
+    {
+      "norm": "galloway_B",
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "uniform",
+      "initial_style": "iid"
+    },
+    {
+      "norm": "galloway_A",
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "uniform",
+      "initial_style": "iid"
+    },
+    {
+      "norm": "galloway_AB_halves",
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "center_patch",
+      "initial_style": "block8_jitter"
+    },
+    {
+      "norm": "conditional",
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "two_patches",
+      "initial_style": "iid"
+    }
+  ],
+  "selection": "declared common coverage anchors; deterministic and identical across methods/repeats"
+}
