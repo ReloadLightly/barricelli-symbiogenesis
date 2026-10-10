@@ -1,0 +1,162 @@
+{
+  "caption": "R6 treatment trajectories for both recorded motifs, selected explanatory placement224. All six predeclared treatments use width512 and48 updates, shown positions64\u2013479 with time increasing downward. Numerical dynamics generate every form; inoculation, ablation, wrong-value replacement, shuffle and exact rescue are externally imposed interventions. Full outcomes include all60 treatment worlds. No detached common-founder pair occurs, including the reserved width1024/96-update cohort.",
+  "data_sources": [
+    {
+      "file": "results/descendant_detector/summary.json",
+      "sha256": "b00ca50daa665f748001acafcbe8424598e0523eb647d17cc317dc2eb02292da"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact/trajectory.csv",
+      "sha256": "2a0596fbd154f5ce14d295b8f0a5ff96c9b5b6adfad408728a6ce58f59e2bb8b"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact/detector.json",
+      "sha256": "9c7d11e900f500fbf89dcaec0fb24dc90cc442e881a03af4b1cbd3a3195497b3"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed/trajectory.csv",
+      "sha256": "46ee89e874d81ca8d0050d4905dce73062c86c2844143270a756192a8b6e74cc"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed/detector.json",
+      "sha256": "5ffd977831031d416209ee8c8b1d3f277bd0fcfbd4cf6bfef2702afe15c2aeb8"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere/trajectory.csv",
+      "sha256": "fc16d2194f0ab53d42e9c266838319a9ed19bbac49c48e4e2e8c4f3bfca1c8cc"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere/detector.json",
+      "sha256": "db9f57f3161ceb60047a947da28b4348c659086fcc6c948348ad0895ffe5335e"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy/trajectory.csv",
+      "sha256": "c9b75d26b8d1c009407f441eb4feb94b7ab66203d0420c4073ec78c2840ac837"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy/detector.json",
+      "sha256": "bff2d5d1615fa33cd676724e9cf36012d3611ba23a3f9667aecbc0d5686bb673"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps/trajectory.csv",
+      "sha256": "45a5c276572852e3adee94f666225c01f4840a9260b2bd6149b40daa1c1b29df"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps/detector.json",
+      "sha256": "4b3b192507b03ecc82398660ccd0a055a8df742cdf624d681352c379aa003564"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue/trajectory.csv",
+      "sha256": "2a0596fbd154f5ce14d295b8f0a5ff96c9b5b6adfad408728a6ce58f59e2bb8b"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue/detector.json",
+      "sha256": "9c7d11e900f500fbf89dcaec0fb24dc90cc442e881a03af4b1cbd3a3195497b3"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact/trajectory.csv",
+      "sha256": "ac99c770b4ee683e57004fb7dea13bbf90d7ca854753344f39121abac9f44114"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact/detector.json",
+      "sha256": "f970e9b279ccd3024fbf0db9e0b495e164df1460eb7c8201d83f3d6c100552f4"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed/trajectory.csv",
+      "sha256": "9d35ff7f36ffc0fe377be54c7c85dfd4a7ebe75912cfeccf2ad921201e8accf6"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed/detector.json",
+      "sha256": "de4d11d0525ddbef3a41a8dbf3e6978fb2569a4f0b2986e2c1f5e723a4d56ff1"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere/trajectory.csv",
+      "sha256": "6f29c78700f9b02a857e06671659a858b096fe28098f313abf02b50e5c590a4e"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere/detector.json",
+      "sha256": "24baa2860c4480d969edfcb103496a61cfea666075a633c2bc62c56aa537207d"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy/trajectory.csv",
+      "sha256": "b541732b446090c9f8c7444b60b37421eb3f3f31fc8108b4fb7901266ba97d19"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy/detector.json",
+      "sha256": "e4806801471d845b0dec7906d569c454b010b9b9be31b544651c16fac0af04ef"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps/trajectory.csv",
+      "sha256": "f4fea39349a19457334ba37f47cb76a144f86f505e026a70f9323c6146aa9494"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps/detector.json",
+      "sha256": "c5764cab446830d6264b531769f684fea302cb95a76af0de49cf1424c7cece2a"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue/trajectory.csv",
+      "sha256": "ac99c770b4ee683e57004fb7dea13bbf90d7ca854753344f39121abac9f44114"
+    },
+    {
+      "file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue/detector.json",
+      "sha256": "f970e9b279ccd3024fbf0db9e0b495e164df1460eb7c8201d83f3d6c100552f4"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/descendant_figures.py": "e29c6b9ed3e73f63f69d749adc4177d5d90c77c9b7ceab1a386fae559eabd743"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

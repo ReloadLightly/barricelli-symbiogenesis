@@ -1,6 +1,6 @@
 PYTHON ?= .venv/bin/python
 
-.PHONY: build test reproduce figures art atlas
+.PHONY: build test reproduce figures art atlas descendants
 build:
 	$(PYTHON) scripts/build.py
 test: build
@@ -10,6 +10,10 @@ reproduce:
 figures:
 	$(PYTHON) scripts/figures.py
 	$(PYTHON) scripts/comparison_figures.py
+	$(PYTHON) scripts/descendant_figures.py
+descendants: build
+	$(PYTHON) scripts/descendant_detector.py --phase all
+	$(PYTHON) scripts/descendant_figures.py
 art:
 	$(PYTHON) scripts/art.py
 atlas:

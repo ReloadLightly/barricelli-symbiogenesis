@@ -1,110 +1,55 @@
 {
-  "started_utc": "2026-10-10T18:51:00.620754+00:00",
+  "updated_utc": "2026-10-10T19:21:13.077858+00:00",
   "status": "verified",
-  "resumed_from": {
-    "source_manifest": "references/source_manifest.json",
-    "source_snapshot": "results/source_snapshot.tar.gz",
-    "source_snapshot_sha256": "7a79a967dbe44a7268dbae3b2157cb250592ab8e5833290982b31ad6676f2fc1",
-    "milestone": "first implementation milestone, 2026-10-10"
-  },
-  "integrity_checks": {
-    "source_files_checked": 103,
-    "changed_or_missing_source_files": [],
-    "archive_matches": true,
-    "native_binary_matches": true,
-    "reference_binary_matches": true
-  },
-  "commands": [
-    {
-      "name": "tests",
-      "argv": [
-        "make",
-        "test"
-      ],
-      "returncode": 0,
-      "elapsed_seconds": 9.115915243999552,
-      "log": "results/resume/20261010T185100Z/tests.txt",
-      "resources": "results/resume/20261010T185100Z/tests-resource.txt"
-    },
-    {
-      "name": "numeric_replay",
-      "argv": [
-        "/home/roland/actir/barricelli-symbiogenesis/.venv/bin/python",
-        "scripts/replay_verify.py"
-      ],
-      "returncode": 0,
-      "elapsed_seconds": 4.771044505001555,
-      "log": "results/resume/20261010T185100Z/numeric_replay.txt",
-      "resources": "results/resume/20261010T185100Z/numeric_replay-resource.txt"
-    },
-    {
-      "name": "artifacts",
-      "argv": [
-        "/home/roland/actir/barricelli-symbiogenesis/.venv/bin/python",
-        "scripts/check_artifacts.py"
-      ],
-      "returncode": 0,
-      "elapsed_seconds": 4.098136261000036,
-      "log": "results/resume/20261010T185100Z/artifacts.txt",
-      "resources": "results/resume/20261010T185100Z/artifacts-resource.txt"
-    },
-    {
-      "name": "browser",
-      "argv": [
-        "/home/roland/actir/barricelli-symbiogenesis/.venv/bin/python",
-        "scripts/check_atlas.py"
-      ],
-      "returncode": 1,
-      "elapsed_seconds": 6.940519022000444,
-      "log": "results/resume/20261010T185100Z/browser.txt",
-      "resources": "results/resume/20261010T185100Z/browser-resource.txt"
-    },
-    {
-      "name": "browser_retry",
-      "argv": [
-        ".venv/bin/python",
-        "scripts/check_atlas.py"
-      ],
-      "returncode": 0,
-      "log": "results/resume/20261010T185100Z/browser-retry.txt",
-      "resources": "results/resume/20261010T185100Z/browser-retry-resource.txt",
-      "sandbox_permissions": "require_escalated; permitted local-file browser verification after Chromium launch was blocked by the process sandbox"
-    }
-  ],
-  "execution": "serial CPU-only verification; numeric replays stream to temporary files",
-  "new_model_calls": 0,
-  "new_search_proposals": 0,
-  "new_scientific_runs": 0,
-  "finished_utc": "2026-10-10T18:52:38.210993+00:00",
-  "milestone_status": "complete",
-  "verification_directory": "results/resume/20261010T185100Z",
+  "milestone_status": "complete including R6 extension",
+  "current_source_snapshot": "results/source_snapshot.tar.gz",
+  "source_snapshot_sha256": "18f35cf8f70ea437e8ee62e50fb8d6a1330da79a623e6a6f5629eade48b9e0bb",
+  "source_files_verified": 108,
+  "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
   "verified_results": {
-    "tests": 10,
-    "native_runs": 491,
-    "saved_cells": 19000824,
+    "tests": 21,
+    "native_runs": 557,
+    "saved_cells": 22330616,
     "all_nine_event_counters_exact": true,
+    "cell_updates": 22196617,
+    "atlas_worlds": 25,
+    "browser_assertions": 9,
     "artworks": 3,
-    "scientific_figures": 13,
-    "broken_links": [],
-    "browser_assertions": 8,
-    "browser_page_errors": []
+    "scientific_figures": 15,
+    "r6_baseline_worlds": 64,
+    "r6_recovery_probes": 2,
+    "r6_ordered_events_audited": 756549,
+    "r6_candidate_reproduction_cases": 0,
+    "broken_links": []
   },
-  "current_source_snapshot": {
-    "archive": "results/source_snapshot.tar.gz",
-    "sha256": "d2fb3fcebe74edd6f6886f96d59d43067afb3564c1e3b6204420b549f27ea183",
-    "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
-    "reference_binary_sha256": "985edaa48b51c67b6178d69f5ece4e270c6ab3cc2aacb5ded85171f4f11ce93f",
-    "changes_since_resumed_snapshot": [
-      "DEVELOPMENT_LOG.md: resume audit record",
-      "RESEARCH_RECORD.md: resume audit record"
-    ]
+  "verification_evidence": [
+    "results/test-results.txt",
+    "results/replay_verification.json",
+    "results/atlas_qa.json",
+    "results/artifact_checks.json",
+    "results/milestone-r6-console.txt",
+    "results/milestone-r6-resource.txt",
+    "results/descendant_detector/calibration.json",
+    "results/descendant_detector/summary.json",
+    "results/regeneration_history/manifest.json"
+  ],
+  "full_regeneration": {
+    "elapsed_seconds": 110.6,
+    "peak_rss_kib": 261164,
+    "exit_status": 0,
+    "model_calls": 0
   },
-  "next_action": "First milestone complete. Next proposed scientific work: validate a detector for detached recoverable descendants with identifiable branching ancestry. No new experiment was started during this resume.",
+  "github": {
+    "repository": "https://github.com/ReloadLightly/barricelli-symbiogenesis",
+    "branch": "main",
+    "policy": "push each completed stage; final checkpoint is committed with the verified tree",
+    "about_metadata": "references/github.json"
+  },
+  "next_action": "Independently verify a native partner-assisted detached collective positive; then extend the detector to distributed or phase-dependent structures before a new candidate campaign. No further experiment is pending in this milestone.",
   "resume_commands": [
     "make test",
-    ".venv/bin/python scripts/replay_verify.py",
-    ".venv/bin/python scripts/check_artifacts.py",
-    ".venv/bin/python scripts/check_atlas.py",
+    "make descendants",
     "make reproduce"
-  ]
+  ],
+  "verification_directory": "results/resume/20261010T192113Z"
 }

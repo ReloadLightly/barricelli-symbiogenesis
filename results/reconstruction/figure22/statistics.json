@@ -1,5 +1,5 @@
 {
-  "engine_seconds": 6.7074e-05,
+  "engine_seconds": 3.0576e-05,
   "max_rss_kib": 3712,
   "attempted_copies": 80,
   "accepted_outcomes": 80,
@@ -11,7 +11,7 @@
   "out_of_bounds": 0,
   "depth_cap": 0,
   "inprocess_rusage_max_rss_kib": 3328,
-  "process_seconds": 0.0107903609987261,
+  "process_seconds": 0.005578697000601096,
   "width": 20,
   "steps": 4,
   "final_occupancy": 20,

@@ -14,7 +14,8 @@ def main():
  call('search.py','--phase','replay'); call('search_confirmation.py')
  call('heterogeneity.py'); call('descriptor_controls.py')
  call('nearby.py','--run','results/search/codex_feedback/repeat3/trial07','--output','results/nearby')
- call('figures.py'); call('comparison_figures.py'); call('art.py'); call('register.py'); call('replay_verify.py'); call('build_atlas.py')
+ call('descendant_detector.py','--phase','all')
+ call('figures.py'); call('comparison_figures.py'); call('descendant_figures.py'); call('art.py'); call('register.py'); call('replay_verify.py'); call('build_atlas.py')
  with (ROOT/'results/test-results.txt').open('w') as output:
   subprocess.run([sys.executable,'-m','unittest','discover','-s','tests','-v'],cwd=ROOT,stdout=output,stderr=subprocess.STDOUT,check=True)
  call('snapshot.py'); call('check_artifacts.py')

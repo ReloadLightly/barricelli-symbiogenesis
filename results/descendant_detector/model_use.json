@@ -1,0 +1,9 @@
+{
+  "mode": "conversational Codex assistance for experiment design, implementation and interpretation; not an automated integration or a new discovery-policy comparison",
+  "model_identifier": "Codex assistant, GPT-6 family; exact serving identifier not exposed",
+  "external_model_api_calls": 0,
+  "new_paid_service_access": false,
+  "per_cell_model_dependency": false,
+  "new_search_policy_proposals": 0,
+  "isolated_model_latency_tokens_cost": "not separately available; do not assign whole-goal usage to R6 or the earlier discovery comparison"
+}

@@ -76,8 +76,32 @@
     {
       "path": "results/nearby/constituent_A",
       "trajectory_sha256": "ac13ad3ff6d4a8c547931b12afadd4bbb86eba52a89dd547b2d22f5f4fe65338"
+    },
+    {
+      "path": "results/descendant_detector/runs/copying_positive",
+      "trajectory_sha256": "d951f4328152fd936700257a392036b937efaed5005474ee6e50abb100d35f79"
+    },
+    {
+      "path": "results/descendant_detector/runs/unrelated_lookalikes",
+      "trajectory_sha256": "7880c430df09ec7d397639d31a7082aa810a91e355ba22e23e92beca850e516d"
+    },
+    {
+      "path": "results/descendant_detector/runs/translation_negative",
+      "trajectory_sha256": "599db6d8db08a1a206dd97218d162ab70e0dbf9e2f85dde4a2baaf0805846a88"
+    },
+    {
+      "path": "results/descendant_detector/runs/tiling_negative",
+      "trajectory_sha256": "2a0596fbd154f5ce14d295b8f0a5ff96c9b5b6adfad408728a6ce58f59e2bb8b"
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact",
+      "trajectory_sha256": "2a0596fbd154f5ce14d295b8f0a5ff96c9b5b6adfad408728a6ce58f59e2bb8b"
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact",
+      "trajectory_sha256": "ac99c770b4ee683e57004fb7dea13bbf90d7ca854753344f39121abac9f44114"
     }
   ],
   "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
-  "numeric_payload_sha256": "2e849c1e5e173dc3c9726212e8dc574bdfffdc18fef5a2d8c563d020ab6729c1"
+  "numeric_payload_sha256": "e54716df992033561705bc5d2373e78454ce0ad00a4d5c654a1059bc8d7e8d67"
 }

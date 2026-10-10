@@ -19,6 +19,7 @@ def main():
   results.append({'recipe':str(p.relative_to(ROOT)),'final_frame_numeric_pixels_exact':True,'source_and_palette_hashes_exact':True})
  for p in (ROOT/'results/figures').glob('*.json'):
   meta=json.loads(p.read_text())
+  if p.name.endswith('.recipe.json'): continue
   for source in meta['data_sources']: assert sha(ROOT/source['file'])==source['sha256'],p
  broken=[]
  for p in [ROOT/'README.md',ROOT/'PROVENANCE.md',ROOT/'NOTICES.md',ROOT/'atlas/index.html',ROOT/'atlas/register.html']:

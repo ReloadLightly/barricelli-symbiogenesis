@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-10T19:13:47.908241+00:00",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "logical_cpus": 8,
+  "memory": {
+    "MemTotal_kib": 3836020,
+    "MemAvailable_kib": 1208684,
+    "SwapTotal_kib": 1048576,
+    "SwapFree_kib": 2656
+  },
+  "simulation_concurrency": 1,
+  "trajectory_and_lineage_output": "streamed to disk"
+}

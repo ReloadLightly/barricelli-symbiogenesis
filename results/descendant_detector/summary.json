@@ -464,7 +464,7 @@
       "copying_geometry_ancestry_recovery_pass": true,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 544,
-      "analysis_and_resume_seconds": 0.02836694899997383,
+      "analysis_and_resume_seconds": 0.04102496799896471,
       "native_process_seconds": 0.005769811999925878,
       "native_max_rss_kib": 3712
     },
@@ -487,7 +487,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 128,
-      "analysis_and_resume_seconds": 0.013844344000972342,
+      "analysis_and_resume_seconds": 0.020597438000550028,
       "native_process_seconds": 0.0049927459986065514,
       "native_max_rss_kib": 3712
     },
@@ -510,7 +510,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32,
-      "analysis_and_resume_seconds": 0.009898283000438823,
+      "analysis_and_resume_seconds": 0.01603402900036599,
       "native_process_seconds": 0.004280178998669726,
       "native_max_rss_kib": 3712
     },
@@ -533,7 +533,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.17856392300018342,
+      "analysis_and_resume_seconds": 0.3203751180008112,
       "native_process_seconds": 0.012462086999221356,
       "native_max_rss_kib": 3712
     },
@@ -557,7 +557,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.18355585999961477,
+      "analysis_and_resume_seconds": 0.3545153279992519,
       "native_process_seconds": 0.01830066200091096,
       "native_max_rss_kib": 3712
     },
@@ -581,7 +581,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 3168,
-      "analysis_and_resume_seconds": 0.11900471399894741,
+      "analysis_and_resume_seconds": 0.15634426299948245,
       "native_process_seconds": 0.007392334000542178,
       "native_max_rss_kib": 3712
     },
@@ -605,7 +605,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8328,
-      "analysis_and_resume_seconds": 0.19735812799990526,
+      "analysis_and_resume_seconds": 0.22723981699891738,
       "native_process_seconds": 0.010664395000276272,
       "native_max_rss_kib": 3712
     },
@@ -629,7 +629,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 5685,
-      "analysis_and_resume_seconds": 0.13261538000006112,
+      "analysis_and_resume_seconds": 0.18937860600090062,
       "native_process_seconds": 0.00791500200102746,
       "native_max_rss_kib": 3584
     },
@@ -653,7 +653,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 6766,
-      "analysis_and_resume_seconds": 0.15187836000040988,
+      "analysis_and_resume_seconds": 0.20711252500041155,
       "native_process_seconds": 0.00966862899986154,
       "native_max_rss_kib": 3712
     },
@@ -677,7 +677,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.20906232400011504,
+      "analysis_and_resume_seconds": 0.24895499300146184,
       "native_process_seconds": 0.011508577001222875,
       "native_max_rss_kib": 3712
     },
@@ -701,7 +701,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.16899218099933933,
+      "analysis_and_resume_seconds": 0.2765007369998784,
       "native_process_seconds": 0.011634820999461226,
       "native_max_rss_kib": 3712
     },
@@ -725,7 +725,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 3168,
-      "analysis_and_resume_seconds": 0.09637575600027048,
+      "analysis_and_resume_seconds": 0.1821300270003121,
       "native_process_seconds": 0.0075272729991411325,
       "native_max_rss_kib": 3712
     },
@@ -749,7 +749,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8328,
-      "analysis_and_resume_seconds": 0.17119831999843882,
+      "analysis_and_resume_seconds": 0.4997780329995294,
       "native_process_seconds": 0.010245555999063072,
       "native_max_rss_kib": 3712
     },
@@ -773,7 +773,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 5685,
-      "analysis_and_resume_seconds": 0.12822920699909446,
+      "analysis_and_resume_seconds": 0.2808864259986876,
       "native_process_seconds": 0.009922952998749679,
       "native_max_rss_kib": 3712
     },
@@ -797,7 +797,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 6766,
-      "analysis_and_resume_seconds": 0.1481253130004916,
+      "analysis_and_resume_seconds": 0.29969393399915134,
       "native_process_seconds": 0.011034589999326272,
       "native_max_rss_kib": 3712
     },
@@ -821,7 +821,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.1845136679985444,
+      "analysis_and_resume_seconds": 0.25058586900013324,
       "native_process_seconds": 0.01111105900054099,
       "native_max_rss_kib": 3712
     },
@@ -845,7 +845,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.17883477400027914,
+      "analysis_and_resume_seconds": 0.2446276749997196,
       "native_process_seconds": 0.012583766001625918,
       "native_max_rss_kib": 3712
     },
@@ -869,7 +869,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 3168,
-      "analysis_and_resume_seconds": 0.09103179299927433,
+      "analysis_and_resume_seconds": 0.16337707999991835,
       "native_process_seconds": 0.008690639000633382,
       "native_max_rss_kib": 3712
     },
@@ -893,7 +893,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8328,
-      "analysis_and_resume_seconds": 0.17513025200059928,
+      "analysis_and_resume_seconds": 0.30919609000011405,
       "native_process_seconds": 0.01365021299898217,
       "native_max_rss_kib": 3712
     },
@@ -917,7 +917,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 5685,
-      "analysis_and_resume_seconds": 0.1517401940000127,
+      "analysis_and_resume_seconds": 0.2965742189990124,
       "native_process_seconds": 0.008906814999136259,
       "native_max_rss_kib": 3712
     },
@@ -941,7 +941,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 6766,
-      "analysis_and_resume_seconds": 0.14812958499896922,
+      "analysis_and_resume_seconds": 0.23353977900114842,
       "native_process_seconds": 0.008637790000648238,
       "native_max_rss_kib": 3712
     },
@@ -965,7 +965,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 8376,
-      "analysis_and_resume_seconds": 0.23925569700077176,
+      "analysis_and_resume_seconds": 0.2249439290008013,
       "native_process_seconds": 0.013435464999929536,
       "native_max_rss_kib": 3712
     },
@@ -989,7 +989,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4896,
-      "analysis_and_resume_seconds": 0.1295658449998882,
+      "analysis_and_resume_seconds": 0.1599403149994032,
       "native_process_seconds": 0.01164228999914485,
       "native_max_rss_kib": 3584
     },
@@ -1013,7 +1013,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4705,
-      "analysis_and_resume_seconds": 0.12247543599914934,
+      "analysis_and_resume_seconds": 0.17818335800075147,
       "native_process_seconds": 0.01081295800031512,
       "native_max_rss_kib": 3712
     },
@@ -1037,7 +1037,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4752,
-      "analysis_and_resume_seconds": 0.12083147399971494,
+      "analysis_and_resume_seconds": 0.18740124699979788,
       "native_process_seconds": 0.009580567999364575,
       "native_max_rss_kib": 3584
     },
@@ -1061,7 +1061,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4197,
-      "analysis_and_resume_seconds": 0.12156595900160028,
+      "analysis_and_resume_seconds": 0.15936692400100583,
       "native_process_seconds": 0.009266070999728981,
       "native_max_rss_kib": 3712
     },
@@ -1085,7 +1085,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4800,
-      "analysis_and_resume_seconds": 0.12084076500104857,
+      "analysis_and_resume_seconds": 0.1591643319989089,
       "native_process_seconds": 0.009476306999204098,
       "native_max_rss_kib": 3712
     },
@@ -1109,7 +1109,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4896,
-      "analysis_and_resume_seconds": 0.12416157599909639,
+      "analysis_and_resume_seconds": 0.18857138299972576,
       "native_process_seconds": 0.008119507001538295,
       "native_max_rss_kib": 3712
     },
@@ -1133,7 +1133,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4896,
-      "analysis_and_resume_seconds": 0.12329665000106615,
+      "analysis_and_resume_seconds": 0.15964270400036185,
       "native_process_seconds": 0.00963510600013251,
       "native_max_rss_kib": 3712
     },
@@ -1157,7 +1157,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4705,
-      "analysis_and_resume_seconds": 0.13700410400088003,
+      "analysis_and_resume_seconds": 0.1663485489989398,
       "native_process_seconds": 0.009762656000020797,
       "native_max_rss_kib": 3712
     },
@@ -1181,7 +1181,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4752,
-      "analysis_and_resume_seconds": 0.11750086899883172,
+      "analysis_and_resume_seconds": 0.16121352899972408,
       "native_process_seconds": 0.0077320830005191965,
       "native_max_rss_kib": 3712
     },
@@ -1205,7 +1205,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4197,
-      "analysis_and_resume_seconds": 0.10863168300056714,
+      "analysis_and_resume_seconds": 0.14424226499977522,
       "native_process_seconds": 0.008747058000153629,
       "native_max_rss_kib": 3584
     },
@@ -1229,7 +1229,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4800,
-      "analysis_and_resume_seconds": 0.11831972199979646,
+      "analysis_and_resume_seconds": 0.15343858799860755,
       "native_process_seconds": 0.010030052999354666,
       "native_max_rss_kib": 3712
     },
@@ -1253,7 +1253,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4896,
-      "analysis_and_resume_seconds": 0.12609798000084993,
+      "analysis_and_resume_seconds": 0.16201960800026427,
       "native_process_seconds": 0.009331965999081149,
       "native_max_rss_kib": 3712
     },
@@ -1277,7 +1277,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4896,
-      "analysis_and_resume_seconds": 0.12498095800037845,
+      "analysis_and_resume_seconds": 0.2756251650007471,
       "native_process_seconds": 0.007580913999845507,
       "native_max_rss_kib": 3584
     },
@@ -1301,7 +1301,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4705,
-      "analysis_and_resume_seconds": 0.12349831499886932,
+      "analysis_and_resume_seconds": 0.17121622899867361,
       "native_process_seconds": 0.008784338999248575,
       "native_max_rss_kib": 3712
     },
@@ -1325,7 +1325,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4752,
-      "analysis_and_resume_seconds": 0.12334106799971778,
+      "analysis_and_resume_seconds": 0.17443467900011456,
       "native_process_seconds": 0.010827940999661223,
       "native_max_rss_kib": 3712
     },
@@ -1349,7 +1349,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4197,
-      "analysis_and_resume_seconds": 0.11665704400002141,
+      "analysis_and_resume_seconds": 0.13578369400056545,
       "native_process_seconds": 0.008241745999839623,
       "native_max_rss_kib": 3584
     },
@@ -1373,7 +1373,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4800,
-      "analysis_and_resume_seconds": 0.11997044900090259,
+      "analysis_and_resume_seconds": 0.15745952500037674,
       "native_process_seconds": 0.011040970999601996,
       "native_max_rss_kib": 3712
     },
@@ -1397,7 +1397,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 4896,
-      "analysis_and_resume_seconds": 0.17182242300077633,
+      "analysis_and_resume_seconds": 0.15858947900051135,
       "native_process_seconds": 0.008988483999928576,
       "native_max_rss_kib": 3712
     },
@@ -1421,7 +1421,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32880,
-      "analysis_and_resume_seconds": 0.9035683319998498,
+      "analysis_and_resume_seconds": 0.9126114640002925,
       "native_process_seconds": 0.05988376899949799,
       "native_max_rss_kib": 3584
     },
@@ -1445,7 +1445,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 12096,
-      "analysis_and_resume_seconds": 0.46181469300063327,
+      "analysis_and_resume_seconds": 0.4564667790000385,
       "native_process_seconds": 0.016868346001501777,
       "native_max_rss_kib": 3712
     },
@@ -1469,7 +1469,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32784,
-      "analysis_and_resume_seconds": 0.8620928669988643,
+      "analysis_and_resume_seconds": 1.0211294729997462,
       "native_process_seconds": 0.02997650299948873,
       "native_max_rss_kib": 3712
     },
@@ -1493,7 +1493,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 22845,
-      "analysis_and_resume_seconds": 0.6734966500007431,
+      "analysis_and_resume_seconds": 1.1321559160005563,
       "native_process_seconds": 0.02765750499929709,
       "native_max_rss_kib": 3712
     },
@@ -1517,7 +1517,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 26206,
-      "analysis_and_resume_seconds": 0.6699806440010434,
+      "analysis_and_resume_seconds": 0.7434147669991944,
       "native_process_seconds": 0.029509637999581173,
       "native_max_rss_kib": 3712
     },
@@ -1541,7 +1541,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32880,
-      "analysis_and_resume_seconds": 0.7618714380005258,
+      "analysis_and_resume_seconds": 1.080021798999951,
       "native_process_seconds": 0.030847199999698205,
       "native_max_rss_kib": 3712
     },
@@ -1565,7 +1565,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32880,
-      "analysis_and_resume_seconds": 0.8453649319999386,
+      "analysis_and_resume_seconds": 1.0731533500002115,
       "native_process_seconds": 0.036683939999420545,
       "native_max_rss_kib": 3712
     },
@@ -1589,7 +1589,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 12096,
-      "analysis_and_resume_seconds": 0.4770639130001655,
+      "analysis_and_resume_seconds": 0.5386673689990857,
       "native_process_seconds": 0.017857738999737194,
       "native_max_rss_kib": 3712
     },
@@ -1613,7 +1613,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32784,
-      "analysis_and_resume_seconds": 0.7705218129995046,
+      "analysis_and_resume_seconds": 0.8800399800002197,
       "native_process_seconds": 0.030222374000004493,
       "native_max_rss_kib": 3712
     },
@@ -1637,7 +1637,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 22845,
-      "analysis_and_resume_seconds": 0.6281771459998708,
+      "analysis_and_resume_seconds": 1.0896428920004837,
       "native_process_seconds": 0.0289518429999589,
       "native_max_rss_kib": 3712
     },
@@ -1661,7 +1661,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 26206,
-      "analysis_and_resume_seconds": 0.7132687230005104,
+      "analysis_and_resume_seconds": 0.8077199910003401,
       "native_process_seconds": 0.025203024999427726,
       "native_max_rss_kib": 3712
     },
@@ -1685,7 +1685,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 32880,
-      "analysis_and_resume_seconds": 0.8436843700001191,
+      "analysis_and_resume_seconds": 0.9586613930005115,
       "native_process_seconds": 0.035615102999145165,
       "native_max_rss_kib": 3712
     },
@@ -1709,7 +1709,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 19008,
-      "analysis_and_resume_seconds": 0.5514260820000345,
+      "analysis_and_resume_seconds": 0.6227103080000234,
       "native_process_seconds": 0.02445096700103022,
       "native_max_rss_kib": 3712
     },
@@ -1733,7 +1733,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 18625,
-      "analysis_and_resume_seconds": 0.5488582750003843,
+      "analysis_and_resume_seconds": 0.5726832520012977,
       "native_process_seconds": 0.026799084000231232,
       "native_max_rss_kib": 3712
     },
@@ -1757,7 +1757,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 18720,
-      "analysis_and_resume_seconds": 0.5403516259993921,
+      "analysis_and_resume_seconds": 0.541320602000269,
       "native_process_seconds": 0.02583660699929169,
       "native_max_rss_kib": 3712
     },
@@ -1781,7 +1781,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 16449,
-      "analysis_and_resume_seconds": 0.5706602369991742,
+      "analysis_and_resume_seconds": 0.5774594619997515,
       "native_process_seconds": 0.03366740199999185,
       "native_max_rss_kib": 3712
     },
@@ -1805,7 +1805,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 18816,
-      "analysis_and_resume_seconds": 0.5486210189992562,
+      "analysis_and_resume_seconds": 0.6037250129993481,
       "native_process_seconds": 0.02217221399951086,
       "native_max_rss_kib": 3712
     },
@@ -1829,7 +1829,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 19008,
-      "analysis_and_resume_seconds": 0.5652415919994382,
+      "analysis_and_resume_seconds": 0.5659701109998423,
       "native_process_seconds": 0.02614163600082975,
       "native_max_rss_kib": 3712
     },
@@ -1853,7 +1853,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 19008,
-      "analysis_and_resume_seconds": 0.5551075059993309,
+      "analysis_and_resume_seconds": 0.6026071039996168,
       "native_process_seconds": 0.02584872599982191,
       "native_max_rss_kib": 3712
     },
@@ -1877,7 +1877,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 18625,
-      "analysis_and_resume_seconds": 0.5739550610014703,
+      "analysis_and_resume_seconds": 0.5949621519994253,
       "native_process_seconds": 0.024452931000269018,
       "native_max_rss_kib": 3712
     },
@@ -1901,7 +1901,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 18720,
-      "analysis_and_resume_seconds": 0.5639449320005951,
+      "analysis_and_resume_seconds": 0.5990906629995152,
       "native_process_seconds": 0.020102260999919963,
       "native_max_rss_kib": 3712
     },
@@ -1925,7 +1925,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 16449,
-      "analysis_and_resume_seconds": 0.495067313000618,
+      "analysis_and_resume_seconds": 0.6523072700001649,
       "native_process_seconds": 0.02403196999875945,
       "native_max_rss_kib": 3712
     },
@@ -1949,7 +1949,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 18816,
-      "analysis_and_resume_seconds": 0.5326849060002132,
+      "analysis_and_resume_seconds": 0.5748694929989142,
       "native_process_seconds": 0.025981552000303054,
       "native_max_rss_kib": 3712
     },
@@ -1973,7 +1973,7 @@
       "copying_geometry_ancestry_recovery_pass": false,
       "dependency_supported_detached_reproduction": false,
       "events_audited": 19008,
-      "analysis_and_resume_seconds": 0.5834867489993485,
+      "analysis_and_resume_seconds": 0.6037083310002345,
       "native_process_seconds": 0.02310804199987615,
       "native_max_rss_kib": 3712
     }

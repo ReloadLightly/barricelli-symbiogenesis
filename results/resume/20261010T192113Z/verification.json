@@ -1,0 +1,55 @@
+{
+  "updated_utc": "2026-10-10T19:21:13.077858+00:00",
+  "status": "verified",
+  "milestone_status": "complete including R6 extension",
+  "current_source_snapshot": "results/source_snapshot.tar.gz",
+  "source_snapshot_sha256": "18f35cf8f70ea437e8ee62e50fb8d6a1330da79a623e6a6f5629eade48b9e0bb",
+  "source_files_verified": 108,
+  "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "verified_results": {
+    "tests": 21,
+    "native_runs": 557,
+    "saved_cells": 22330616,
+    "all_nine_event_counters_exact": true,
+    "cell_updates": 22196617,
+    "atlas_worlds": 25,
+    "browser_assertions": 9,
+    "artworks": 3,
+    "scientific_figures": 15,
+    "r6_baseline_worlds": 64,
+    "r6_recovery_probes": 2,
+    "r6_ordered_events_audited": 756549,
+    "r6_candidate_reproduction_cases": 0,
+    "broken_links": []
+  },
+  "verification_evidence": [
+    "results/test-results.txt",
+    "results/replay_verification.json",
+    "results/atlas_qa.json",
+    "results/artifact_checks.json",
+    "results/milestone-r6-console.txt",
+    "results/milestone-r6-resource.txt",
+    "results/descendant_detector/calibration.json",
+    "results/descendant_detector/summary.json",
+    "results/regeneration_history/manifest.json"
+  ],
+  "full_regeneration": {
+    "elapsed_seconds": 110.6,
+    "peak_rss_kib": 261164,
+    "exit_status": 0,
+    "model_calls": 0
+  },
+  "github": {
+    "repository": "https://github.com/ReloadLightly/barricelli-symbiogenesis",
+    "branch": "main",
+    "policy": "push each completed stage; final checkpoint is committed with the verified tree",
+    "about_metadata": "references/github.json"
+  },
+  "next_action": "Independently verify a native partner-assisted detached collective positive; then extend the detector to distributed or phase-dependent structures before a new candidate campaign. No further experiment is pending in this milestone.",
+  "resume_commands": [
+    "make test",
+    "make descendants",
+    "make reproduce"
+  ],
+  "verification_directory": "results/resume/20261010T192113Z"
+}

@@ -18,7 +18,7 @@
   "copying_geometry_ancestry_recovery_pass": false,
   "dependency_supported_detached_reproduction": false,
   "events_audited": 5685,
-  "analysis_and_resume_seconds": 0.12822920699909446,
+  "analysis_and_resume_seconds": 0.2808864259986876,
   "native_process_seconds": 0.009922952998749679,
   "native_max_rss_kib": 3712
 }

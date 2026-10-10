@@ -1,0 +1,173 @@
+{
+  "panels": [
+    {
+      "run": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    }
+  ],
+  "selection": "both motifs, every declared condition, exploratory placement224; illustrative selection, not aggregate evidence"
+}

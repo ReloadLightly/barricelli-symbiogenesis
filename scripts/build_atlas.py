@@ -18,6 +18,16 @@ def main():
  selections.append((parent,'Search neighborhood / starting world','Conversational feedback proposal from the equal-budget search. Nearby configuration changes are external design interventions.'))
  for name in ['density_down','density_up','next_layout','constituent_A']:
   selections.append((f'results/nearby/{name}','Nearby / '+name.replace('_',' '),'Saved configuration neighbor of the search world. Shared seed; exact integer starting states are independently saved.'))
+ r6=ROOT/'results/descendant_detector/summary.json'
+ if r6.exists() and json.loads(r6.read_text())['baseline_worlds_completed']==64:
+  for ident,title,caption in [
+   ('copying_positive','Copying calibration / basic','Designed two-cell inoculation under the unchanged historical basic norm. Detached numerical copies recover after isolation; no partner assistance, so this is a detector calibration.'),
+   ('unrelated_lookalikes','Ancestry control / lookalikes','Two deliberately inoculated equal templates remain stationary under the basic norm. Their matching values do not imply a shared founder.'),
+   ('translation_negative','Motion control / translation','Designed two-cell inoculation under the historical symbiotic norm. The footprint moves while remaining one copy.'),
+   ('tiling_negative','Spread control / tiled domain','Historical Figure7 motif in an empty research world. Tiled growth creates many exact matches without a detached descendant pair.'),
+   ('exploration_historical_figure7_x224_intact','Descendant assay / historical motif','Selected explanatory intact setting, x224, width512 and48 updates. Full experiment includes all treatments and longer reserved checks; no detached reproduction case was found.'),
+   ('exploration_generated_conditional3002_x224_intact','Descendant assay / generated motif','Selected explanatory intact setting from the generated candidate. Its expanding alternating domain is distinct from detached reproduction.')]:
+   selections.append(('results/descendant_detector/runs/'+ident,title,caption))
  worlds=[]; values=set()
  for path,title,caption in selections:
   run=ROOT/path; c=json.loads((run/'config.json').read_text()); arr=read_csv(run/'trajectory.csv'); flat=arr.ravel().tolist(); values.update(flat)

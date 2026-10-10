@@ -1,0 +1,70 @@
+{
+  "caption": "R6 native numerical detector controls, fixed integer inoculations. The basic two-cell [8,8] founder branches into detached copied footprints and both selected children persist after isolation. The basic [1000,1000] lookalikes remain unrelated, the symbiotic [5,5] motif translates without branching, and the exclusion Figure7 motif expands a tiled domain. All controls were predeclared; plots are explicit spatial crops of complete saved horizons. Time increases downward. Arrows are observed copying parents.",
+  "data_sources": [
+    {
+      "file": "results/descendant_detector/runs/copying_positive/trajectory.csv",
+      "sha256": "d951f4328152fd936700257a392036b937efaed5005474ee6e50abb100d35f79"
+    },
+    {
+      "file": "results/descendant_detector/runs/copying_positive/detector.json",
+      "sha256": "9ed730bccd89c0421538e3e4e8923a386c58d6812ed9d2e6a2a2d208a0426025"
+    },
+    {
+      "file": "results/descendant_detector/runs/unrelated_lookalikes/trajectory.csv",
+      "sha256": "7880c430df09ec7d397639d31a7082aa810a91e355ba22e23e92beca850e516d"
+    },
+    {
+      "file": "results/descendant_detector/runs/unrelated_lookalikes/detector.json",
+      "sha256": "bbce2fd8b930076b85d06c07602215dce6e6f0da28c03e8eea165855a9090f31"
+    },
+    {
+      "file": "results/descendant_detector/runs/translation_negative/trajectory.csv",
+      "sha256": "599db6d8db08a1a206dd97218d162ab70e0dbf9e2f85dde4a2baaf0805846a88"
+    },
+    {
+      "file": "results/descendant_detector/runs/translation_negative/detector.json",
+      "sha256": "39f74ef7dc27a12dbabd672bba64b07ad943fb49470c0771d8435ebbc092c013"
+    },
+    {
+      "file": "results/descendant_detector/runs/tiling_negative/trajectory.csv",
+      "sha256": "2a0596fbd154f5ce14d295b8f0a5ff96c9b5b6adfad408728a6ce58f59e2bb8b"
+    },
+    {
+      "file": "results/descendant_detector/runs/tiling_negative/detector.json",
+      "sha256": "9c7d11e900f500fbf89dcaec0fb24dc90cc442e881a03af4b1cbd3a3195497b3"
+    },
+    {
+      "file": "results/descendant_detector/runs/copying_positive/lineage_edges.csv",
+      "sha256": "3b08e6dcf93648b43f878dd5448bfdeb72542ba52576097956e90008959bafb4"
+    },
+    {
+      "file": "results/descendant_detector/calibration.json",
+      "sha256": "65d6b9792405c40f1f3ef8ca574161b8adfaebb1b007e8510951fbb11ebcb624"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/descendant_figures.py": "e29c6b9ed3e73f63f69d749adc4177d5d90c77c9b7ceab1a386fae559eabd743"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

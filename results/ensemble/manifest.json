@@ -1,7 +1,7 @@
 {
   "declared_before_execution": true,
   "basis": {
-    "benchmark_process_seconds": 0.04632460100037861,
+    "benchmark_process_seconds": 0.04193538700019417,
     "benchmark_rss_kib": 3712,
     "decision": "six display-scale Galloway rows, eight historical-scale conditional rows and one resident-background run fit comfortably; no sweep"
   },

@@ -13,8 +13,9 @@ def main():
  with sync_playwright() as p:
   browser=p.chromium.launch(headless=True,args=['--no-sandbox','--disable-dev-shm-usage'])
   page=browser.new_page(viewport={'width':1440,'height':1000}); page.on('pageerror',lambda e:errors.append(str(e)))
-  page.goto((ROOT/'atlas/index.html').as_uri()); page.wait_for_function('window.ATLAS && document.querySelectorAll("#world option").length===19')
-  assert page.locator('#world option').count()==19; assertions.append('19 worlds selectable from saved numerical payload')
+  expected_worlds=len(json.loads((ROOT/'atlas/manifest.json').read_text())['worlds'])
+  page.goto((ROOT/'atlas/index.html').as_uri()); page.wait_for_function('window.ATLAS && document.querySelectorAll("#world option").length===window.ATLAS.worlds.length')
+  assert page.locator('#world option').count()==expected_worlds; assertions.append(f'{expected_worlds} worlds selectable from saved numerical payload')
   assert page.locator('#printcards article').count()==3; assertions.append('three linked print/animation/recipe cards')
   # Avoid the global browser History object: canvas is the source of dimensions.
   data=page.evaluate('({width:canvas.width,height:canvas.height,value:current.values[0],rgb:Array.from(ctx.getImageData(0,0,1,1).data)})')
@@ -26,11 +27,17 @@ def main():
   assert 'value' in page.locator('#readout').inner_text(); assert 'x:' in page.locator('#numbers').inner_text(); assertions.append('cell readout and numerical close-up work')
   page.locator('#world').select_option('results--search--codex_feedback--repeat3--trial07'); assert page.locator('#neighbors button').count()==4
   page.locator('#neighbors button').first.click(); assert 'Nearby' in page.locator('#world option:checked').inner_text(); assertions.append('saved nearby variants navigate correctly')
+  r6='results--descendant_detector--runs--copying_positive'
+  if page.locator(f'#world option[value="{r6}"]').count():
+   page.locator('#world').select_option(r6)
+   data=page.evaluate('({width:canvas.width,height:canvas.height,rgb:Array.from(ctx.getImageData(64,0,1,1).data)})')
+   assert [data['width'],data['height']]==[256,17]
+   assert data['rgb'][:3]==list(bytes.fromhex(color(8)[1:])); assertions.append('R6 copying calibration replays its saved dimensions and integer palette')
   page.locator('#world').select_option('results--reconstruction--galloway2026'); page.evaluate('window.scrollTo(0,0)'); page.screenshot(path=str(ROOT/'results/atlas-desktop.png'),full_page=True)
   page.set_viewport_size({'width':390,'height':844}); page.screenshot(path=str(ROOT/'results/atlas-mobile.png'),full_page=True)
   assert page.evaluate('document.documentElement.scrollWidth<=window.innerWidth'); assertions.append('390px mobile viewport has no horizontal overflow')
   page.goto((ROOT/'atlas/register.html').as_uri()); total=page.locator('tbody tr').count(); assert total==len(json.loads((ROOT/'results/run_register.json').read_text()))
-  page.locator('#filter').fill('galloway_published'); count=page.locator('tbody tr:visible').count(); assert 0<count<total; assertions.append('complete491-run register filters correctly')
+  page.locator('#filter').fill('galloway_published'); count=page.locator('tbody tr:visible').count(); assert 0<count<total; assertions.append(f'complete {total}-run register filters correctly')
   assert not errors,errors; browser.close()
  save_json(ROOT/'results/atlas_qa.json',{'browser':'Playwright Chromium, local file URLs; no hosted service','assertions':assertions,'page_errors':errors,'screenshots':['results/atlas-desktop.png','results/atlas-mobile.png']}); print('atlas browser checks passed')
 if __name__=='__main__': main()

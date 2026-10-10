@@ -3,7 +3,7 @@
   "data_sources": [
     {
       "file": "results/assay/summary.csv",
-      "sha256": "c27e50c376e6c3fff87a0aef442b2e6c92d70aad0fc4c779b0b22154934ffb6b"
+      "sha256": "b67deb4ef6c9d47d9ca35326ee2648915718614c19b350a2f69d35ffdd3245ab"
     }
   ],
   "renderer_files_sha256": {

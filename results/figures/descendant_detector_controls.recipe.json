@@ -1,0 +1,64 @@
+{
+  "panels": [
+    {
+      "run": "results/descendant_detector/runs/copying_positive",
+      "columns": [
+        56,
+        208
+      ],
+      "saved_times": [
+        0,
+        16
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/unrelated_lookalikes",
+      "columns": [
+        56,
+        160
+      ],
+      "saved_times": [
+        0,
+        16
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/translation_negative",
+      "columns": [
+        56,
+        160
+      ],
+      "saved_times": [
+        0,
+        16
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    },
+    {
+      "run": "results/descendant_detector/runs/tiling_negative",
+      "columns": [
+        64,
+        480
+      ],
+      "saved_times": [
+        0,
+        48
+      ],
+      "interpolation": "nearest",
+      "horizontal_axis": "saved global position x",
+      "vertical_axis": "time t downward"
+    }
+  ],
+  "overlays": {
+    "source": "results/descendant_detector/runs/copying_positive/lineage_edges.csv",
+    "selection": "child_time=1, kind=copy"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "all_exact": true,
   "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
-  "runs": 491,
-  "cells": 19000824,
-  "elapsed_seconds": 4.632699133000642,
+  "runs": 557,
+  "cells": 22330616,
+  "elapsed_seconds": 6.489690347998476,
   "mode": "current engine on saved integer initial states; byte-exact CSV and all nine event-counter comparisons; verification outputs streamed and discarded",
   "records": [
     {
@@ -1153,6 +1153,468 @@
       "counter_differences": {},
       "frozen_java_oracle_mismatches": null,
       "cells": 2304
+    },
+    {
+      "path": "results/descendant_detector/recovery/copying_positive_child1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2304
+    },
+    {
+      "path": "results/descendant_detector/recovery/copying_positive_child2",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2304
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/copying_positive",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4352
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/tiling_negative",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/translation_negative",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4352
+    },
+    {
+      "path": "results/descendant_detector/runs/unrelated_lookalikes",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4352
     },
     {
       "path": "results/ensemble/conditional3002",

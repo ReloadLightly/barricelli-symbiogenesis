@@ -13,7 +13,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005832827000631369,
+      "process_seconds": 0.006025230999512132,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -30,7 +30,7 @@
       "times_with_motif": 49,
       "max_detached_motif_copies": 1,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005986703999951715,
+      "process_seconds": 0.008917647999624023,
       "max_rss_kib": 3712,
       "rescue_identical": true
     },
@@ -47,7 +47,7 @@
       "times_with_motif": 47,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.0070897299992793705,
+      "process_seconds": 0.008699333000549814,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -64,8 +64,8 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004633907999959774,
-      "max_rss_kib": 3712,
+      "process_seconds": 0.007732109999778913,
+      "max_rss_kib": 3584,
       "rescue_identical": null
     },
     {
@@ -81,7 +81,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004036066000480787,
+      "process_seconds": 0.008653457000036724,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -98,7 +98,7 @@
       "times_with_motif": 49,
       "max_detached_motif_copies": 1,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004623006998372148,
+      "process_seconds": 0.01970286899995699,
       "max_rss_kib": 3712,
       "rescue_identical": true
     },
@@ -115,7 +115,7 @@
       "times_with_motif": 47,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005617758999505895,
+      "process_seconds": 0.011180770001374185,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -132,7 +132,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.00443006700152182,
+      "process_seconds": 0.009705988999485271,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -149,7 +149,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.00396096699842019,
+      "process_seconds": 0.006266467999012093,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -166,7 +166,7 @@
       "times_with_motif": 49,
       "max_detached_motif_copies": 1,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004390407999380841,
+      "process_seconds": 0.006546090999108856,
       "max_rss_kib": 3712,
       "rescue_identical": true
     },
@@ -183,7 +183,7 @@
       "times_with_motif": 47,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004374143998575164,
+      "process_seconds": 0.007399239999358542,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -200,7 +200,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004634446999261854,
+      "process_seconds": 0.010409513000922743,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -217,7 +217,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005030971999076428,
+      "process_seconds": 0.009243218000847264,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -234,7 +234,7 @@
       "times_with_motif": 1,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.0057760780000535306,
+      "process_seconds": 0.008830660000967328,
       "max_rss_kib": 3712,
       "rescue_identical": true
     },
@@ -251,7 +251,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.006114641999374726,
+      "process_seconds": 0.009739171000546776,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -268,7 +268,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.007200739999461803,
+      "process_seconds": 0.00975887299864553,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -285,8 +285,8 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.0072333070002059685,
-      "max_rss_kib": 3712,
+      "process_seconds": 0.009565680999003234,
+      "max_rss_kib": 3584,
       "rescue_identical": null
     },
     {
@@ -302,7 +302,7 @@
       "times_with_motif": 1,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005206952999287751,
+      "process_seconds": 0.009217437998813693,
       "max_rss_kib": 3712,
       "rescue_identical": true
     },
@@ -319,7 +319,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005134610999448341,
+      "process_seconds": 0.008221295998737332,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -336,8 +336,8 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.005047602000558982,
-      "max_rss_kib": 3712,
+      "process_seconds": 0.011974746001214953,
+      "max_rss_kib": 3584,
       "rescue_identical": null
     },
     {
@@ -353,7 +353,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004832631999306614,
+      "process_seconds": 0.011442877001172747,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -370,7 +370,7 @@
       "times_with_motif": 1,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.004973180000888533,
+      "process_seconds": 0.007309067999813124,
       "max_rss_kib": 3712,
       "rescue_identical": true
     },
@@ -387,7 +387,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.0069851589996687835,
+      "process_seconds": 0.009227294998709112,
       "max_rss_kib": 3712,
       "rescue_identical": null
     },
@@ -404,7 +404,7 @@
       "times_with_motif": 0,
       "max_detached_motif_copies": 0,
       "detached_beyond_one": 0,
-      "process_seconds": 0.007158893000450917,
+      "process_seconds": 0.007997943999725976,
       "max_rss_kib": 3712,
       "rescue_identical": null
     }

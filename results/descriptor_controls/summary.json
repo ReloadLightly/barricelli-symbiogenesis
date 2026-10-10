@@ -11,7 +11,7 @@
     "exact_translation_fraction": 1.0,
     "median_best_shift": -8.0,
     "signature_count_total": 2,
-    "descriptor_seconds": 0.27411938200020813,
+    "descriptor_seconds": 0.5268104850001691,
     "vector": [
       1.0,
       0.0,
@@ -36,7 +36,7 @@
     "exact_translation_fraction": 1.0,
     "median_best_shift": -7.0,
     "signature_count_total": 2,
-    "descriptor_seconds": 0.2188633200003096,
+    "descriptor_seconds": 0.7284003169988864,
     "vector": [
       1.0,
       1.0,
@@ -61,7 +61,7 @@
     "exact_translation_fraction": 1.0,
     "median_best_shift": -7.0,
     "signature_count_total": 4,
-    "descriptor_seconds": 0.23807057299927692,
+    "descriptor_seconds": 1.482234275999872,
     "vector": [
       0.75,
       1.0,
@@ -86,7 +86,7 @@
     "exact_translation_fraction": 0.0,
     "median_best_shift": 1.0,
     "signature_count_total": 3989,
-    "descriptor_seconds": 0.3298704170010751,
+    "descriptor_seconds": 0.6944259419997252,
     "vector": [
       0.877685546875,
       0.8755040322580645,
@@ -111,7 +111,7 @@
     "exact_translation_fraction": 1.0,
     "median_best_shift": -8.0,
     "signature_count_total": 0,
-    "descriptor_seconds": 0.1968795640004828,
+    "descriptor_seconds": 0.2551482790004229,
     "vector": [
       0.0,
       0.0,
