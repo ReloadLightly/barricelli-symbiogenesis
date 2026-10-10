@@ -1,0 +1,715 @@
+{
+  "motif": [
+    5,
+    -3,
+    1,
+    -3,
+    0,
+    -3,
+    1,
+    0
+  ],
+  "founder_position": 512,
+  "founder_cells": [
+    512,
+    513,
+    514,
+    515,
+    518
+  ],
+  "trace_matches_every_saved_update": true,
+  "events_audited": 12096,
+  "ambiguous_cell_times": 4560,
+  "maximum_unguarded_matches": 0,
+  "maximum_detached_matches": 0,
+  "first_common_founder_pair": null,
+  "first_internal_helper_pair": null,
+  "history": [
+    {
+      "time": 0,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 1,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 2,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 3,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 4,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 5,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 6,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 7,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 8,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 9,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 10,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 11,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 12,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 13,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 14,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 15,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 16,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 17,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 18,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 19,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 20,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 21,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 22,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 23,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 24,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 25,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 26,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 27,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 28,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 29,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 30,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 31,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 32,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 33,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 34,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 35,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 36,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 37,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 38,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 39,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 40,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 41,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 42,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 43,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 44,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 45,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 46,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 47,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 48,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 49,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 50,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 51,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 52,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 53,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 54,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 55,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 56,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 57,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 58,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 59,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 60,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 61,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 62,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 63,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 64,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 65,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 66,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 67,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 68,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 69,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 70,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 71,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 72,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 73,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 74,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 75,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 76,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 77,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 78,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 79,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 80,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 81,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 82,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 83,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 84,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 85,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 86,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 87,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 88,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 89,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 90,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 91,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 92,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 93,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 94,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 95,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 96,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    }
+  ],
+  "interpretation": "set-valued operational numerical copying support; no biological ancestry claim",
+  "sources_sha256": {
+    "initial.csv": "ee1fbc546a7a078529dbea92216649ba579d9114454a35b6c68751daa57c4542",
+    "trajectory.csv": "fcda487d1787b8fab47312ab0e13f2c42d92a638da12d44ba2eb6e5af862a1f2",
+    "events.csv": "11ac1ece507ff233c50c668d89fe3665179a2712e265b58dbaa109d95b7c117d"
+  },
+  "analyzer_sha256": "e2a5deada1bc930823d361128e8067a5c603406d861c0560242d7c64e918f00d"
+}

@@ -1,0 +1,24 @@
+{
+  "model": "research",
+  "variant": "r6_confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+  "norm": "exclusion",
+  "width": 1024,
+  "steps": 96,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps/frozen.csv",
+  "trace_steps": 96,
+  "modifications": [
+    "R6 designed inoculation or extraction; historical numerical norm unchanged",
+    "complete observation-only event trace; external interventions specified in experiment"
+  ],
+  "experiment": {
+    "id": "confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+    "stage": "confirmation",
+    "candidate": "historical_figure7",
+    "condition": "composition_shuffled_fixed_gaps",
+    "placement": 512,
+    "helper_offset": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model": "research",
+  "variant": "r6_confirmation_generated_conditional3002_x448_intact",
+  "norm": "conditional",
+  "width": 1024,
+  "steps": 96,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_intact/frozen.csv",
+  "trace_steps": 96,
+  "modifications": [
+    "R6 designed inoculation or extraction; historical numerical norm unchanged",
+    "complete observation-only event trace; external interventions specified in experiment"
+  ],
+  "experiment": {
+    "id": "confirmation_generated_conditional3002_x448_intact",
+    "stage": "confirmation",
+    "candidate": "generated_conditional3002",
+    "condition": "intact",
+    "placement": 448,
+    "helper_offset": 1
+  }
+}

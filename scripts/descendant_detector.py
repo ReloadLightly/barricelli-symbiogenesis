@@ -189,13 +189,32 @@ def summarize(all_plans):
                        'dependency_supported_reproduction_cases': sum(r['dependency_supported_detached_reproduction'] for r in group),
                        'maximum_unguarded_matches': max(r['maximum_unguarded_matches'] for r in group),
                        'maximum_detached_matches': max(r['maximum_detached_matches'] for r in group)})
+    paired = []
+    for stage, candidate, placement in sorted({(r['stage'], r['candidate'], r['placement']) for r in assays}):
+        group = {r['condition']: r for r in assays
+                 if (r['stage'], r['candidate'], r['placement']) == (stage, candidate, placement)}
+        if set(group) != set(('intact', 'helper_removed', 'same_type_damage_elsewhere',
+                              'wrong_helper_same_occupancy', 'composition_shuffled_fixed_gaps', 'rescue')):
+            continue
+        persistence = {}
+        for condition, row in group.items():
+            history = json.loads((ROOT / row['path'] / 'detector.json').read_text())['history']
+            present = [h['time'] for h in history if h['unguarded_matches']]
+            persistence[condition] = {'first_exact_template_time': min(present, default=None),
+                                      'last_exact_template_time': max(present, default=None)}
+        intact, rescued = (ROOT / group[c]['path'] for c in ('intact', 'rescue'))
+        paired.append({'stage': stage, 'candidate': candidate, 'placement': placement,
+                       'persistence': persistence,
+                       'rescue_initial_exact': sha(intact / 'initial.csv') == sha(rescued / 'initial.csv'),
+                       'rescue_trajectory_exact': sha(intact / 'trajectory.csv') == sha(rescued / 'trajectory.csv'),
+                       'rescue_events_exact': sha(intact / 'events.csv') == sha(rescued / 'events.csv')})
     recovery_paths = sorted((BASE / 'recovery').glob('*/statistics.json'))
     baseline_stats = [json.loads((ROOT / r['path'] / 'statistics.json').read_text()) for r in rows]
     recovery_stats = [json.loads(p.read_text()) for p in recovery_paths]
     stats = baseline_stats + recovery_stats
     summary = {'experiment': 'R6', 'baseline_worlds_completed': len(rows),
                'baseline_worlds_planned': len(all_plans), 'recovery_probes': len(recovery_paths),
-               'groups': groups, 'rows': rows,
+               'groups': groups, 'paired_effects': paired, 'rows': rows,
                'all_update_traces_match_saved_dynamics': True,
                'events_audited': sum(r['events_audited'] for r in rows),
                'native_process_seconds_sum': sum(s['process_seconds'] for s in stats),

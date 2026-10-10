@@ -44,7 +44,7 @@ At 512 updates recurrence counts are7/8 A,7/8 B,5/8 halves,6/8 quarters,3/8 temp
 
 Forty matched damage replays clear eight sites48–55 in saved row256 and run128 updates, with stored undamaged windows as controls. Removed occupancy varies across the paired states (recorded explicitly); mean repeated-window differences are−0.0037 A,+0.00006 B,+0.0060 halves,−0.0904 quarters,+0.0737 temporal. These descriptors are not functional collective recovery. All60 baseline and40 damage runs are retained. Evidence: `results/heterogeneity/manifest.json`, `damage_manifest.json` and `summary.json`, including paired effect sizes and seed-level intervals.
 
-## R6 — Detached-descendant detector (calibration and exploration executed)
+## R6 — Detached-descendant detector (executed, including reserved confirmation)
 
 The next recorded experiment begins with detector calibration, followed by a fixed assay of both existing motifs. [The pre-execution design](results/descendant_detector/design.json) specifies exact matching, a two-cell exterior guard, ordered copying and helper histories, exclusive full-founder copying support, and separate eight-update recovery probes for both candidate children. Equal-valued arrivals contribute ancestry alternatives; destructive writes remove support. Mutation-created origins are conservatively excluded.
 
@@ -53,6 +53,10 @@ Four native numerical controls distinguish detached common-founder copying, unre
 Calibration passed all five declared expectations. The basic copying control reaches 17 detached matches and both selected children persist through eight updates after isolation; it has no helper support. Two stationary equal-valued lookalikes retain distinct founders, translation retains one copy, and historical tiling reaches 25 unguarded matches without a detached branch. Six calibration native runs (four controls and two recovery probes) are retained.
 
 All 36 exploratory motif-treatment worlds produce no detached common-founder pair. Before inspecting reserved confirmation, a code audit tightened the implementation of the predeclared full-founder criterion: unioned ancestry alternatives provide possible coverage, whereas each founding component must also have unambiguous support in each child. The correction and previous summary are retained in `results/descendant_detector/analysis-correction.json`. Recalibration and reanalysis reuse unchanged native trajectories, preserve original simulation provenance and pass all 21 tests. The scientific outcomes are unchanged. The 24 reserved longer confirmation worlds remain unexecuted at this checkpoint.
+
+The subsequently executed 24 reserved worlds also produce no detached common-founder pair. At 96 updates both motifs reach 49 unguarded matches; their maximum detached count remains one. Across all 60 treatment worlds there are zero candidate reproduction cases. All ten matched rescue settings reproduce the intact initial rows, trajectories and ordered events exactly. In total R6 retains 64 baseline runs and two separate recovery probes, and audits 756,549 ordered copy-attempt events against every saved numerical update. Native process time sums to 1.07 seconds, with a maximum native RSS of 3.625 MiB; analysis and command-level resource costs are separately recorded. No new model API calls were made.
+
+The numerical copying detector core is calibrated, and both recorded motifs remain cases of domain propagation. A native positive case of partner-assisted detached collective reproduction, distributed footprints, changed descendants and phase cycles remain outside the established result. Evidence: `results/descendant_detector/summary.json`, `calibration.json`, per-run `detector.json` and streamed lineage node/edge CSVs. Next: obtain and independently verify a native partner-assisted detached positive case, then extend the detector to distributed or phase-dependent structures before a new discovery campaign.
 
 ## Art record
 
