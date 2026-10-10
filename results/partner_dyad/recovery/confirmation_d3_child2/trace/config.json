@@ -1,0 +1,32 @@
+{
+  "model": "research",
+  "variant": "r7_partner_dyad",
+  "norm": "symbiotic",
+  "width": 512,
+  "steps": 1,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/partner_dyad/recovery/confirmation_d3_child2/frozen.csv",
+  "trace_steps": 1,
+  "modifications": [
+    "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+    "external causal interventions declared in frozen design; observation-only trace"
+  ],
+  "experiment": {
+    "id": "confirmation_d3_child2",
+    "setting": "confirmation_d3_child2",
+    "stage": "recovery",
+    "condition": "isolated_child",
+    "phase": "trace",
+    "d": 3,
+    "founder": 240,
+    "intervention": {
+      "action": "extract exact saved child; clear all exterior; translate to x240",
+      "source_run": "results/partner_dyad/runs/confirmation_d3_intact",
+      "source_time": 1,
+      "source_position": 243,
+      "source_trajectory_sha256": "fba3e1569131dfec765dd98f61299cdc2035659bd515c05094fd28f33794399f"
+    }
+  }
+}

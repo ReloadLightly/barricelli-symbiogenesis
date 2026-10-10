@@ -1,0 +1,161 @@
+{
+  "id": "confirmation_d3_child1",
+  "path": "results/partner_dyad/recovery/confirmation_d3_child1",
+  "setting": "confirmation_d3_child1",
+  "stage": "recovery",
+  "condition": "isolated_child",
+  "d": 3,
+  "detached_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "component_counts": {
+    "3": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "-3": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "first_internal_helper_pair": {
+    "time": 1,
+    "children": [
+      {
+        "position": 237,
+        "copy_roots": [
+          240,
+          243
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          243
+        ],
+        "dependency_roots": [
+          240,
+          243
+        ],
+        "helper_roots": [
+          243
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      },
+      {
+        "position": 243,
+        "copy_roots": [
+          240,
+          243
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          243
+        ],
+        "dependency_roots": [
+          240,
+          243
+        ],
+        "helper_roots": [
+          240
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      }
+    ]
+  },
+  "first_update_trace_complete": true,
+  "oracle_all_cells_equal": true,
+  "oracle_cells": 7680,
+  "native_seconds": 0.010800787998960004,
+  "cell_updates": 6656,
+  "max_native_rss_kib": 3840,
+  "independent_first_step": {
+    "passed": true,
+    "children": [
+      237,
+      243
+    ],
+    "copied_edges": 4,
+    "helper_enabled_edges": 2,
+    "predicted_events": [
+      [
+        240,
+        243,
+        1,
+        3,
+        ""
+      ],
+      [
+        240,
+        237,
+        2,
+        3,
+        "243:-3"
+      ],
+      [
+        243,
+        240,
+        1,
+        -3,
+        ""
+      ],
+      [
+        243,
+        246,
+        2,
+        -3,
+        "240:3"
+      ]
+    ],
+    "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+    "sources_sha256": {
+      "initial.csv": "d95d5c616a80a3fcf22be7459437ce64c4686622285592b14c554402fdbce048",
+      "trajectory.csv": "fba3e1569131dfec765dd98f61299cdc2035659bd515c05094fd28f33794399f",
+      "events.csv": "d63256fcd83d322265516a94b23218e21b03593ab5d40d2e1642de919165848d"
+    },
+    "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+  },
+  "formula_matches_all_saved_rows": true,
+  "reproduces_after_isolation": true,
+  "persistent_every_saved_time": true
+}

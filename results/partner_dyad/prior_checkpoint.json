@@ -1,0 +1,18 @@
+{
+  "saved_utc": "2026-10-10T19:39:36.375810+00:00",
+  "checkpoint_commit": "a4a6636e406679e0bee70d7d7f81a49aebff4bd3",
+  "scope": "Preserve prior source snapshot and aggregate verification reports before integrating R7. Original per-run provenance and timings are not regenerated. Archive is not an additional experimental unit.",
+  "archive": "results/partner_dyad/prior_checkpoint.tar.gz",
+  "archive_sha256": "bcc52db31cef4bc55850d7abfb3bcb89a2cc1f6cd065b96cf3c50bf0f9948d99",
+  "files_sha256": {
+    "results/source_snapshot.tar.gz": "18f35cf8f70ea437e8ee62e50fb8d6a1330da79a623e6a6f5629eade48b9e0bb",
+    "references/source_manifest.json": "cfcc90bff6005139cf881e3317877d95ef3af222f14f87e67649dd66923e2b6e",
+    "results/run_register.json": "db5d52de18229e7275ea98377e05b290ea82be545173fd6e842b90981d891c1e",
+    "results/resource_summary.json": "e3d346a4b866ddbb75a347573669c23dd6bf68353fe8453440798ca2de565382",
+    "results/replay_verification.json": "d63b6407d0c603f82bc6c0bcc5ccccecbaf3fa3760730e4eb0af1553be5df722",
+    "results/test-results.txt": "007a8154bab2c18125cb2d6a630065a0a4ad933cf4cecd339144e4e872df9031",
+    "results/artifact_checks.json": "235a727ac04196ce39a9798f43fc7b7bb80c08d9706d7a6ed46f3bacc405938c",
+    "results/atlas_qa.json": "5182975f72ba27d70536dda6a71b6adb7f2d73ff3591a0434756e9ac8d3308a5",
+    "results/resume/checkpoint.json": "8e7ec33017fa6c0b2c0c5f308765b6b65ea6aaa82db6710c9be2ce13e847c760"
+  }
+}

@@ -99,7 +99,7 @@ def confirmation():
         sources.extend([probe / 'continuation/trajectory.csv', probe / 'extraction.json', probe / 'trace/detector.json'])
     fig.subplots_adjust(left=.055, right=.99, bottom=.19, top=.84, wspace=.3)
     fig.text(.055, .045, 'Left: saved W2048, T96 continuation; no boundary encounter. Right: externally imposed isolation and translation of actual saved children.\n'
-             'Ancestry is audited at t0 → t1 only. Long histories match an uninstrumented unchanged-source oracle and the predeclared lattice formula.',
+             'Ancestry is audited at t0 → t1 only. Long histories match an uninstrumented unchanged-source oracle and the analytical lattice formula.',
              color=PALETTE['text'], fontsize=9)
     save(fig, OUT / 'partner_dyad_confirmation.png',
          'R7 reserved 96-update numerical confirmation and actual first-child isolation assays. The longer '

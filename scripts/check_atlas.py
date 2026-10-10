@@ -33,6 +33,17 @@ def main():
    data=page.evaluate('({width:canvas.width,height:canvas.height,rgb:Array.from(ctx.getImageData(64,0,1,1).data)})')
    assert [data['width'],data['height']]==[256,17]
    assert data['rgb'][:3]==list(bytes.fromhex(color(8)[1:])); assertions.append('R6 copying calibration replays its saved dimensions and integer palette')
+  r7='results--partner_dyad--runs--construction_d4_intact--continuation'
+  if page.locator(f'#world option[value="{r7}"]').count():
+   page.locator('#world').select_option(r7)
+   data=page.evaluate('({width:canvas.width,height:canvas.height,rgb:Array.from(ctx.getImageData(236,1,1,1).data),value:current.values[512+236]})')
+   assert [data['width'],data['height']]==[512,13] and data['value']==4
+   assert data['rgb'][:3]==list(bytes.fromhex(color(4)[1:])); assertions.append('R7 child pixels agree with the saved first-generation integers')
+   assert page.locator('#neighbors button').count()==6
+   page.locator('#world').select_option('results--partner_dyad--runs--construction_d4_negative_removed--continuation')
+   assert page.evaluate('current.values.filter(v=>v===-4).length')==0
+   page.locator('#neighbors button').first.click(); assert page.locator('#world').input_value()==r7
+   assertions.append('R7 partner-deletion replay and six matched treatment neighbors operate')
   page.locator('#world').select_option('results--reconstruction--galloway2026'); page.evaluate('window.scrollTo(0,0)'); page.screenshot(path=str(ROOT/'results/atlas-desktop.png'),full_page=True)
   page.set_viewport_size({'width':390,'height':844}); page.screenshot(path=str(ROOT/'results/atlas-mobile.png'),full_page=True)
   assert page.evaluate('document.documentElement.scrollWidth<=window.innerWidth'); assertions.append('390px mobile viewport has no horizontal overflow')

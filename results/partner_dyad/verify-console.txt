@@ -1,0 +1,39 @@
+{
+  "experiment": "R7",
+  "baseline_cases_planned": 31,
+  "baseline_cases_completed": 31,
+  "baseline_native_runs": 62,
+  "recovery_native_runs": 16,
+  "cell_updates": 1603584,
+  "native_process_seconds_sum": 2.0888462669990986,
+  "maximum_native_rss_kib": 3840,
+  "oracle_historical_runs": 78,
+  "oracle_cells_compared": 1665024,
+  "oracle_counterfactual_runs": 4,
+  "oracle_wall_seconds_sum": 0.7297650029995566,
+  "reserved_settings_verified": 3,
+  "checks": [
+    {
+      "setting": "construction_d4",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    },
+    {
+      "setting": "confirmation_d3",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    },
+    {
+      "setting": "confirmation_d5",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    },
+    {
+      "setting": "confirmation_long_d4",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    }
+  ],
+  "claim": "Designed opposite-sign dyad produces two guarded, full-founder, partner-assisted numerical copies at t1. Each isolated first child reproduces. This is an operational numerical positive control, not evolved biological symbiosis.",
+  "ancestry_scope": "complete ordered native trace at t0\u2192t1 only; longer histories verified numerically with unchanged-source oracle and formula, not full lineage reconstruction"
+}

@@ -1,8 +1,8 @@
 {
-  "native_runs": 557,
-  "cell_updates": 22196617,
-  "engine_seconds_sum": 7.6675683989999985,
-  "process_seconds_sum": 14.68308422598966,
+  "native_runs": 635,
+  "cell_updates": 23800201,
+  "engine_seconds_sum": 9.060949247,
+  "process_seconds_sum": 16.77193049298876,
   "max_native_rss_kib": 3840,
   "count_by_stage": {
     "assay": 164,
@@ -11,6 +11,7 @@
     "galloway_validation": 6,
     "heterogeneity": 100,
     "nearby": 4,
+    "partner_dyad": 78,
     "partner_followup": 24,
     "reconstruction": 23,
     "search": 144,
@@ -19,8 +20,10 @@
   "excluded_from_counts": [
     "original executable fixture-oracle replays",
     "temporary Java source-level oracle replays",
+    "separate unchanged-source symbiotic oracle replays and helpers-disabled counterfactuals",
     "synthetic descriptor-control histories",
-    "development reruns and tests"
+    "development reruns and tests",
+    "compressed earlier metadata and incomplete-attempt archives"
   ],
   "budget_scope": "retained scientific native trajectories, not all development compute"
 }

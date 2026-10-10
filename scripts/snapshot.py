@@ -23,5 +23,6 @@ def main():
   retained=[ROOT/'engine/upstream/barricelli54.cpp',ROOT/'engine/upstream/README.md',ROOT/'LICENSE',*sorted((ROOT/'fixtures').glob('*.csv'))]
   d={'reference_repository':'https://github.com/tim-taylor/barricelli54','actual_commit':REFERENCE_COMMIT,'retained_files_sha256':{str(f.relative_to(ROOT)):sha(f) for f in retained}}
  d['final_regeneration_snapshot']={'archive':str(archive_path.relative_to(ROOT)),'sha256':sha(archive_path),'files_sha256':{str(f.relative_to(ROOT)):sha(f) for f in sorted(files)},'native_binary_sha256':sha(ROOT/'build/simulator'),'reference_binary_sha256':sha(ROOT/'build/reference'),'note':'final buildable source; earlier per-run source hashes remain intact; complete current-engine numeric replay verifies compatibility; saved results are retained separately in the full repository'}
+ if (ROOT/'build/symbiotic_oracle').exists(): d['final_regeneration_snapshot']['symbiotic_oracle_binary_sha256']=sha(ROOT/'build/symbiotic_oracle')
  save_json(p,d); print('source snapshot:',len(files),'files,',archive_path.stat().st_size,'bytes')
 if __name__=='__main__': main()

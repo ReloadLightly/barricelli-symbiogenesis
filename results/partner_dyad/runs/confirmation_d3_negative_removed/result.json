@@ -1,0 +1,62 @@
+{
+  "id": "confirmation_d3_negative_removed",
+  "path": "results/partner_dyad/runs/confirmation_d3_negative_removed",
+  "setting": "confirmation_d3",
+  "stage": "confirmation",
+  "condition": "negative_removed",
+  "d": 3,
+  "detached_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "component_counts": {
+    "3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "-3": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "first_internal_helper_pair": null,
+  "first_update_trace_complete": true,
+  "oracle_all_cells_equal": true,
+  "oracle_cells": 7680,
+  "native_seconds": 0.007535643000665004,
+  "cell_updates": 6656,
+  "max_native_rss_kib": 3712
+}

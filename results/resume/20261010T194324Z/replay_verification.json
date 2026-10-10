@@ -1,0 +1,4455 @@
+{
+  "all_exact": true,
+  "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "runs": 635,
+  "cells": 23995640,
+  "elapsed_seconds": 9.83360747200095,
+  "mode": "current engine on saved integer initial states; byte-exact CSV and all nine event-counter comparisons; verification outputs streamed and discarded",
+  "records": [
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__empty__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__original_ecology__x93__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__type_only_-1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__resident__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/generated_conditional3002__viability",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2304
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__type_only_-3",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__type_only_5",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__type_only_-3",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__type_only_5",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__type_only_-3",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__type_only_5",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__empty__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__type_only_-3",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__type_only_5",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__type_only_-3",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__type_only_5",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__cleared_footprint",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__matched_delete_other_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__matched_delete_same_type",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__type_only_-3",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__type_only_1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__type_only_5",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__resident__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/assay/historical_figure7__viability",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2304
+    },
+    {
+      "path": "results/descendant_detector/recovery/copying_positive_child1",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2304
+    },
+    {
+      "path": "results/descendant_detector/recovery/copying_positive_child2",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2304
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 99328
+    },
+    {
+      "path": "results/descendant_detector/runs/copying_positive",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4352
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_composition_shuffled_fixed_gaps",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_intact",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/tiling_negative",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 25088
+    },
+    {
+      "path": "results/descendant_detector/runs/translation_negative",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4352
+    },
+    {
+      "path": "results/descendant_detector/runs/unrelated_lookalikes",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4352
+    },
+    {
+      "path": "results/ensemble/conditional3002",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3003",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3004",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3005",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3006",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3007",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3008",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/conditional3009",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/ensemble/galloway2027",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 261632
+    },
+    {
+      "path": "results/ensemble/galloway2028",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 261632
+    },
+    {
+      "path": "results/ensemble/galloway2029",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 261632
+    },
+    {
+      "path": "results/ensemble/galloway2030",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 261632
+    },
+    {
+      "path": "results/ensemble/galloway2031",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 261632
+    },
+    {
+      "path": "results/ensemble/resident3001",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6400
+    },
+    {
+      "path": "results/galloway_validation/empty",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 4599
+    },
+    {
+      "path": "results/galloway_validation/erased_reuse",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 4599
+    },
+    {
+      "path": "results/galloway_validation/mixed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 4599
+    },
+    {
+      "path": "results/galloway_validation/mutation_under_empty",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 4599
+    },
+    {
+      "path": "results/galloway_validation/same_helper",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 4599
+    },
+    {
+      "path": "results/galloway_validation/seam",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 4599
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9201_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9201_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9202_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9202_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9203_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9203_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 262272
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_halves",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_halves__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_quarters",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_quarters__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_temporal",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_temporal__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_A__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_B",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 65664
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_B__damage",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16512
+    },
+    {
+      "path": "results/nearby/constituent_A",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/nearby/density_down",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/nearby/density_up",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/nearby/next_layout",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_matched_damage/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_matched_damage/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_partner_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_partner_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_followup/empty__x112__direct_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x112__same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x16__direct_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x16__same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x232__direct_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x232__same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/empty__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x112__direct_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x112__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x112__same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x112__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x16__direct_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x16__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x16__same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x16__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x232__direct_helper_removed",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x232__rescue",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x232__same_type_damage_elsewhere",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/partner_followup/resident__x232__wrong_helper_same_occupancy",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12544
+    },
+    {
+      "path": "results/reconstruction/figure01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 620
+    },
+    {
+      "path": "results/reconstruction/figure02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 85
+    },
+    {
+      "path": "results/reconstruction/figure03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 91
+    },
+    {
+      "path": "results/reconstruction/figure04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 200
+    },
+    {
+      "path": "results/reconstruction/figure05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 55
+    },
+    {
+      "path": "results/reconstruction/figure06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 240
+    },
+    {
+      "path": "results/reconstruction/figure07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 410
+    },
+    {
+      "path": "results/reconstruction/figure08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1003
+    },
+    {
+      "path": "results/reconstruction/figure09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 2204
+    },
+    {
+      "path": "results/reconstruction/figure10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 784
+    },
+    {
+      "path": "results/reconstruction/figure11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 924
+    },
+    {
+      "path": "results/reconstruction/figure12",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 84
+    },
+    {
+      "path": "results/reconstruction/figure13",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 12
+    },
+    {
+      "path": "results/reconstruction/figure14",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 16
+    },
+    {
+      "path": "results/reconstruction/figure15",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 8383
+    },
+    {
+      "path": "results/reconstruction/figure16",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 72
+    },
+    {
+      "path": "results/reconstruction/figure17",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 780
+    },
+    {
+      "path": "results/reconstruction/figure18",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 420
+    },
+    {
+      "path": "results/reconstruction/figure19",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 63
+    },
+    {
+      "path": "results/reconstruction/figure20",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 72
+    },
+    {
+      "path": "results/reconstruction/figure21",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 76
+    },
+    {
+      "path": "results/reconstruction/figure22",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 100
+    },
+    {
+      "path": "results/reconstruction/galloway2026",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": 0,
+      "cells": 261632
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat0/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat1/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat2/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat0/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat1/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat2/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/novelty_archive/repeat3/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat0/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat1/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat2/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial00",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial01",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial02",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial03",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial04",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial05",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial06",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial07",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial08",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial09",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial10",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search/random/repeat3/trial11",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 32896
+    },
+    {
+      "path": "results/search_confirmation/codex_feedback_9100",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/codex_feedback_9101",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/codex_feedback_9102",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/codex_feedback_9103",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/novelty_archive_9100",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/novelty_archive_9101",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/novelty_archive_9102",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/novelty_archive_9103",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/random_9100",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/random_9101",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/random_9102",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    },
+    {
+      "path": "results/search_confirmation/random_9103",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 131200
+    }
+  ]
+}

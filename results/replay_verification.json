@@ -1,9 +1,9 @@
 {
   "all_exact": true,
   "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
-  "runs": 557,
-  "cells": 22330616,
-  "elapsed_seconds": 6.489690347998476,
+  "runs": 635,
+  "cells": 23995640,
+  "elapsed_seconds": 9.83360747200095,
   "mode": "current engine on saved integer initial states; byte-exact CSV and all nine event-counter comparisons; verification outputs streamed and discarded",
   "records": [
     {
@@ -2483,6 +2483,552 @@
       "counter_differences": {},
       "frozen_java_oracle_mismatches": null,
       "cells": 32896
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d3_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_d5_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/confirmation_long_d4_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child1/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child1/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child2/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/recovery/construction_d4_child2/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 198656
+    },
+    {
+      "path": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 4096
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_matched_damage/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_matched_damage/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_partner_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_background_partner_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_intact/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_intact/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_negative_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_negative_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_positive_removed/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_positive_removed/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_rescue/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_rescue/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_spacing_shift/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_spacing_shift/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/continuation",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 6656
+    },
+    {
+      "path": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/trace",
+      "mismatched_rows": 0,
+      "counter_differences": {},
+      "frozen_java_oracle_mismatches": null,
+      "cells": 1024
     },
     {
       "path": "results/partner_followup/empty__x112__direct_helper_removed",

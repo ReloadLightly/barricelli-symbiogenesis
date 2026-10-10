@@ -1,0 +1,4 @@
+time,source,target,depth,value,before,after,outcome,previous_writer,helpers
+0,992,996,1,4,0,4,copy,-1,""
+0,992,987,2,4,0,4,copy,-1,"996:-5"
+0,996,991,1,-5,0,-5,copy,-1,""

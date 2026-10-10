@@ -1,0 +1,44 @@
+{
+  "motif": [
+    4,
+    0,
+    0,
+    0,
+    -4
+  ],
+  "founder_position": 992,
+  "founder_cells": [
+    992,
+    996
+  ],
+  "trace_matches_every_saved_update": true,
+  "events_audited": 3,
+  "ambiguous_cell_times": 0,
+  "maximum_unguarded_matches": 0,
+  "maximum_detached_matches": 0,
+  "first_common_founder_pair": null,
+  "first_internal_helper_pair": null,
+  "history": [
+    {
+      "time": 0,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 1,
+      "unguarded_matches": 0,
+      "detached_matches": 0,
+      "full_founder_descendants": 0,
+      "internal_helper_descendants": 0
+    }
+  ],
+  "interpretation": "set-valued operational numerical copying support; no biological ancestry claim",
+  "sources_sha256": {
+    "initial.csv": "1c3ef7c13c43811d9128d5d30b67dc86d484854531c2a186b033ba8c9b19aa16",
+    "trajectory.csv": "d17feaed4e5569a82680f33341100bd062dd0f8e1822e9d3eda350a03525b024",
+    "events.csv": "79f6f29c84201028488d5f87dbae2b35fd4ad7d0b09fa9215a7574e7abd8c988"
+  },
+  "analyzer_sha256": "e2a5deada1bc930823d361128e8067a5c603406d861c0560242d7c64e918f00d"
+}

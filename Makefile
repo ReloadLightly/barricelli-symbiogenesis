@@ -11,11 +11,13 @@ figures:
 	$(PYTHON) scripts/figures.py
 	$(PYTHON) scripts/comparison_figures.py
 	$(PYTHON) scripts/descendant_figures.py
+	$(PYTHON) scripts/partner_dyad_figures.py
 descendants: build
 	$(PYTHON) scripts/descendant_detector.py --phase all
 	$(PYTHON) scripts/descendant_figures.py
 partner-dyad: build
 	$(PYTHON) scripts/partner_dyad.py --phase all
+	$(PYTHON) scripts/partner_dyad_figures.py
 art:
 	$(PYTHON) scripts/art.py
 atlas:

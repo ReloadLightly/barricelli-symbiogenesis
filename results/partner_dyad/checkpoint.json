@@ -10,9 +10,7 @@
     "construction_d4_rescue",
     "construction_d4_background_intact",
     "construction_d4_background_partner_removed",
-    "construction_d4_background_matched_damage"
-  ],
-  "pending": [
+    "construction_d4_background_matched_damage",
     "confirmation_d3_intact",
     "confirmation_d3_positive_removed",
     "confirmation_d3_negative_removed",
@@ -35,7 +33,14 @@
     "confirmation_long_d4_spacing_shift",
     "confirmation_long_d4_rescue"
   ],
+  "pending": [],
   "recovery_completed": [
+    "confirmation_d3_child1",
+    "confirmation_d3_child2",
+    "confirmation_d5_child1",
+    "confirmation_d5_child2",
+    "confirmation_long_d4_child1",
+    "confirmation_long_d4_child2",
     "construction_d4_child1",
     "construction_d4_child2"
   ]

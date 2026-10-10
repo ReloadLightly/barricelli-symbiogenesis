@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "mode": "helpers_disabled",
+    "initial_sha256": "556af20849344f3d6b1a17c760340b83b0f491012cfb1fd6b8a4cdebdb3e8e6f",
+    "steps": 96,
+    "native_trajectory_sha256": "ab98ea39376f341a518d2effe52da43703fe175661c45c131ed16de3bb0e8be5",
+    "oracle_binary_sha256": "9ddb10f4ebd52a576d9cbcf6aa767a3611566ed0d2bd896c8447c0b84942d7b6",
+    "upstream_sha256": "694fc1444d44f4a45a0df52dbdb82633db89ea03b6d3009b904aa1c4d53363db",
+    "harness_sha256": "1655e1a07414db5bdcf3e2a62d94f29c321e4a5093a88160d0348dbd364aabd9"
+  },
+  "created_utc": "2026-10-10T19:34:30.744890+00:00",
+  "trajectory_sha256": "6763e4f4d6d01369da33549b8955ec686ac1c2488c6c87fa81ec5c1db8568b27",
+  "cells_compared": 198656,
+  "equal_to_native": false,
+  "wall_seconds": 0.016424792000179878,
+  "resource": {
+    "max_rss_kib": 3456,
+    "elapsed_seconds": 0.01,
+    "user_seconds": 0.0,
+    "system_seconds": 0.0
+  },
+  "scope": "externally imposed helper-recursion suppression; not historical behavior"
+}

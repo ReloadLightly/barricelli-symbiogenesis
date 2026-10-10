@@ -126,6 +126,7 @@ def run_pair(plan):
     counts = [len(disjoint(matches(row, motif, guard=2), len(motif))) for row in history]
     result = {'id': plan['id'], 'path': plan['path'], 'setting': s['id'], 'stage': s['stage'],
               'condition': condition, 'd': s['d'], 'detached_counts': counts,
+              'component_counts': {str(v): np.count_nonzero(history == v, axis=1).tolist() for v in (s['d'], -s['d'])},
               'first_internal_helper_pair': detector['first_internal_helper_pair'],
               'first_update_trace_complete': detector['trace_matches_every_saved_update'],
               'oracle_all_cells_equal': True, 'oracle_cells': int(history.size + 2 * s['width']),
@@ -143,6 +144,7 @@ def run_pair(plan):
         counterfactual = read_csv(output)
         result['helpers_disabled_detached_counts'] = [len(disjoint(matches(row, motif, guard=2), len(motif))) for row in counterfactual]
         result['helpers_disabled_occupied_counts'] = np.count_nonzero(counterfactual, axis=1).tolist()
+        result['helpers_disabled_component_counts'] = {str(v): np.count_nonzero(counterfactual == v, axis=1).tolist() for v in (s['d'], -s['d'])}
     save_json(path / 'result.json', result)
     return result
 
@@ -188,6 +190,11 @@ def verify_group(cases, results):
         assert intact['formula_matches_all_saved_rows'] and intact['detached_counts'] == list(range(1, len(intact['detached_counts']) + 1))
         assert not any(intact['helpers_disabled_detached_counts'][1:])
         assert set(intact['helpers_disabled_occupied_counts']) == {2}
+        for value in (intact['d'], -intact['d']):
+            assert intact['component_counts'][str(value)][1] == 2
+            assert set(intact['helpers_disabled_component_counts'][str(value)]) == {1}
+        assert set(group['positive_removed']['component_counts'][str(-intact['d'])]) == {1}
+        assert set(group['negative_removed']['component_counts'][str(intact['d'])]) == {1}
         for condition in ('positive_removed', 'negative_removed', 'wrong_negative_same_occupancy', 'composition_shuffled_fixed_gaps', 'spacing_shift'):
             assert not group[condition]['first_internal_helper_pair']
             assert not any(group[condition]['detached_counts'][1:])
@@ -211,7 +218,8 @@ def summarize(cases):
                   if json.loads((p.parent / 'extraction.json').read_text())['intervention']['source_run'] in allowed_sources]
     checks = verify_group(cases, results)
     assert all(r['reproduces_after_isolation'] and r['persistent_every_saved_time'] and r['formula_matches_all_saved_rows'] for r in recoveries)
-    oracles = [json.loads(p.read_text()) for p in sorted(BASE.glob('**/*.verification.json'))]
+    allowed_oracles = {ROOT / p['path'] / 'oracle' for p in cases} | {ROOT / r['path'] / 'oracle' for r in recoveries}
+    oracles = [json.loads(p.read_text()) for p in sorted(BASE.glob('**/*.verification.json')) if p.parent in allowed_oracles]
     summary = {'experiment': 'R7', 'baseline_cases_planned': len(cases), 'baseline_cases_completed': len(results),
                'baseline_native_runs': 2 * len(results), 'recovery_native_runs': 2 * len(recoveries),
                'cell_updates': sum(r['cell_updates'] for r in results + recoveries),
@@ -260,8 +268,9 @@ def main():
         if stage == 'construction':
             if len(summary['cases']) != 10 or len(summary['recovery_probes']) != 2 or not summary['checks']:
                 raise ValueError('construction or recovery incomplete')
-            save_json(BASE / 'construction_verified.json', {'design_sha256': sha(BASE / 'design.json'),
-                       'passed': True, 'summary_at_gate': summary, 'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat()})
+            if not (BASE / 'construction_verified.json').exists():
+                save_json(BASE / 'construction_verified.json', {'design_sha256': sha(BASE / 'design.json'),
+                           'passed': True, 'summary_at_gate': summary, 'created_utc': datetime.datetime.now(datetime.timezone.utc).isoformat()})
     summary = summarize(cases)
     print(json.dumps({k: v for k, v in summary.items() if k not in ('cases', 'recovery_probes', 'limits')}, indent=2))
 

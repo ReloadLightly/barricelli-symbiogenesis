@@ -1,0 +1,47 @@
+{
+  "panels": [
+    {
+      "trajectory": "results/partner_dyad/runs/confirmation_long_d4_intact/continuation/trajectory.csv",
+      "columns": [
+        600,
+        1401
+      ],
+      "saved_times": [
+        0,
+        96
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/recovery/construction_d4_child1/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/recovery/construction_d4_child2/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    }
+  ],
+  "selection": "reserved long intact setting and both construction children; aggregate results in experiment summary"
+}

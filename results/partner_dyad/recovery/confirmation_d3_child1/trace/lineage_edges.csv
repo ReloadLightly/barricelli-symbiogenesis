@@ -1,0 +1,7 @@
+parent_time,parent_x,child_time,child_x,kind
+0,240,1,237,copy
+0,243,1,237,helper
+0,243,1,240,copy
+0,240,1,243,copy
+0,240,1,246,helper
+0,243,1,246,copy

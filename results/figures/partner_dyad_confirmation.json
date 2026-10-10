@@ -1,0 +1,58 @@
+{
+  "caption": "R7 reserved 96-update numerical confirmation and actual first-child isolation assays. The longer dyad grows to97 exact guarded footprints before boundary encounters, matching the analytical lattice and every cell of Taylor unchanged-source oracle. The two actual first children of the construction are separately extracted, translated to240 in empty width512 worlds, and both produce two partner-assisted dyads at their first update and13 at update12. Extraction and clearing are external interventions, not spontaneous additional copying. Full lineage claims are limited to the traced first update; regular spatial partition does not establish biological organism boundaries. Time increases downward.",
+  "data_sources": [
+    {
+      "file": "results/partner_dyad/runs/confirmation_long_d4_intact/continuation/trajectory.csv",
+      "sha256": "ab98ea39376f341a518d2effe52da43703fe175661c45c131ed16de3bb0e8be5"
+    },
+    {
+      "file": "results/partner_dyad/summary.json",
+      "sha256": "670510aab5a677572ac53689d76be9fccc04ea9eab97b6dd35522d126ef82b2e"
+    },
+    {
+      "file": "results/partner_dyad/recovery/construction_d4_child1/continuation/trajectory.csv",
+      "sha256": "3f4de4b68b99d55cc2f908354b84d827721ed5d44efa0088e6d39d1134175610"
+    },
+    {
+      "file": "results/partner_dyad/recovery/construction_d4_child1/extraction.json",
+      "sha256": "08d3bf1fb31bf67383c470dff10186a36c6acd38606afd11bb56cfba54b95308"
+    },
+    {
+      "file": "results/partner_dyad/recovery/construction_d4_child1/trace/detector.json",
+      "sha256": "5144867b822eaa9a5d5c8820cf3f5421f4b3207f525062d3bbaee3fa2aa47972"
+    },
+    {
+      "file": "results/partner_dyad/recovery/construction_d4_child2/continuation/trajectory.csv",
+      "sha256": "3f4de4b68b99d55cc2f908354b84d827721ed5d44efa0088e6d39d1134175610"
+    },
+    {
+      "file": "results/partner_dyad/recovery/construction_d4_child2/extraction.json",
+      "sha256": "0036f00203735cad4509f9a5e29459e1847601ebfd30a9559c6e8c7f876db71a"
+    },
+    {
+      "file": "results/partner_dyad/recovery/construction_d4_child2/trace/detector.json",
+      "sha256": "5144867b822eaa9a5d5c8820cf3f5421f4b3207f525062d3bbaee3fa2aa47972"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/partner_dyad_figures.py": "32299b388d97b392f9f7a57bf9a8dce3bf97fe3562a093db34cc5a4bfbf2a7e1"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

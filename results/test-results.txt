@@ -1,3 +1,9 @@
+test_equal_valued_external_source_is_not_founder (test_dyad.IndependentDyadAudit) ... ok
+test_incomplete_trace_rejected (test_dyad.IndependentDyadAudit) ... ok
+test_missing_enabling_partner_rejected_even_with_same_numbers (test_dyad.IndependentDyadAudit) ... ok
+test_occupied_guard_rejected (test_dyad.IndependentDyadAudit) ... ok
+test_source_specific_four_edge_fixture (test_dyad.IndependentDyadAudit) ... ok
+test_wrong_write_order_rejected (test_dyad.IndependentDyadAudit) ... ok
 test_all_historical_fixtures (test_fidelity.Fidelity) ... ok
 test_constituent_collision_norms (test_fidelity.Fidelity) ... ok
 test_equal_helper_recurses_three_attempts (test_fidelity.Fidelity) ... ok
@@ -21,6 +27,6 @@ test_unrelated_equal_templates_do_not_share_founder (test_lineage.Lineage) ... o
 test_untraced_mutation_helper_prevents_dependency_certificate (test_lineage.Lineage) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.349s
+Ran 27 tests in 0.334s
 
 OK

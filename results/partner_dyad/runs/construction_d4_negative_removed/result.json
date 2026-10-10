@@ -20,6 +20,38 @@
     0,
     0
   ],
+  "component_counts": {
+    "4": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "-4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
   "first_internal_helper_pair": null,
   "first_update_trace_complete": true,
   "oracle_all_cells_equal": true,

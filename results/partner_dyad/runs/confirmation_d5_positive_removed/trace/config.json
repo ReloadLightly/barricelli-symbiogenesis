@@ -1,0 +1,26 @@
+{
+  "model": "research",
+  "variant": "r7_partner_dyad",
+  "norm": "symbiotic",
+  "width": 512,
+  "steps": 1,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/partner_dyad/runs/confirmation_d5_positive_removed/frozen.csv",
+  "trace_steps": 1,
+  "modifications": [
+    "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+    "external causal interventions declared in frozen design; observation-only trace"
+  ],
+  "experiment": {
+    "id": "confirmation_d5_positive_removed",
+    "setting": "confirmation_d5",
+    "stage": "confirmation",
+    "condition": "positive_removed",
+    "phase": "trace",
+    "d": 5,
+    "founder": 240,
+    "intervention": null
+  }
+}

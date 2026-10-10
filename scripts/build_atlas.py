@@ -28,14 +28,29 @@ def main():
    ('exploration_historical_figure7_x224_intact','Descendant assay / historical motif','Selected explanatory intact setting, x224, width512 and48 updates. Full experiment includes all treatments and longer reserved checks; no detached reproduction case was found.'),
    ('exploration_generated_conditional3002_x224_intact','Descendant assay / generated motif','Selected explanatory intact setting from the generated candidate. Its expanding alternating domain is distinct from detached reproduction.')]:
    selections.append(('results/descendant_detector/runs/'+ident,title,caption))
+ r7=ROOT/'results/partner_dyad/summary.json'
+ if r7.exists() and json.loads(r7.read_text())['baseline_cases_completed']==31:
+  for condition in ['intact','positive_removed','negative_removed','wrong_negative_same_occupancy','composition_shuffled_fixed_gaps','spacing_shift','rescue']:
+   selections.append(('results/partner_dyad/runs/construction_d4_'+condition+'/continuation',
+                      'Partner dyad / '+condition.replace('_',' '),
+                      'R7 designed +4/−4 pair under unchanged historical symbiotic arithmetic. Initial-state treatment is externally imposed. Intact and restored pairs produce two guarded numerical copies at t1; five perturbations prevent copying. This is a constructed control, not an evolved organism.'))
+  for setting in ['confirmation_d3','confirmation_d5','confirmation_long_d4']:
+   selections.append(('results/partner_dyad/runs/'+setting+'_intact/continuation',
+                      'Reserved dyad / '+setting.removeprefix('confirmation_').replace('_',' '),
+                      'Reserved deterministic robustness setting. Every number matches the separate unchanged-source oracle. The long setting reaches97 exact dyads at t96; a regular lattice does not establish organism boundaries or open-ended evolution.'))
+  for child in [1,2]:
+   selections.append((f'results/partner_dyad/recovery/construction_d4_child{child}/continuation',
+                      f'Isolated dyad / child {child}',
+                      'Actual saved first child, externally extracted and translated to x240 with exterior cleared. It reproduces at its first update after isolation and reaches13 exact dyads at t12. Isolation is an imposed assay; original branching arose from the numerical rule.'))
  worlds=[]; values=set()
  for path,title,caption in selections:
   run=ROOT/path; c=json.loads((run/'config.json').read_text()); arr=read_csv(run/'trajectory.csv'); flat=arr.ravel().tolist(); values.update(flat)
   worlds.append({'id':path.replace('/','--'),'title':title,'caption':caption,'model':c['model']+' / '+c['norm'],'path':path,'width':c['width'],'steps':c['steps'],'seed':c.get('seed'),'initialHash':sha(run/'initial.csv'),'values':flat,'neighbors':[]})
  neighbor_ids=[w['id'] for w in worlds if w['path']==parent or w['path'].startswith('results/nearby/')]
  environment_ids=[w['id'] for w in worlds if 'exploration_6100_' in w['path']]
+ dyad_ids=[w['id'] for w in worlds if w['path'].startswith('results/partner_dyad/runs/construction_d4_')]
  for w in worlds:
-  group=neighbor_ids if w['id'] in neighbor_ids else environment_ids if w['id'] in environment_ids else []
+  group=neighbor_ids if w['id'] in neighbor_ids else environment_ids if w['id'] in environment_ids else dyad_ids if w['id'] in dyad_ids else []
   w['neighbors']=[v for v in group if v!=w['id']]
  prints=[]
  for p in sorted((ROOT/'results/art').glob('*.recipe.json')):

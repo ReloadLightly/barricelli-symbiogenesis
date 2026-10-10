@@ -1,0 +1,62 @@
+{
+  "id": "confirmation_d3_composition_shuffled_fixed_gaps",
+  "path": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps",
+  "setting": "confirmation_d3",
+  "stage": "confirmation",
+  "condition": "composition_shuffled_fixed_gaps",
+  "d": 3,
+  "detached_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "component_counts": {
+    "3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "-3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "first_internal_helper_pair": null,
+  "first_update_trace_complete": true,
+  "oracle_all_cells_equal": true,
+  "oracle_cells": 7680,
+  "native_seconds": 0.00772459400104708,
+  "cell_updates": 6656,
+  "max_native_rss_kib": 3712
+}
