@@ -1,0 +1,2136 @@
+{
+  "descriptor_version": 2,
+  "runs_reanalyzed": 261,
+  "runs_with_changes": 260,
+  "deltas": [
+    {
+      "run": "results/descriptor_controls/empty",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/descriptor_controls/iid_noise",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/descriptor_controls/period_two",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/descriptor_controls/static_periodic",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/descriptor_controls/translation",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9200_galloway_A",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9200_galloway_AB_halves",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9200_galloway_AB_quarters",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9200_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9200_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9201_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9201_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9201_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9201_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9201_galloway_B",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9202_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9202_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9202_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9202_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9202_galloway_B",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9203_galloway_A",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9203_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9203_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9203_galloway_AB_temporal",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/confirmation_9203_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_A",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_AB_halves",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_AB_halves__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_A__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6100_galloway_B__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_AB_halves",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_AB_halves__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_AB_quarters",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_AB_temporal",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6101_galloway_B__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_A",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_AB_halves__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector",
+        "archive_bin"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_B",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6102_galloway_B__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_AB_halves__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6103_galloway_B__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_AB_halves__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_AB_quarters",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6104_galloway_B__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_AB_halves",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_AB_halves__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_AB_quarters",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_AB_temporal",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6105_galloway_B__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_A",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_AB_halves",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_AB_halves__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_AB_quarters",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_B",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6106_galloway_B__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_A",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_AB_halves",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_AB_halves__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_AB_quarters",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_AB_quarters__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_AB_temporal",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_AB_temporal__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_A__damage",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_B",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/heterogeneity/exploration_6107_galloway_B__damage",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector",
+        "archive_bin"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial08",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial09",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial10",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat0/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial02",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial04",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial05",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial09",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial10",
+      "changed_fields": [
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat1/trial11",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial04",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial08",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial09",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial10",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat2/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial00",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial06",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial09",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial10",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/codex_feedback/repeat3/trial11",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial08",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial09",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial10",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat0/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial02",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial04",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial05",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial06",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial09",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial10",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat1/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial05",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial07",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial09",
+      "changed_fields": [
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial10",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat2/trial11",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial00",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial05",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial06",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial09",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial10",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/novelty_archive/repeat3/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial07",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial09",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial10",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat0/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial02",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "retained_repeated4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial06",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial08",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial09",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial10",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat1/trial11",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial00",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial04",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial05",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial06",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial07",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial08",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial09",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial10",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat2/trial11",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial00",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial01",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial02",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial03",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial04",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial05",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial06",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial07",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "tail_new4_signatures",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial08",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial09",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial10",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search/random/repeat3/trial11",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/codex_feedback_9100",
+      "changed_fields": []
+    },
+    {
+      "run": "results/search_confirmation/codex_feedback_9101",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/codex_feedback_9102",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/codex_feedback_9103",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/novelty_archive_9100",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "median_best_shift",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/novelty_archive_9101",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/novelty_archive_9102",
+      "changed_fields": [
+        "tail_repeated4_fraction",
+        "signature_count_total",
+        "vector"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/novelty_archive_9103",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/random_9100",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/random_9101",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/random_9102",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    },
+    {
+      "run": "results/search_confirmation/random_9103",
+      "changed_fields": [
+        "exact_translation_fraction",
+        "median_best_shift",
+        "signature_count_total"
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.696501302998513,
+  "new_scientific_simulations": 0,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562",
+  "original_archive_sha256": "9d83716c6000afc199af542399562c7edb9d55b87cbb9a02c7b91929a4365dd9",
+  "boundary_for_old_synthetic_controls": "ring explicitly assigned on correction: their imposed translation was generated with np.roll; this was absent from original control configs",
+  "original_search_means": {
+    "random": 3.0,
+    "novelty_archive": 4.5,
+    "codex_feedback": 5.5
+  },
+  "corrected_search_means": {
+    "random": 3.0,
+    "novelty_archive": 4.5,
+    "codex_feedback": 5.75
+  },
+  "adaptive_policy_limit": "Corrected historical summaries do not estimate what adaptive policies would have chosen under corrected feedback."
+}

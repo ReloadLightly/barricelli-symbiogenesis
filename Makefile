@@ -1,6 +1,6 @@
 PYTHON ?= .venv/bin/python
 
-.PHONY: build test reproduce figures art atlas descendants partner-dyad
+.PHONY: build test reproduce figures art atlas descendants partner-dyad corrections
 build:
 	$(PYTHON) scripts/build.py
 test: build
@@ -23,3 +23,7 @@ art:
 atlas:
 	$(PYTHON) scripts/register.py
 	$(PYTHON) scripts/build_atlas.py
+
+corrections:
+	$(PYTHON) scripts/correct_descriptors.py
+	$(PYTHON) scripts/correction_figures.py

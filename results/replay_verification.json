@@ -3,7 +3,7 @@
   "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
   "runs": 635,
   "cells": 23995640,
-  "elapsed_seconds": 9.83360747200095,
+  "elapsed_seconds": 10.982354530999146,
   "mode": "current engine on saved integer initial states; byte-exact CSV and all nine event-counter comparisons; verification outputs streamed and discarded",
   "records": [
     {

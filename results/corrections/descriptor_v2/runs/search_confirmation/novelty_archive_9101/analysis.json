@@ -1,0 +1,53 @@
+{
+  "source_run": "results/search_confirmation/novelty_archive_9101",
+  "trajectory_sha256": "851e4a29ef71f7f66c59821fdbda5bb65b251491a234d9999030bd1b14f8bb9e",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.99456787109375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 2749,
+    "descriptor_seconds": 1.1616095369972754,
+    "recurrence": {
+      "first_time": 262,
+      "return_time": 264,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.99456787109375
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search_confirmation/novelty_archive_9101/descriptors.json",
+  "changes": {
+    "exact_translation_fraction": {
+      "original": 1.0,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": null
+    },
+    "signature_count_total": {
+      "original": 2704,
+      "corrected": 2749
+    }
+  }
+}

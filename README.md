@@ -12,7 +12,7 @@
 
 Which persistent numerical patterns are reproductively coherent collectives whose reproduction depends on their organization and particular partners? Alongside this scientific question, the laboratory asks what conversational model assistance contributes to discovery, and how numerical dynamics can support reproducible visual art.
 
-The implementation reproduces all 22 documented historical examples exactly against 16,694 reference-fixture cells. An independent implementation of the retrieved Galloway sketch agrees with a source-level Java oracle across 1,597,386 cells. The laboratory retains 635 simulation trajectories, with a browsable atlas, three prints and reveal animations. Equal-budget searches cover 3.0, 4.5 and 5.5 numerical descriptor bins on average for random, novelty-archive and conversational Codex policies respectively; four searches per method and shared model context limit inference. Matched environments sometimes prolong local novelty at 512 updates, but fresh 2,048-update runs show no unseen four-cell signatures in their final windows. Neither recorded motif produces detached descendants across 60 treatment worlds. A subsequent designed opposite-sign dyad produces two partner-assisted exact copies, both of which reproduce after isolation; 78 native histories agree with a separate unchanged-source binary across 1,665,024 cells. Its later growth is a regular lattice. These results establish reconstruction and a constructed numerical copying control, without establishing evolved symbiogenesis or open-ended evolution.
+The implementation reproduces all 22 documented historical examples exactly against 16,694 reference-fixture cells. An independent implementation of the retrieved Galloway sketch agrees with a source-level Java oracle across 1,597,386 cells. The laboratory retains 635 simulation trajectories, with a browsable atlas, three prints and reveal animations. Equal-budget searches cover 3.0, 4.5 and 5.75 numerical descriptor bins on average for random, novelty-archive and conversational Codex policies respectively; four searches per method and shared model context limit inference. Matched environments sometimes prolong local novelty at 512 updates, but fresh 2,048-update runs show no unseen four-cell signatures in their final windows. Neither recorded motif produces detached descendants across 60 treatment worlds. A subsequent designed opposite-sign dyad produces two partner-assisted exact copies, both of which reproduce after isolation; 78 native histories agree with a separate unchanged-source binary across 1,665,024 cells. Its later growth is a regular lattice. These results establish reconstruction and a constructed numerical copying control, without establishing evolved symbiogenesis or open-ended evolution.
 
 ## Related work and scope
 
@@ -72,17 +72,17 @@ All six unselected display-scale initial rows (seeds 2026–2031) were run and c
 
 ### Discovery comparison and confirmation
 
-![All search learning curves and final coverage](results/figures/search_comparison.png)
+![All search learning curves and final coverage](results/figures/search_comparison_corrected.png)
 
 | Method | Coverage in four searches | Mean coverage; exploratory 95% interval | Mean nearest descriptor distance | Discovery native process time / descriptor time |
 |---|---|---|---|---|
-| Random | 4, 3, 1, 4 | 3.0 [1.75, 4.00] | 0.0576 | 1.07 s / 46.24 s |
-| Novelty archive | 5, 5, 5, 3 | 4.5 [3.50, 5.00] | 0.0867 | 0.96 s / 47.65 s |
-| Codex feedback | 4, 6, 6, 6 | 5.5 [4.50, 6.00] | 0.0991 | 1.11 s / 54.03 s |
+| Random | 4, 3, 1, 4 | 3.0 [1.75, 4.00] | 0.0571 | 1.07 s / 46.24 s |
+| Novelty archive | 5, 5, 5, 3 | 4.5 [3.50, 5.00] | 0.0862 | 0.96 s / 47.65 s |
+| Codex feedback | 5, 6, 6, 6 | 5.75 [5.25, 6.00] | 0.0994 | 1.11 s / 54.03 s |
 
-All 144 evaluations are included. The paired coverage differences from random are +1.5 bins for novelty (interval −0.25 to 3.25) and +2.5 for Codex (0.75 to 4.25). Intervals bootstrap **search units**, not time points. Four units and a shared conversational context make these descriptive exploratory estimates. Descriptor evaluation dominates native simulation time. Two feedback-to-proposal wall intervals were 106.7 and 109.9 seconds, including other work; isolated model time, tokens and cost were not separately measurable. There were no external model API calls or paid calls. [The model-use record](results/model_use.json) separates proposal activity from an aggregate whole-goal usage meter. This is executed conversational Codex-assisted exploration, with no automated model integration.
+All 144 evaluations are included. The corrected paired coverage differences from random are +1.5 bins for novelty and +2.75 for Codex; intervals and all units are in the correction report. Intervals bootstrap **search units**, not time points. Four units and a shared conversational context make these descriptive exploratory estimates. Descriptor evaluation dominates native simulation time. Two feedback-to-proposal wall intervals were 106.7 and 109.9 seconds, including other work; isolated model time, tokens and cost were not separately measurable. There were no external model API calls or paid calls. [The model-use record](results/model_use.json) separates proposal activity from an aggregate whole-goal usage meter. This is executed conversational Codex-assisted exploration, with no automated model integration.
 
-All 12 fresh-state, longer-horizon checks recur by 1,024 updates and produce no unseen four-cell signatures in the final window. The selected Codex configuration yields one sparse moving recurrent pattern and three dense recurrent outcomes. The short-horizon archive gain therefore does not imply sustained innovation. [Complete comparison](results/search/summary.json), [feedback and proposal logs](results/search/), [confirmation outcomes](results/search_confirmation/summary.json).
+All 12 fresh-state, longer-horizon checks recur by 1,024 updates and produce no unseen four-cell signatures in the final window. The selected Codex configuration yields one sparse moving recurrent pattern and three dense recurrent outcomes. The short-horizon archive gain therefore does not imply sustained innovation. [Corrected comparison](results/corrections/descriptor_v2/search_summary.json), [original comparison](results/search/summary.json), [feedback and proposal logs](results/search/), [confirmation outcomes](results/search_confirmation/summary.json).
 
 ### Heterogeneity: delayed recurrence, limited novelty
 
@@ -92,13 +92,13 @@ All 12 fresh-state, longer-horizon checks recur by 1,024 updates and produce no 
 |---|---:|---:|---:|---:|
 | Homogeneous A | 7 | 0 | 4 | 0 |
 | Homogeneous B | 7 | 0 | 4 | 0 |
-| Spatial halves | 5 | 15.875 | 3 | 0 |
-| Spatial quarters | 6 | 17.125 | 3 | 0 |
-| Temporal A/B | 3 | 32.500 | 4 | 0 |
+| Spatial halves | 5 | 15.25 | 3 | 0 |
+| Spatial quarters | 6 | 16.75 | 3 | 0 |
+| Temporal A/B | 3 | 33.375 | 4 | 0 |
 
 At 512 updates some mixtures retain local novelty while both homogeneous controls have none in their final windows. At 2,048 updates all confirmation worlds have zero late unseen signatures, including two spatial worlds without observed whole-world recurrence. Recurrence absence can therefore coexist with no measured new local structure.
 
-Confirmation differences in retained signatures from the paired constituent mean are −1.25 for halves (interval −9.125 to 5.625) and −0.75 for quarters (−9.875 to 6.875). This small experiment gives no clear evidence that spatial heterogeneity sustains inherited organization. These signatures are not recoverable collective diversity or inherited variants. The 40 damage replays have mixed effects; mean repeated-window change ranges from −0.0904 in quarters to +0.0737 under temporal alternation, without an established collective recovery interpretation. [All baselines, paired contrasts and damage outcomes](results/heterogeneity/summary.json).
+Confirmation differences in retained signatures from the paired constituent mean are −1.25 for halves (interval −9.125 to 5.625) and −0.75 for quarters (−9.875 to 6.875). This small experiment gives no clear evidence that spatial heterogeneity sustains inherited organization. These signatures are not recoverable collective diversity or inherited variants. The 40 damage replays have mixed effects; mean repeated-window change ranges from −0.0904 in quarters to +0.0737 under temporal alternation, without an established collective recovery interpretation. [Corrected baselines, contrasts and damage outcomes](results/corrections/descriptor_v2/heterogeneity_summary.json), [original analyses](results/heterogeneity/summary.json).
 
 ### Partner specificity and the reproduction boundary
 
@@ -165,6 +165,10 @@ The reconstruction is the strongest result. The exploratory search gain is confi
 The recorded historical/generated motifs remain cases of domain propagation with partner-arrangement sensitivity. R7 adds a designed positive for partner-assisted numerical copying and isolated-child reproduction. It grows into a regular lattice whose inter-child gap equals its internal gap; spatial grouping is conventional and does not establish independently bounded organisms or evolved symbiosis. Exact templates may miss other distributed cooperation, phase cycles and changed descendants; requiring every founding component can also reject functional collectives whose redundant components turn over. Mutational dependency histories are incomplete and are conservatively excluded from certified paths. Motif extraction and the dependency-directed follow-up are exploratory, the resident background is a representative single realization, and longer confirmation cohorts are small. Long-horizon environment confirmation uses fresh states; exceptional exploratory histories were not individually extended beyond512 updates, so their longevity remains unresolved. The finite rule set and descriptor choices constrain discovery. No result here demonstrates open-ended evolution, intelligence or recursive self-improvement.
 
 **Next single scientific question:** can a predeclared detector recognize variable distributed or phase-dependent viable descendants while rejecting translation, unrelated lookalikes and tiled growth without recoverable branches? Use R7 as the constructed copying positive and retain R6's negative controls, then test new candidates on unseen states and longer horizons. A subsequent environmental campaign can compare inherited variants and collective recovery under homogeneous and heterogeneous norms, using fresh seeds, measured throughput and precision requirements; parallel-world exchange remains deferred.
+
+## Checkpoint correction C1
+
+The build now probes usable native `std::format` without the compatibility include path; GCC11 here correctly selects the fallback. Stationary/empty equality takes precedence over periodic shift ties, aliased nonstationary shifts are reported separately, and open translations use zero exterior without accepting boundary loss. Four-cell windows and exact motif footprints respect open/ring boundaries. All37 tests pass. Reanalysis changes260 of261 saved descriptor records, with no new scientific simulations or changed trajectories. Corrected historical coverage means are3.0/4.5/5.75, versus original3.0/4.5/5.5. These are corrected measurements of frozen original choices, not reruns of corrected adaptive policies. Longer environment novelty remains zero. [Preserved original analyses](results/corrections/descriptor_v2/original_analyses.tar.gz), [full correction and deltas](results/corrections/descriptor_v2/summary.json). R7’s three reserved settings and eight child assays were reverified from their completed, hash-checked native/oracle histories; no R7 run remains pending.
 
 ## Reproducibility
 

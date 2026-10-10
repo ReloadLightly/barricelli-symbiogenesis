@@ -1,0 +1,5377 @@
+{
+  "rows": [
+    {
+      "id": "exploration_6100_galloway_A",
+      "cohort": "exploration",
+      "seed": 6100,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6100_galloway_A",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99383544921875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2262,
+      "descriptor_seconds": 0.5643019550007011,
+      "recurrence": {
+        "first_time": 172,
+        "return_time": 174,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99383544921875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0283182,
+      "process_seconds": 0.038347719000739744,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6100_galloway_B",
+      "cohort": "exploration",
+      "seed": 6100,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6100_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 1967,
+      "descriptor_seconds": 0.5212865930006956,
+      "recurrence": {
+        "first_time": 161,
+        "return_time": 163,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0327828,
+      "process_seconds": 0.05935177999890584,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6100_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6100,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_halves",
+      "tail_occupancy": 0.818603515625,
+      "tail_activity": 0.8833165322580645,
+      "tail_repeated4_fraction": 0.5222417377658911,
+      "retained_repeated4_signatures": 12,
+      "tail_new4_signatures": 108,
+      "tail_entropy_bits": 2.479616113806716,
+      "tail_compressibility": 0.94525146484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 5384,
+      "descriptor_seconds": 0.6162747939997644,
+      "recurrence": null,
+      "vector": [
+        0.818603515625,
+        0.8833165322580645,
+        0.5222417377658911,
+        0.94525146484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        2
+      ],
+      "engine_seconds": 0.0390071,
+      "process_seconds": 0.06648533500083431,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6100_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6100,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_quarters",
+      "tail_occupancy": 0.997314453125,
+      "tail_activity": 0.8359375,
+      "tail_repeated4_fraction": 0.9794921875,
+      "retained_repeated4_signatures": 12,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.4073768977164614,
+      "tail_compressibility": 0.99102783203125,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": 2.0,
+      "signature_count_total": 3497,
+      "descriptor_seconds": 0.6058204820001265,
+      "recurrence": {
+        "first_time": 375,
+        "return_time": 381,
+        "period": 6
+      },
+      "vector": [
+        0.997314453125,
+        0.8359375,
+        0.9794921875,
+        0.99102783203125
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0179064,
+      "process_seconds": 0.04125920600017707,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6100_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6100,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_temporal",
+      "tail_occupancy": 0.9921875,
+      "tail_activity": 0.6640625,
+      "tail_repeated4_fraction": 0.9840614681229363,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9703865123152997,
+      "tail_compressibility": 0.9912109375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3404,
+      "descriptor_seconds": 0.5858342190003896,
+      "recurrence": null,
+      "vector": [
+        0.9921875,
+        0.6640625,
+        0.9840614681229363,
+        0.9912109375
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0171404,
+      "process_seconds": 0.03218462900076702,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6101_galloway_A",
+      "cohort": "exploration",
+      "seed": 6101,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6101_galloway_A",
+      "tail_occupancy": 0.984375,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.9683779761904762,
+      "retained_repeated4_signatures": 10,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.1003111621563573,
+      "tail_compressibility": 0.991455078125,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2809,
+      "descriptor_seconds": 0.5447402620011417,
+      "recurrence": {
+        "first_time": 157,
+        "return_time": 159,
+        "period": 2
+      },
+      "vector": [
+        0.984375,
+        1.0,
+        0.9683779761904762,
+        0.991455078125
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0235599,
+      "process_seconds": 0.04288072800045484,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6101_galloway_B",
+      "cohort": "exploration",
+      "seed": 6101,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6101_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2000,
+      "descriptor_seconds": 0.582045144001313,
+      "recurrence": {
+        "first_time": 93,
+        "return_time": 95,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0219404,
+      "process_seconds": 0.03431288400133781,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6101_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6101,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_halves",
+      "tail_occupancy": 0.7802734375,
+      "tail_activity": 0.7305947580645161,
+      "tail_repeated4_fraction": 0.8663028240612975,
+      "retained_repeated4_signatures": 8,
+      "tail_new4_signatures": 14,
+      "tail_entropy_bits": 1.6579289940965158,
+      "tail_compressibility": 0.9739990234375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": 1.0,
+      "signature_count_total": 4477,
+      "descriptor_seconds": 0.600594847001048,
+      "recurrence": null,
+      "vector": [
+        0.7802734375,
+        0.7305947580645161,
+        0.8663028240612975,
+        0.9739990234375
+      ],
+      "archive_bin": [
+        3,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0525621,
+      "process_seconds": 0.08271290999982739,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6101_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6101,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_quarters",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 5442,
+      "descriptor_seconds": 0.6210111039981712,
+      "recurrence": {
+        "first_time": 423,
+        "return_time": 425,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0274359,
+      "process_seconds": 0.0386111579991848,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6101_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6101,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_temporal",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 4784,
+      "descriptor_seconds": 0.594885170001362,
+      "recurrence": {
+        "first_time": 365,
+        "return_time": 367,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0311195,
+      "process_seconds": 0.055476732000897755,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6102_galloway_A",
+      "cohort": "exploration",
+      "seed": 6102,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6102_galloway_A",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2655,
+      "descriptor_seconds": 0.5408247619998292,
+      "recurrence": {
+        "first_time": 470,
+        "return_time": 472,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0204431,
+      "process_seconds": 0.030981927999164327,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6102_galloway_B",
+      "cohort": "exploration",
+      "seed": 6102,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6102_galloway_B",
+      "tail_occupancy": 0.976318359375,
+      "tail_activity": 0.9478326612903226,
+      "tail_repeated4_fraction": 0.9697265625,
+      "retained_repeated4_signatures": 10,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.1352704303569057,
+      "tail_compressibility": 0.9891357421875,
+      "exact_translation_fraction": 0.9354838709677419,
+      "median_best_shift": -7.0,
+      "signature_count_total": 1739,
+      "descriptor_seconds": 0.5541826669978036,
+      "recurrence": null,
+      "vector": [
+        0.976318359375,
+        0.9478326612903226,
+        0.9697265625,
+        0.9891357421875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0658388,
+      "process_seconds": 0.13516266099941276,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6102_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6102,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99383544921875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2301,
+      "descriptor_seconds": 0.5493666710026446,
+      "recurrence": {
+        "first_time": 126,
+        "return_time": 128,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99383544921875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0253246,
+      "process_seconds": 0.04205659299987019,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6102_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6102,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_quarters",
+      "tail_occupancy": 0.9921875,
+      "tail_activity": 0.6640625,
+      "tail_repeated4_fraction": 0.9840614681229363,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9703865123152997,
+      "tail_compressibility": 0.9910888671875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 1901,
+      "descriptor_seconds": 0.5689914219983621,
+      "recurrence": null,
+      "vector": [
+        0.9921875,
+        0.6640625,
+        0.9840614681229363,
+        0.9910888671875
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0124969,
+      "process_seconds": 0.019027465999897686,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6102_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6102,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_temporal",
+      "tail_occupancy": 1.0,
+      "tail_activity": 0.640625,
+      "tail_repeated4_fraction": 0.9523809523809523,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9047209661860875,
+      "tail_compressibility": 0.9912109375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 6436,
+      "descriptor_seconds": 0.6089206360011303,
+      "recurrence": null,
+      "vector": [
+        1.0,
+        0.640625,
+        0.9523809523809523,
+        0.9912109375
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0144583,
+      "process_seconds": 0.03211338899927796,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6103_galloway_A",
+      "cohort": "exploration",
+      "seed": 6103,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6103_galloway_A",
+      "tail_occupancy": 0.994873046875,
+      "tail_activity": 0.6693548387096774,
+      "tail_repeated4_fraction": 0.9659991099243437,
+      "retained_repeated4_signatures": 5,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9816625058123618,
+      "tail_compressibility": 0.99212646484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": 2.0,
+      "signature_count_total": 3462,
+      "descriptor_seconds": 0.6382886610008427,
+      "recurrence": {
+        "first_time": 425,
+        "return_time": 428,
+        "period": 3
+      },
+      "vector": [
+        0.994873046875,
+        0.6693548387096774,
+        0.9659991099243437,
+        0.99212646484375
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0326394,
+      "process_seconds": 0.039255457999388454,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6103_galloway_B",
+      "cohort": "exploration",
+      "seed": 6103,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6103_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 1896,
+      "descriptor_seconds": 0.5401808950009581,
+      "recurrence": {
+        "first_time": 166,
+        "return_time": 168,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0224743,
+      "process_seconds": 0.03258822899988445,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6103_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6103,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99383544921875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2527,
+      "descriptor_seconds": 0.7260600339977827,
+      "recurrence": {
+        "first_time": 181,
+        "return_time": 183,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99383544921875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0326105,
+      "process_seconds": 0.04798024999945483,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6103_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6103,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_quarters",
+      "tail_occupancy": 0.84375,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.9130434782608695,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.5018129191411136,
+      "tail_compressibility": 0.9918212890625,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": 1.0,
+      "signature_count_total": 2011,
+      "descriptor_seconds": 0.5244128390004335,
+      "recurrence": {
+        "first_time": 234,
+        "return_time": 362,
+        "period": 128
+      },
+      "vector": [
+        0.84375,
+        1.0,
+        0.9130434782608695,
+        0.9918212890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0226946,
+      "process_seconds": 0.032363442000132636,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6103_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6103,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_temporal",
+      "tail_occupancy": 0.65625,
+      "tail_activity": 0.6875,
+      "tail_repeated4_fraction": 0.890625,
+      "retained_repeated4_signatures": 12,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.6752386970918476,
+      "tail_compressibility": 0.9879150390625,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 3817,
+      "descriptor_seconds": 0.6480376830004388,
+      "recurrence": {
+        "first_time": 367,
+        "return_time": 431,
+        "period": 64
+      },
+      "vector": [
+        0.65625,
+        0.6875,
+        0.890625,
+        0.9879150390625
+      ],
+      "archive_bin": [
+        3,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0308666,
+      "process_seconds": 0.060186687000168604,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6104_galloway_A",
+      "cohort": "exploration",
+      "seed": 6104,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6104_galloway_A",
+      "tail_occupancy": 0.8671875,
+      "tail_activity": 0.953125,
+      "tail_repeated4_fraction": 0.953125,
+      "retained_repeated4_signatures": 12,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.4836475505741944,
+      "tail_compressibility": 0.98626708984375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 4708,
+      "descriptor_seconds": 0.5694922399998177,
+      "recurrence": null,
+      "vector": [
+        0.8671875,
+        0.953125,
+        0.953125,
+        0.98626708984375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0244075,
+      "process_seconds": 0.040015239001149894,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6104_galloway_B",
+      "cohort": "exploration",
+      "seed": 6104,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6104_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 1591,
+      "descriptor_seconds": 0.5332114550001279,
+      "recurrence": {
+        "first_time": 102,
+        "return_time": 104,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.02496,
+      "process_seconds": 0.03905419700095081,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6104_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6104,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3096,
+      "descriptor_seconds": 0.542303632999392,
+      "recurrence": {
+        "first_time": 393,
+        "return_time": 395,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0232344,
+      "process_seconds": 0.04529703700063692,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6104_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6104,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_quarters",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 5610,
+      "descriptor_seconds": 0.6418622609999147,
+      "recurrence": {
+        "first_time": 357,
+        "return_time": 359,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.028516,
+      "process_seconds": 0.03984459200000856,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6104_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6104,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_temporal",
+      "tail_occupancy": 0.5283203125,
+      "tail_activity": 0.6580141129032258,
+      "tail_repeated4_fraction": 0.1667740944043268,
+      "retained_repeated4_signatures": 0,
+      "tail_new4_signatures": 225,
+      "tail_entropy_bits": 2.4344374178688053,
+      "tail_compressibility": 0.91033935546875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 3880,
+      "descriptor_seconds": 0.5868572710023727,
+      "recurrence": null,
+      "vector": [
+        0.5283203125,
+        0.6580141129032258,
+        0.1667740944043268,
+        0.91033935546875
+      ],
+      "archive_bin": [
+        2,
+        3,
+        0
+      ],
+      "engine_seconds": 0.0227148,
+      "process_seconds": 0.02842137600055139,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6105_galloway_A",
+      "cohort": "exploration",
+      "seed": 6105,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6105_galloway_A",
+      "tail_occupancy": 0.9921875,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.953125,
+      "retained_repeated4_signatures": 6,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.1161150753047697,
+      "tail_compressibility": 0.99261474609375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2691,
+      "descriptor_seconds": 0.6132831149989215,
+      "recurrence": {
+        "first_time": 126,
+        "return_time": 128,
+        "period": 2
+      },
+      "vector": [
+        0.9921875,
+        1.0,
+        0.953125,
+        0.99261474609375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0187509,
+      "process_seconds": 0.02559843800008821,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6105_galloway_B",
+      "cohort": "exploration",
+      "seed": 6105,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6105_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99462890625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2784,
+      "descriptor_seconds": 0.6996970029977092,
+      "recurrence": {
+        "first_time": 287,
+        "return_time": 289,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99462890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0154235,
+      "process_seconds": 0.02419426999949792,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6105_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6105,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_halves",
+      "tail_occupancy": 0.396240234375,
+      "tail_activity": 0.3162802419354839,
+      "tail_repeated4_fraction": 0.6536282090816489,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.6244639130326521,
+      "tail_compressibility": 0.98040771484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -3.0,
+      "signature_count_total": 4771,
+      "descriptor_seconds": 0.5483878730010474,
+      "recurrence": null,
+      "vector": [
+        0.396240234375,
+        0.3162802419354839,
+        0.6536282090816489,
+        0.98040771484375
+      ],
+      "archive_bin": [
+        1,
+        1,
+        3
+      ],
+      "engine_seconds": 0.0148379,
+      "process_seconds": 0.021986875000948203,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6105_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6105,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_quarters",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3209,
+      "descriptor_seconds": 0.5976973350007029,
+      "recurrence": {
+        "first_time": 218,
+        "return_time": 220,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0440147,
+      "process_seconds": 0.06009077399903617,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6105_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6105,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_temporal",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2535,
+      "descriptor_seconds": 0.6854085790000681,
+      "recurrence": {
+        "first_time": 107,
+        "return_time": 109,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0247509,
+      "process_seconds": 0.03111780200015346,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6106_galloway_A",
+      "cohort": "exploration",
+      "seed": 6106,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6106_galloway_A",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3686,
+      "descriptor_seconds": 0.6296684019980603,
+      "recurrence": {
+        "first_time": 390,
+        "return_time": 392,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0197352,
+      "process_seconds": 0.025942551999833086,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6106_galloway_B",
+      "cohort": "exploration",
+      "seed": 6106,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6106_galloway_B",
+      "tail_occupancy": 0.8046875,
+      "tail_activity": 0.8125,
+      "tail_repeated4_fraction": 0.92,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.7448667363842882,
+      "tail_compressibility": 0.989990234375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 1638,
+      "descriptor_seconds": 0.6232971520003048,
+      "recurrence": {
+        "first_time": 183,
+        "return_time": 311,
+        "period": 128
+      },
+      "vector": [
+        0.8046875,
+        0.8125,
+        0.92,
+        0.989990234375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0202706,
+      "process_seconds": 0.02749988599862263,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6106_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6106,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3574,
+      "descriptor_seconds": 0.6801575370009232,
+      "recurrence": {
+        "first_time": 213,
+        "return_time": 215,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0192001,
+      "process_seconds": 0.03158247300052608,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6106_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6106,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_quarters",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2513,
+      "descriptor_seconds": 0.5747031090031669,
+      "recurrence": {
+        "first_time": 393,
+        "return_time": 395,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0361948,
+      "process_seconds": 0.05127375300071435,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6106_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6106,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_temporal",
+      "tail_occupancy": 0.257568359375,
+      "tail_activity": 0.3341733870967742,
+      "tail_repeated4_fraction": 0.25015366658222743,
+      "retained_repeated4_signatures": 5,
+      "tail_new4_signatures": 42,
+      "tail_entropy_bits": 1.447130779451035,
+      "tail_compressibility": 0.96612548828125,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": 2.0,
+      "signature_count_total": 6801,
+      "descriptor_seconds": 0.6734952490005526,
+      "recurrence": null,
+      "vector": [
+        0.257568359375,
+        0.3341733870967742,
+        0.25015366658222743,
+        0.96612548828125
+      ],
+      "archive_bin": [
+        1,
+        1,
+        1
+      ],
+      "engine_seconds": 0.0496713,
+      "process_seconds": 0.06307081799968728,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6107_galloway_A",
+      "cohort": "exploration",
+      "seed": 6107,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/exploration_6107_galloway_A",
+      "tail_occupancy": 0.9912109375,
+      "tail_activity": 0.9939516129032258,
+      "tail_repeated4_fraction": 0.98828125,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0638586977921576,
+      "tail_compressibility": 0.99188232421875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 5038,
+      "descriptor_seconds": 0.5776570510024612,
+      "recurrence": {
+        "first_time": 488,
+        "return_time": 490,
+        "period": 2
+      },
+      "vector": [
+        0.9912109375,
+        0.9939516129032258,
+        0.98828125,
+        0.99188232421875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0210229,
+      "process_seconds": 0.028232726999704028,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.7741935483870968,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6107_galloway_B",
+      "cohort": "exploration",
+      "seed": 6107,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/exploration_6107_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99462890625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2500,
+      "descriptor_seconds": 0.5711928099990473,
+      "recurrence": {
+        "first_time": 275,
+        "return_time": 277,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99462890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0219457,
+      "process_seconds": 0.032007145000534365,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6107_galloway_AB_halves",
+      "cohort": "exploration",
+      "seed": 6107,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_halves",
+      "tail_occupancy": 0.994873046875,
+      "tail_activity": 0.6665826612903226,
+      "tail_repeated4_fraction": 0.9790846456692914,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9564302684763173,
+      "tail_compressibility": 0.99322509765625,
+      "exact_translation_fraction": 0.3225806451612903,
+      "median_best_shift": -1.0,
+      "signature_count_total": 3106,
+      "descriptor_seconds": 0.6694712370008347,
+      "recurrence": {
+        "first_time": 336,
+        "return_time": 339,
+        "period": 3
+      },
+      "vector": [
+        0.994873046875,
+        0.6665826612903226,
+        0.9790846456692914,
+        0.99322509765625
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0145628,
+      "process_seconds": 0.020002236000436824,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6107_galloway_AB_quarters",
+      "cohort": "exploration",
+      "seed": 6107,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_quarters",
+      "tail_occupancy": 0.607421875,
+      "tail_activity": 0.711945564516129,
+      "tail_repeated4_fraction": 0.4384154049669951,
+      "retained_repeated4_signatures": 8,
+      "tail_new4_signatures": 134,
+      "tail_entropy_bits": 2.5846417203120398,
+      "tail_compressibility": 0.922607421875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 6404,
+      "descriptor_seconds": 0.5718532880018756,
+      "recurrence": null,
+      "vector": [
+        0.607421875,
+        0.711945564516129,
+        0.4384154049669951,
+        0.922607421875
+      ],
+      "archive_bin": [
+        3,
+        3,
+        2
+      ],
+      "engine_seconds": 0.0172071,
+      "process_seconds": 0.022504350999952294,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "exploration_6107_galloway_AB_temporal",
+      "cohort": "exploration",
+      "seed": 6107,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_temporal",
+      "tail_occupancy": 0.9921875,
+      "tail_activity": 0.6640625,
+      "tail_repeated4_fraction": 0.9840614681229363,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9703865123152997,
+      "tail_compressibility": 0.99127197265625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2649,
+      "descriptor_seconds": 0.6153780580025341,
+      "recurrence": null,
+      "vector": [
+        0.9921875,
+        0.6640625,
+        0.9840614681229363,
+        0.99127197265625
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0101969,
+      "process_seconds": 0.019069367999691167,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9200_galloway_A",
+      "cohort": "confirmation",
+      "seed": 9200,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/confirmation_9200_galloway_A",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3295,
+      "descriptor_seconds": 2.150574528997822,
+      "recurrence": {
+        "first_time": 193,
+        "return_time": 195,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0866009,
+      "process_seconds": 0.09429707299932488,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9200_galloway_B",
+      "cohort": "confirmation",
+      "seed": 9200,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/confirmation_9200_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99462890625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 1993,
+      "descriptor_seconds": 2.403447500997572,
+      "recurrence": {
+        "first_time": 272,
+        "return_time": 274,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99462890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0781676,
+      "process_seconds": 0.08815380899977754,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9200_galloway_AB_halves",
+      "cohort": "confirmation",
+      "seed": 9200,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_halves",
+      "tail_occupancy": 0.856689453125,
+      "tail_activity": 0.6693548387096774,
+      "tail_repeated4_fraction": 0.7395308665891773,
+      "retained_repeated4_signatures": 11,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.8820574010686872,
+      "tail_compressibility": 0.9820556640625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 3949,
+      "descriptor_seconds": 2.1618980130006094,
+      "recurrence": null,
+      "vector": [
+        0.856689453125,
+        0.6693548387096774,
+        0.7395308665891773,
+        0.9820556640625
+      ],
+      "archive_bin": [
+        4,
+        3,
+        3
+      ],
+      "engine_seconds": 0.0583374,
+      "process_seconds": 0.06447427999955835,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9200_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "seed": 9200,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_quarters",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 3833,
+      "descriptor_seconds": 2.3063498039991828,
+      "recurrence": {
+        "first_time": 356,
+        "return_time": 358,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0637966,
+      "process_seconds": 0.06905574899974454,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9200_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "seed": 9200,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_temporal",
+      "tail_occupancy": 0.734375,
+      "tail_activity": 0.7028729838709677,
+      "tail_repeated4_fraction": 0.83205325140809,
+      "retained_repeated4_signatures": 18,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.9641534065818715,
+      "tail_compressibility": 0.98297119140625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 4166,
+      "descriptor_seconds": 2.419553027000802,
+      "recurrence": {
+        "first_time": 383,
+        "return_time": 447,
+        "period": 64
+      },
+      "vector": [
+        0.734375,
+        0.7028729838709677,
+        0.83205325140809,
+        0.98297119140625
+      ],
+      "archive_bin": [
+        3,
+        3,
+        4
+      ],
+      "engine_seconds": 0.046363,
+      "process_seconds": 0.05243129299924476,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9201_galloway_A",
+      "cohort": "confirmation",
+      "seed": 9201,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/confirmation_9201_galloway_A",
+      "tail_occupancy": 0.9921875,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.9959677419354839,
+      "retained_repeated4_signatures": 6,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0580575376523849,
+      "tail_compressibility": 0.9930419921875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": 3.0,
+      "signature_count_total": 1710,
+      "descriptor_seconds": 2.0909397849973175,
+      "recurrence": {
+        "first_time": 150,
+        "return_time": 152,
+        "period": 2
+      },
+      "vector": [
+        0.9921875,
+        1.0,
+        0.9959677419354839,
+        0.9930419921875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0692262,
+      "process_seconds": 0.07707894099985424,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9201_galloway_B",
+      "cohort": "confirmation",
+      "seed": 9201,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/confirmation_9201_galloway_B",
+      "tail_occupancy": 0.7578125,
+      "tail_activity": 0.84375,
+      "tail_repeated4_fraction": 0.9137931034482759,
+      "retained_repeated4_signatures": 27,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.8395153510907563,
+      "tail_compressibility": 0.98590087890625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 1201,
+      "descriptor_seconds": 2.1436952730000485,
+      "recurrence": {
+        "first_time": 265,
+        "return_time": 393,
+        "period": 128
+      },
+      "vector": [
+        0.7578125,
+        0.84375,
+        0.9137931034482759,
+        0.98590087890625
+      ],
+      "archive_bin": [
+        3,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0545726,
+      "process_seconds": 0.0604194669995195,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9201_galloway_AB_halves",
+      "cohort": "confirmation",
+      "seed": 9201,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 5649,
+      "descriptor_seconds": 2.496986857997399,
+      "recurrence": {
+        "first_time": 784,
+        "return_time": 786,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0888077,
+      "process_seconds": 0.0990800230010791,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9201_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "seed": 9201,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_quarters",
+      "tail_occupancy": 1.0,
+      "tail_activity": 0.65625,
+      "tail_repeated4_fraction": 0.984251968503937,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9129992135852473,
+      "tail_compressibility": 0.99200439453125,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 6844,
+      "descriptor_seconds": 2.5947408600004565,
+      "recurrence": {
+        "first_time": 561,
+        "return_time": 628,
+        "period": 67
+      },
+      "vector": [
+        1.0,
+        0.65625,
+        0.984251968503937,
+        0.99200439453125
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0628815,
+      "process_seconds": 0.0678606330002367,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9201_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "seed": 9201,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_temporal",
+      "tail_occupancy": 0.99755859375,
+      "tail_activity": 0.6600302419354839,
+      "tail_repeated4_fraction": 0.98178290497206,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9396923013881222,
+      "tail_compressibility": 0.99029541015625,
+      "exact_translation_fraction": 0.7096774193548387,
+      "median_best_shift": -2.0,
+      "signature_count_total": 3625,
+      "descriptor_seconds": 2.3355325750017073,
+      "recurrence": {
+        "first_time": 347,
+        "return_time": 417,
+        "period": 70
+      },
+      "vector": [
+        0.99755859375,
+        0.6600302419354839,
+        0.98178290497206,
+        0.99029541015625
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.101052,
+      "process_seconds": 0.1092016729999159,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9202_galloway_A",
+      "cohort": "confirmation",
+      "seed": 9202,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/confirmation_9202_galloway_A",
+      "tail_occupancy": 0.98828125,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.9453125,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0802534645186797,
+      "tail_compressibility": 0.99224853515625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -2.0,
+      "signature_count_total": 1613,
+      "descriptor_seconds": 2.0747991839998576,
+      "recurrence": {
+        "first_time": 89,
+        "return_time": 91,
+        "period": 2
+      },
+      "vector": [
+        0.98828125,
+        1.0,
+        0.9453125,
+        0.99224853515625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.188724,
+      "process_seconds": 0.2475627700005134,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9202_galloway_B",
+      "cohort": "confirmation",
+      "seed": 9202,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/confirmation_9202_galloway_B",
+      "tail_occupancy": 0.997314453125,
+      "tail_activity": 0.6691028225806451,
+      "tail_repeated4_fraction": 0.9762549212598426,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9659841011169155,
+      "tail_compressibility": 0.9931640625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 1037,
+      "descriptor_seconds": 2.138235452999652,
+      "recurrence": {
+        "first_time": 155,
+        "return_time": 158,
+        "period": 3
+      },
+      "vector": [
+        0.997314453125,
+        0.6691028225806451,
+        0.9762549212598426,
+        0.9931640625
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ],
+      "engine_seconds": 0.0874,
+      "process_seconds": 0.09724489200016251,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9202_galloway_AB_halves",
+      "cohort": "confirmation",
+      "seed": 9202,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99444580078125,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 5732,
+      "descriptor_seconds": 2.5092448740033433,
+      "recurrence": {
+        "first_time": 307,
+        "return_time": 309,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99444580078125
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.12927,
+      "process_seconds": 0.13787462799882633,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9202_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "seed": 9202,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_quarters",
+      "tail_occupancy": 0.90625,
+      "tail_activity": 0.9296875,
+      "tail_repeated4_fraction": 0.9230769230769231,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.8389163207874692,
+      "tail_compressibility": 0.99029541015625,
+      "exact_translation_fraction": 0.967741935483871,
+      "median_best_shift": -1.0,
+      "signature_count_total": 2051,
+      "descriptor_seconds": 2.119520147000003,
+      "recurrence": null,
+      "vector": [
+        0.90625,
+        0.9296875,
+        0.9230769230769231,
+        0.99029541015625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.064199,
+      "process_seconds": 0.07162138700005016,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9202_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "seed": 9202,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_temporal",
+      "tail_occupancy": 0.9765625,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.96875,
+      "retained_repeated4_signatures": 8,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.628944184623884,
+      "tail_compressibility": 0.9896240234375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": 2.0,
+      "signature_count_total": 2419,
+      "descriptor_seconds": 2.1742391750012757,
+      "recurrence": {
+        "first_time": 175,
+        "return_time": 239,
+        "period": 64
+      },
+      "vector": [
+        0.9765625,
+        1.0,
+        0.96875,
+        0.9896240234375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.0795268,
+      "process_seconds": 0.08710331200018118,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9203_galloway_A",
+      "cohort": "confirmation",
+      "seed": 9203,
+      "norm": "galloway_A",
+      "path": "results/heterogeneity/confirmation_9203_galloway_A",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99383544921875,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2848,
+      "descriptor_seconds": 2.3102993889988284,
+      "recurrence": {
+        "first_time": 412,
+        "return_time": 414,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99383544921875
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.178971,
+      "process_seconds": 0.1872382439996727,
+      "max_rss_kib": 3712,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9203_galloway_B",
+      "cohort": "confirmation",
+      "seed": 9203,
+      "norm": "galloway_B",
+      "path": "results/heterogeneity/confirmation_9203_galloway_B",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99456787109375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2358,
+      "descriptor_seconds": 2.2500251780002145,
+      "recurrence": {
+        "first_time": 207,
+        "return_time": 209,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99456787109375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.345574,
+      "process_seconds": 0.8125079189994722,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9203_galloway_AB_halves",
+      "cohort": "confirmation",
+      "seed": 9203,
+      "norm": "galloway_AB_halves",
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_halves",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 4503,
+      "descriptor_seconds": 2.519418592000875,
+      "recurrence": {
+        "first_time": 615,
+        "return_time": 617,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.180523,
+      "process_seconds": 0.20642115199916589,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9203_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "seed": 9203,
+      "norm": "galloway_AB_quarters",
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_quarters",
+      "tail_occupancy": 0.997314453125,
+      "tail_activity": 0.8359375,
+      "tail_repeated4_fraction": 0.9794921875,
+      "retained_repeated4_signatures": 12,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.4073768977164614,
+      "tail_compressibility": 0.9906005859375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": 2.0,
+      "signature_count_total": 3120,
+      "descriptor_seconds": 3.137608581000677,
+      "recurrence": {
+        "first_time": 367,
+        "return_time": 373,
+        "period": 6
+      },
+      "vector": [
+        0.997314453125,
+        0.8359375,
+        0.9794921875,
+        0.9906005859375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.12278,
+      "process_seconds": 0.3145442080003704,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 0.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    },
+    {
+      "id": "confirmation_9203_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "seed": 9203,
+      "norm": "galloway_AB_temporal",
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_temporal",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.993896484375,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": null,
+      "signature_count_total": 2200,
+      "descriptor_seconds": 2.2761070640008256,
+      "recurrence": {
+        "first_time": 190,
+        "return_time": 192,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.993896484375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ],
+      "engine_seconds": 0.216992,
+      "process_seconds": 0.2302532630001224,
+      "max_rss_kib": 3584,
+      "stationary_fraction": 0.0,
+      "ambiguous_translation_fraction": 1.0,
+      "boundary": "ring",
+      "descriptor_version": 2
+    }
+  ],
+  "contrasts": [
+    {
+      "cohort": "exploration",
+      "treatment": "galloway_AB_halves",
+      "metrics": {
+        "tail_activity": {
+          "mean": -0.13645098286290322,
+          "ci95_percentile": [
+            -0.3309759324596774,
+            0.024715300529233847
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_repeated4_fraction": {
+          "mean": -0.10475750409116012,
+          "ci95_percentile": [
+            -0.23590113845741328,
+            0.005998426554522831
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "retained_repeated4_signatures": {
+          "mean": 0.4375,
+          "ci95_percentile": [
+            -1.9375,
+            3.2515624999999773
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_new4_signatures": {
+          "mean": 15.25,
+          "ci95_percentile": [
+            0.0,
+            42.25
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        }
+      }
+    },
+    {
+      "cohort": "exploration",
+      "treatment": "galloway_AB_quarters",
+      "metrics": {
+        "tail_activity": {
+          "mean": -0.059554561491935484,
+          "ci95_percentile": [
+            -0.17527721774193547,
+            0.049631426411290314
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_repeated4_fraction": {
+          "mean": -0.06803811380707614,
+          "ci95_percentile": [
+            -0.2118754828034226,
+            0.018101735784712275
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "retained_repeated4_signatures": {
+          "mean": 0.4375,
+          "ci95_percentile": [
+            -2.0625,
+            3.5
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_new4_signatures": {
+          "mean": 16.75,
+          "ci95_percentile": [
+            0.0,
+            50.25
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        }
+      }
+    },
+    {
+      "cohort": "exploration",
+      "treatment": "galloway_AB_temporal",
+      "metrics": {
+        "tail_activity": {
+          "mean": -0.2549930695564516,
+          "ci95_percentile": [
+            -0.3799469978578629,
+            -0.1259765625
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_repeated4_fraction": {
+          "mean": -0.20390759996175384,
+          "ci95_percentile": [
+            -0.45532477730417875,
+            -0.009047193596977907
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "retained_repeated4_signatures": {
+          "mean": -1.0625,
+          "ci95_percentile": [
+            -3.875,
+            2.1875
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_new4_signatures": {
+          "mean": 33.375,
+          "ci95_percentile": [
+            0.0,
+            89.625
+          ],
+          "units": 8,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        }
+      }
+    },
+    {
+      "cohort": "confirmation",
+      "treatment": "galloway_AB_halves",
+      "metrics": {
+        "tail_activity": {
+          "mean": -0.021767893145161282,
+          "ci95_percentile": [
+            -0.22845262096774197,
+            0.12408644153225812
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_repeated4_fraction": {
+          "mean": -0.044033316683155965,
+          "ci95_percentile": [
+            -0.18554777771559733,
+            0.042167933339099406
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "retained_repeated4_signatures": {
+          "mean": -1.25,
+          "ci95_percentile": [
+            -9.125,
+            5.625
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_new4_signatures": {
+          "mean": 0.0,
+          "ci95_percentile": [
+            0.0,
+            0.0
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        }
+      }
+    },
+    {
+      "cohort": "confirmation",
+      "treatment": "galloway_AB_quarters",
+      "metrics": {
+        "tail_activity": {
+          "mean": -0.08363785282258063,
+          "ci95_percentile": [
+            -0.21484375,
+            0.047568044354838745
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_repeated4_fraction": {
+          "mean": -0.007210763560235256,
+          "ci95_percentile": [
+            -0.029107300026499083,
+            0.016901706234042857
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "retained_repeated4_signatures": {
+          "mean": -0.75,
+          "ci95_percentile": [
+            -9.875,
+            6.875
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_new4_signatures": {
+          "mean": 0.0,
+          "ci95_percentile": [
+            0.0,
+            0.0
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        }
+      }
+    },
+    {
+      "cohort": "confirmation",
+      "treatment": "galloway_AB_temporal",
+      "metrics": {
+        "tail_activity": {
+          "mean": -0.09838079637096772,
+          "ci95_percentile": [
+            -0.2794858870967742,
+            0.08272429435483875
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_repeated4_fraction": {
+          "mean": -0.03326949423541278,
+          "ci95_percentile": [
+            -0.12396848910141278,
+            0.02017686171013508
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "retained_repeated4_signatures": {
+          "mean": 1.75,
+          "ci95_percentile": [
+            -9.0,
+            11.5
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        },
+        "tail_new4_signatures": {
+          "mean": 0.0,
+          "ci95_percentile": [
+            0.0,
+            0.0
+          ],
+          "units": 4,
+          "method": "seed/search-level bootstrap; exploratory with very few units"
+        }
+      }
+    }
+  ],
+  "damage": [
+    {
+      "id": "exploration_6100_galloway_A__damage",
+      "seed": 6100,
+      "norm": "galloway_A",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99383544921875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 8,
+        "descriptor_seconds": 0.14623370799745317,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99383544921875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99383544921875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 4,
+        "descriptor_seconds": 0.14923999500024365,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99383544921875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.018543125999713084
+    },
+    {
+      "id": "exploration_6100_galloway_B__damage",
+      "seed": 6100,
+      "norm": "galloway_B",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 7,
+        "descriptor_seconds": 0.1318049389992666,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2,
+        "descriptor_seconds": 0.13248671499968623,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.03411794800013013
+    },
+    {
+      "id": "exploration_6100_galloway_AB_halves__damage",
+      "seed": 6100,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 4,
+      "damaged": {
+        "tail_occupancy": 0.7890625,
+        "tail_activity": 0.8452620967741935,
+        "tail_repeated4_fraction": 0.5446594824803559,
+        "retained_repeated4_signatures": 16,
+        "tail_new4_signatures": 152,
+        "tail_entropy_bits": 2.2509966103533574,
+        "tail_compressibility": 0.9339599609375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2502,
+        "descriptor_seconds": 0.14851533199907863,
+        "recurrence": null,
+        "vector": [
+          0.7890625,
+          0.8452620967741935,
+          0.5446594824803559,
+          0.9339599609375
+        ],
+        "archive_bin": [
+          3,
+          4,
+          2
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.820556640625,
+        "tail_activity": 0.8581149193548387,
+        "tail_repeated4_fraction": 0.6137966683679867,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 255,
+        "tail_entropy_bits": 2.4607868383081826,
+        "tail_compressibility": 0.9417724609375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2800,
+        "descriptor_seconds": 0.17094884700054536,
+        "vector": [
+          0.820556640625,
+          0.8581149193548387,
+          0.6137966683679867,
+          0.9417724609375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          3
+        ]
+      },
+      "occupancy_difference": -0.031494140625,
+      "repeated4_difference": -0.06913718588763085,
+      "process_seconds": 0.08330600200133631
+    },
+    {
+      "id": "exploration_6100_galloway_AB_quarters__damage",
+      "seed": 6100,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 5,
+      "damaged": {
+        "tail_occupancy": 0.596923828125,
+        "tail_activity": 0.7104334677419355,
+        "tail_repeated4_fraction": 0.4116636548745587,
+        "retained_repeated4_signatures": 7,
+        "tail_new4_signatures": 175,
+        "tail_entropy_bits": 2.4944804130728557,
+        "tail_compressibility": 0.95654296875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 1153,
+        "descriptor_seconds": 0.13413027199931093,
+        "recurrence": null,
+        "vector": [
+          0.596923828125,
+          0.7104334677419355,
+          0.4116636548745587,
+          0.95654296875
+        ],
+        "archive_bin": [
+          2,
+          3,
+          2
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.958251953125,
+        "tail_activity": 0.8543346774193549,
+        "tail_repeated4_fraction": 0.9478934869097504,
+        "retained_repeated4_signatures": 12,
+        "tail_new4_signatures": 7,
+        "tail_entropy_bits": 1.6033371088793364,
+        "tail_compressibility": 0.9803466796875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 1189,
+        "descriptor_seconds": 0.1402550530001463,
+        "vector": [
+          0.958251953125,
+          0.8543346774193549,
+          0.9478934869097504,
+          0.9803466796875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": -0.361328125,
+      "repeated4_difference": -0.5362298320351917,
+      "process_seconds": 0.029915824999989127
+    },
+    {
+      "id": "exploration_6100_galloway_AB_temporal__damage",
+      "seed": 6100,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 5,
+      "damaged": {
+        "tail_occupancy": 0.9921875,
+        "tail_activity": 0.6640625,
+        "tail_repeated4_fraction": 0.9840614681229363,
+        "retained_repeated4_signatures": 3,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 0.9703865123152997,
+        "tail_compressibility": 0.99176025390625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 38,
+        "descriptor_seconds": 0.1356763570001931,
+        "recurrence": null,
+        "vector": [
+          0.9921875,
+          0.6640625,
+          0.9840614681229363,
+          0.99176025390625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.9921875,
+        "tail_activity": 0.6640625,
+        "tail_repeated4_fraction": 0.9840614681229363,
+        "retained_repeated4_signatures": 3,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 0.9703865123152997,
+        "tail_compressibility": 0.99176025390625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 34,
+        "descriptor_seconds": 0.15130947199941147,
+        "vector": [
+          0.9921875,
+          0.6640625,
+          0.9840614681229363,
+          0.99176025390625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.028865752999990946
+    },
+    {
+      "id": "exploration_6101_galloway_A__damage",
+      "seed": 6101,
+      "norm": "galloway_A",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.984375,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 0.9683779761904762,
+        "retained_repeated4_signatures": 10,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.1003111621563573,
+        "tail_compressibility": 0.991455078125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 21,
+        "descriptor_seconds": 0.18596481699933065,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          0.984375,
+          1.0,
+          0.9683779761904762,
+          0.991455078125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.984375,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 0.9683779761904762,
+        "retained_repeated4_signatures": 10,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.1003111621563573,
+        "tail_compressibility": 0.991455078125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 18,
+        "descriptor_seconds": 0.14378604699959396,
+        "vector": [
+          0.984375,
+          1.0,
+          0.9683779761904762,
+          0.991455078125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.04468440299933718
+    },
+    {
+      "id": "exploration_6101_galloway_B__damage",
+      "seed": 6101,
+      "norm": "galloway_B",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 6,
+        "descriptor_seconds": 0.14136556999801542,
+        "recurrence": {
+          "first_time": 1,
+          "return_time": 3,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2,
+        "descriptor_seconds": 0.14868203500009258,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.6677110260006884
+    },
+    {
+      "id": "exploration_6101_galloway_AB_halves__damage",
+      "seed": 6101,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 6,
+      "damaged": {
+        "tail_occupancy": 0.809326171875,
+        "tail_activity": 0.6464213709677419,
+        "tail_repeated4_fraction": 0.5372973361494399,
+        "retained_repeated4_signatures": 14,
+        "tail_new4_signatures": 42,
+        "tail_entropy_bits": 2.2924669101310315,
+        "tail_compressibility": 0.96893310546875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 999,
+        "descriptor_seconds": 0.14738027199928183,
+        "recurrence": null,
+        "vector": [
+          0.809326171875,
+          0.6464213709677419,
+          0.5372973361494399,
+          0.96893310546875
+        ],
+        "archive_bin": [
+          4,
+          3,
+          2
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.721923828125,
+        "tail_activity": 0.7774697580645161,
+        "tail_repeated4_fraction": 0.6623858285144737,
+        "retained_repeated4_signatures": 15,
+        "tail_new4_signatures": 204,
+        "tail_entropy_bits": 2.414088337627682,
+        "tail_compressibility": 0.94775390625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 874,
+        "descriptor_seconds": 0.1360240040012286,
+        "vector": [
+          0.721923828125,
+          0.7774697580645161,
+          0.6623858285144737,
+          0.94775390625
+        ],
+        "archive_bin": [
+          3,
+          3,
+          3
+        ]
+      },
+      "occupancy_difference": 0.08740234375,
+      "repeated4_difference": -0.12508849236503383,
+      "process_seconds": 0.022790486000303645
+    },
+    {
+      "id": "exploration_6101_galloway_AB_quarters__damage",
+      "seed": 6101,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.946044921875,
+        "tail_activity": 0.9412802419354839,
+        "tail_repeated4_fraction": 0.8517852804068469,
+        "retained_repeated4_signatures": 8,
+        "tail_new4_signatures": 77,
+        "tail_entropy_bits": 2.2145981136456085,
+        "tail_compressibility": 0.969482421875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 714,
+        "descriptor_seconds": 0.13323667399890837,
+        "recurrence": null,
+        "vector": [
+          0.946044921875,
+          0.9412802419354839,
+          0.8517852804068469,
+          0.969482421875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.946044921875,
+        "tail_activity": 0.9412802419354839,
+        "tail_repeated4_fraction": 0.8517852804068469,
+        "retained_repeated4_signatures": 8,
+        "tail_new4_signatures": 77,
+        "tail_entropy_bits": 2.2145981136456085,
+        "tail_compressibility": 0.969482421875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 714,
+        "descriptor_seconds": 0.1312279590019898,
+        "vector": [
+          0.946044921875,
+          0.9412802419354839,
+          0.8517852804068469,
+          0.969482421875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.019442058999629808
+    },
+    {
+      "id": "exploration_6101_galloway_AB_temporal__damage",
+      "seed": 6101,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.62890625,
+        "tail_activity": 0.579133064516129,
+        "tail_repeated4_fraction": 0.8189932652702798,
+        "retained_repeated4_signatures": 11,
+        "tail_new4_signatures": 26,
+        "tail_entropy_bits": 2.01444543148916,
+        "tail_compressibility": 0.97491455078125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 926,
+        "descriptor_seconds": 0.13290254900130094,
+        "recurrence": null,
+        "vector": [
+          0.62890625,
+          0.579133064516129,
+          0.8189932652702798,
+          0.97491455078125
+        ],
+        "archive_bin": [
+          3,
+          2,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.982177734375,
+        "tail_activity": 0.9926915322580645,
+        "tail_repeated4_fraction": 0.9497723415755128,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 47,
+        "tail_entropy_bits": 1.2684176940662886,
+        "tail_compressibility": 0.98321533203125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.6129032258064516,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 932,
+        "descriptor_seconds": 0.1370859210001072,
+        "vector": [
+          0.982177734375,
+          0.9926915322580645,
+          0.9497723415755128,
+          0.98321533203125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": -0.353271484375,
+      "repeated4_difference": -0.130779076305233,
+      "process_seconds": 0.017855714999313932
+    },
+    {
+      "id": "exploration_6102_galloway_A__damage",
+      "seed": 6102,
+      "norm": "galloway_A",
+      "removed_cells": 4,
+      "damaged": {
+        "tail_occupancy": 0.858642578125,
+        "tail_activity": 0.6897681451612904,
+        "tail_repeated4_fraction": 0.5024300463929652,
+        "retained_repeated4_signatures": 29,
+        "tail_new4_signatures": 45,
+        "tail_entropy_bits": 2.2733898550958083,
+        "tail_compressibility": 0.97149658203125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 712,
+        "descriptor_seconds": 0.13413633999880403,
+        "recurrence": null,
+        "vector": [
+          0.858642578125,
+          0.6897681451612904,
+          0.5024300463929652,
+          0.97149658203125
+        ],
+        "archive_bin": [
+          4,
+          3,
+          2
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.858642578125,
+        "tail_activity": 0.6897681451612904,
+        "tail_repeated4_fraction": 0.5024300463929652,
+        "retained_repeated4_signatures": 29,
+        "tail_new4_signatures": 45,
+        "tail_entropy_bits": 2.2733898550958083,
+        "tail_compressibility": 0.97149658203125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 712,
+        "descriptor_seconds": 0.12941603600120288,
+        "vector": [
+          0.858642578125,
+          0.6897681451612904,
+          0.5024300463929652,
+          0.97149658203125
+        ],
+        "archive_bin": [
+          4,
+          3,
+          2
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.027587585000219406
+    },
+    {
+      "id": "exploration_6102_galloway_B__damage",
+      "seed": 6102,
+      "norm": "galloway_B",
+      "removed_cells": 6,
+      "damaged": {
+        "tail_occupancy": 0.97607421875,
+        "tail_activity": 0.8744959677419355,
+        "tail_repeated4_fraction": 0.970703125,
+        "retained_repeated4_signatures": 10,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.125752833215332,
+        "tail_compressibility": 0.9886474609375,
+        "exact_translation_fraction": 0.8709677419354839,
+        "median_best_shift": -7.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 29,
+        "descriptor_seconds": 0.1464279659994645,
+        "recurrence": null,
+        "vector": [
+          0.97607421875,
+          0.8744959677419355,
+          0.970703125,
+          0.9886474609375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.97607421875,
+        "tail_activity": 0.8598790322580645,
+        "tail_repeated4_fraction": 0.970703125,
+        "retained_repeated4_signatures": 10,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.1226759370155284,
+        "tail_compressibility": 0.98846435546875,
+        "exact_translation_fraction": 0.8709677419354839,
+        "median_best_shift": -7.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 36,
+        "descriptor_seconds": 0.13663142299992614,
+        "vector": [
+          0.97607421875,
+          0.8598790322580645,
+          0.970703125,
+          0.98846435546875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.027411844001107966
+    },
+    {
+      "id": "exploration_6102_galloway_AB_halves__damage",
+      "seed": 6102,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99383544921875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 8,
+        "descriptor_seconds": 0.13442021700029727,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99383544921875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99383544921875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 4,
+        "descriptor_seconds": 0.13296262299991213,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99383544921875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.011896175999936531
+    },
+    {
+      "id": "exploration_6102_galloway_AB_quarters__damage",
+      "seed": 6102,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.9921875,
+        "tail_activity": 0.6640625,
+        "tail_repeated4_fraction": 0.9840614681229363,
+        "retained_repeated4_signatures": 3,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 0.9703865123152997,
+        "tail_compressibility": 0.99127197265625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 27,
+        "descriptor_seconds": 0.15890279800078133,
+        "recurrence": null,
+        "vector": [
+          0.9921875,
+          0.6640625,
+          0.9840614681229363,
+          0.99127197265625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.9921875,
+        "tail_activity": 0.6640625,
+        "tail_repeated4_fraction": 0.9840614681229363,
+        "retained_repeated4_signatures": 3,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 0.9703865123152997,
+        "tail_compressibility": 0.99127197265625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 23,
+        "descriptor_seconds": 0.13241554499836639,
+        "vector": [
+          0.9921875,
+          0.6640625,
+          0.9840614681229363,
+          0.99127197265625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.01421963400025561
+    },
+    {
+      "id": "exploration_6102_galloway_AB_temporal__damage",
+      "seed": 6102,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.835693359375,
+        "tail_activity": 0.5559475806451613,
+        "tail_repeated4_fraction": 0.7959019357274244,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 22,
+        "tail_entropy_bits": 1.6160748464931554,
+        "tail_compressibility": 0.9779052734375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 717,
+        "descriptor_seconds": 0.1312852949995431,
+        "recurrence": null,
+        "vector": [
+          0.835693359375,
+          0.5559475806451613,
+          0.7959019357274244,
+          0.9779052734375
+        ],
+        "archive_bin": [
+          4,
+          2,
+          3
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.835693359375,
+        "tail_activity": 0.5559475806451613,
+        "tail_repeated4_fraction": 0.7959019357274244,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 22,
+        "tail_entropy_bits": 1.6160748464931554,
+        "tail_compressibility": 0.9779052734375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 717,
+        "descriptor_seconds": 0.14069887500227196,
+        "vector": [
+          0.835693359375,
+          0.5559475806451613,
+          0.7959019357274244,
+          0.9779052734375
+        ],
+        "archive_bin": [
+          4,
+          2,
+          3
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.0165653559997736
+    },
+    {
+      "id": "exploration_6103_galloway_A__damage",
+      "seed": 6103,
+      "norm": "galloway_A",
+      "removed_cells": 7,
+      "damaged": {
+        "tail_occupancy": 0.98583984375,
+        "tail_activity": 0.6769153225806451,
+        "tail_repeated4_fraction": 0.930186561162623,
+        "retained_repeated4_signatures": 8,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.065322243966853,
+        "tail_compressibility": 0.9898681640625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 64,
+        "descriptor_seconds": 0.14330971000163117,
+        "recurrence": null,
+        "vector": [
+          0.98583984375,
+          0.6769153225806451,
+          0.930186561162623,
+          0.9898681640625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.985595703125,
+        "tail_activity": 0.6771673387096774,
+        "tail_repeated4_fraction": 0.9300711909905905,
+        "retained_repeated4_signatures": 8,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0666711011903622,
+        "tail_compressibility": 0.98968505859375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 50,
+        "descriptor_seconds": 0.13225503899957403,
+        "vector": [
+          0.985595703125,
+          0.6771673387096774,
+          0.9300711909905905,
+          0.98968505859375
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.000244140625,
+      "repeated4_difference": 0.00011537017203244737,
+      "process_seconds": 0.023692638998909388
+    },
+    {
+      "id": "exploration_6103_galloway_B__damage",
+      "seed": 6103,
+      "norm": "galloway_B",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 7,
+        "descriptor_seconds": 0.1348774849975598,
+        "recurrence": {
+          "first_time": 4,
+          "return_time": 6,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2,
+        "descriptor_seconds": 0.1303948839995428,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.13258351300100912
+    },
+    {
+      "id": "exploration_6103_galloway_AB_halves__damage",
+      "seed": 6103,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99383544921875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 8,
+        "descriptor_seconds": 0.18600377799884882,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99383544921875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99383544921875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 4,
+        "descriptor_seconds": 0.14653091999934986,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99383544921875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.042267029000868206
+    },
+    {
+      "id": "exploration_6103_galloway_AB_quarters__damage",
+      "seed": 6103,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 4,
+      "damaged": {
+        "tail_occupancy": 0.8125,
+        "tail_activity": 0.9375,
+        "tail_repeated4_fraction": 0.9130434782608695,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.5485787483905542,
+        "tail_compressibility": 0.9915771484375,
+        "exact_translation_fraction": 1.0,
+        "median_best_shift": 1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 10,
+        "descriptor_seconds": 0.12052344400217407,
+        "recurrence": {
+          "first_time": 0,
+          "return_time": 128,
+          "period": 128
+        },
+        "vector": [
+          0.8125,
+          0.9375,
+          0.9130434782608695,
+          0.9915771484375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.84375,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 0.9130434782608695,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.5018129191411136,
+        "tail_compressibility": 0.9918212890625,
+        "exact_translation_fraction": 1.0,
+        "median_best_shift": 1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 10,
+        "descriptor_seconds": 0.11933189199771732,
+        "vector": [
+          0.84375,
+          1.0,
+          0.9130434782608695,
+          0.9918212890625
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": -0.03125,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.007672375000765896
+    },
+    {
+      "id": "exploration_6103_galloway_AB_temporal__damage",
+      "seed": 6103,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 5,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99395751953125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 427,
+        "descriptor_seconds": 0.16087603500272962,
+        "recurrence": {
+          "first_time": 81,
+          "return_time": 83,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99395751953125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.703857421875,
+        "tail_activity": 0.7368951612903226,
+        "tail_repeated4_fraction": 0.8857421875,
+        "retained_repeated4_signatures": 12,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.6971567945884365,
+        "tail_compressibility": 0.98663330078125,
+        "exact_translation_fraction": 0.5483870967741935,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 485,
+        "descriptor_seconds": 0.13472990000082063,
+        "vector": [
+          0.703857421875,
+          0.7368951612903226,
+          0.8857421875,
+          0.98663330078125
+        ],
+        "archive_bin": [
+          3,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.296142578125,
+      "repeated4_difference": 0.1142578125,
+      "process_seconds": 0.023183387000244693
+    },
+    {
+      "id": "exploration_6104_galloway_A__damage",
+      "seed": 6104,
+      "norm": "galloway_A",
+      "removed_cells": 3,
+      "damaged": {
+        "tail_occupancy": 0.9306640625,
+        "tail_activity": 0.9261592741935484,
+        "tail_repeated4_fraction": 0.8848419479660987,
+        "retained_repeated4_signatures": 14,
+        "tail_new4_signatures": 32,
+        "tail_entropy_bits": 1.6443274011922728,
+        "tail_compressibility": 0.98419189453125,
+        "exact_translation_fraction": 0.3548387096774194,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 174,
+        "descriptor_seconds": 0.14395737200175063,
+        "recurrence": null,
+        "vector": [
+          0.9306640625,
+          0.9261592741935484,
+          0.8848419479660987,
+          0.98419189453125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.8916015625,
+        "tail_activity": 0.9027217741935484,
+        "tail_repeated4_fraction": 0.814608648685031,
+        "retained_repeated4_signatures": 18,
+        "tail_new4_signatures": 32,
+        "tail_entropy_bits": 1.7417345702322287,
+        "tail_compressibility": 0.98175048828125,
+        "exact_translation_fraction": 0.3548387096774194,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 175,
+        "descriptor_seconds": 0.13974441700338502,
+        "vector": [
+          0.8916015625,
+          0.9027217741935484,
+          0.814608648685031,
+          0.98175048828125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0390625,
+      "repeated4_difference": 0.0702332992810677,
+      "process_seconds": 0.030782289999478962
+    },
+    {
+      "id": "exploration_6104_galloway_B__damage",
+      "seed": 6104,
+      "norm": "galloway_B",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 6,
+        "descriptor_seconds": 0.1447300740001083,
+        "recurrence": {
+          "first_time": 1,
+          "return_time": 3,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2,
+        "descriptor_seconds": 0.13791707000200404,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.026810303001184366
+    },
+    {
+      "id": "exploration_6104_galloway_AB_halves__damage",
+      "seed": 6104,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 6,
+      "damaged": {
+        "tail_occupancy": 0.968994140625,
+        "tail_activity": 0.6018145161290323,
+        "tail_repeated4_fraction": 0.9271988407258065,
+        "retained_repeated4_signatures": 8,
+        "tail_new4_signatures": 16,
+        "tail_entropy_bits": 1.2774350653527489,
+        "tail_compressibility": 0.97894287109375,
+        "exact_translation_fraction": 0.1935483870967742,
+        "median_best_shift": -5.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 432,
+        "descriptor_seconds": 0.14021986800071318,
+        "recurrence": null,
+        "vector": [
+          0.968994140625,
+          0.6018145161290323,
+          0.9271988407258065,
+          0.97894287109375
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.867919921875,
+        "tail_activity": 0.9039818548387096,
+        "tail_repeated4_fraction": 0.7827032582293942,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 109,
+        "tail_entropy_bits": 1.9472067343632973,
+        "tail_compressibility": 0.9678955078125,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 743,
+        "descriptor_seconds": 0.13413052500254707,
+        "vector": [
+          0.867919921875,
+          0.9039818548387096,
+          0.7827032582293942,
+          0.9678955078125
+        ],
+        "archive_bin": [
+          4,
+          4,
+          3
+        ]
+      },
+      "occupancy_difference": 0.10107421875,
+      "repeated4_difference": 0.14449558249641226,
+      "process_seconds": 0.010779039999761153
+    },
+    {
+      "id": "exploration_6104_galloway_AB_quarters__damage",
+      "seed": 6104,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 0,
+      "damaged": {
+        "tail_occupancy": 0.998046875,
+        "tail_activity": 0.9994959677419355,
+        "tail_repeated4_fraction": 0.9933732314222441,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 5,
+        "tail_entropy_bits": 1.0338263735939996,
+        "tail_compressibility": 0.99237060546875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.8709677419354839,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 373,
+        "descriptor_seconds": 0.1277935649995925,
+        "recurrence": {
+          "first_time": 101,
+          "return_time": 103,
+          "period": 2
+        },
+        "vector": [
+          0.998046875,
+          0.9994959677419355,
+          0.9933732314222441,
+          0.99237060546875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.998046875,
+        "tail_activity": 0.9994959677419355,
+        "tail_repeated4_fraction": 0.9933732314222441,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 5,
+        "tail_entropy_bits": 1.0338263735939996,
+        "tail_compressibility": 0.99237060546875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.8709677419354839,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 373,
+        "descriptor_seconds": 0.14139300999886473,
+        "vector": [
+          0.998046875,
+          0.9994959677419355,
+          0.9933732314222441,
+          0.99237060546875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.18280834600045637
+    },
+    {
+      "id": "exploration_6104_galloway_AB_temporal__damage",
+      "seed": 6104,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 7,
+      "damaged": {
+        "tail_occupancy": 0.918212890625,
+        "tail_activity": 0.7878024193548387,
+        "tail_repeated4_fraction": 0.8264221148442547,
+        "retained_repeated4_signatures": 21,
+        "tail_new4_signatures": 130,
+        "tail_entropy_bits": 1.960351443084974,
+        "tail_compressibility": 0.967041015625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -4.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 469,
+        "descriptor_seconds": 0.15159986399885383,
+        "recurrence": null,
+        "vector": [
+          0.918212890625,
+          0.7878024193548387,
+          0.8264221148442547,
+          0.967041015625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.918212890625,
+        "tail_activity": 0.7878024193548387,
+        "tail_repeated4_fraction": 0.8264221148442547,
+        "retained_repeated4_signatures": 21,
+        "tail_new4_signatures": 131,
+        "tail_entropy_bits": 1.960351443084974,
+        "tail_compressibility": 0.967041015625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -4.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 462,
+        "descriptor_seconds": 0.17471794800076168,
+        "vector": [
+          0.918212890625,
+          0.7878024193548387,
+          0.8264221148442547,
+          0.967041015625
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.06834175900075934
+    },
+    {
+      "id": "exploration_6105_galloway_A__damage",
+      "seed": 6105,
+      "norm": "galloway_A",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.9921875,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 0.953125,
+        "retained_repeated4_signatures": 6,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.1161150753047697,
+        "tail_compressibility": 0.99261474609375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 21,
+        "descriptor_seconds": 0.1616116969998984,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          0.9921875,
+          1.0,
+          0.953125,
+          0.99261474609375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.9921875,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 0.953125,
+        "retained_repeated4_signatures": 6,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.1161150753047697,
+        "tail_compressibility": 0.99261474609375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 18,
+        "descriptor_seconds": 0.1335535020007228,
+        "vector": [
+          0.9921875,
+          1.0,
+          0.953125,
+          0.99261474609375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.011359812000591774
+    },
+    {
+      "id": "exploration_6105_galloway_B__damage",
+      "seed": 6105,
+      "norm": "galloway_B",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99462890625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 18,
+        "descriptor_seconds": 0.1442806129998644,
+        "recurrence": {
+          "first_time": 31,
+          "return_time": 33,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99462890625
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99462890625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 15,
+        "descriptor_seconds": 0.12872416299796896,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99462890625
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.013179110999772092
+    },
+    {
+      "id": "exploration_6105_galloway_AB_halves__damage",
+      "seed": 6105,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.50830078125,
+        "tail_activity": 0.6043346774193549,
+        "tail_repeated4_fraction": 0.40591309622963423,
+        "retained_repeated4_signatures": 13,
+        "tail_new4_signatures": 318,
+        "tail_entropy_bits": 2.257814611757216,
+        "tail_compressibility": 0.9490966796875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -3.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 1295,
+        "descriptor_seconds": 0.1350871559989173,
+        "recurrence": null,
+        "vector": [
+          0.50830078125,
+          0.6043346774193549,
+          0.40591309622963423,
+          0.9490966796875
+        ],
+        "archive_bin": [
+          2,
+          3,
+          2
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.497314453125,
+        "tail_activity": 0.6222278225806451,
+        "tail_repeated4_fraction": 0.2882453513533698,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 289,
+        "tail_entropy_bits": 2.2841735481782797,
+        "tail_compressibility": 0.9306640625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 1277,
+        "descriptor_seconds": 0.14815104700028314,
+        "vector": [
+          0.497314453125,
+          0.6222278225806451,
+          0.2882453513533698,
+          0.9306640625
+        ],
+        "archive_bin": [
+          2,
+          3,
+          1
+        ]
+      },
+      "occupancy_difference": 0.010986328125,
+      "repeated4_difference": 0.11766774487626441,
+      "process_seconds": 0.03293254399977741
+    },
+    {
+      "id": "exploration_6105_galloway_AB_quarters__damage",
+      "seed": 6105,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.993896484375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 6,
+        "descriptor_seconds": 0.19015909000154352,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.993896484375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.993896484375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 4,
+        "descriptor_seconds": 0.13122798000040348,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.993896484375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.03145752199998242
+    },
+    {
+      "id": "exploration_6105_galloway_AB_temporal__damage",
+      "seed": 6105,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 7,
+        "descriptor_seconds": 0.23415488400132745,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.9945068359375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2,
+        "descriptor_seconds": 0.15228036400003475,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.9945068359375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.010883670000112033
+    },
+    {
+      "id": "exploration_6106_galloway_A__damage",
+      "seed": 6106,
+      "norm": "galloway_A",
+      "removed_cells": 6,
+      "damaged": {
+        "tail_occupancy": 0.845947265625,
+        "tail_activity": 0.8611391129032258,
+        "tail_repeated4_fraction": 0.8846255788417593,
+        "retained_repeated4_signatures": 8,
+        "tail_new4_signatures": 18,
+        "tail_entropy_bits": 1.6262331561149326,
+        "tail_compressibility": 0.98284912109375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 418,
+        "descriptor_seconds": 0.20261886700245668,
+        "recurrence": null,
+        "vector": [
+          0.845947265625,
+          0.8611391129032258,
+          0.8846255788417593,
+          0.98284912109375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.96875,
+        "tail_activity": 0.9765625,
+        "tail_repeated4_fraction": 0.890625,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.2270691497240445,
+        "tail_compressibility": 0.990234375,
+        "exact_translation_fraction": 1.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 417,
+        "descriptor_seconds": 0.24540746699858573,
+        "vector": [
+          0.96875,
+          0.9765625,
+          0.890625,
+          0.990234375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": -0.122802734375,
+      "repeated4_difference": -0.005999421158240703,
+      "process_seconds": 0.013333122999029001
+    },
+    {
+      "id": "exploration_6106_galloway_B__damage",
+      "seed": 6106,
+      "norm": "galloway_B",
+      "removed_cells": 7,
+      "damaged": {
+        "tail_occupancy": 0.8046875,
+        "tail_activity": 0.8125,
+        "tail_repeated4_fraction": 0.92,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.7644256203677688,
+        "tail_compressibility": 0.989990234375,
+        "exact_translation_fraction": 1.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 21,
+        "descriptor_seconds": 0.1301300960003573,
+        "recurrence": null,
+        "vector": [
+          0.8046875,
+          0.8125,
+          0.92,
+          0.989990234375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.8046875,
+        "tail_activity": 0.8125,
+        "tail_repeated4_fraction": 0.92,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.7448667363842882,
+        "tail_compressibility": 0.989990234375,
+        "exact_translation_fraction": 1.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 12,
+        "descriptor_seconds": 0.12417081400053576,
+        "vector": [
+          0.8046875,
+          0.8125,
+          0.92,
+          0.989990234375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.022264756000367925
+    },
+    {
+      "id": "exploration_6106_galloway_AB_halves__damage",
+      "seed": 6106,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.993896484375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 6,
+        "descriptor_seconds": 0.15465892900101608,
+        "recurrence": {
+          "first_time": 2,
+          "return_time": 4,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.993896484375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.993896484375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 4,
+        "descriptor_seconds": 0.12860902800093754,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.993896484375
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.0190720649989089
+    },
+    {
+      "id": "exploration_6106_galloway_AB_quarters__damage",
+      "seed": 6106,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.928955078125,
+        "tail_activity": 0.46875,
+        "tail_repeated4_fraction": 0.7069925612458434,
+        "retained_repeated4_signatures": 10,
+        "tail_new4_signatures": 27,
+        "tail_entropy_bits": 1.7637468444554076,
+        "tail_compressibility": 0.97357177734375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 357,
+        "descriptor_seconds": 0.12800835199959693,
+        "recurrence": null,
+        "vector": [
+          0.928955078125,
+          0.46875,
+          0.7069925612458434,
+          0.97357177734375
+        ],
+        "archive_bin": [
+          4,
+          2,
+          3
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.8505859375,
+        "tail_activity": 0.8631552419354839,
+        "tail_repeated4_fraction": 0.9247347965847399,
+        "retained_repeated4_signatures": 16,
+        "tail_new4_signatures": 1,
+        "tail_entropy_bits": 1.5196150563156077,
+        "tail_compressibility": 0.98443603515625,
+        "exact_translation_fraction": 0.2903225806451613,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 367,
+        "descriptor_seconds": 0.12299520599844982,
+        "vector": [
+          0.8505859375,
+          0.8631552419354839,
+          0.9247347965847399,
+          0.98443603515625
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.078369140625,
+      "repeated4_difference": -0.21774223533889647,
+      "process_seconds": 0.01565229699917836
+    },
+    {
+      "id": "exploration_6106_galloway_AB_temporal__damage",
+      "seed": 6106,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 3,
+      "damaged": {
+        "tail_occupancy": 0.8466796875,
+        "tail_activity": 0.8742439516129032,
+        "tail_repeated4_fraction": 0.6613627628582388,
+        "retained_repeated4_signatures": 5,
+        "tail_new4_signatures": 251,
+        "tail_entropy_bits": 2.5945744162842423,
+        "tail_compressibility": 0.9451904296875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 1434,
+        "descriptor_seconds": 0.14299110399952042,
+        "recurrence": null,
+        "vector": [
+          0.8466796875,
+          0.8742439516129032,
+          0.6613627628582388,
+          0.9451904296875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          3
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.62841796875,
+        "tail_activity": 0.7542842741935484,
+        "tail_repeated4_fraction": 0.2031178462437776,
+        "retained_repeated4_signatures": 6,
+        "tail_new4_signatures": 522,
+        "tail_entropy_bits": 2.5740791407132515,
+        "tail_compressibility": 0.894775390625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2515,
+        "descriptor_seconds": 0.14302938000037102,
+        "vector": [
+          0.62841796875,
+          0.7542842741935484,
+          0.2031178462437776,
+          0.894775390625
+        ],
+        "archive_bin": [
+          3,
+          3,
+          1
+        ]
+      },
+      "occupancy_difference": 0.21826171875,
+      "repeated4_difference": 0.4582449166144612,
+      "process_seconds": 0.01518352599850914
+    },
+    {
+      "id": "exploration_6107_galloway_A__damage",
+      "seed": 6107,
+      "norm": "galloway_A",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.620849609375,
+        "tail_activity": 0.7593245967741935,
+        "tail_repeated4_fraction": 0.23586436599346333,
+        "retained_repeated4_signatures": 5,
+        "tail_new4_signatures": 474,
+        "tail_entropy_bits": 2.581430645127354,
+        "tail_compressibility": 0.89215087890625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2051,
+        "descriptor_seconds": 0.1424213009995583,
+        "recurrence": null,
+        "vector": [
+          0.620849609375,
+          0.7593245967741935,
+          0.23586436599346333,
+          0.89215087890625
+        ],
+        "archive_bin": [
+          3,
+          3,
+          1
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.68408203125,
+        "tail_activity": 0.7565524193548387,
+        "tail_repeated4_fraction": 0.3430242876798727,
+        "retained_repeated4_signatures": 4,
+        "tail_new4_signatures": 277,
+        "tail_entropy_bits": 2.5767654877396975,
+        "tail_compressibility": 0.91400146484375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 1788,
+        "descriptor_seconds": 0.15294486800121376,
+        "vector": [
+          0.68408203125,
+          0.7565524193548387,
+          0.3430242876798727,
+          0.91400146484375
+        ],
+        "archive_bin": [
+          3,
+          3,
+          1
+        ]
+      },
+      "occupancy_difference": -0.063232421875,
+      "repeated4_difference": -0.10715992168640937,
+      "process_seconds": 0.019788734000030672
+    },
+    {
+      "id": "exploration_6107_galloway_B__damage",
+      "seed": 6107,
+      "norm": "galloway_B",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99462890625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 31,
+        "descriptor_seconds": 0.13635908699870924,
+        "recurrence": {
+          "first_time": 19,
+          "return_time": 21,
+          "period": 2
+        },
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99462890625
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 1.0,
+        "tail_activity": 1.0,
+        "tail_repeated4_fraction": 1.0,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.0,
+        "tail_compressibility": 0.99462890625,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": null,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 1.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 29,
+        "descriptor_seconds": 0.13436289699893678,
+        "vector": [
+          1.0,
+          1.0,
+          1.0,
+          0.99462890625
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.01068480100002489
+    },
+    {
+      "id": "exploration_6107_galloway_AB_halves__damage",
+      "seed": 6107,
+      "norm": "galloway_AB_halves",
+      "removed_cells": 5,
+      "damaged": {
+        "tail_occupancy": 0.994873046875,
+        "tail_activity": 0.6665826612903226,
+        "tail_repeated4_fraction": 0.9790846456692914,
+        "retained_repeated4_signatures": 3,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 0.9564302684763173,
+        "tail_compressibility": 0.9932861328125,
+        "exact_translation_fraction": 0.3225806451612903,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 71,
+        "descriptor_seconds": 0.14132606900238898,
+        "recurrence": {
+          "first_time": 77,
+          "return_time": 80,
+          "period": 3
+        },
+        "vector": [
+          0.994873046875,
+          0.6665826612903226,
+          0.9790846456692914,
+          0.9932861328125
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.994873046875,
+        "tail_activity": 0.6665826612903226,
+        "tail_repeated4_fraction": 0.9790846456692914,
+        "retained_repeated4_signatures": 3,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 0.9564302684763173,
+        "tail_compressibility": 0.9932861328125,
+        "exact_translation_fraction": 0.3225806451612903,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 72,
+        "descriptor_seconds": 0.13125936000142246,
+        "vector": [
+          0.994873046875,
+          0.6665826612903226,
+          0.9790846456692914,
+          0.9932861328125
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.0,
+      "repeated4_difference": 0.0,
+      "process_seconds": 0.013782965999780572
+    },
+    {
+      "id": "exploration_6107_galloway_AB_quarters__damage",
+      "seed": 6107,
+      "norm": "galloway_AB_quarters",
+      "removed_cells": 7,
+      "damaged": {
+        "tail_occupancy": 0.65380859375,
+        "tail_activity": 0.8067036290322581,
+        "tail_repeated4_fraction": 0.30758359891450987,
+        "retained_repeated4_signatures": 1,
+        "tail_new4_signatures": 574,
+        "tail_entropy_bits": 2.6098041003206944,
+        "tail_compressibility": 0.90203857421875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 2.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2216,
+        "descriptor_seconds": 0.14399727400086704,
+        "recurrence": null,
+        "vector": [
+          0.65380859375,
+          0.8067036290322581,
+          0.30758359891450987,
+          0.90203857421875
+        ],
+        "archive_bin": [
+          3,
+          4,
+          1
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.601806640625,
+        "tail_activity": 0.7086693548387096,
+        "tail_repeated4_fraction": 0.27265899157178997,
+        "retained_repeated4_signatures": 5,
+        "tail_new4_signatures": 426,
+        "tail_entropy_bits": 2.6106597431395904,
+        "tail_compressibility": 0.91400146484375,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 2022,
+        "descriptor_seconds": 0.13380603099722066,
+        "vector": [
+          0.601806640625,
+          0.7086693548387096,
+          0.27265899157178997,
+          0.91400146484375
+        ],
+        "archive_bin": [
+          3,
+          3,
+          1
+        ]
+      },
+      "occupancy_difference": 0.052001953125,
+      "repeated4_difference": 0.034924607342719904,
+      "process_seconds": 0.12490111100123613
+    },
+    {
+      "id": "exploration_6107_galloway_AB_temporal__damage",
+      "seed": 6107,
+      "norm": "galloway_AB_temporal",
+      "removed_cells": 8,
+      "damaged": {
+        "tail_occupancy": 0.91748046875,
+        "tail_activity": 0.9478326612903226,
+        "tail_repeated4_fraction": 0.9637568342851399,
+        "retained_repeated4_signatures": 2,
+        "tail_new4_signatures": 1,
+        "tail_entropy_bits": 1.324638859132107,
+        "tail_compressibility": 0.99090576171875,
+        "exact_translation_fraction": 0.6451612903225806,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 56,
+        "descriptor_seconds": 0.11826086500150268,
+        "recurrence": null,
+        "vector": [
+          0.91748046875,
+          0.9478326612903226,
+          0.9637568342851399,
+          0.99090576171875
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "undamaged_saved_window": {
+        "tail_occupancy": 0.907470703125,
+        "tail_activity": 0.7867943548387096,
+        "tail_repeated4_fraction": 0.8157573244798294,
+        "retained_repeated4_signatures": 5,
+        "tail_new4_signatures": 36,
+        "tail_entropy_bits": 1.856804381569703,
+        "tail_compressibility": 0.98321533203125,
+        "exact_translation_fraction": 0.3225806451612903,
+        "median_best_shift": -1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 193,
+        "descriptor_seconds": 0.12016143399887369,
+        "vector": [
+          0.907470703125,
+          0.7867943548387096,
+          0.8157573244798294,
+          0.98321533203125
+        ],
+        "archive_bin": [
+          4,
+          3,
+          4
+        ]
+      },
+      "occupancy_difference": 0.010009765625,
+      "repeated4_difference": 0.14799950980531051,
+      "process_seconds": 0.06260489399937796
+    }
+  ],
+  "scope": "saved baseline and matched-damage histories; original analyses remain preserved"
+}

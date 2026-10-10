@@ -46,6 +46,8 @@ def main():
  for path,title,caption in selections:
   run=ROOT/path; c=json.loads((run/'config.json').read_text()); arr=read_csv(run/'trajectory.csv'); flat=arr.ravel().tolist(); values.update(flat)
   worlds.append({'id':path.replace('/','--'),'title':title,'caption':caption,'model':c['model']+' / '+c['norm'],'path':path,'width':c['width'],'steps':c['steps'],'seed':c.get('seed'),'initialHash':sha(run/'initial.csv'),'values':flat,'neighbors':[]})
+  corrected=ROOT/'results/corrections/descriptor_v2/runs'/pathlib.Path(path).relative_to('results')/'analysis.json'
+  worlds[-1]['analysisPath']=str(corrected.relative_to(ROOT)) if corrected.exists() else None
  neighbor_ids=[w['id'] for w in worlds if w['path']==parent or w['path'].startswith('results/nearby/')]
  environment_ids=[w['id'] for w in worlds if 'exploration_6100_' in w['path']]
  dyad_ids=[w['id'] for w in worlds if w['path'].startswith('results/partner_dyad/runs/construction_d4_')]

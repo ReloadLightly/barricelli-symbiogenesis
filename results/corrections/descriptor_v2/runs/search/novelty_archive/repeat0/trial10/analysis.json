@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/novelty_archive/repeat0/trial10",
+  "trajectory_sha256": "ed122caa13a376fea6830e493c6a19e5d3df21b6517c5b4b7bcf0788183be557",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.90625,
+    "tail_activity": 0.9921875,
+    "tail_repeated4_fraction": 0.921875,
+    "retained_repeated4_signatures": 9,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.4515866338906853,
+    "tail_compressibility": 0.991455078125,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": 1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 402,
+    "descriptor_seconds": 0.2691516640006739,
+    "recurrence": {
+      "first_time": 31,
+      "return_time": 159,
+      "period": 128
+    },
+    "vector": [
+      0.90625,
+      0.9921875,
+      0.921875,
+      0.991455078125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/novelty_archive/repeat0/trial10/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.92,
+      "corrected": 0.921875
+    },
+    "signature_count_total": {
+      "original": 401,
+      "corrected": 402
+    },
+    "vector": {
+      "original": [
+        0.90625,
+        0.9921875,
+        0.92,
+        0.991455078125
+      ],
+      "corrected": [
+        0.90625,
+        0.9921875,
+        0.921875,
+        0.991455078125
+      ]
+    }
+  },
+  "method": "novelty_archive",
+  "repeat": 0,
+  "trial": 10,
+  "space_index": 18,
+  "theta": {
+    "alphabet_id": 1,
+    "density": 0.65,
+    "layout": "uniform"
+  },
+  "seed": 4110,
+  "path": "results/search/novelty_archive/repeat0/trial10",
+  "engine_seconds": 0.00859255,
+  "process_seconds": 0.018257461000757758,
+  "max_rss_kib": 3712
+}

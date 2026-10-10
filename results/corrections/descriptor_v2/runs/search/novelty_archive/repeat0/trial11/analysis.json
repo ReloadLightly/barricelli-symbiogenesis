@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/novelty_archive/repeat0/trial11",
+  "trajectory_sha256": "5b951c30f773b684c12396819d7d61bc6a173e750e55755dc0bf0cf91ecb25f1",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.866943359375,
+    "tail_activity": 0.7956149193548387,
+    "tail_repeated4_fraction": 0.9684397882173121,
+    "retained_repeated4_signatures": 9,
+    "tail_new4_signatures": 10,
+    "tail_entropy_bits": 1.432489343454157,
+    "tail_compressibility": 0.9864501953125,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": 1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 908,
+    "descriptor_seconds": 0.24336320099973818,
+    "recurrence": null,
+    "vector": [
+      0.866943359375,
+      0.7956149193548387,
+      0.9684397882173121,
+      0.9864501953125
+    ],
+    "archive_bin": [
+      4,
+      3,
+      4
+    ]
+  },
+  "original_analysis": "results/search/novelty_archive/repeat0/trial11/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.9722338709677418,
+      "corrected": 0.9684397882173121
+    },
+    "tail_new4_signatures": {
+      "original": 9,
+      "corrected": 10
+    },
+    "signature_count_total": {
+      "original": 895,
+      "corrected": 908
+    },
+    "vector": {
+      "original": [
+        0.866943359375,
+        0.7956149193548387,
+        0.9722338709677418,
+        0.9864501953125
+      ],
+      "corrected": [
+        0.866943359375,
+        0.7956149193548387,
+        0.9684397882173121,
+        0.9864501953125
+      ]
+    }
+  },
+  "method": "novelty_archive",
+  "repeat": 0,
+  "trial": 11,
+  "space_index": 32,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.65,
+    "layout": "two_patches"
+  },
+  "seed": 4111,
+  "path": "results/search/novelty_archive/repeat0/trial11",
+  "engine_seconds": 0.00680743,
+  "process_seconds": 0.014244838001104654,
+  "max_rss_kib": 3712
+}

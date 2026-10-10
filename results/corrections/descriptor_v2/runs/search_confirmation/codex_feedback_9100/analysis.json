@@ -1,0 +1,40 @@
+{
+  "source_run": "results/search_confirmation/codex_feedback_9100",
+  "trajectory_sha256": "fe6e732a5ed31e4f1eab7521d4e2756b9066e8aea36d019058ba654a89d40c11",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.0625,
+    "tail_activity": 0.125,
+    "tail_repeated4_fraction": 0.0,
+    "retained_repeated4_signatures": 0,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 0.3372900666170139,
+    "tail_compressibility": 0.99420166015625,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": 1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 0,
+    "descriptor_seconds": 0.7396999219999998,
+    "recurrence": {
+      "first_time": 0,
+      "return_time": 128,
+      "period": 128
+    },
+    "vector": [
+      0.0625,
+      0.125,
+      0.0,
+      0.99420166015625
+    ],
+    "archive_bin": [
+      0,
+      0,
+      0
+    ]
+  },
+  "original_analysis": "results/search_confirmation/codex_feedback_9100/descriptors.json",
+  "changes": {}
+}

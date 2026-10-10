@@ -1,0 +1,53 @@
+{
+  "source_run": "results/heterogeneity/confirmation_9203_galloway_AB_halves",
+  "trajectory_sha256": "abe5bb429af8928764b3785cea4d00a148cdcd11ea85123a0e98a88ad39b5353",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.993896484375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 4503,
+    "descriptor_seconds": 2.519418592000875,
+    "recurrence": {
+      "first_time": 615,
+      "return_time": 617,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.993896484375
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/heterogeneity/confirmation_9203_galloway_AB_halves/descriptors.json",
+  "changes": {
+    "exact_translation_fraction": {
+      "original": 1.0,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -6.0,
+      "corrected": null
+    },
+    "signature_count_total": {
+      "original": 4383,
+      "corrected": 4503
+    }
+  }
+}

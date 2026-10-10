@@ -1,0 +1,85 @@
+{
+  "source_run": "results/search/novelty_archive/repeat0/trial04",
+  "trajectory_sha256": "fc439351547a9cf368bd1487dd7a8279cb409971a29a82ed9dca4059e2f4d88d",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.996337890625,
+    "tail_activity": 0.5037802419354839,
+    "tail_repeated4_fraction": 0.9990234375,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 0.8446664508550793,
+    "tail_compressibility": 0.992431640625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.8387096774193549,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1112,
+    "descriptor_seconds": 0.2522082439973019,
+    "recurrence": {
+      "first_time": 230,
+      "return_time": 234,
+      "period": 4
+    },
+    "vector": [
+      0.996337890625,
+      0.5037802419354839,
+      0.9990234375,
+      0.992431640625
+    ],
+    "archive_bin": [
+      4,
+      2,
+      4
+    ]
+  },
+  "original_analysis": "results/search/novelty_archive/repeat0/trial04/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.999,
+      "corrected": 0.9990234375
+    },
+    "exact_translation_fraction": {
+      "original": 0.8387096774193549,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -5.0,
+      "corrected": null
+    },
+    "signature_count_total": {
+      "original": 1082,
+      "corrected": 1112
+    },
+    "vector": {
+      "original": [
+        0.996337890625,
+        0.5037802419354839,
+        0.999,
+        0.992431640625
+      ],
+      "corrected": [
+        0.996337890625,
+        0.5037802419354839,
+        0.9990234375,
+        0.992431640625
+      ]
+    }
+  },
+  "method": "novelty_archive",
+  "repeat": 0,
+  "trial": 4,
+  "space_index": 24,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4104,
+  "path": "results/search/novelty_archive/repeat0/trial04",
+  "engine_seconds": 0.0198631,
+  "process_seconds": 0.030784663000304135,
+  "max_rss_kib": 3712
+}

@@ -1,0 +1,8 @@
+{
+  "descriptor_version": 2,
+  "historical_search": "results/corrections/descriptor_v2/search_summary.json",
+  "historical_environment": "results/corrections/descriptor_v2/heterogeneity_summary.json",
+  "correction": "results/corrections/descriptor_v2/summary.json",
+  "originals_retained": true,
+  "r7": "results/partner_dyad/summary.json"
+}

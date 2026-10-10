@@ -25,7 +25,7 @@ def main():
   out=base/plan['id']
   if (out/'descriptors.json').exists(): desc=json.loads((out/'descriptors.json').read_text())
   else:
-   stats=run(plan['config'],out); desc=describe(read_csv(out/'trajectory.csv'),stats); save_json(out/'descriptors.json',desc)
+   stats=run(plan['config'],out); desc=describe(read_csv(out/'trajectory.csv'),stats,boundary=plan['config']['boundary']); save_json(out/'descriptors.json',desc)
   rows.append({'id':plan['id'],'method':plan['method'],'seed':plan['config']['seed'],'path':str(out.relative_to(ROOT)),**desc})
  save_json(base/'summary.json',{'selections':selections,'rows':rows}); print(json.dumps(rows,indent=2))
 if __name__=='__main__': main()

@@ -1,0 +1,53 @@
+{
+  "source_run": "results/search_confirmation/codex_feedback_9101",
+  "trajectory_sha256": "792d2e640616d070bc4fabf480bd971416dcb60aa1e3fa751e46be38264f99cd",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.99444580078125,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1166,
+    "descriptor_seconds": 1.0214522249989386,
+    "recurrence": {
+      "first_time": 110,
+      "return_time": 112,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.99444580078125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search_confirmation/codex_feedback_9101/descriptors.json",
+  "changes": {
+    "exact_translation_fraction": {
+      "original": 1.0,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": null
+    },
+    "signature_count_total": {
+      "original": 1145,
+      "corrected": 1166
+    }
+  }
+}

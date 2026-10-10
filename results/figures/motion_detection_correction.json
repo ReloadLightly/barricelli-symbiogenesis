@@ -1,0 +1,42 @@
+{
+  "caption": "Correction C1 on original saved synthetic control histories. Stationary and empty rows are not motion. Period-two and spatially periodic shifting rows admit several exact shifts and are reported as ambiguous, not uniquely identified motion. All are explicitly imposed controls, not discovered organisms.",
+  "data_sources": [
+    {
+      "file": "results/descriptor_controls/summary.json",
+      "sha256": "36b61262328bf537df9dab3878a37ed0f31025b9bdeb534c15ef30a826b44e73"
+    },
+    {
+      "file": "results/corrections/descriptor_v2/runs/descriptor_controls/static_periodic/analysis.json",
+      "sha256": "9a15d1385da4dca4db98709551d1cb9317aa30caf38addc51be15b39fe4bb1e5"
+    },
+    {
+      "file": "results/corrections/descriptor_v2/runs/descriptor_controls/period_two/analysis.json",
+      "sha256": "9ebae4ce66612e51dfdf57c885cd8e7c4eb91c952dffb000cdd297b88f7fe061"
+    },
+    {
+      "file": "results/corrections/descriptor_v2/runs/descriptor_controls/translation/analysis.json",
+      "sha256": "c5d07eeffe583031bb24aad32b072fdf6754b98aec78e104a7f4f562a3903e88"
+    },
+    {
+      "file": "results/corrections/descriptor_v2/runs/descriptor_controls/iid_noise/analysis.json",
+      "sha256": "a4d90a05118ee1c8d27cea62e79f3127bbf5f3c6ccc8a57c645c47a95402ee96"
+    },
+    {
+      "file": "results/corrections/descriptor_v2/runs/descriptor_controls/empty/analysis.json",
+      "sha256": "d2845d162e018fb7e30fb7c5f8641fcffe6ff1436df3d698f3d1288f3244ea11"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/correction_figures.py": "275c7dc2e0c89f0918c6261b437b115688ef5514c4de2edba46067b6125beec7"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "",
+      "vertical": "Fraction of final-window updates"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

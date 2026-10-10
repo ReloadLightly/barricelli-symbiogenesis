@@ -1,0 +1,84 @@
+{
+  "updated_utc": "2026-10-10T19:59:34.392966+00:00",
+  "status": "verified",
+  "milestone_status": "checkpoint correction C1 complete; broader discovery-to-art round next",
+  "current_source_snapshot": "results/source_snapshot.tar.gz",
+  "source_snapshot_sha256": "43eebeedef6b43307c4763c3c9e8e566b6e287f5b09b314ce7dae18f929adb8c",
+  "source_files_verified": 116,
+  "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "symbiotic_oracle_binary_sha256": "9ddb10f4ebd52a576d9cbcf6aa767a3611566ed0d2bd896c8447c0b84942d7b6",
+  "verified_results": {
+    "tests": 37,
+    "native_runs": 635,
+    "saved_cells": 23995640,
+    "all_nine_event_counters_exact": true,
+    "cell_updates": 23800201,
+    "atlas_worlds": 37,
+    "browser_assertions": 11,
+    "artworks": 3,
+    "scientific_figures": 20,
+    "r6_baseline_worlds": 64,
+    "r6_recovery_probes": 2,
+    "r6_candidate_reproduction_cases": 0,
+    "r7_baseline_cases": 31,
+    "r7_native_runs": 78,
+    "r7_reserved_settings": 3,
+    "r7_isolated_children_reproduce": 8,
+    "r7_independent_oracle_cells": 1665024,
+    "r7_native_artifact_and_gate_hashes_preserved_on_resume": 703,
+    "broken_links": [],
+    "corrected_saved_analyses": 261
+  },
+  "verification_evidence": [
+    {
+      "source": "results/test-results.txt",
+      "sha256": "99a38cf9bf57a64f6773cd5d7eb9202e8b01b753fda268cfe8eabdf6297f17cd"
+    },
+    {
+      "source": "results/replay_verification.json",
+      "sha256": "928395876e9363f4c56e23f8cc1467e4859cc5117b73907e523c4bb9f63c76fa"
+    },
+    {
+      "source": "results/atlas_qa.json",
+      "sha256": "06fbc24e16011bb19c698fc26ee0b449cd2a72a08d45e75cefb115b17be1c692"
+    },
+    {
+      "source": "results/artifact_checks.json",
+      "sha256": "f006f443598eac8325be69c18e14844fefe8d25fb809893e7e9d4c4f6ca32e3b"
+    },
+    {
+      "source": "results/corrections/descriptor_v2/summary.json",
+      "sha256": "1a0d6a18adc6d051210ecf5d7b77c10be6a69dfd03f78e96f188ff2f778a9b57"
+    },
+    {
+      "source": "results/corrections/descriptor_v2/build_metadata.json",
+      "sha256": "4a4c98edc543c0ab47ac6ee53f9db85c078de693b28fcd2146defbd478abc2cb"
+    },
+    {
+      "source": "results/partner_dyad/resume_verification.json",
+      "sha256": "86f5eeec09663338175a8986d436ca9cfaed188f1d162e34dc52b124be8b6e1e"
+    }
+  ],
+  "execution_scope": "C1 saved-history corrections; all 635 native trajectories and counters replayed exactly; all R7 reserved and child checks reverified; original results archived and preserved",
+  "prior_full_regeneration": {
+    "native_runs": 557,
+    "elapsed_seconds": 110.6,
+    "peak_rss_kib": 261164,
+    "model_calls": 0,
+    "evidence": "results/resume/20261010T192113Z",
+    "preserved_aggregate_reports_and_source": "results/partner_dyad/prior_checkpoint.tar.gz"
+  },
+  "github": {
+    "repository": "https://github.com/ReloadLightly/barricelli-symbiogenesis",
+    "branch": "main",
+    "policy": "push each completed stage; final checkpoint is committed with the verified tree",
+    "about_metadata": "references/github.json"
+  },
+  "next_action": "Declare and execute broader rule/initial-condition discovery with matched random/novelty/Codex budgets and saved visual feedback; complete targeted checks and a new numerical art series.",
+  "resume_commands": [
+    "make partner-dyad",
+    "make test",
+    "make reproduce"
+  ],
+  "verification_directory": "results/resume/20261010T194324Z"
+}

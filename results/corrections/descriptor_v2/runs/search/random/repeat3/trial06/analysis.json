@@ -1,0 +1,63 @@
+{
+  "source_run": "results/search/random/repeat3/trial06",
+  "trajectory_sha256": "6aefe6be8186a7b029c4d0f96a36935605de5d1e596ed38fd8aaa580c34e8743",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.99462890625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 25,
+    "descriptor_seconds": 0.26252572600060375,
+    "recurrence": {
+      "first_time": 142,
+      "return_time": 144,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.99462890625
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/random/repeat3/trial06/search_record.json",
+  "changes": {
+    "exact_translation_fraction": {
+      "original": 1.0,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": null
+    }
+  },
+  "method": "random",
+  "repeat": 3,
+  "trial": 6,
+  "space_index": 0,
+  "theta": {
+    "alphabet_id": 0,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4406,
+  "path": "results/search/random/repeat3/trial06",
+  "engine_seconds": 0.00910287,
+  "process_seconds": 0.0190876720007509,
+  "max_rss_kib": 3712
+}

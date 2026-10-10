@@ -1,0 +1,171 @@
+{
+  "searches": [
+    {
+      "method": "random",
+      "repeat": 0,
+      "archive_coverage": 4,
+      "nearest_diversity": 0.07140763052931148,
+      "evaluations": 12
+    },
+    {
+      "method": "random",
+      "repeat": 1,
+      "archive_coverage": 3,
+      "nearest_diversity": 0.05056256307090209,
+      "evaluations": 12
+    },
+    {
+      "method": "random",
+      "repeat": 2,
+      "archive_coverage": 1,
+      "nearest_diversity": 0.009051254647307225,
+      "evaluations": 12
+    },
+    {
+      "method": "random",
+      "repeat": 3,
+      "archive_coverage": 4,
+      "nearest_diversity": 0.09750489854306044,
+      "evaluations": 12
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 0,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.10178069224565121,
+      "evaluations": 12
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 1,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.11235208546305803,
+      "evaluations": 12
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 2,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.08756609061014638,
+      "evaluations": 12
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 3,
+      "archive_coverage": 3,
+      "nearest_diversity": 0.04326149395418317,
+      "evaluations": 12
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 0,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.09031164877118451,
+      "evaluations": 12
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 1,
+      "archive_coverage": 6,
+      "nearest_diversity": 0.10844990854813207,
+      "evaluations": 12
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 2,
+      "archive_coverage": 6,
+      "nearest_diversity": 0.09379076163610515,
+      "evaluations": 12
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 3,
+      "archive_coverage": 6,
+      "nearest_diversity": 0.10519519283491098,
+      "evaluations": 12
+    }
+  ],
+  "aggregate": {
+    "random": {
+      "coverage": {
+        "mean": 3.0,
+        "ci95_percentile": [
+          1.75,
+          4.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.05713158669764531,
+        "ci95_percentile": [
+          0.02464034861780829,
+          0.08576931467502086
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    },
+    "novelty_archive": {
+      "coverage": {
+        "mean": 4.5,
+        "ci95_percentile": [
+          3.5,
+          5.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.0862400905682597,
+        "ci95_percentile": [
+          0.05789129352705018,
+          0.10706638885435463
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    },
+    "codex_feedback": {
+      "coverage": {
+        "mean": 5.75,
+        "ci95_percentile": [
+          5.25,
+          6.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.09943687794758317,
+        "ci95_percentile": [
+          0.09205120520364483,
+          0.10682255069152152
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  "paired_coverage_difference_vs_random": {
+    "novelty_archive": {
+      "mean": 1.5,
+      "ci95_percentile": [
+        -0.25,
+        3.25
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "codex_feedback": {
+      "mean": 2.75,
+      "ci95_percentile": [
+        1.5,
+        4.25
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    }
+  },
+  "policy_scope": "Reanalysis of originally selected runs; adaptive choices were based on original descriptors. This is not a rerun of corrected adaptive policies."
+}

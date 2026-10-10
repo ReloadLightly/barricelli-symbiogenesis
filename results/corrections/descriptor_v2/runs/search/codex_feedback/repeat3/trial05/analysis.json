@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/codex_feedback/repeat3/trial05",
+  "trajectory_sha256": "ba8e4ee53b9950193ffa6493d708aa108b3fb498aa53fa3d76404bef7ff2c813",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.857421875,
+    "tail_activity": 0.9490927419354839,
+    "tail_repeated4_fraction": 0.7712501026638184,
+    "retained_repeated4_signatures": 7,
+    "tail_new4_signatures": 92,
+    "tail_entropy_bits": 2.3495108749772378,
+    "tail_compressibility": 0.9600830078125,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -5.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 3278,
+    "descriptor_seconds": 0.2726617409971368,
+    "recurrence": null,
+    "vector": [
+      0.857421875,
+      0.9490927419354839,
+      0.7712501026638184,
+      0.9600830078125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      3
+    ]
+  },
+  "original_analysis": "results/search/codex_feedback/repeat3/trial05/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.7698044228333496,
+      "corrected": 0.7712501026638184
+    },
+    "tail_new4_signatures": {
+      "original": 95,
+      "corrected": 92
+    },
+    "signature_count_total": {
+      "original": 3241,
+      "corrected": 3278
+    },
+    "vector": {
+      "original": [
+        0.857421875,
+        0.9490927419354839,
+        0.7698044228333496,
+        0.9600830078125
+      ],
+      "corrected": [
+        0.857421875,
+        0.9490927419354839,
+        0.7712501026638184,
+        0.9600830078125
+      ]
+    }
+  },
+  "method": "codex_feedback",
+  "repeat": 3,
+  "trial": 5,
+  "space_index": 39,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.35,
+    "layout": "uniform"
+  },
+  "seed": 4405,
+  "path": "results/search/codex_feedback/repeat3/trial05",
+  "engine_seconds": 0.00736535,
+  "process_seconds": 0.014626213000155985,
+  "max_rss_kib": 3712
+}

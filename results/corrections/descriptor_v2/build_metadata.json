@@ -1,0 +1,12 @@
+{
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "format_backend": "compatibility",
+  "flags": [
+    "-std=c++20",
+    "-O2",
+    "-I/home/roland/actir/barricelli-symbiogenesis/engine/compat",
+    "-I/home/roland/actir/barricelli-symbiogenesis/engine",
+    "-I/home/roland/actir/barricelli-symbiogenesis/build"
+  ],
+  "selection": "native header compile/link probe without compatibility include; shim only on failure"
+}

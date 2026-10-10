@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/random/repeat0/trial08",
+  "trajectory_sha256": "85321a3797ea16fc0ec1491ab61dc4aea0b707bd469f0ed168b53ed6b4257441",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.904052734375,
+    "tail_activity": 0.9523689516129032,
+    "tail_repeated4_fraction": 0.8820701271871579,
+    "retained_repeated4_signatures": 9,
+    "tail_new4_signatures": 38,
+    "tail_entropy_bits": 1.8245672574418716,
+    "tail_compressibility": 0.9725341796875,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1775,
+    "descriptor_seconds": 0.26982036299887113,
+    "recurrence": null,
+    "vector": [
+      0.904052734375,
+      0.9523689516129032,
+      0.8820701271871579,
+      0.9725341796875
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/random/repeat0/trial08/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.8837636991736011,
+      "corrected": 0.8820701271871579
+    },
+    "tail_new4_signatures": {
+      "original": 39,
+      "corrected": 38
+    },
+    "signature_count_total": {
+      "original": 1752,
+      "corrected": 1775
+    },
+    "vector": {
+      "original": [
+        0.904052734375,
+        0.9523689516129032,
+        0.8837636991736011,
+        0.9725341796875
+      ],
+      "corrected": [
+        0.904052734375,
+        0.9523689516129032,
+        0.8820701271871579,
+        0.9725341796875
+      ]
+    }
+  },
+  "method": "random",
+  "repeat": 0,
+  "trial": 8,
+  "space_index": 44,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.65,
+    "layout": "two_patches"
+  },
+  "seed": 4108,
+  "path": "results/search/random/repeat0/trial08",
+  "engine_seconds": 0.00970353,
+  "process_seconds": 0.019999023999844212,
+  "max_rss_kib": 3712
+}

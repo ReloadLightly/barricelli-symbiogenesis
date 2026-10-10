@@ -1,0 +1,44 @@
+{
+  "source_run": "results/descriptor_controls/translation",
+  "trajectory_sha256": "8cf3d19569e7080c7c1961ef3857af29c4cce85c9aa8d82df3d923e510502e5b",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.75,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 2.0,
+    "tail_compressibility": 0.99334716796875,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 4,
+    "descriptor_seconds": 0.31630104199939524,
+    "vector": [
+      0.75,
+      1.0,
+      1.0,
+      0.99334716796875
+    ],
+    "archive_bin": [
+      3,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/descriptor_controls/translation/descriptors.json",
+  "changes": {
+    "exact_translation_fraction": {
+      "original": 1.0,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": null
+    }
+  }
+}

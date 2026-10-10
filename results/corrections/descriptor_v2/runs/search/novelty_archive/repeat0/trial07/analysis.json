@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/novelty_archive/repeat0/trial07",
+  "trajectory_sha256": "d016417881dc4b91a75e496c512366538bc0f65fbc608d33b6973fb445745c0a",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.9638671875,
+    "tail_activity": 0.9543850806451613,
+    "tail_repeated4_fraction": 0.8891748754288384,
+    "retained_repeated4_signatures": 7,
+    "tail_new4_signatures": 19,
+    "tail_entropy_bits": 1.9624665865495556,
+    "tail_compressibility": 0.97808837890625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 2801,
+    "descriptor_seconds": 0.2924765669995395,
+    "recurrence": null,
+    "vector": [
+      0.9638671875,
+      0.9543850806451613,
+      0.8891748754288384,
+      0.97808837890625
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/novelty_archive/repeat0/trial07/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.8864284793334769,
+      "corrected": 0.8891748754288384
+    },
+    "tail_new4_signatures": {
+      "original": 20,
+      "corrected": 19
+    },
+    "signature_count_total": {
+      "original": 2757,
+      "corrected": 2801
+    },
+    "vector": {
+      "original": [
+        0.9638671875,
+        0.9543850806451613,
+        0.8864284793334769,
+        0.97808837890625
+      ],
+      "corrected": [
+        0.9638671875,
+        0.9543850806451613,
+        0.8891748754288384,
+        0.97808837890625
+      ]
+    }
+  },
+  "method": "novelty_archive",
+  "repeat": 0,
+  "trial": 7,
+  "space_index": 42,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.65,
+    "layout": "uniform"
+  },
+  "seed": 4107,
+  "path": "results/search/novelty_archive/repeat0/trial07",
+  "engine_seconds": 0.0150538,
+  "process_seconds": 0.0235492770007113,
+  "max_rss_kib": 3712
+}

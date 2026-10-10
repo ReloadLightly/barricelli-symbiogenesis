@@ -18,7 +18,7 @@ def main():
  rows=[]
  for name,arr in controls.items():
   out=base/name; out.mkdir(exist_ok=True); np.savetxt(out/'trajectory.csv',arr,fmt='%d',delimiter=','); np.savetxt(out/'initial.csv',arr[:1],fmt='%d',delimiter=',')
-  save_json(out/'config.json',{'model':'descriptor_control','variant':name,'width':128,'steps':256,'seed':7711,'intervention':'entire history externally specified; no simulator dynamics'})
-  desc=describe(arr); rows.append({'id':name,**desc}); save_json(out/'descriptors.json',desc)
+  save_json(out/'config.json',{'model':'descriptor_control','variant':name,'width':128,'steps':256,'seed':7711,'boundary':'ring','intervention':'entire history externally specified; no simulator dynamics'})
+  desc=describe(arr,boundary='ring'); rows.append({'id':name,**desc}); save_json(out/'descriptors.json',desc)
  save_json(base/'summary.json',rows); print(json.dumps(rows,indent=2))
 if __name__=='__main__': main()

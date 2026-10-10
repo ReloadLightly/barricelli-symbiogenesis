@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/codex_feedback/repeat0/trial06",
+  "trajectory_sha256": "370e8bc07fe37bdf4fe2303f5a4f2dc5bcf6610ce08210beaf4c129deff4c951",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.8125,
+    "tail_activity": 0.921875,
+    "tail_repeated4_fraction": 0.8780487804878049,
+    "retained_repeated4_signatures": 12,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.9855662121133189,
+    "tail_compressibility": 0.98773193359375,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1874,
+    "descriptor_seconds": 0.28517738899972755,
+    "recurrence": {
+      "first_time": 122,
+      "return_time": 250,
+      "period": 128
+    },
+    "vector": [
+      0.8125,
+      0.921875,
+      0.8780487804878049,
+      0.98773193359375
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/codex_feedback/repeat0/trial06/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.88125,
+      "corrected": 0.8780487804878049
+    },
+    "signature_count_total": {
+      "original": 1830,
+      "corrected": 1874
+    },
+    "vector": {
+      "original": [
+        0.8125,
+        0.921875,
+        0.88125,
+        0.98773193359375
+      ],
+      "corrected": [
+        0.8125,
+        0.921875,
+        0.8780487804878049,
+        0.98773193359375
+      ]
+    }
+  },
+  "method": "codex_feedback",
+  "repeat": 0,
+  "trial": 6,
+  "space_index": 24,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4106,
+  "path": "results/search/codex_feedback/repeat0/trial06",
+  "engine_seconds": 0.0163626,
+  "process_seconds": 0.04005843099912454,
+  "max_rss_kib": 3584
+}

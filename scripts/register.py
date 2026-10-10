@@ -12,6 +12,9 @@ def main():
   rows.append({'id':str(path.relative_to(ROOT/'results')),'path':str(path.relative_to(ROOT)),'stage':path.relative_to(ROOT/'results').parts[0],'model':c['model'],'variant':c.get('variant',c['norm']),'norm':c['norm'],'seed':c.get('seed'),'width':c['width'],'steps':c['steps'],'cell_updates':c['width']*c['steps'],
    'engine_seconds':s['engine_seconds'],'process_seconds':s['process_seconds'],'max_rss_kib':s['max_rss_kib'],'attempted_copies':s['attempted_copies'],'accepted_outcomes':s['accepted_outcomes'],'collisions':s['collisions'],'newly_produced_values':s['newly_produced_values'],'erasures':s['erasures'],
    'initial_sha256':prov['initial_sha256'],'trajectory_sha256':prov['trajectory_sha256'],'source_tree_sha256':prov['source_tree_sha256']})
+ for row in rows:
+  corrected=ROOT/'results/corrections/descriptor_v2/runs'/pathlib.Path(row['path']).relative_to('results')/'analysis.json'
+  row['analysis_file']=str(corrected.relative_to(ROOT)) if corrected.exists() else None
  save_json(ROOT/'results/run_register.json',rows)
  with (ROOT/'results/run_register.csv').open('w') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)

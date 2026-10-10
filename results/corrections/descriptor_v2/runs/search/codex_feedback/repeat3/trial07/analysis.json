@@ -1,0 +1,81 @@
+{
+  "source_run": "results/search/codex_feedback/repeat3/trial07",
+  "trajectory_sha256": "b3db73ecad97b24570246869465fecd2881a4d61f32bbdc3ffadb1a5508a8513",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.3955078125,
+    "tail_activity": 0.5133568548387096,
+    "tail_repeated4_fraction": 0.32746358672934495,
+    "retained_repeated4_signatures": 7,
+    "tail_new4_signatures": 126,
+    "tail_entropy_bits": 1.7446011226176177,
+    "tail_compressibility": 0.9534912109375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1034,
+    "descriptor_seconds": 0.23062304600171046,
+    "recurrence": null,
+    "vector": [
+      0.3955078125,
+      0.5133568548387096,
+      0.32746358672934495,
+      0.9534912109375
+    ],
+    "archive_bin": [
+      1,
+      2,
+      1
+    ]
+  },
+  "original_analysis": "results/search/codex_feedback/repeat3/trial07/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.3232867816798404,
+      "corrected": 0.32746358672934495
+    },
+    "retained_repeated4_signatures": {
+      "original": 5,
+      "corrected": 7
+    },
+    "tail_new4_signatures": {
+      "original": 124,
+      "corrected": 126
+    },
+    "signature_count_total": {
+      "original": 1016,
+      "corrected": 1034
+    },
+    "vector": {
+      "original": [
+        0.3955078125,
+        0.5133568548387096,
+        0.3232867816798404,
+        0.9534912109375
+      ],
+      "corrected": [
+        0.3955078125,
+        0.5133568548387096,
+        0.32746358672934495,
+        0.9534912109375
+      ]
+    }
+  },
+  "method": "codex_feedback",
+  "repeat": 3,
+  "trial": 7,
+  "space_index": 12,
+  "theta": {
+    "alphabet_id": 1,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4407,
+  "path": "results/search/codex_feedback/repeat3/trial07",
+  "engine_seconds": 0.00734723,
+  "process_seconds": 0.02537977500105626,
+  "max_rss_kib": 3712
+}

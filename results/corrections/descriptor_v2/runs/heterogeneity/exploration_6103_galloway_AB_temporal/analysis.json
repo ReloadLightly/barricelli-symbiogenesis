@@ -1,0 +1,63 @@
+{
+  "source_run": "results/heterogeneity/exploration_6103_galloway_AB_temporal",
+  "trajectory_sha256": "1fd8d70bdf06102392f4b52341f31de5a862f0c9632936512ae34962151054d4",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.65625,
+    "tail_activity": 0.6875,
+    "tail_repeated4_fraction": 0.890625,
+    "retained_repeated4_signatures": 12,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.6752386970918476,
+    "tail_compressibility": 0.9879150390625,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 3817,
+    "descriptor_seconds": 0.6480376830004388,
+    "recurrence": {
+      "first_time": 367,
+      "return_time": 431,
+      "period": 64
+    },
+    "vector": [
+      0.65625,
+      0.6875,
+      0.890625,
+      0.9879150390625
+    ],
+    "archive_bin": [
+      3,
+      3,
+      4
+    ]
+  },
+  "original_analysis": "results/heterogeneity/exploration_6103_galloway_AB_temporal/descriptors.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.88725,
+      "corrected": 0.890625
+    },
+    "signature_count_total": {
+      "original": 3768,
+      "corrected": 3817
+    },
+    "vector": {
+      "original": [
+        0.65625,
+        0.6875,
+        0.88725,
+        0.9879150390625
+      ],
+      "corrected": [
+        0.65625,
+        0.6875,
+        0.890625,
+        0.9879150390625
+      ]
+    }
+  }
+}

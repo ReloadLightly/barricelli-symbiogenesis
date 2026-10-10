@@ -1,0 +1,81 @@
+{
+  "source_run": "results/search/random/repeat1/trial05",
+  "trajectory_sha256": "491daebf2da1def42004cc23b6c087d93bddb9dcc37e6e675047bd1327d2cd79",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.99560546875,
+    "tail_activity": 0.6698588709677419,
+    "tail_repeated4_fraction": 0.975708998720748,
+    "retained_repeated4_signatures": 3,
+    "tail_new4_signatures": 11,
+    "tail_entropy_bits": 0.9776817106728628,
+    "tail_compressibility": 0.99188232421875,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1867,
+    "descriptor_seconds": 0.2692985680005222,
+    "recurrence": {
+      "first_time": 233,
+      "return_time": 236,
+      "period": 3
+    },
+    "vector": [
+      0.99560546875,
+      0.6698588709677419,
+      0.975708998720748,
+      0.99188232421875
+    ],
+    "archive_bin": [
+      4,
+      3,
+      4
+    ]
+  },
+  "original_analysis": "results/search/random/repeat1/trial05/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.9804162212110669,
+      "corrected": 0.975708998720748
+    },
+    "tail_new4_signatures": {
+      "original": 10,
+      "corrected": 11
+    },
+    "signature_count_total": {
+      "original": 1826,
+      "corrected": 1867
+    },
+    "vector": {
+      "original": [
+        0.99560546875,
+        0.6698588709677419,
+        0.9804162212110669,
+        0.99188232421875
+      ],
+      "corrected": [
+        0.99560546875,
+        0.6698588709677419,
+        0.975708998720748,
+        0.99188232421875
+      ]
+    }
+  },
+  "method": "random",
+  "repeat": 1,
+  "trial": 5,
+  "space_index": 35,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.9,
+    "layout": "two_patches"
+  },
+  "seed": 4205,
+  "path": "results/search/random/repeat1/trial05",
+  "engine_seconds": 0.0100567,
+  "process_seconds": 0.031682553999416996,
+  "max_rss_kib": 3712
+}

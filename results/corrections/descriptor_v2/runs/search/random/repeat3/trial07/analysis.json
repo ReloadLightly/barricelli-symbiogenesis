@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/random/repeat3/trial07",
+  "trajectory_sha256": "08238364570a01feb11f345b380a67f0d5e91642c00658bad9cb32bbdb687c81",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.67724609375,
+    "tail_activity": 0.71875,
+    "tail_repeated4_fraction": 0.7158120688218037,
+    "retained_repeated4_signatures": 8,
+    "tail_new4_signatures": 27,
+    "tail_entropy_bits": 2.0614140846247797,
+    "tail_compressibility": 0.9744873046875,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 2424,
+    "descriptor_seconds": 0.25867986400044174,
+    "recurrence": null,
+    "vector": [
+      0.67724609375,
+      0.71875,
+      0.7158120688218037,
+      0.9744873046875
+    ],
+    "archive_bin": [
+      3,
+      3,
+      3
+    ]
+  },
+  "original_analysis": "results/search/random/repeat3/trial07/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.7201202369675594,
+      "corrected": 0.7158120688218037
+    },
+    "tail_new4_signatures": {
+      "original": 28,
+      "corrected": 27
+    },
+    "signature_count_total": {
+      "original": 2392,
+      "corrected": 2424
+    },
+    "vector": {
+      "original": [
+        0.67724609375,
+        0.71875,
+        0.7201202369675594,
+        0.9744873046875
+      ],
+      "corrected": [
+        0.67724609375,
+        0.71875,
+        0.7158120688218037,
+        0.9744873046875
+      ]
+    }
+  },
+  "method": "random",
+  "repeat": 3,
+  "trial": 7,
+  "space_index": 26,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.15,
+    "layout": "two_patches"
+  },
+  "seed": 4407,
+  "path": "results/search/random/repeat3/trial07",
+  "engine_seconds": 0.00873182,
+  "process_seconds": 0.013629183000375633,
+  "max_rss_kib": 3712
+}

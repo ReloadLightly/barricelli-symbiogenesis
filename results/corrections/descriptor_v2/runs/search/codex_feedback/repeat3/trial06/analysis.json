@@ -1,0 +1,67 @@
+{
+  "source_run": "results/search/codex_feedback/repeat3/trial06",
+  "trajectory_sha256": "c8d03d219562648e3c928564f37f8f24dfde398a61a0a0100e8a5e9f6e3607b9",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 0.5,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 0.8112781244591328,
+    "tail_compressibility": 0.99365234375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 989,
+    "descriptor_seconds": 0.2531550519997836,
+    "recurrence": {
+      "first_time": 182,
+      "return_time": 186,
+      "period": 4
+    },
+    "vector": [
+      1.0,
+      0.5,
+      1.0,
+      0.99365234375
+    ],
+    "archive_bin": [
+      4,
+      2,
+      4
+    ]
+  },
+  "original_analysis": "results/search/codex_feedback/repeat3/trial06/search_record.json",
+  "changes": {
+    "exact_translation_fraction": {
+      "original": 1.0,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": null
+    },
+    "signature_count_total": {
+      "original": 971,
+      "corrected": 989
+    }
+  },
+  "method": "codex_feedback",
+  "repeat": 3,
+  "trial": 6,
+  "space_index": 24,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4406,
+  "path": "results/search/codex_feedback/repeat3/trial06",
+  "engine_seconds": 0.00902239,
+  "process_seconds": 0.02429837999989104,
+  "max_rss_kib": 3712
+}

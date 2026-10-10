@@ -1,0 +1,59 @@
+{
+  "source_run": "results/heterogeneity/exploration_6102_galloway_A__damage",
+  "trajectory_sha256": "b52c9090a592166cf9f0fd3e777c5a478868d338f02bcaae2f88b96a41007738",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.858642578125,
+    "tail_activity": 0.6897681451612904,
+    "tail_repeated4_fraction": 0.5024300463929652,
+    "retained_repeated4_signatures": 29,
+    "tail_new4_signatures": 45,
+    "tail_entropy_bits": 2.2733898550958083,
+    "tail_compressibility": 0.97149658203125,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 712,
+    "descriptor_seconds": 0.13413633999880403,
+    "recurrence": null,
+    "vector": [
+      0.858642578125,
+      0.6897681451612904,
+      0.5024300463929652,
+      0.97149658203125
+    ],
+    "archive_bin": [
+      4,
+      3,
+      2
+    ]
+  },
+  "original_analysis": "results/heterogeneity/exploration_6102_galloway_A__damage/damage_outcome.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.5075813876142723,
+      "corrected": 0.5024300463929652
+    },
+    "signature_count_total": {
+      "original": 661,
+      "corrected": 712
+    },
+    "vector": {
+      "original": [
+        0.858642578125,
+        0.6897681451612904,
+        0.5075813876142723,
+        0.97149658203125
+      ],
+      "corrected": [
+        0.858642578125,
+        0.6897681451612904,
+        0.5024300463929652,
+        0.97149658203125
+      ]
+    }
+  }
+}

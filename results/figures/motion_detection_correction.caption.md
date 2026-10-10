@@ -1,0 +1,1 @@
+Correction C1 on original saved synthetic control histories. Stationary and empty rows are not motion. Period-two and spatially periodic shifting rows admit several exact shifts and are reported as ambiguous, not uniquely identified motion. All are explicitly imposed controls, not discovered organisms.

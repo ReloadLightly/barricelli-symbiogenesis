@@ -1,0 +1,85 @@
+{
+  "source_run": "results/search/codex_feedback/repeat0/trial09",
+  "trajectory_sha256": "a5c759b77519beee537a14c7f45a73f17731ba52790b91e94f368ace9c9d04e1",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.999755859375,
+    "tail_activity": 0.9942036290322581,
+    "tail_repeated4_fraction": 0.9873046875,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.003010845326418,
+    "tail_compressibility": 0.99298095703125,
+    "exact_translation_fraction": 0.3548387096774194,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.5806451612903226,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1414,
+    "descriptor_seconds": 0.33880294900154695,
+    "recurrence": {
+      "first_time": 238,
+      "return_time": 240,
+      "period": 2
+    },
+    "vector": [
+      0.999755859375,
+      0.9942036290322581,
+      0.9873046875,
+      0.99298095703125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/codex_feedback/repeat0/trial09/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.9885,
+      "corrected": 0.9873046875
+    },
+    "exact_translation_fraction": {
+      "original": 0.9354838709677419,
+      "corrected": 0.3548387096774194
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": -1.0
+    },
+    "signature_count_total": {
+      "original": 1382,
+      "corrected": 1414
+    },
+    "vector": {
+      "original": [
+        0.999755859375,
+        0.9942036290322581,
+        0.9885,
+        0.99298095703125
+      ],
+      "corrected": [
+        0.999755859375,
+        0.9942036290322581,
+        0.9873046875,
+        0.99298095703125
+      ]
+    }
+  },
+  "method": "codex_feedback",
+  "repeat": 0,
+  "trial": 9,
+  "space_index": 27,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.35,
+    "layout": "uniform"
+  },
+  "seed": 4109,
+  "path": "results/search/codex_feedback/repeat0/trial09",
+  "engine_seconds": 0.0214488,
+  "process_seconds": 0.03303699800017057,
+  "max_rss_kib": 3712
+}

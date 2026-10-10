@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/novelty_archive/repeat2/trial06",
+  "trajectory_sha256": "cb65b6b86521dc28d40482784c053d8b031205a3610e5e66d43b784be4e2ad56",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.5078125,
+    "tail_activity": 0.6444052419354839,
+    "tail_repeated4_fraction": 0.7142655367231638,
+    "retained_repeated4_signatures": 9,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.896051757503896,
+    "tail_compressibility": 0.98529052734375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1682,
+    "descriptor_seconds": 0.2708192419995612,
+    "recurrence": {
+      "first_time": 79,
+      "return_time": 207,
+      "period": 128
+    },
+    "vector": [
+      0.5078125,
+      0.6444052419354839,
+      0.7142655367231638,
+      0.98529052734375
+    ],
+    "archive_bin": [
+      2,
+      3,
+      3
+    ]
+  },
+  "original_analysis": "results/search/novelty_archive/repeat2/trial06/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.7098346529312762,
+      "corrected": 0.7142655367231638
+    },
+    "signature_count_total": {
+      "original": 1670,
+      "corrected": 1682
+    },
+    "vector": {
+      "original": [
+        0.5078125,
+        0.6444052419354839,
+        0.7098346529312762,
+        0.98529052734375
+      ],
+      "corrected": [
+        0.5078125,
+        0.6444052419354839,
+        0.7142655367231638,
+        0.98529052734375
+      ]
+    }
+  },
+  "method": "novelty_archive",
+  "repeat": 2,
+  "trial": 6,
+  "space_index": 40,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.35,
+    "layout": "center_patch"
+  },
+  "seed": 4306,
+  "path": "results/search/novelty_archive/repeat2/trial06",
+  "engine_seconds": 0.00801102,
+  "process_seconds": 0.01905059000091569,
+  "max_rss_kib": 3712
+}

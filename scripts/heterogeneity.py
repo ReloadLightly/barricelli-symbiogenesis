@@ -27,7 +27,7 @@ def main():
   out=base/plan['id']; out.mkdir(exist_ok=True)
   if (out/'descriptors.json').exists(): stats=json.loads((out/'statistics.json').read_text()); desc=json.loads((out/'descriptors.json').read_text())
   else:
-   stats=run(plan['config'],out); desc=describe(read_csv(out/'trajectory.csv'),stats); save_json(out/'descriptors.json',desc)
+   stats=run(plan['config'],out); desc=describe(read_csv(out/'trajectory.csv'),stats,boundary=plan['config']['boundary']); save_json(out/'descriptors.json',desc)
   rows.append({'id':plan['id'],'cohort':plan['cohort'],'seed':plan['config']['seed'],'norm':plan['config']['norm'],'path':str(out.relative_to(ROOT)),**desc,'engine_seconds':stats['engine_seconds'],'process_seconds':stats['process_seconds'],'max_rss_kib':stats['max_rss_kib']})
  # Verify paired rows before attributing treatment differences.
  for cohort,seeds,_ in [('exploration',range(6100,6108),512),('confirmation',range(9200,9204),2048)]:
@@ -47,8 +47,8 @@ def main():
   out=base/plan['id']
   if (out/'damage_outcome.json').exists(): measured=json.loads((out/'damage_outcome.json').read_text())
   else:
-   stats=run(plan['config'],out); desc=describe(read_csv(out/'trajectory.csv'),stats)
-   undamaged=read_csv(base/plan['paired_undamaged']/'trajectory.csv')[256:385]; control=describe(undamaged)
+   stats=run(plan['config'],out); desc=describe(read_csv(out/'trajectory.csv'),stats,boundary=plan['config']['boundary'])
+   undamaged=read_csv(base/plan['paired_undamaged']/'trajectory.csv')[256:385]; control=describe(undamaged,boundary=plan['config']['boundary'])
    measured={'id':plan['id'],'seed':int(plan['paired_undamaged'].split('_')[1]),'norm':plan['config']['norm'],'removed_cells':plan['removed_cells'],'damaged':desc,'undamaged_saved_window':control,
     'occupancy_difference':desc['tail_occupancy']-control['tail_occupancy'],'repeated4_difference':desc['tail_repeated4_fraction']-control['tail_repeated4_fraction'],'process_seconds':stats['process_seconds']}
    save_json(out/'damage_outcome.json',measured)

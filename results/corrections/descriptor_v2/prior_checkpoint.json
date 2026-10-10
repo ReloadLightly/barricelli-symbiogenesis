@@ -1,0 +1,110 @@
+{
+  "updated_utc": "2026-10-10T19:43:24.292558+00:00",
+  "status": "verified",
+  "milestone_status": "complete including R6 and R7",
+  "current_source_snapshot": "results/source_snapshot.tar.gz",
+  "source_snapshot_sha256": "0d231e5580996339b9479617efe108b1f4d88e7d700fe8d8b52f02a289f33020",
+  "source_files_verified": 113,
+  "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "symbiotic_oracle_binary_sha256": "9ddb10f4ebd52a576d9cbcf6aa767a3611566ed0d2bd896c8447c0b84942d7b6",
+  "verified_results": {
+    "tests": 27,
+    "native_runs": 635,
+    "saved_cells": 23995640,
+    "all_nine_event_counters_exact": true,
+    "cell_updates": 23800201,
+    "atlas_worlds": 37,
+    "browser_assertions": 11,
+    "artworks": 3,
+    "scientific_figures": 18,
+    "r6_baseline_worlds": 64,
+    "r6_recovery_probes": 2,
+    "r6_candidate_reproduction_cases": 0,
+    "r7_baseline_cases": 31,
+    "r7_native_runs": 78,
+    "r7_reserved_settings": 3,
+    "r7_isolated_children_reproduce": 8,
+    "r7_independent_oracle_cells": 1665024,
+    "r7_native_artifact_and_gate_hashes_preserved_on_resume": 703,
+    "broken_links": []
+  },
+  "verification_evidence": [
+    {
+      "source": "results/test-results.txt",
+      "copy": "results/resume/20261010T194324Z/test-results.txt",
+      "sha256": "ef0962604a47d70148a408351dee6238401ab0673645bb4e67f5700b9863d26b"
+    },
+    {
+      "source": "results/replay_verification.json",
+      "copy": "results/resume/20261010T194324Z/replay_verification.json",
+      "sha256": "4643346c2edd43257ae779f50bf7eca7fd5590fb1f54059d9d672258b7f58876"
+    },
+    {
+      "source": "results/atlas_qa.json",
+      "copy": "results/resume/20261010T194324Z/atlas_qa.json",
+      "sha256": "06fbc24e16011bb19c698fc26ee0b449cd2a72a08d45e75cefb115b17be1c692"
+    },
+    {
+      "source": "results/artifact_checks.json",
+      "copy": "results/resume/20261010T194324Z/artifact_checks.json",
+      "sha256": "2b802f927b0f07e9048970ff3ea32f31eaaa54c7f3b6e79101a694ca810bdc8f"
+    },
+    {
+      "source": "results/resource_summary.json",
+      "copy": "results/resume/20261010T194324Z/resource_summary.json",
+      "sha256": "baa82f4c0106dde6f593e1cc04c5358666191b458bf3f823ecb43e1ae7a1171c"
+    },
+    {
+      "source": "results/partner_dyad/summary.json",
+      "copy": "results/resume/20261010T194324Z/summary.json",
+      "sha256": "670510aab5a677572ac53689d76be9fccc04ea9eab97b6dd35522d126ef82b2e"
+    },
+    {
+      "source": "results/partner_dyad/resume_verification.json",
+      "copy": "results/resume/20261010T194324Z/resume_verification.json",
+      "sha256": "86f5eeec09663338175a8986d436ca9cfaed188f1d162e34dc52b124be8b6e1e"
+    },
+    {
+      "source": "results/partner_dyad/combined-replay-resource.txt",
+      "copy": "results/resume/20261010T194324Z/combined-replay-resource.txt",
+      "sha256": "1f8dcbe5cbc0ca716bde03b59cebd6dbe30f08a1e301ef9cf698d02341825842"
+    },
+    {
+      "source": "results/partner_dyad/combined-tests-resource.txt",
+      "copy": "results/resume/20261010T194324Z/combined-tests-resource.txt",
+      "sha256": "1240f5d3a3f6481d14dc6cbaa7e4fb1dd696fc1e511e0330b5d01299df6b9cdd"
+    },
+    {
+      "source": "results/partner_dyad/browser-resource.txt",
+      "copy": "results/resume/20261010T194324Z/browser-resource.txt",
+      "sha256": "32246540a6199bb7b778edd3a6ebc4d9db377e20f5728c9eee1d816a6161183a"
+    },
+    {
+      "source": "references/source_manifest.json",
+      "copy": "results/resume/20261010T194324Z/source_manifest.json",
+      "sha256": "8f75918f9fdb4339bcc313527c79bdaeb37adeb365277a56076a2aa52f7b8e77"
+    }
+  ],
+  "execution_scope": "R7 construction, confirmation, independent numerical and edge audits, cached resume; complete current-engine replay of all retained data, tests and browser/artifact verification. Older experiments retain their original provenance/timing and were not regenerated in this extension.",
+  "prior_full_regeneration": {
+    "native_runs": 557,
+    "elapsed_seconds": 110.6,
+    "peak_rss_kib": 261164,
+    "model_calls": 0,
+    "evidence": "results/resume/20261010T192113Z",
+    "preserved_aggregate_reports_and_source": "results/partner_dyad/prior_checkpoint.tar.gz"
+  },
+  "github": {
+    "repository": "https://github.com/ReloadLightly/barricelli-symbiogenesis",
+    "branch": "main",
+    "policy": "push each completed stage; final checkpoint is committed with the verified tree",
+    "about_metadata": "references/github.json"
+  },
+  "next_action": "Predeclare a detector for variable distributed or phase-dependent viable descendants, using R7 constructed copying and R6 false-positive controls. No R7 case remains pending; evolved symbiosis remains unestablished.",
+  "resume_commands": [
+    "make partner-dyad",
+    "make test",
+    "make reproduce"
+  ],
+  "verification_directory": "results/resume/20261010T194324Z"
+}

@@ -1,0 +1,1 @@
+Correction C1: all144 saved discovery trajectories reanalyzed using ring-aware four-cell windows. Original policy choices remain frozen; this does not reconstruct what corrected adaptive policies would choose. Original analyses and figure remain preserved.

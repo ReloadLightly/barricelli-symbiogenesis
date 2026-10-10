@@ -21,7 +21,7 @@ def execute(method,repeat,trial,index,reason):
   'modifications':['ring width128 and256 updates; independently authored published-style B update; designed random initial distribution'],
   'search':{'method':method,'repeat':repeat,'trial':trial,'space_index':index}}
  save_json(out/'planned.json',{'config':conf,'reason':reason,'declared_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()})
- stats=run(conf,out); descriptors=describe(read_csv(out/'trajectory.csv'),stats)
+ stats=run(conf,out); descriptors=describe(read_csv(out/'trajectory.csv'),stats,boundary=conf['boundary'])
  previous=records(method,repeat); vector=np.array(descriptors['vector'])
  novelty=float(np.mean(sorted(np.linalg.norm(vector-np.array(r['descriptors']['vector'])) for r in previous)[:3])) if previous else None
  record={'method':method,'repeat':repeat,'trial':trial,'space_index':index,'theta':theta,'seed':conf['seed'],'path':str(out.relative_to(ROOT)),

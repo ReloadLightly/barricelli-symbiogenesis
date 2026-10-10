@@ -1,0 +1,62 @@
+{
+  "source_run": "results/descriptor_controls/iid_noise",
+  "trajectory_sha256": "e2c09e137f0395536e99fac85d2508beb361dcf0983b40e28077f003dc42db86",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.877685546875,
+    "tail_activity": 0.8755040322580645,
+    "tail_repeated4_fraction": 0.03055916602234254,
+    "retained_repeated4_signatures": 0,
+    "tail_new4_signatures": 3,
+    "tail_entropy_bits": 2.999270561569781,
+    "tail_compressibility": 0.84271240234375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": 2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 3990,
+    "descriptor_seconds": 0.3464309350019903,
+    "vector": [
+      0.877685546875,
+      0.8755040322580645,
+      0.03055916602234254,
+      0.84271240234375
+    ],
+    "archive_bin": [
+      4,
+      4,
+      0
+    ]
+  },
+  "original_analysis": "results/descriptor_controls/iid_noise/descriptors.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.030250171453240365,
+      "corrected": 0.03055916602234254
+    },
+    "median_best_shift": {
+      "original": 1.0,
+      "corrected": 2.0
+    },
+    "signature_count_total": {
+      "original": 3989,
+      "corrected": 3990
+    },
+    "vector": {
+      "original": [
+        0.877685546875,
+        0.8755040322580645,
+        0.030250171453240365,
+        0.84271240234375
+      ],
+      "corrected": [
+        0.877685546875,
+        0.8755040322580645,
+        0.03055916602234254,
+        0.84271240234375
+      ]
+    }
+  }
+}

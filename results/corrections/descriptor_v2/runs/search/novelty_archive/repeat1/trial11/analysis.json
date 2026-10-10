@@ -1,0 +1,77 @@
+{
+  "source_run": "results/search/novelty_archive/repeat1/trial11",
+  "trajectory_sha256": "c07b6a6f9dcf0134a42442cb3619bb375d1495a246f295f91988c800f880fc38",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.60888671875,
+    "tail_activity": 0.3550907258064516,
+    "tail_repeated4_fraction": 0.3184066965980479,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 77,
+    "tail_entropy_bits": 1.9387365641372725,
+    "tail_compressibility": 0.96295166015625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -3.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1574,
+    "descriptor_seconds": 0.3149807560002955,
+    "recurrence": null,
+    "vector": [
+      0.60888671875,
+      0.3550907258064516,
+      0.3184066965980479,
+      0.96295166015625
+    ],
+    "archive_bin": [
+      3,
+      1,
+      1
+    ]
+  },
+  "original_analysis": "results/search/novelty_archive/repeat1/trial11/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.30840849800198333,
+      "corrected": 0.3184066965980479
+    },
+    "tail_new4_signatures": {
+      "original": 78,
+      "corrected": 77
+    },
+    "signature_count_total": {
+      "original": 1554,
+      "corrected": 1574
+    },
+    "vector": {
+      "original": [
+        0.60888671875,
+        0.3550907258064516,
+        0.30840849800198333,
+        0.96295166015625
+      ],
+      "corrected": [
+        0.60888671875,
+        0.3550907258064516,
+        0.3184066965980479,
+        0.96295166015625
+      ]
+    }
+  },
+  "method": "novelty_archive",
+  "repeat": 1,
+  "trial": 11,
+  "space_index": 38,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.15,
+    "layout": "two_patches"
+  },
+  "seed": 4211,
+  "path": "results/search/novelty_archive/repeat1/trial11",
+  "engine_seconds": 0.00821934,
+  "process_seconds": 0.02341947899913066,
+  "max_rss_kib": 3712
+}

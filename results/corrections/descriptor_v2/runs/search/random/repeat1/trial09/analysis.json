@@ -1,0 +1,85 @@
+{
+  "source_run": "results/search/random/repeat1/trial09",
+  "trajectory_sha256": "b6fff289abde55c3e219d2c3d3325122fbbff776c05ceb5933179b5880ab8e62",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.9951171875,
+    "tail_activity": 0.9969758064516129,
+    "tail_repeated4_fraction": 0.9957299788611587,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0396349560279288,
+    "tail_compressibility": 0.993408203125,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.8709677419354839,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 2066,
+    "descriptor_seconds": 0.2565456209995318,
+    "recurrence": {
+      "first_time": 229,
+      "return_time": 231,
+      "period": 2
+    },
+    "vector": [
+      0.9951171875,
+      0.9969758064516129,
+      0.9957299788611587,
+      0.993408203125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/random/repeat1/trial09/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.9956244211355005,
+      "corrected": 0.9957299788611587
+    },
+    "exact_translation_fraction": {
+      "original": 0.8709677419354839,
+      "corrected": 0.0
+    },
+    "median_best_shift": {
+      "original": -7.0,
+      "corrected": null
+    },
+    "signature_count_total": {
+      "original": 2021,
+      "corrected": 2066
+    },
+    "vector": {
+      "original": [
+        0.9951171875,
+        0.9969758064516129,
+        0.9956244211355005,
+        0.993408203125
+      ],
+      "corrected": [
+        0.9951171875,
+        0.9969758064516129,
+        0.9957299788611587,
+        0.993408203125
+      ]
+    }
+  },
+  "method": "random",
+  "repeat": 1,
+  "trial": 9,
+  "space_index": 36,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4209,
+  "path": "results/search/random/repeat1/trial09",
+  "engine_seconds": 0.00628721,
+  "process_seconds": 0.04118744100014737,
+  "max_rss_kib": 3712
+}

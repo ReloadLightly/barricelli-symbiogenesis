@@ -1,0 +1,81 @@
+{
+  "source_run": "results/search/random/repeat0/trial11",
+  "trajectory_sha256": "536663fd46a7fcd5834262d9e1899ce8155c11b68e5b6c5aa67ad0a7c6aa52a1",
+  "boundary": "ring",
+  "descriptors": {
+    "tail_occupancy": 0.981689453125,
+    "tail_activity": 0.967741935483871,
+    "tail_repeated4_fraction": 0.9153357259574315,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.220721543615726,
+    "tail_compressibility": 0.99041748046875,
+    "exact_translation_fraction": 0.03225806451612903,
+    "median_best_shift": -1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.16129032258064516,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 1480,
+    "descriptor_seconds": 0.2426843139983248,
+    "recurrence": {
+      "first_time": 251,
+      "return_time": 253,
+      "period": 2
+    },
+    "vector": [
+      0.981689453125,
+      0.967741935483871,
+      0.9153357259574315,
+      0.99041748046875
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "original_analysis": "results/search/random/repeat0/trial11/search_record.json",
+  "changes": {
+    "tail_repeated4_fraction": {
+      "original": 0.9261440218488012,
+      "corrected": 0.9153357259574315
+    },
+    "exact_translation_fraction": {
+      "original": 0.1935483870967742,
+      "corrected": 0.03225806451612903
+    },
+    "signature_count_total": {
+      "original": 1424,
+      "corrected": 1480
+    },
+    "vector": {
+      "original": [
+        0.981689453125,
+        0.967741935483871,
+        0.9261440218488012,
+        0.99041748046875
+      ],
+      "corrected": [
+        0.981689453125,
+        0.967741935483871,
+        0.9153357259574315,
+        0.99041748046875
+      ]
+    }
+  },
+  "method": "random",
+  "repeat": 0,
+  "trial": 11,
+  "space_index": 37,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.15,
+    "layout": "center_patch"
+  },
+  "seed": 4111,
+  "path": "results/search/random/repeat0/trial11",
+  "engine_seconds": 0.0160208,
+  "process_seconds": 0.02714727300008235,
+  "max_rss_kib": 3712
+}
