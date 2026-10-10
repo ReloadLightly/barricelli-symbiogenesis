@@ -1,0 +1,54 @@
+{
+  "method": "codex_feedback",
+  "repeat": 2,
+  "trial": 9,
+  "space_index": 254,
+  "theta": {
+    "norm": "galloway_A",
+    "alphabet_id": 3,
+    "density": 0.9,
+    "layout": "bands",
+    "initial_style": "iid"
+  },
+  "seed": 26009,
+  "path": "results/discovery_art/search/codex_feedback/repeat2/trial09",
+  "reason": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor.",
+  "descriptors": {
+    "tail_occupancy": 0.9921875,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 0.9635416666666666,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.058096981867324,
+    "tail_compressibility": 0.9937744140625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 2865,
+    "descriptor_seconds": 0.5843252069971641,
+    "recurrence": {
+      "first_time": 285,
+      "return_time": 287,
+      "period": 2
+    },
+    "vector": [
+      0.9921875,
+      1.0,
+      0.9635416666666666,
+      0.9937744140625
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.07513177713070056,
+  "engine_seconds": 0.010044,
+  "process_seconds": 0.014687622999190353,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "trajectory.csv",
+  "trajectory_sha256": "1f0788bdc05c6ddd550db7ff1b5e60285471116e1fcd85ad4a6eb033bfd7fdbc",
+  "render": "exact unsmoothed integer pixels; x horizontal, time downward",
+  "dimensions": [
+    192,
+    385
+  ],
+  "palette_file": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "renderer_sha256": "f17e756366eb123d2e8b56302676d06254d0e80e1f4cf6164ef565536cf9f729"
+}

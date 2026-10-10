@@ -1,0 +1,50 @@
+{
+  "method": "codex_feedback",
+  "repeat": 2,
+  "trial": 6,
+  "space_index": 748,
+  "theta": {
+    "norm": "galloway_AB_temporal",
+    "alphabet_id": 3,
+    "density": 0.35,
+    "layout": "two_patches",
+    "initial_style": "iid"
+  },
+  "seed": 26006,
+  "path": "results/discovery_art/search/codex_feedback/repeat2/trial06",
+  "reason": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime.",
+  "descriptors": {
+    "tail_occupancy": 0.8873697916666666,
+    "tail_activity": 0.9054099462365591,
+    "tail_repeated4_fraction": 0.9118435035228585,
+    "retained_repeated4_signatures": 28,
+    "tail_new4_signatures": 2,
+    "tail_entropy_bits": 1.9525301276588989,
+    "tail_compressibility": 0.9829508463541666,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 7248,
+    "descriptor_seconds": 0.6590572810018784,
+    "recurrence": null,
+    "vector": [
+      0.8873697916666666,
+      0.9054099462365591,
+      0.9118435035228585,
+      0.9829508463541666
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.04716364550470991,
+  "engine_seconds": 0.00909071,
+  "process_seconds": 0.013129871000273852,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

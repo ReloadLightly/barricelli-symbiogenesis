@@ -1,0 +1,54 @@
+{
+  "method": "random",
+  "repeat": 2,
+  "trial": 8,
+  "space_index": 269,
+  "theta": {
+    "norm": "galloway_0",
+    "alphabet_id": 0,
+    "density": 0.35,
+    "layout": "two_patches",
+    "initial_style": "block8_jitter"
+  },
+  "seed": 26008,
+  "path": "results/discovery_art/search/random/repeat2/trial08",
+  "reason": "uniform untested admissible index",
+  "descriptors": {
+    "tail_occupancy": 0.9895833333333334,
+    "tail_activity": 0.9895833333333334,
+    "tail_repeated4_fraction": 0.9583333333333334,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0731262216436557,
+    "tail_compressibility": 0.9942220052083334,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 26,
+    "descriptor_seconds": 0.6218751610031177,
+    "recurrence": {
+      "first_time": 40,
+      "return_time": 42,
+      "period": 2
+    },
+    "vector": [
+      0.9895833333333334,
+      0.9895833333333334,
+      0.9583333333333334,
+      0.9942220052083334
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.07754201432412962,
+  "engine_seconds": 0.00924063,
+  "process_seconds": 0.014362195997819072,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

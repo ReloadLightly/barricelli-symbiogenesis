@@ -1,0 +1,50 @@
+{
+  "method": "codex_feedback",
+  "repeat": 2,
+  "trial": 4,
+  "space_index": 296,
+  "theta": {
+    "norm": "galloway_0",
+    "alphabet_id": 1,
+    "density": 0.35,
+    "layout": "uniform",
+    "initial_style": "iid"
+  },
+  "seed": 26004,
+  "path": "results/discovery_art/search/codex_feedback/repeat2/trial04",
+  "reason": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin.",
+  "descriptors": {
+    "tail_occupancy": 0.8333333333333334,
+    "tail_activity": 0.9529569892473119,
+    "tail_repeated4_fraction": 0.9817708333333334,
+    "retained_repeated4_signatures": 32,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.8225177897245222,
+    "tail_compressibility": 0.9875081380208334,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": 1.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 190,
+    "descriptor_seconds": 0.550033737999911,
+    "recurrence": null,
+    "vector": [
+      0.8333333333333334,
+      0.9529569892473119,
+      0.9817708333333334,
+      0.9875081380208334
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.135358439317641,
+  "engine_seconds": 0.00919166,
+  "process_seconds": 0.013104270001349505,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

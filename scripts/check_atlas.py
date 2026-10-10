@@ -16,7 +16,8 @@ def main():
   expected_worlds=len(json.loads((ROOT/'atlas/manifest.json').read_text())['worlds'])
   page.goto((ROOT/'atlas/index.html').as_uri()); page.wait_for_function('window.ATLAS && document.querySelectorAll("#world option").length===window.ATLAS.worlds.length')
   assert page.locator('#world option').count()==expected_worlds; assertions.append(f'{expected_worlds} worlds selectable from saved numerical payload')
-  assert page.locator('#printcards article').count()==3; assertions.append('three linked print/animation/recipe cards')
+  expected_prints=len(list((ROOT/'results/art').glob('*.recipe.json')))
+  assert page.locator('#printcards article').count()==expected_prints; assertions.append(f'{expected_prints} linked print/animation/recipe cards')
   # Avoid the global browser History object: canvas is the source of dimensions.
   data=page.evaluate('({width:canvas.width,height:canvas.height,value:current.values[0],rgb:Array.from(ctx.getImageData(0,0,1,1).data)})')
   assert [data['width'],data['height']]==[511,512]; assert data['rgb'][:3]==list(bytes.fromhex(color(data['value'])[1:])); assertions.append('canvas dimensions and integer-value palette agree with source data')
@@ -25,6 +26,8 @@ def main():
   page.locator('#time').evaluate('(el)=>{el.value=511;el.dispatchEvent(new Event("input"))}')
   page.locator('#history').scroll_into_view_if_needed(); box=page.locator('#history').bounding_box(); page.mouse.click(box['x']+box['width']*.4,box['y']+box['height']*.2)
   assert 'value' in page.locator('#readout').inner_text(); assert 'x:' in page.locator('#numbers').inner_text(); assertions.append('cell readout and numerical close-up work')
+  if page.locator('#zoom').count():
+   assert page.evaluate('document.getElementById("zoom").width>0'); assert 't' in page.locator('#zoomnote').inner_text(); assertions.append('coordinate-labelled enlarged pixel close-up is generated from saved integers')
   page.locator('#world').select_option('results--search--codex_feedback--repeat3--trial07'); assert page.locator('#neighbors button').count()==4
   page.locator('#neighbors button').first.click(); assert 'Nearby' in page.locator('#world option:checked').inner_text(); assertions.append('saved nearby variants navigate correctly')
   r6='results--descendant_detector--runs--copying_positive'

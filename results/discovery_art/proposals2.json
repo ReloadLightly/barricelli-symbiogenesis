@@ -1,0 +1,155 @@
+{
+  "batch": 2,
+  "submitted_utc": "2026-10-10T20:07:59.482407+00:00",
+  "feedback_sha256": "e660051150a35672d51b440ff6bfe9078a391960108b3e8e56f7f5be65dc2243",
+  "viewed_visuals": [
+    {
+      "repeat": 0,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat0.png",
+      "sha256": "6ffb3a7052cc037a3ed757c856a3b3b69dd06b2fe926565c3ecdc5404eac0fba",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 1,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat1.png",
+      "sha256": "5dc6778965dc38bba699bc2929c30fbadad25f9edecfeb1b9c21b8a6081e20d9",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 2,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat2.png",
+      "sha256": "673cb4f28bd1fc3fe0ad6555fee8479bffddc4d9a5fcd56dca2334ccc4d7f7ad",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 3,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat3.png",
+      "sha256": "13b473c6cd7707dd3d63c3a1d2cd9be242ab374b329960750bd3feaab628ec8d",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    }
+  ],
+  "visual_observations": [
+    "Sparse B worlds still fill the ring after large empty diamond corridors; their final scores saturate.",
+    "Exclusion can erase the entire world or retain narrow regular bands; visual simplicity and extinction remain useful recorded contrasts.",
+    "Temporal and quarter mixtures retain rich diagonal interfaces within384 steps, but late signature novelty is not evidence of indefinite innovation."
+  ],
+  "repeats": {
+    "0": [
+      {
+        "space_index": 992,
+        "hypothesis": "Exclusion showed both extinction and a sparse regular stripe family. Broad offsets in a sparse full world may expose additional occupancy/activity regimes."
+      },
+      {
+        "space_index": 962,
+        "hypothesis": "Vary the five-value exclusion patch away from the prior bands. Test sparse isolated histories versus dense patched collisions, keeping all failed outcomes."
+      },
+      {
+        "space_index": 376,
+        "hypothesis": "Sparse erasure often saturated into visually regular striped domains. Dense broad-alphabet collisions may instead sustain holes or collapse."
+      },
+      {
+        "space_index": 227,
+        "hypothesis": "Dense A bands still tended toward periodic stripes; a sparse repeated mixed-sign block tests the imposed organization/empty-exterior sensitivity."
+      },
+      {
+        "space_index": 580,
+        "hypothesis": "Quarter interfaces remained rich visually but often transient. Sparse five-value patches test a missing regime without changing renderer or collecting unbudgeted follow-ups."
+      },
+      {
+        "space_index": 456,
+        "hypothesis": "Halves were the most seed-sensitive common anchor; change alphabet and mask to test whether lower repeated-signature bins can recur under a simpler heterogeneous initial state."
+      }
+    ],
+    "1": [
+      {
+        "space_index": 1000,
+        "hypothesis": "Exclusion showed both extinction and a sparse regular stripe family. Broad offsets in a sparse full world may expose additional occupancy/activity regimes."
+      },
+      {
+        "space_index": 964,
+        "hypothesis": "Vary the five-value exclusion patch away from the prior bands. Test sparse isolated histories versus dense patched collisions, keeping all failed outcomes."
+      },
+      {
+        "space_index": 376,
+        "hypothesis": "Sparse erasure often saturated into visually regular striped domains. Dense broad-alphabet collisions may instead sustain holes or collapse."
+      },
+      {
+        "space_index": 235,
+        "hypothesis": "Dense A bands still tended toward periodic stripes; a sparse repeated mixed-sign block tests the imposed organization/empty-exterior sensitivity."
+      },
+      {
+        "space_index": 580,
+        "hypothesis": "Quarter interfaces remained rich visually but often transient. Sparse five-value patches test a missing regime without changing renderer or collecting unbudgeted follow-ups."
+      },
+      {
+        "space_index": 462,
+        "hypothesis": "Halves were the most seed-sensitive common anchor; change alphabet and mask to test whether lower repeated-signature bins can recur under a simpler heterogeneous initial state."
+      }
+    ],
+    "2": [
+      {
+        "space_index": 992,
+        "hypothesis": "Exclusion showed both extinction and a sparse regular stripe family. Broad offsets in a sparse full world may expose additional occupancy/activity regimes."
+      },
+      {
+        "space_index": 986,
+        "hypothesis": "Vary the five-value exclusion patch away from the prior bands. Test sparse isolated histories versus dense patched collisions, keeping all failed outcomes."
+      },
+      {
+        "space_index": 376,
+        "hypothesis": "Sparse erasure often saturated into visually regular striped domains. Dense broad-alphabet collisions may instead sustain holes or collapse."
+      },
+      {
+        "space_index": 227,
+        "hypothesis": "Dense A bands still tended toward periodic stripes; a sparse repeated mixed-sign block tests the imposed organization/empty-exterior sensitivity."
+      },
+      {
+        "space_index": 588,
+        "hypothesis": "Quarter interfaces remained rich visually but often transient. Sparse five-value patches test a missing regime without changing renderer or collecting unbudgeted follow-ups."
+      },
+      {
+        "space_index": 456,
+        "hypothesis": "Halves were the most seed-sensitive common anchor; change alphabet and mask to test whether lower repeated-signature bins can recur under a simpler heterogeneous initial state."
+      }
+    ],
+    "3": [
+      {
+        "space_index": 1000,
+        "hypothesis": "Exclusion showed both extinction and a sparse regular stripe family. Broad offsets in a sparse full world may expose additional occupancy/activity regimes."
+      },
+      {
+        "space_index": 988,
+        "hypothesis": "Vary the five-value exclusion patch away from the prior bands. Test sparse isolated histories versus dense patched collisions, keeping all failed outcomes."
+      },
+      {
+        "space_index": 376,
+        "hypothesis": "Sparse erasure often saturated into visually regular striped domains. Dense broad-alphabet collisions may instead sustain holes or collapse."
+      },
+      {
+        "space_index": 235,
+        "hypothesis": "Dense A bands still tended toward periodic stripes; a sparse repeated mixed-sign block tests the imposed organization/empty-exterior sensitivity."
+      },
+      {
+        "space_index": 588,
+        "hypothesis": "Quarter interfaces remained rich visually but often transient. Sparse five-value patches test a missing regime without changing renderer or collecting unbudgeted follow-ups."
+      },
+      {
+        "space_index": 462,
+        "hypothesis": "Halves were the most seed-sensitive common anchor; change alphabet and mask to test whether lower repeated-signature bins can recur under a simpler heterogeneous initial state."
+      }
+    ]
+  },
+  "feedback_to_submission_wall_seconds": 96.349276,
+  "model_use": {
+    "mode": "conversational Codex assistance",
+    "automated_integration": false,
+    "external_api_calls": 0,
+    "paid_calls": 0,
+    "serving_model": "not separately identified by this interface",
+    "exact_token_and_cost_metering": "unavailable; retain conversation and proposal timestamps; do not invent quantities"
+  }
+}

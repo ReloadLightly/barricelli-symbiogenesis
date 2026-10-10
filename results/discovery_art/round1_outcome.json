@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-10-10T20:06:23.513973+00:00",
+  "proposal_file": "proposals1.json",
+  "codex_coverage": [
+    4,
+    4,
+    4,
+    5
+  ],
+  "decision": "Read complete own-history visual/numeric feedback for next six proposals."
+}

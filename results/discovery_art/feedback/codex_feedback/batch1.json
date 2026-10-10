@@ -1,0 +1,2140 @@
+{
+  "created_utc": "2026-10-10T20:06:23.133131+00:00",
+  "batch": 1,
+  "method": "codex_feedback",
+  "space_file": "results/discovery_art/design.json",
+  "space_sha256": "962dba5c26f0ac24ba12fbdc23be6824a68fbe00120c415696a1160b817c9050",
+  "question": "Which six untested admissible configurations could expand this search archive? Use own complete visual and numerical history; model explanations are hypotheses.",
+  "repeats": {
+    "0": {
+      "coverage": 4,
+      "records": [
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 0,
+          "space_index": 80,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 2,
+            "density": 0.65,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 24000,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial00",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.5,
+            "tail_compressibility": 0.9949137369791666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 1534,
+            "descriptor_seconds": 0.6014574940018065,
+            "recurrence": {
+              "first_time": 265,
+              "return_time": 269,
+              "period": 4
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9949137369791666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0,
+          "engine_seconds": 0.010135,
+          "process_seconds": 0.014403560999198817,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 1,
+          "space_index": 168,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 1,
+            "density": 0.35,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 24001,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial01",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.9611002604166666,
+            "tail_activity": 0.8654233870967742,
+            "tail_repeated4_fraction": 0.8399962521885116,
+            "retained_repeated4_signatures": 20,
+            "tail_new4_signatures": 1,
+            "tail_entropy_bits": 1.825245379466549,
+            "tail_compressibility": 0.9852294921875,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4326,
+            "descriptor_seconds": 0.5746654879985726,
+            "recurrence": null,
+            "vector": [
+              0.9611002604166666,
+              0.8654233870967742,
+              0.8399962521885116,
+              0.9852294921875
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.21288268692184228,
+          "engine_seconds": 0.00926939,
+          "process_seconds": 0.013165849999495549,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 2,
+          "space_index": 507,
+          "theta": {
+            "norm": "galloway_AB_halves",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "center_patch",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 24002,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial02",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.8240559895833334,
+            "tail_activity": 0.8209005376344086,
+            "tail_repeated4_fraction": 0.9279141544630125,
+            "retained_repeated4_signatures": 16,
+            "tail_new4_signatures": 12,
+            "tail_entropy_bits": 2.238287976422602,
+            "tail_compressibility": 0.9825032552083334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 5028,
+            "descriptor_seconds": 0.8405435659988143,
+            "recurrence": null,
+            "vector": [
+              0.8240559895833334,
+              0.8209005376344086,
+              0.9279141544630125,
+              0.9825032552083334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.21516132177427066,
+          "engine_seconds": 0.00889928,
+          "process_seconds": 0.012905436000437476,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 3,
+          "space_index": 788,
+          "theta": {
+            "norm": "conditional",
+            "alphabet_id": 0,
+            "density": 0.65,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 24003,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial03",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.9947916666666666,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 0.9947089947089947,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.041771444155161,
+            "tail_compressibility": 0.9935709635416666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 615,
+            "descriptor_seconds": 0.4954273410003225,
+            "recurrence": {
+              "first_time": 233,
+              "return_time": 235,
+              "period": 2
+            },
+            "vector": [
+              0.9947916666666666,
+              1.0,
+              0.9947089947089947,
+              0.9935709635416666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.1573507311476153,
+          "engine_seconds": 0.00761064,
+          "process_seconds": 0.01074531100312015,
+          "max_rss_kib": 3840,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 4,
+          "space_index": 288,
+          "theta": {
+            "norm": "galloway_0",
+            "alphabet_id": 1,
+            "density": 0.15,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 24004,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial04",
+          "reason": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.5,
+            "tail_compressibility": 0.9949544270833334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 151,
+            "descriptor_seconds": 0.5847864699971979,
+            "recurrence": {
+              "first_time": 209,
+              "return_time": 213,
+              "period": 4
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9949544270833334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.07349247112594631,
+          "engine_seconds": 0.00993243,
+          "process_seconds": 0.02094316199872992,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 5,
+          "space_index": 974,
+          "theta": {
+            "norm": "exclusion",
+            "alphabet_id": 2,
+            "density": 0.35,
+            "layout": "bands",
+            "initial_style": "iid"
+          },
+          "seed": 24005,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial05",
+          "reason": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors.",
+          "descriptors": {
+            "tail_occupancy": 0.19791666666666666,
+            "tail_activity": 0.19791666666666666,
+            "tail_repeated4_fraction": 0.0,
+            "retained_repeated4_signatures": 0,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 0.915658475836411,
+            "tail_compressibility": 0.9943440755208334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 93,
+            "descriptor_seconds": 0.35519649499838124,
+            "recurrence": {
+              "first_time": 57,
+              "return_time": 59,
+              "period": 2
+            },
+            "vector": [
+              0.19791666666666666,
+              0.19791666666666666,
+              0.0,
+              0.9943440755208334
+            ],
+            "archive_bin": [
+              0,
+              0,
+              0
+            ]
+          },
+          "novelty_to_previous_knn3": 1.3679195034385423,
+          "engine_seconds": 0.007651,
+          "process_seconds": 0.01461687800110667,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 6,
+          "space_index": 740,
+          "theta": {
+            "norm": "galloway_AB_temporal",
+            "alphabet_id": 3,
+            "density": 0.15,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 24006,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial06",
+          "reason": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime.",
+          "descriptors": {
+            "tail_occupancy": 0.86669921875,
+            "tail_activity": 0.8069556451612904,
+            "tail_repeated4_fraction": 0.8358644587474103,
+            "retained_repeated4_signatures": 20,
+            "tail_new4_signatures": 7,
+            "tail_entropy_bits": 1.929827196780448,
+            "tail_compressibility": 0.9833577473958334,
+            "exact_translation_fraction": 0.0967741935483871,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 5746,
+            "descriptor_seconds": 0.6549345439998433,
+            "recurrence": null,
+            "vector": [
+              0.86669921875,
+              0.8069556451612904,
+              0.8358644587474103,
+              0.9833577473958334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.16487497082884991,
+          "engine_seconds": 0.00898456,
+          "process_seconds": 0.013942116998805432,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 7,
+          "space_index": 567,
+          "theta": {
+            "norm": "galloway_AB_quarters",
+            "alphabet_id": 1,
+            "density": 0.65,
+            "layout": "bands",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 24007,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial07",
+          "reason": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention.",
+          "descriptors": {
+            "tail_occupancy": 0.6695963541666666,
+            "tail_activity": 0.678763440860215,
+            "tail_repeated4_fraction": 0.5809119490762785,
+            "retained_repeated4_signatures": 8,
+            "tail_new4_signatures": 154,
+            "tail_entropy_bits": 2.520944253543255,
+            "tail_compressibility": 0.9469401041666666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4997,
+            "descriptor_seconds": 0.5854100910000852,
+            "recurrence": null,
+            "vector": [
+              0.6695963541666666,
+              0.678763440860215,
+              0.5809119490762785,
+              0.9469401041666666
+            ],
+            "archive_bin": [
+              3,
+              3,
+              2
+            ]
+          },
+          "novelty_to_previous_knn3": 0.3966306152748528,
+          "engine_seconds": 0.00939811,
+          "process_seconds": 0.014096847000473645,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 8,
+          "space_index": 3,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 0,
+            "density": 0.15,
+            "layout": "center_patch",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 24008,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial08",
+          "reason": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9957682291666666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 17,
+            "descriptor_seconds": 0.481107019000774,
+            "recurrence": {
+              "first_time": 185,
+              "return_time": 187,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9957682291666666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0031369990812618598,
+          "engine_seconds": 0.00867338,
+          "process_seconds": 0.014578670001355931,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 0,
+          "trial": 9,
+          "space_index": 254,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "bands",
+            "initial_style": "iid"
+          },
+          "seed": 24009,
+          "path": "results/discovery_art/search/codex_feedback/repeat0/trial09",
+          "reason": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor.",
+          "descriptors": {
+            "tail_occupancy": 0.8946940104166666,
+            "tail_activity": 0.7293346774193549,
+            "tail_repeated4_fraction": 0.9725286028104296,
+            "retained_repeated4_signatures": 16,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.8616420002273864,
+            "tail_compressibility": 0.9892171223958334,
+            "exact_translation_fraction": 0.3870967741935484,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 3578,
+            "descriptor_seconds": 0.5726093339981162,
+            "recurrence": null,
+            "vector": [
+              0.8946940104166666,
+              0.7293346774193549,
+              0.9725286028104296,
+              0.9892171223958334
+            ],
+            "archive_bin": [
+              4,
+              3,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.16171936371207485,
+          "engine_seconds": 0.00994714,
+          "process_seconds": 0.013893300001655007,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        }
+      ]
+    },
+    "1": {
+      "coverage": 4,
+      "records": [
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 0,
+          "space_index": 80,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 2,
+            "density": 0.65,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 25000,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial00",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9958089192708334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 2454,
+            "descriptor_seconds": 0.577014100002998,
+            "recurrence": {
+              "first_time": 295,
+              "return_time": 297,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9958089192708334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0,
+          "engine_seconds": 0.00948234,
+          "process_seconds": 0.014602573999582091,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 1,
+          "space_index": 168,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 1,
+            "density": 0.35,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 25001,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial01",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9951578776041666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 2974,
+            "descriptor_seconds": 0.5741211189997557,
+            "recurrence": {
+              "first_time": 324,
+              "return_time": 326,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9951578776041666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0006510416666667407,
+          "engine_seconds": 0.00855518,
+          "process_seconds": 0.022079952999774832,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 2,
+          "space_index": 507,
+          "theta": {
+            "norm": "galloway_AB_halves",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "center_patch",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 25002,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial02",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.7169596354166666,
+            "tail_activity": 0.7856182795698925,
+            "tail_repeated4_fraction": 0.654261446538828,
+            "retained_repeated4_signatures": 24,
+            "tail_new4_signatures": 84,
+            "tail_entropy_bits": 2.3838353590990176,
+            "tail_compressibility": 0.9604085286458334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 6460,
+            "descriptor_seconds": 0.5935711169986462,
+            "recurrence": null,
+            "vector": [
+              0.7169596354166666,
+              0.7856182795698925,
+              0.654261446538828,
+              0.9604085286458334
+            ],
+            "archive_bin": [
+              3,
+              3,
+              3
+            ]
+          },
+          "novelty_to_previous_knn3": 0.4968268001165491,
+          "engine_seconds": 0.0106216,
+          "process_seconds": 0.014889955000398913,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 3,
+          "space_index": 788,
+          "theta": {
+            "norm": "conditional",
+            "alphabet_id": 0,
+            "density": 0.65,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 25003,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial03",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.9820963541666666,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 0.9860092113212999,
+            "retained_repeated4_signatures": 10,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 2.104316848760541,
+            "tail_compressibility": 0.9896647135416666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 2590,
+            "descriptor_seconds": 0.4839841659995727,
+            "recurrence": {
+              "first_time": 310,
+              "return_time": 320,
+              "period": 10
+            },
+            "vector": [
+              0.9820963541666666,
+              1.0,
+              0.9860092113212999,
+              0.9896647135416666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.1745124600314416,
+          "engine_seconds": 0.010713,
+          "process_seconds": 0.014501508998364443,
+          "max_rss_kib": 3840,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 4,
+          "space_index": 320,
+          "theta": {
+            "norm": "galloway_0",
+            "alphabet_id": 2,
+            "density": 0.15,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 25004,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial04",
+          "reason": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin.",
+          "descriptors": {
+            "tail_occupancy": 0.8489583333333334,
+            "tail_activity": 0.8854166666666666,
+            "tail_repeated4_fraction": 0.9529411764705882,
+            "retained_repeated4_signatures": 11,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.6888581274342367,
+            "tail_compressibility": 0.9906005859375,
+            "exact_translation_fraction": 1.0,
+            "median_best_shift": -3.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 181,
+            "descriptor_seconds": 0.576806924000266,
+            "recurrence": {
+              "first_time": 84,
+              "return_time": 148,
+              "period": 64
+            },
+            "vector": [
+              0.8489583333333334,
+              0.8854166666666666,
+              0.9529411764705882,
+              0.9906005859375
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.18984844396264736,
+          "engine_seconds": 0.00914877,
+          "process_seconds": 0.013545159999921452,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 5,
+          "space_index": 940,
+          "theta": {
+            "norm": "exclusion",
+            "alphabet_id": 1,
+            "density": 0.35,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 25005,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial05",
+          "reason": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.5,
+            "tail_compressibility": 0.994873046875,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 73,
+            "descriptor_seconds": 0.5201144920029037,
+            "recurrence": {
+              "first_time": 146,
+              "return_time": 150,
+              "period": 4
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.994873046875
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.008177282400022745,
+          "engine_seconds": 0.0077453,
+          "process_seconds": 0.01153199699911056,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 6,
+          "space_index": 738,
+          "theta": {
+            "norm": "galloway_AB_temporal",
+            "alphabet_id": 3,
+            "density": 0.15,
+            "layout": "center_patch",
+            "initial_style": "iid"
+          },
+          "seed": 25006,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial06",
+          "reason": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime.",
+          "descriptors": {
+            "tail_occupancy": 0.7766927083333334,
+            "tail_activity": 0.8644153225806451,
+            "tail_repeated4_fraction": 0.6106906732610231,
+            "retained_repeated4_signatures": 20,
+            "tail_new4_signatures": 184,
+            "tail_entropy_bits": 2.3870065567287835,
+            "tail_compressibility": 0.9322916666666666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 7171,
+            "descriptor_seconds": 0.6216487109995796,
+            "recurrence": null,
+            "vector": [
+              0.7766927083333334,
+              0.8644153225806451,
+              0.6106906732610231,
+              0.9322916666666666
+            ],
+            "archive_bin": [
+              3,
+              4,
+              3
+            ]
+          },
+          "novelty_to_previous_knn3": 0.30645541130837745,
+          "engine_seconds": 0.00813807,
+          "process_seconds": 0.011615702998824418,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 7,
+          "space_index": 567,
+          "theta": {
+            "norm": "galloway_AB_quarters",
+            "alphabet_id": 1,
+            "density": 0.65,
+            "layout": "bands",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 25007,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial07",
+          "reason": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention.",
+          "descriptors": {
+            "tail_occupancy": 0.60546875,
+            "tail_activity": 0.6622983870967742,
+            "tail_repeated4_fraction": 0.810116929383343,
+            "retained_repeated4_signatures": 9,
+            "tail_new4_signatures": 85,
+            "tail_entropy_bits": 2.2133340908887273,
+            "tail_compressibility": 0.9641520182291666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4292,
+            "descriptor_seconds": 0.6076615729980404,
+            "recurrence": null,
+            "vector": [
+              0.60546875,
+              0.6622983870967742,
+              0.810116929383343,
+              0.9641520182291666
+            ],
+            "archive_bin": [
+              3,
+              3,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.30726525033492896,
+          "engine_seconds": 0.00889711,
+          "process_seconds": 0.012655799997446593,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 8,
+          "space_index": 5,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 0,
+            "density": 0.15,
+            "layout": "two_patches",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 25008,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial08",
+          "reason": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9957682291666666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 26,
+            "descriptor_seconds": 0.5528564760024892,
+            "recurrence": {
+              "first_time": 154,
+              "return_time": 156,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9957682291666666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0005154079861111235,
+          "engine_seconds": 0.00785097,
+          "process_seconds": 0.011686159999953816,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 1,
+          "trial": 9,
+          "space_index": 254,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "bands",
+            "initial_style": "iid"
+          },
+          "seed": 25009,
+          "path": "results/discovery_art/search/codex_feedback/repeat1/trial09",
+          "reason": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9951578776041666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 2527,
+            "descriptor_seconds": 0.546446828997432,
+            "recurrence": {
+              "first_time": 295,
+              "return_time": 297,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9951578776041666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0002983940972222099,
+          "engine_seconds": 0.00998374,
+          "process_seconds": 0.01381092000156059,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        }
+      ]
+    },
+    "2": {
+      "coverage": 4,
+      "records": [
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 0,
+          "space_index": 80,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 2,
+            "density": 0.65,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 26000,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial00",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.8943684895833334,
+            "tail_activity": 0.8909610215053764,
+            "tail_repeated4_fraction": 0.907127882438453,
+            "retained_repeated4_signatures": 19,
+            "tail_new4_signatures": 3,
+            "tail_entropy_bits": 2.065629528588683,
+            "tail_compressibility": 0.9832763671875,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 3563,
+            "descriptor_seconds": 0.5703807509999024,
+            "recurrence": null,
+            "vector": [
+              0.8943684895833334,
+              0.8909610215053764,
+              0.907127882438453,
+              0.9832763671875
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0,
+          "engine_seconds": 0.0105112,
+          "process_seconds": 0.015508890002820408,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 1,
+          "space_index": 168,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 1,
+            "density": 0.35,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 26001,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial01",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.56201171875,
+            "tail_activity": 0.645497311827957,
+            "tail_repeated4_fraction": 0.4134425086832581,
+            "retained_repeated4_signatures": 22,
+            "tail_new4_signatures": 179,
+            "tail_entropy_bits": 2.4564938533721166,
+            "tail_compressibility": 0.9182535807291666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 5873,
+            "descriptor_seconds": 0.6051479260022461,
+            "recurrence": null,
+            "vector": [
+              0.56201171875,
+              0.645497311827957,
+              0.4134425086832581,
+              0.9182535807291666
+            ],
+            "archive_bin": [
+              2,
+              3,
+              2
+            ]
+          },
+          "novelty_to_previous_knn3": 0.6470445633076395,
+          "engine_seconds": 0.00920359,
+          "process_seconds": 0.014680969001346966,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 2,
+          "space_index": 507,
+          "theta": {
+            "norm": "galloway_AB_halves",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "center_patch",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 26002,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial02",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.8829752604166666,
+            "tail_activity": 0.9028897849462365,
+            "tail_repeated4_fraction": 0.8889754078051183,
+            "retained_repeated4_signatures": 24,
+            "tail_new4_signatures": 34,
+            "tail_entropy_bits": 2.0396839874603696,
+            "tail_compressibility": 0.9764811197916666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4196,
+            "descriptor_seconds": 0.5524858770004357,
+            "recurrence": null,
+            "vector": [
+              0.8829752604166666,
+              0.9028897849462365,
+              0.8889754078051183,
+              0.9764811197916666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.3284751408689503,
+          "engine_seconds": 0.00701297,
+          "process_seconds": 0.011397930997190997,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 3,
+          "space_index": 788,
+          "theta": {
+            "norm": "conditional",
+            "alphabet_id": 0,
+            "density": 0.65,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 26003,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial03",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9951578776041666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 410,
+            "descriptor_seconds": 0.5143153850003728,
+            "recurrence": {
+              "first_time": 332,
+              "return_time": 334,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9951578776041666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.3948543155310904,
+          "engine_seconds": 0.00897794,
+          "process_seconds": 0.01499522300218814,
+          "max_rss_kib": 3840,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 4,
+          "space_index": 296,
+          "theta": {
+            "norm": "galloway_0",
+            "alphabet_id": 1,
+            "density": 0.35,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 26004,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial04",
+          "reason": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin.",
+          "descriptors": {
+            "tail_occupancy": 0.8333333333333334,
+            "tail_activity": 0.9529569892473119,
+            "tail_repeated4_fraction": 0.9817708333333334,
+            "retained_repeated4_signatures": 32,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.8225177897245222,
+            "tail_compressibility": 0.9875081380208334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 190,
+            "descriptor_seconds": 0.550033737999911,
+            "recurrence": null,
+            "vector": [
+              0.8333333333333334,
+              0.9529569892473119,
+              0.9817708333333334,
+              0.9875081380208334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.135358439317641,
+          "engine_seconds": 0.00919166,
+          "process_seconds": 0.013104270001349505,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 5,
+          "space_index": 982,
+          "theta": {
+            "norm": "exclusion",
+            "alphabet_id": 2,
+            "density": 0.65,
+            "layout": "bands",
+            "initial_style": "iid"
+          },
+          "seed": 26005,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial05",
+          "reason": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors.",
+          "descriptors": {
+            "tail_occupancy": 0.0,
+            "tail_activity": 0.0,
+            "tail_repeated4_fraction": 0.0,
+            "retained_repeated4_signatures": 0,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": -0.0,
+            "tail_compressibility": 0.9980875651041666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 0.0,
+            "stationary_fraction": 1.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 245,
+            "descriptor_seconds": 0.3676717099988309,
+            "recurrence": {
+              "first_time": 84,
+              "return_time": 85,
+              "period": 1
+            },
+            "vector": [
+              0.0,
+              0.0,
+              0.0,
+              0.9980875651041666
+            ],
+            "archive_bin": [
+              0,
+              0,
+              0
+            ]
+          },
+          "novelty_to_previous_knn3": 1.3509993515683882,
+          "engine_seconds": 0.00443645,
+          "process_seconds": 0.01995214000271517,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 6,
+          "space_index": 748,
+          "theta": {
+            "norm": "galloway_AB_temporal",
+            "alphabet_id": 3,
+            "density": 0.35,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 26006,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial06",
+          "reason": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime.",
+          "descriptors": {
+            "tail_occupancy": 0.8873697916666666,
+            "tail_activity": 0.9054099462365591,
+            "tail_repeated4_fraction": 0.9118435035228585,
+            "retained_repeated4_signatures": 28,
+            "tail_new4_signatures": 2,
+            "tail_entropy_bits": 1.9525301276588989,
+            "tail_compressibility": 0.9829508463541666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 7248,
+            "descriptor_seconds": 0.6590572810018784,
+            "recurrence": null,
+            "vector": [
+              0.8873697916666666,
+              0.9054099462365591,
+              0.9118435035228585,
+              0.9829508463541666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.04716364550470991,
+          "engine_seconds": 0.00909071,
+          "process_seconds": 0.013129871000273852,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 7,
+          "space_index": 631,
+          "theta": {
+            "norm": "galloway_AB_quarters",
+            "alphabet_id": 3,
+            "density": 0.65,
+            "layout": "bands",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 26007,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial07",
+          "reason": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention.",
+          "descriptors": {
+            "tail_occupancy": 0.5577799479166666,
+            "tail_activity": 0.59375,
+            "tail_repeated4_fraction": 0.7976504978480581,
+            "retained_repeated4_signatures": 3,
+            "tail_new4_signatures": 9,
+            "tail_entropy_bits": 1.8555962510899735,
+            "tail_compressibility": 0.9832763671875,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4790,
+            "descriptor_seconds": 0.615513495002233,
+            "recurrence": null,
+            "vector": [
+              0.5577799479166666,
+              0.59375,
+              0.7976504978480581,
+              0.9832763671875
+            ],
+            "archive_bin": [
+              2,
+              2,
+              3
+            ]
+          },
+          "novelty_to_previous_knn3": 0.43774426362971924,
+          "engine_seconds": 0.0080316,
+          "process_seconds": 0.01265590399998473,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 8,
+          "space_index": 3,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 0,
+            "density": 0.15,
+            "layout": "center_patch",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 26008,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial08",
+          "reason": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9957682291666666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 18,
+            "descriptor_seconds": 0.5363894609981799,
+            "recurrence": {
+              "first_time": 119,
+              "return_time": 121,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9957682291666666
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.11563233931533906,
+          "engine_seconds": 0.00784385,
+          "process_seconds": 0.011222600998735288,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 2,
+          "trial": 9,
+          "space_index": 254,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "bands",
+            "initial_style": "iid"
+          },
+          "seed": 26009,
+          "path": "results/discovery_art/search/codex_feedback/repeat2/trial09",
+          "reason": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor.",
+          "descriptors": {
+            "tail_occupancy": 0.9921875,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 0.9635416666666666,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.058096981867324,
+            "tail_compressibility": 0.9937744140625,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 2865,
+            "descriptor_seconds": 0.5843252069971641,
+            "recurrence": {
+              "first_time": 285,
+              "return_time": 287,
+              "period": 2
+            },
+            "vector": [
+              0.9921875,
+              1.0,
+              0.9635416666666666,
+              0.9937744140625
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.07513177713070056,
+          "engine_seconds": 0.010044,
+          "process_seconds": 0.014687622999190353,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        }
+      ]
+    },
+    "3": {
+      "coverage": 5,
+      "records": [
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 0,
+          "space_index": 80,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 2,
+            "density": 0.65,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 27000,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial00",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.9762369791666666,
+            "tail_activity": 0.5979502688172043,
+            "tail_repeated4_fraction": 0.8587637417158619,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.1568774016137195,
+            "tail_compressibility": 0.9881184895833334,
+            "exact_translation_fraction": 0.22580645161290322,
+            "median_best_shift": -1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4210,
+            "descriptor_seconds": 0.5740655700028583,
+            "recurrence": null,
+            "vector": [
+              0.9762369791666666,
+              0.5979502688172043,
+              0.8587637417158619,
+              0.9881184895833334
+            ],
+            "archive_bin": [
+              4,
+              2,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.0,
+          "engine_seconds": 0.00970813,
+          "process_seconds": 0.013961365002614912,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 1,
+          "space_index": 168,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 1,
+            "density": 0.35,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 27001,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial01",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.8601888020833334,
+            "tail_activity": 0.879872311827957,
+            "tail_repeated4_fraction": 0.9055989583333334,
+            "retained_repeated4_signatures": 12,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.554181251200949,
+            "tail_compressibility": 0.9876708984375,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 5518,
+            "descriptor_seconds": 0.6328671289993508,
+            "recurrence": null,
+            "vector": [
+              0.8601888020833334,
+              0.879872311827957,
+              0.9055989583333334,
+              0.9876708984375
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.3084492755594681,
+          "engine_seconds": 0.00910137,
+          "process_seconds": 0.012826856000174303,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 2,
+          "space_index": 507,
+          "theta": {
+            "norm": "galloway_AB_halves",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "center_patch",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 27002,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial02",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.666015625,
+            "tail_activity": 0.7053091397849462,
+            "tail_repeated4_fraction": 0.5068868887201609,
+            "retained_repeated4_signatures": 14,
+            "tail_new4_signatures": 186,
+            "tail_entropy_bits": 2.4254263620786243,
+            "tail_compressibility": 0.939453125,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 1.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 5983,
+            "descriptor_seconds": 0.5961104159978277,
+            "recurrence": null,
+            "vector": [
+              0.666015625,
+              0.7053091397849462,
+              0.5068868887201609,
+              0.939453125
+            ],
+            "archive_bin": [
+              3,
+              3,
+              2
+            ]
+          },
+          "novelty_to_previous_knn3": 0.48135736809516105,
+          "engine_seconds": 0.00965921,
+          "process_seconds": 0.014165463999233907,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 3,
+          "space_index": 788,
+          "theta": {
+            "norm": "conditional",
+            "alphabet_id": 0,
+            "density": 0.65,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 27003,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial03",
+          "reason": "shared declared anchor",
+          "descriptors": {
+            "tail_occupancy": 0.9895833333333334,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 0.9890710382513661,
+            "retained_repeated4_signatures": 4,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0731262216436557,
+            "tail_compressibility": 0.9925537109375,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 821,
+            "descriptor_seconds": 0.5086837939998077,
+            "recurrence": {
+              "first_time": 237,
+              "return_time": 239,
+              "period": 2
+            },
+            "vector": [
+              0.9895833333333334,
+              1.0,
+              0.9890710382513661,
+              0.9925537109375
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.4238590683364076,
+          "engine_seconds": 0.00939832,
+          "process_seconds": 0.01336087700110511,
+          "max_rss_kib": 3840,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 4,
+          "space_index": 328,
+          "theta": {
+            "norm": "galloway_0",
+            "alphabet_id": 2,
+            "density": 0.35,
+            "layout": "uniform",
+            "initial_style": "iid"
+          },
+          "seed": 27004,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial04",
+          "reason": "Erasure removes collision-created values; a sparse full ring may preserve separated translation or decay into a low-occupancy bin.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9956868489583334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 326,
+            "descriptor_seconds": 0.5384135809981672,
+            "recurrence": {
+              "first_time": 179,
+              "return_time": 181,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9956868489583334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.21651238225042505,
+          "engine_seconds": 0.0268681,
+          "process_seconds": 0.03524770000149147,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 5,
+          "space_index": 948,
+          "theta": {
+            "norm": "exclusion",
+            "alphabet_id": 1,
+            "density": 0.65,
+            "layout": "two_patches",
+            "initial_style": "iid"
+          },
+          "seed": 27005,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial05",
+          "reason": "Exclusion plus separated bands/patches may disrupt the saturated high-activity domains visible in the anchors.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9957275390625,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "open",
+            "descriptor_version": 2,
+            "signature_count_total": 155,
+            "descriptor_seconds": 0.4998972130015318,
+            "recurrence": {
+              "first_time": 314,
+              "return_time": 316,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9957275390625
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.07424095035854571,
+          "engine_seconds": 0.00801856,
+          "process_seconds": 0.013513123001757776,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 6,
+          "space_index": 746,
+          "theta": {
+            "norm": "galloway_AB_temporal",
+            "alphabet_id": 3,
+            "density": 0.35,
+            "layout": "center_patch",
+            "initial_style": "iid"
+          },
+          "seed": 27006,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial06",
+          "reason": "Alternate A/B in time with sparse mixed-sign patches; test whether persistent interfaces survive beyond the visually dense anchor regime.",
+          "descriptors": {
+            "tail_occupancy": 0.6637369791666666,
+            "tail_activity": 0.6530577956989247,
+            "tail_repeated4_fraction": 0.5259913322405471,
+            "retained_repeated4_signatures": 11,
+            "tail_new4_signatures": 264,
+            "tail_entropy_bits": 2.511312690489516,
+            "tail_compressibility": 0.9354654947916666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4823,
+            "descriptor_seconds": 0.6195681120007066,
+            "recurrence": null,
+            "vector": [
+              0.6637369791666666,
+              0.6530577956989247,
+              0.5259913322405471,
+              0.9354654947916666
+            ],
+            "archive_bin": [
+              3,
+              3,
+              2
+            ]
+          },
+          "novelty_to_previous_knn3": 0.3351108360294557,
+          "engine_seconds": 0.00936412,
+          "process_seconds": 0.013366546998440754,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 7,
+          "space_index": 631,
+          "theta": {
+            "norm": "galloway_AB_quarters",
+            "alphabet_id": 3,
+            "density": 0.65,
+            "layout": "bands",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 27007,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial07",
+          "reason": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention.",
+          "descriptors": {
+            "tail_occupancy": 0.8414713541666666,
+            "tail_activity": 0.7750336021505376,
+            "tail_repeated4_fraction": 0.8837707014766784,
+            "retained_repeated4_signatures": 17,
+            "tail_new4_signatures": 5,
+            "tail_entropy_bits": 1.7236986017553289,
+            "tail_compressibility": 0.9842936197916666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": 2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4403,
+            "descriptor_seconds": 0.6048226879975118,
+            "recurrence": null,
+            "vector": [
+              0.8414713541666666,
+              0.7750336021505376,
+              0.8837707014766784,
+              0.9842936197916666
+            ],
+            "archive_bin": [
+              4,
+              3,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.20734774861072683,
+          "engine_seconds": 0.00870775,
+          "process_seconds": 0.012939688000187743,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 8,
+          "space_index": 5,
+          "theta": {
+            "norm": "galloway_B",
+            "alphabet_id": 0,
+            "density": 0.15,
+            "layout": "two_patches",
+            "initial_style": "block8_jitter"
+          },
+          "seed": 27008,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial08",
+          "reason": "The two-value sparse patch probes a visually simple low-occupancy contrast to dense B stripes; regularity may merely be periodic.",
+          "descriptors": {
+            "tail_occupancy": 1.0,
+            "tail_activity": 1.0,
+            "tail_repeated4_fraction": 1.0,
+            "retained_repeated4_signatures": 2,
+            "tail_new4_signatures": 0,
+            "tail_entropy_bits": 1.0,
+            "tail_compressibility": 0.9958089192708334,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": null,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 1.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 28,
+            "descriptor_seconds": 0.4973973539999861,
+            "recurrence": {
+              "first_time": 183,
+              "return_time": 185,
+              "period": 2
+            },
+            "vector": [
+              1.0,
+              1.0,
+              1.0,
+              0.9958089192708334
+            ],
+            "archive_bin": [
+              4,
+              4,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.005216123256965272,
+          "engine_seconds": 0.00863364,
+          "process_seconds": 0.01331831700008479,
+          "max_rss_kib": 3712,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        },
+        {
+          "method": "codex_feedback",
+          "repeat": 3,
+          "trial": 9,
+          "space_index": 254,
+          "theta": {
+            "norm": "galloway_A",
+            "alphabet_id": 3,
+            "density": 0.9,
+            "layout": "bands",
+            "initial_style": "iid"
+          },
+          "seed": 27009,
+          "path": "results/discovery_art/search/codex_feedback/repeat3/trial09",
+          "reason": "Dense broad alphabet with empty bands tests interface collisions outside the three-value A anchor.",
+          "descriptors": {
+            "tail_occupancy": 0.6095377604166666,
+            "tail_activity": 0.6214717741935484,
+            "tail_repeated4_fraction": 0.887493971605199,
+            "retained_repeated4_signatures": 15,
+            "tail_new4_signatures": 3,
+            "tail_entropy_bits": 1.8387634870591156,
+            "tail_compressibility": 0.9828287760416666,
+            "exact_translation_fraction": 0.0,
+            "median_best_shift": -2.0,
+            "stationary_fraction": 0.0,
+            "ambiguous_translation_fraction": 0.0,
+            "boundary": "ring",
+            "descriptor_version": 2,
+            "signature_count_total": 4991,
+            "descriptor_seconds": 0.5966303150016756,
+            "recurrence": null,
+            "vector": [
+              0.6095377604166666,
+              0.6214717741935484,
+              0.887493971605199,
+              0.9828287760416666
+            ],
+            "archive_bin": [
+              3,
+              3,
+              4
+            ]
+          },
+          "novelty_to_previous_knn3": 0.3357622144596076,
+          "engine_seconds": 0.00900246,
+          "process_seconds": 0.013509535001503536,
+          "max_rss_kib": 3584,
+          "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+        }
+      ]
+    }
+  },
+  "visuals": [
+    {
+      "repeat": 0,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat0.png",
+      "sha256": "6ffb3a7052cc037a3ed757c856a3b3b69dd06b2fe926565c3ecdc5404eac0fba",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 1,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat1.png",
+      "sha256": "5dc6778965dc38bba699bc2929c30fbadad25f9edecfeb1b9c21b8a6081e20d9",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 2,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat2.png",
+      "sha256": "673cb4f28bd1fc3fe0ad6555fee8479bffddc4d9a5fcd56dca2334ccc4d7f7ad",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 3,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat3.png",
+      "sha256": "13b473c6cd7707dd3d63c3a1d2cd9be242ab374b329960750bd3feaab628ec8d",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    }
+  ]
+}

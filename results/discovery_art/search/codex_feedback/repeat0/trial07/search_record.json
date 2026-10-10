@@ -1,0 +1,50 @@
+{
+  "method": "codex_feedback",
+  "repeat": 0,
+  "trial": 7,
+  "space_index": 567,
+  "theta": {
+    "norm": "galloway_AB_quarters",
+    "alphabet_id": 1,
+    "density": 0.65,
+    "layout": "bands",
+    "initial_style": "block8_jitter"
+  },
+  "seed": 24007,
+  "path": "results/discovery_art/search/codex_feedback/repeat0/trial07",
+  "reason": "Quarter-scale interfaces with imposed initial block organization may differ from the half-world anchor; repeated block is a labeled t0 intervention.",
+  "descriptors": {
+    "tail_occupancy": 0.6695963541666666,
+    "tail_activity": 0.678763440860215,
+    "tail_repeated4_fraction": 0.5809119490762785,
+    "retained_repeated4_signatures": 8,
+    "tail_new4_signatures": 154,
+    "tail_entropy_bits": 2.520944253543255,
+    "tail_compressibility": 0.9469401041666666,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 4997,
+    "descriptor_seconds": 0.5854100910000852,
+    "recurrence": null,
+    "vector": [
+      0.6695963541666666,
+      0.678763440860215,
+      0.5809119490762785,
+      0.9469401041666666
+    ],
+    "archive_bin": [
+      3,
+      3,
+      2
+    ]
+  },
+  "novelty_to_previous_knn3": 0.3966306152748528,
+  "engine_seconds": 0.00939811,
+  "process_seconds": 0.014096847000473645,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

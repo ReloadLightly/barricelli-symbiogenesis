@@ -1,0 +1,42 @@
+{
+  "engine_seconds": 0.0100559,
+  "max_rss_kib": 3840,
+  "attempted_copies": 150950,
+  "accepted_outcomes": 134586,
+  "collisions": 14847,
+  "newly_produced_values": 1403,
+  "erasures": 2347,
+  "fresh_writes": 59646,
+  "same_value_outcomes": 74940,
+  "out_of_bounds": 1294,
+  "depth_cap": 223,
+  "inprocess_rusage_max_rss_kib": 3456,
+  "process_seconds": 0.01423529800013057,
+  "width": 192,
+  "steps": 384,
+  "final_occupancy": 192,
+  "peak_occupancy": 192,
+  "unique_valid_values": 20,
+  "values_absent_initial": [
+    -11,
+    -8,
+    -6,
+    -5,
+    -4,
+    -2,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "environment_period": 1,
+  "whole_world_recurrence": {
+    "first_time": 329,
+    "return_time": 331,
+    "period": 2
+  }
+}

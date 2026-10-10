@@ -15,6 +15,10 @@ def main():
  for row in rows:
   corrected=ROOT/'results/corrections/descriptor_v2/runs'/pathlib.Path(row['path']).relative_to('results')/'analysis.json'
   row['analysis_file']=str(corrected.relative_to(ROOT)) if corrected.exists() else None
+  if row['analysis_file'] is None:
+   for name in ['analysis.json','search_record.json','copying_audit.json']:
+    candidate=ROOT/row['path']/name
+    if candidate.exists(): row['analysis_file']=str(candidate.relative_to(ROOT)); break
  save_json(ROOT/'results/run_register.json',rows)
  with (ROOT/'results/run_register.csv').open('w') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)

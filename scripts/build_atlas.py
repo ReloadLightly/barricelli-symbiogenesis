@@ -42,18 +42,41 @@ def main():
    selections.append((f'results/partner_dyad/recovery/construction_d4_child{child}/continuation',
                       f'Isolated dyad / child {child}',
                       'Actual saved first child, externally extracted and translated to x240 with exterior cleared. It reproduces at its first update after isolation and reaches13 exact dyads at t12. Isolation is an imposed assay; original branching arose from the numerical rule.'))
+ r8=ROOT/'results/discovery_art'; r8_groups=[]
+ if (r8/'curation.json').exists():
+  for i,work in enumerate(json.loads((r8/'curation.json').read_text())['works']):
+   source=work['source_run']; group=[source]
+   selections.append((source,work['title'],'R8 Interfaces series. Selected aesthetically from actual numerical discovery histories; this selection is separate from aggregate scientific evidence. Initial organization is externally designed at t0.'))
+   for name in ['new_seed','density_neighbor','layout_neighbor','rule_neighbor']:
+    path=f'results/discovery_art/nearby/work{i}/{name}'
+    if (ROOT/path/'trajectory.csv').exists():
+     selections.append((path,'Nearby / '+work['title'].split(' / ')[0]+' / '+name.replace('_',' '),'R8 saved one-parameter design neighbor. Rule neighbors share the exact source integer row; other variants record independently generated rows. This is an externally imposed configuration intervention.')); group.append(path)
+   r8_groups.append(group)
+ if (r8/'investigation/summary.json').exists():
+  study=json.loads((r8/'investigation/design.json').read_text())
+  for i,candidate in enumerate(study['candidates']):
+   group=[candidate['path']]
+   if candidate['path'] not in [s[0] for s in selections]: selections.append((candidate['path'],f'Discovery case {i} / '+candidate['method'],'R8 scientific selection by retained signatures and novelty; appearance is not reproduction evidence.'))
+   for condition in ['whole','focal_only','adjacent_removed','matched_damage_elsewhere','rescue','confirmation48000']:
+    path=f'results/discovery_art/investigation/case{i}/{condition}'
+    selections.append((path,f'Case {i} / '+condition.replace('_',' '),'R8 targeted assay. Extraction, component edits and restoration are externally imposed before assay t0, from source row192. Fresh confirmation uses an unseen seed and1536 updates. Exact templates, persistence and ancestry are reported separately.')); group.append(path)
+   r8_groups.append(group)
  worlds=[]; values=set()
  for path,title,caption in selections:
   run=ROOT/path; c=json.loads((run/'config.json').read_text()); arr=read_csv(run/'trajectory.csv'); flat=arr.ravel().tolist(); values.update(flat)
   worlds.append({'id':path.replace('/','--'),'title':title,'caption':caption,'model':c['model']+' / '+c['norm'],'path':path,'width':c['width'],'steps':c['steps'],'seed':c.get('seed'),'initialHash':sha(run/'initial.csv'),'values':flat,'neighbors':[]})
   corrected=ROOT/'results/corrections/descriptor_v2/runs'/pathlib.Path(path).relative_to('results')/'analysis.json'
   worlds[-1]['analysisPath']=str(corrected.relative_to(ROOT)) if corrected.exists() else None
+  if (run/'analysis.json').exists(): worlds[-1]['analysisPath']=str((run/'analysis.json').relative_to(ROOT))
+  elif (run/'search_record.json').exists() and worlds[-1]['analysisPath'] is None: worlds[-1]['analysisPath']=str((run/'search_record.json').relative_to(ROOT))
  neighbor_ids=[w['id'] for w in worlds if w['path']==parent or w['path'].startswith('results/nearby/')]
  environment_ids=[w['id'] for w in worlds if 'exploration_6100_' in w['path']]
  dyad_ids=[w['id'] for w in worlds if w['path'].startswith('results/partner_dyad/runs/construction_d4_')]
  for w in worlds:
   group=neighbor_ids if w['id'] in neighbor_ids else environment_ids if w['id'] in environment_ids else dyad_ids if w['id'] in dyad_ids else []
   w['neighbors']=[v for v in group if v!=w['id']]
+  for r8_group in r8_groups:
+   if w['path'] in r8_group: w['neighbors']+= [p.replace('/','--') for p in r8_group if p!=w['path'] and p.replace('/','--') not in w['neighbors']]
  prints=[]
  for p in sorted((ROOT/'results/art').glob('*.recipe.json')):
   recipe=json.loads(p.read_text()); slug=p.name.removesuffix('.recipe.json'); recipe['slug']=slug; prints.append(recipe)
