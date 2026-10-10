@@ -1,0 +1,2362 @@
+{
+  "design_sha256": "2ee4b9364ecbdc1a7ca3374602ebe4ddaaaba5c288814030d22dc7252a28f5a1",
+  "declared_before_execution": true,
+  "runs": [
+    {
+      "id": "copying_positive",
+      "path": "results/descendant_detector/runs/copying_positive",
+      "motif": [
+        8,
+        8
+      ],
+      "founder": 64,
+      "config": {
+        "model": "research",
+        "variant": "r6_copying_positive",
+        "norm": "basic",
+        "width": 256,
+        "steps": 16,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/copying_positive/frozen.csv",
+        "trace_steps": 16,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "copying_positive",
+          "stage": "calibration",
+          "candidate": "copying_positive",
+          "condition": "numerical_control",
+          "placement": 64
+        }
+      }
+    },
+    {
+      "id": "unrelated_lookalikes",
+      "path": "results/descendant_detector/runs/unrelated_lookalikes",
+      "motif": [
+        1000,
+        1000
+      ],
+      "founder": 64,
+      "config": {
+        "model": "research",
+        "variant": "r6_unrelated_lookalikes",
+        "norm": "basic",
+        "width": 256,
+        "steps": 16,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/unrelated_lookalikes/frozen.csv",
+        "trace_steps": 16,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "unrelated_lookalikes",
+          "stage": "calibration",
+          "candidate": "unrelated_lookalikes",
+          "condition": "numerical_control",
+          "placement": 64
+        }
+      }
+    },
+    {
+      "id": "translation_negative",
+      "path": "results/descendant_detector/runs/translation_negative",
+      "motif": [
+        5,
+        5
+      ],
+      "founder": 64,
+      "config": {
+        "model": "research",
+        "variant": "r6_translation_negative",
+        "norm": "symbiotic",
+        "width": 256,
+        "steps": 16,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/translation_negative/frozen.csv",
+        "trace_steps": 16,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "translation_negative",
+          "stage": "calibration",
+          "candidate": "translation_negative",
+          "condition": "numerical_control",
+          "placement": 64
+        }
+      }
+    },
+    {
+      "id": "tiling_negative",
+      "path": "results/descendant_detector/runs/tiling_negative",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_tiling_negative",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/tiling_negative/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "tiling_negative",
+          "stage": "calibration",
+          "candidate": "tiling_negative",
+          "condition": "numerical_control",
+          "placement": 224
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x192_intact",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_intact",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x192_intact",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x192_intact/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x192_intact",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "intact",
+          "placement": 192,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x192_helper_removed",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_helper_removed",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x192_helper_removed",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x192_helper_removed/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x192_helper_removed",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "helper_removed",
+          "placement": 192,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x192_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_same_type_damage_elsewhere",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x192_same_type_damage_elsewhere",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x192_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x192_same_type_damage_elsewhere",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 192,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x192_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_wrong_helper_same_occupancy",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x192_wrong_helper_same_occupancy",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x192_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x192_wrong_helper_same_occupancy",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 192,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x192_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_composition_shuffled_fixed_gaps",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x192_composition_shuffled_fixed_gaps",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x192_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x192_composition_shuffled_fixed_gaps",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 192,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x192_rescue",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x192_rescue",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x192_rescue",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x192_rescue/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x192_rescue",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "rescue",
+          "placement": 192,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x224_intact",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x224_intact",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x224_intact/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x224_intact",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "intact",
+          "placement": 224,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x224_helper_removed",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x224_helper_removed",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x224_helper_removed/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x224_helper_removed",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "helper_removed",
+          "placement": 224,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x224_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x224_same_type_damage_elsewhere",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x224_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x224_same_type_damage_elsewhere",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 224,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x224_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x224_wrong_helper_same_occupancy",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 224,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x224_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x224_composition_shuffled_fixed_gaps",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 224,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x224_rescue",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x224_rescue",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x224_rescue/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x224_rescue",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "rescue",
+          "placement": 224,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x256_intact",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_intact",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x256_intact",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x256_intact/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x256_intact",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "intact",
+          "placement": 256,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x256_helper_removed",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_helper_removed",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x256_helper_removed",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x256_helper_removed/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x256_helper_removed",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "helper_removed",
+          "placement": 256,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x256_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_same_type_damage_elsewhere",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x256_same_type_damage_elsewhere",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x256_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x256_same_type_damage_elsewhere",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 256,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x256_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_wrong_helper_same_occupancy",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x256_wrong_helper_same_occupancy",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x256_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x256_wrong_helper_same_occupancy",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 256,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x256_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_composition_shuffled_fixed_gaps",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x256_composition_shuffled_fixed_gaps",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x256_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x256_composition_shuffled_fixed_gaps",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 256,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_historical_figure7_x256_rescue",
+      "path": "results/descendant_detector/runs/exploration_historical_figure7_x256_rescue",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_historical_figure7_x256_rescue",
+        "norm": "exclusion",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_historical_figure7_x256_rescue/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_historical_figure7_x256_rescue",
+          "stage": "exploration",
+          "candidate": "historical_figure7",
+          "condition": "rescue",
+          "placement": 256,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x192_intact",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_intact",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x192_intact",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_intact/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x192_intact",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "intact",
+          "placement": 192,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x192_helper_removed",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_helper_removed",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x192_helper_removed",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_helper_removed/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x192_helper_removed",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "helper_removed",
+          "placement": 192,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x192_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_same_type_damage_elsewhere",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x192_same_type_damage_elsewhere",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x192_same_type_damage_elsewhere",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 192,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x192_wrong_helper_same_occupancy",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 192,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x192_composition_shuffled_fixed_gaps",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 192,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x192_rescue",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_rescue",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 192,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x192_rescue",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x192_rescue/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x192_rescue",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "rescue",
+          "placement": 192,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x224_intact",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x224_intact",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_intact/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x224_intact",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "intact",
+          "placement": 224,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x224_helper_removed",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x224_helper_removed",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_helper_removed/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x224_helper_removed",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "helper_removed",
+          "placement": 224,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x224_same_type_damage_elsewhere",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 224,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x224_wrong_helper_same_occupancy",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 224,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x224_composition_shuffled_fixed_gaps",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 224,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x224_rescue",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 224,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x224_rescue",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x224_rescue/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x224_rescue",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "rescue",
+          "placement": 224,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x256_intact",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_intact",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x256_intact",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_intact/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x256_intact",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "intact",
+          "placement": 256,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x256_helper_removed",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_helper_removed",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x256_helper_removed",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_helper_removed/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x256_helper_removed",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "helper_removed",
+          "placement": 256,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x256_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_same_type_damage_elsewhere",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x256_same_type_damage_elsewhere",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x256_same_type_damage_elsewhere",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 256,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x256_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_wrong_helper_same_occupancy",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x256_wrong_helper_same_occupancy",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x256_wrong_helper_same_occupancy",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 256,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x256_composition_shuffled_fixed_gaps",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 256,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "exploration_generated_conditional3002_x256_rescue",
+      "path": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_rescue",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 256,
+      "config": {
+        "model": "research",
+        "variant": "r6_exploration_generated_conditional3002_x256_rescue",
+        "norm": "conditional",
+        "width": 512,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/exploration_generated_conditional3002_x256_rescue/frozen.csv",
+        "trace_steps": 48,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "exploration_generated_conditional3002_x256_rescue",
+          "stage": "exploration",
+          "candidate": "generated_conditional3002",
+          "condition": "rescue",
+          "placement": 256,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x448_intact",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_intact",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x448_intact",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x448_intact/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x448_intact",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "intact",
+          "placement": 448,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x448_helper_removed",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_helper_removed",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x448_helper_removed",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x448_helper_removed/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x448_helper_removed",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "helper_removed",
+          "placement": 448,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x448_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_same_type_damage_elsewhere",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x448_same_type_damage_elsewhere",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x448_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x448_same_type_damage_elsewhere",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 448,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x448_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_wrong_helper_same_occupancy",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x448_wrong_helper_same_occupancy",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x448_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x448_wrong_helper_same_occupancy",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 448,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x448_composition_shuffled_fixed_gaps",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 448,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x448_rescue",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x448_rescue",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x448_rescue",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x448_rescue/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x448_rescue",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "rescue",
+          "placement": 448,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x512_intact",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_intact",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x512_intact",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_intact/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x512_intact",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "intact",
+          "placement": 512,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x512_helper_removed",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_helper_removed",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x512_helper_removed",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_helper_removed/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x512_helper_removed",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "helper_removed",
+          "placement": 512,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x512_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_same_type_damage_elsewhere",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x512_same_type_damage_elsewhere",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x512_same_type_damage_elsewhere",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 512,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x512_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_wrong_helper_same_occupancy",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x512_wrong_helper_same_occupancy",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x512_wrong_helper_same_occupancy",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 512,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x512_composition_shuffled_fixed_gaps",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 512,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_historical_figure7_x512_rescue",
+      "path": "results/descendant_detector/runs/confirmation_historical_figure7_x512_rescue",
+      "motif": [
+        5,
+        -3,
+        1,
+        -3,
+        0,
+        -3,
+        1,
+        0
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_historical_figure7_x512_rescue",
+        "norm": "exclusion",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_historical_figure7_x512_rescue/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_historical_figure7_x512_rescue",
+          "stage": "confirmation",
+          "candidate": "historical_figure7",
+          "condition": "rescue",
+          "placement": 512,
+          "helper_offset": 5
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x448_intact",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_intact",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x448_intact",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_intact/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x448_intact",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "intact",
+          "placement": 448,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x448_helper_removed",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_helper_removed",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x448_helper_removed",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_helper_removed/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x448_helper_removed",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "helper_removed",
+          "placement": 448,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x448_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_same_type_damage_elsewhere",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x448_same_type_damage_elsewhere",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x448_same_type_damage_elsewhere",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 448,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x448_wrong_helper_same_occupancy",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 448,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x448_composition_shuffled_fixed_gaps",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 448,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x448_rescue",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_rescue",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 448,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x448_rescue",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x448_rescue/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x448_rescue",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "rescue",
+          "placement": 448,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x512_intact",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_intact",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x512_intact",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_intact/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x512_intact",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "intact",
+          "placement": 512,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x512_helper_removed",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_helper_removed",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x512_helper_removed",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_helper_removed/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x512_helper_removed",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "helper_removed",
+          "placement": 512,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x512_same_type_damage_elsewhere",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_same_type_damage_elsewhere",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x512_same_type_damage_elsewhere",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_same_type_damage_elsewhere/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x512_same_type_damage_elsewhere",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "same_type_damage_elsewhere",
+          "placement": 512,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x512_wrong_helper_same_occupancy",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "wrong_helper_same_occupancy",
+          "placement": 512,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x512_composition_shuffled_fixed_gaps",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "composition_shuffled_fixed_gaps",
+          "placement": 512,
+          "helper_offset": 1
+        }
+      }
+    },
+    {
+      "id": "confirmation_generated_conditional3002_x512_rescue",
+      "path": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_rescue",
+      "motif": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "founder": 512,
+      "config": {
+        "model": "research",
+        "variant": "r6_confirmation_generated_conditional3002_x512_rescue",
+        "norm": "conditional",
+        "width": 1024,
+        "steps": 96,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/descendant_detector/runs/confirmation_generated_conditional3002_x512_rescue/frozen.csv",
+        "trace_steps": 96,
+        "modifications": [
+          "R6 designed inoculation or extraction; historical numerical norm unchanged",
+          "complete observation-only event trace; external interventions specified in experiment"
+        ],
+        "experiment": {
+          "id": "confirmation_generated_conditional3002_x512_rescue",
+          "stage": "confirmation",
+          "candidate": "generated_conditional3002",
+          "condition": "rescue",
+          "placement": 512,
+          "helper_offset": 1
+        }
+      }
+    }
+  ],
+  "recovery_probes": "adaptive extraction of at most the earliest two children per run; separately retained",
+  "execution": "serial native runs; numeric trajectories and ancestry evidence streamed to disk"
+}

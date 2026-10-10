@@ -1,0 +1,27 @@
+{
+  "model": "research",
+  "variant": "r6_copying_positive_child2",
+  "norm": "basic",
+  "width": 256,
+  "steps": 8,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/descendant_detector/recovery/copying_positive_child2/frozen.csv",
+  "trace_steps": 8,
+  "modifications": [
+    "R6 designed inoculation or extraction; historical numerical norm unchanged",
+    "complete observation-only event trace; external interventions specified in experiment"
+  ],
+  "experiment": {
+    "id": "copying_positive_child2",
+    "stage": "recovery",
+    "candidate": "copying_positive",
+    "condition": "isolated_child",
+    "placement": 112,
+    "source_run": "results/descendant_detector/runs/copying_positive",
+    "source_time": 1,
+    "source_position": 72,
+    "intervention": "extract exact child footprint; translate to x112; clear all exterior cells"
+  }
+}

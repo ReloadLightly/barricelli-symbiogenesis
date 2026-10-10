@@ -1,0 +1,23 @@
+{
+  "model": "research",
+  "variant": "r6_translation_negative",
+  "norm": "symbiotic",
+  "width": 256,
+  "steps": 16,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/descendant_detector/runs/translation_negative/frozen.csv",
+  "trace_steps": 16,
+  "modifications": [
+    "R6 designed inoculation or extraction; historical numerical norm unchanged",
+    "complete observation-only event trace; external interventions specified in experiment"
+  ],
+  "experiment": {
+    "id": "translation_negative",
+    "stage": "calibration",
+    "candidate": "translation_negative",
+    "condition": "numerical_control",
+    "placement": 64
+  }
+}

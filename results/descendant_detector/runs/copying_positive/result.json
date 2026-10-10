@@ -1,0 +1,76 @@
+{
+  "id": "copying_positive",
+  "path": "results/descendant_detector/runs/copying_positive",
+  "stage": "calibration",
+  "candidate": "copying_positive",
+  "condition": "numerical_control",
+  "placement": 64,
+  "norm": "basic",
+  "width": 256,
+  "steps": 16,
+  "maximum_unguarded_matches": 17,
+  "maximum_detached_matches": 17,
+  "common_founder_pair": {
+    "time": 1,
+    "children": [
+      {
+        "position": 64,
+        "copy_roots": [
+          64,
+          65
+        ],
+        "dependency_roots": [
+          64,
+          65
+        ],
+        "helper_roots": [],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": false
+      },
+      {
+        "position": 72,
+        "copy_roots": [
+          64,
+          65
+        ],
+        "dependency_roots": [
+          64,
+          65
+        ],
+        "helper_roots": [],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": false
+      }
+    ]
+  },
+  "internal_helper_pair": null,
+  "both_children_recover": true,
+  "recovery_probes": [
+    {
+      "path": "results/descendant_detector/recovery/copying_positive_child1",
+      "source_time": 1,
+      "source_position": 64,
+      "persistent_every_saved_time": true,
+      "source_trajectory_sha256": "d951f4328152fd936700257a392036b937efaed5005474ee6e50abb100d35f79"
+    },
+    {
+      "path": "results/descendant_detector/recovery/copying_positive_child2",
+      "source_time": 1,
+      "source_position": 72,
+      "persistent_every_saved_time": true,
+      "source_trajectory_sha256": "d951f4328152fd936700257a392036b937efaed5005474ee6e50abb100d35f79"
+    }
+  ],
+  "copying_geometry_ancestry_recovery_pass": true,
+  "dependency_supported_detached_reproduction": false,
+  "events_audited": 544,
+  "analysis_and_resume_seconds": 0.12576544399962586,
+  "native_process_seconds": 0.005769811999925878,
+  "native_max_rss_kib": 3712
+}

@@ -1,0 +1,6 @@
+copying_positive unguarded 17 detached 17 common-founder pair True
+unrelated_lookalikes unguarded 2 detached 2 common-founder pair False
+translation_negative unguarded 1 detached 1 common-founder pair False
+tiling_negative unguarded 25 detached 1 common-founder pair False
+calibration complete 4 baseline worlds
+completed 4 baseline worlds and 2 recovery probes

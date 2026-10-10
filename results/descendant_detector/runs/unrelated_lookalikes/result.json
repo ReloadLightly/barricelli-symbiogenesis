@@ -1,0 +1,23 @@
+{
+  "id": "unrelated_lookalikes",
+  "path": "results/descendant_detector/runs/unrelated_lookalikes",
+  "stage": "calibration",
+  "candidate": "unrelated_lookalikes",
+  "condition": "numerical_control",
+  "placement": 64,
+  "norm": "basic",
+  "width": 256,
+  "steps": 16,
+  "maximum_unguarded_matches": 2,
+  "maximum_detached_matches": 2,
+  "common_founder_pair": null,
+  "internal_helper_pair": null,
+  "both_children_recover": false,
+  "recovery_probes": [],
+  "copying_geometry_ancestry_recovery_pass": false,
+  "dependency_supported_detached_reproduction": false,
+  "events_audited": 128,
+  "analysis_and_resume_seconds": 0.035910646998672746,
+  "native_process_seconds": 0.0049927459986065514,
+  "native_max_rss_kib": 3712
+}

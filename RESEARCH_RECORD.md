@@ -44,11 +44,13 @@ At 512 updates recurrence counts are7/8 A,7/8 B,5/8 halves,6/8 quarters,3/8 temp
 
 Forty matched damage replays clear eight sites48–55 in saved row256 and run128 updates, with stored undamaged windows as controls. Removed occupancy varies across the paired states (recorded explicitly); mean repeated-window differences are−0.0037 A,+0.00006 B,+0.0060 halves,−0.0904 quarters,+0.0737 temporal. These descriptors are not functional collective recovery. All60 baseline and40 damage runs are retained. Evidence: `results/heterogeneity/manifest.json`, `damage_manifest.json` and `summary.json`, including paired effect sizes and seed-level intervals.
 
-## R6 — Detached-descendant detector (predeclared)
+## R6 — Detached-descendant detector (calibration executed; assay predeclared)
 
 The next recorded experiment begins with detector calibration, followed by a fixed assay of both existing motifs. [The pre-execution design](results/descendant_detector/design.json) specifies exact matching, a two-cell exterior guard, ordered copying and helper histories, exclusive full-founder copying support, and separate eight-update recovery probes for both candidate children. Equal-valued arrivals contribute ancestry alternatives; destructive writes remove support. Mutation-created origins are conservatively excluded.
 
 Four native numerical controls distinguish detached common-founder copying, unrelated lookalikes, translation and tiled domain growth. The copying control uses the basic norm and has no partner assistance; its success would calibrate the detector core without establishing collective reproduction. The historical and generated motifs then receive intact, helper removal, same-type damage, wrong-helper, occupancy-preserving shuffle and rescue treatments at three placements (36 worlds). Two reserved placements and a doubled horizon provide 24 confirmation worlds only after calibration and tests pass. Placements are deterministic robustness settings, not independent random biological replicates. The fixed baseline budget is 3,280,896 cell updates across 64 runs; all outcomes and any selected recovery probes will be retained.
+
+Calibration passed all five declared expectations and all 20 native fidelity/ancestry tests. The basic copying control reaches 17 detached matches and both selected children persist through eight updates after isolation; it has no helper support. Two stationary equal-valued lookalikes retain distinct founders, translation retains one copy, and historical tiling reaches 25 unguarded matches without a detached branch. Six native runs (four controls and two recovery probes) are retained. The 36-world assay and reserved longer confirmation have not yet been inspected at this checkpoint.
 
 ## Art record
 

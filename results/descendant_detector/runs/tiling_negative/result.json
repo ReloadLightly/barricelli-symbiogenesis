@@ -1,0 +1,23 @@
+{
+  "id": "tiling_negative",
+  "path": "results/descendant_detector/runs/tiling_negative",
+  "stage": "calibration",
+  "candidate": "tiling_negative",
+  "condition": "numerical_control",
+  "placement": 224,
+  "norm": "exclusion",
+  "width": 512,
+  "steps": 48,
+  "maximum_unguarded_matches": 25,
+  "maximum_detached_matches": 1,
+  "common_founder_pair": null,
+  "internal_helper_pair": null,
+  "both_children_recover": false,
+  "recovery_probes": [],
+  "copying_geometry_ancestry_recovery_pass": false,
+  "dependency_supported_detached_reproduction": false,
+  "events_audited": 8376,
+  "analysis_and_resume_seconds": 0.2166234149990487,
+  "native_process_seconds": 0.012462086999221356,
+  "native_max_rss_kib": 3712
+}

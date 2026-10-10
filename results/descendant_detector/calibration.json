@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "assertions": {
+    "copying_control_has_common_founder_pair_and_two_recoveries": true,
+    "copying_control_is_not_partner_supported": true,
+    "unrelated_lookalikes_are_two_detached_matches_without_common_founder": true,
+    "translation_is_one_detached_match_without_branch": true,
+    "tiling_expands_without_detached_branch": true
+  },
+  "design_sha256": "2ee4b9364ecbdc1a7ca3374602ebe4ddaaaba5c288814030d22dc7252a28f5a1",
+  "analyzer_sha256": "021146042eb1462024774ec94c58cf49e7d7ad68178b171845c951ee800b8a59",
+  "test_log": "results/descendant_detector/test-results.txt",
+  "limitation": "No independently known native partner-assisted detached collective positive is available; only the detector core is calibrated."
+}

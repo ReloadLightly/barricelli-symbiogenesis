@@ -1,0 +1,23 @@
+{
+  "model": "research",
+  "variant": "r6_unrelated_lookalikes",
+  "norm": "basic",
+  "width": 256,
+  "steps": 16,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/descendant_detector/runs/unrelated_lookalikes/frozen.csv",
+  "trace_steps": 16,
+  "modifications": [
+    "R6 designed inoculation or extraction; historical numerical norm unchanged",
+    "complete observation-only event trace; external interventions specified in experiment"
+  ],
+  "experiment": {
+    "id": "unrelated_lookalikes",
+    "stage": "calibration",
+    "candidate": "unrelated_lookalikes",
+    "condition": "numerical_control",
+    "placement": 64
+  }
+}

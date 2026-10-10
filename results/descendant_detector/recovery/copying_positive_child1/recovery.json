@@ -1,0 +1,7 @@
+{
+  "path": "results/descendant_detector/recovery/copying_positive_child1",
+  "source_time": 1,
+  "source_position": 64,
+  "persistent_every_saved_time": true,
+  "source_trajectory_sha256": "d951f4328152fd936700257a392036b937efaed5005474ee6e50abb100d35f79"
+}
