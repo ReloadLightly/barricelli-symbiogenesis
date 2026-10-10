@@ -1,0 +1,148 @@
+/usr/bin/time -v -o results/reproduce-latest-resource.txt .venv/bin/python scripts/milestone.py
+{
+  "experiment": "R7",
+  "baseline_cases_planned": 31,
+  "baseline_cases_completed": 31,
+  "baseline_native_runs": 62,
+  "recovery_native_runs": 16,
+  "cell_updates": 1603584,
+  "native_process_seconds_sum": 2.0888462669990986,
+  "maximum_native_rss_kib": 3840,
+  "oracle_historical_runs": 78,
+  "oracle_cells_compared": 1665024,
+  "oracle_counterfactual_runs": 4,
+  "oracle_wall_seconds_sum": 0.7297650029995566,
+  "reserved_settings_verified": 3,
+  "checks": [
+    {
+      "setting": "construction_d4",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    },
+    {
+      "setting": "confirmation_d3",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    },
+    {
+      "setting": "confirmation_d5",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    },
+    {
+      "setting": "confirmation_long_d4",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    }
+  ],
+  "claim": "Designed opposite-sign dyad produces two guarded, full-founder, partner-assisted numerical copies at t1. Each isolated first child reproduces. This is an operational numerical positive control, not evolved biological symbiosis.",
+  "ancestry_scope": "complete ordered native trace at t0\u2192t1 only; longer histories verified numerically with unchanged-source oracle and formula, not full lineage reconstruction"
+}
+corrected 261 saved analyses; means [3.0, 4.5, 5.75]
+{
+  "random": {
+    "coverage": {
+      "mean": 6.25,
+      "ci95_percentile": [
+        5.5,
+        7.0
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "diversity": {
+      "mean": 0.11997655991627326,
+      "ci95_percentile": [
+        0.09229635793509461,
+        0.14765676189745192
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "process_seconds": 1.4121919320059533,
+    "engine_seconds": 0.5801685599999999
+  },
+  "novelty_archive": {
+    "coverage": {
+      "mean": 6.0,
+      "ci95_percentile": [
+        5.25,
+        6.75
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "diversity": {
+      "mean": 0.07387466407021548,
+      "ci95_percentile": [
+        0.05888272971633647,
+        0.08167734213224885
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "process_seconds": 0.8779132030213077,
+    "engine_seconds": 0.56582586
+  },
+  "codex_feedback": {
+    "coverage": {
+      "mean": 6.25,
+      "ci95_percentile": [
+        4.75,
+        7.5
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "diversity": {
+      "mean": 0.0721315956083038,
+      "ci95_percentile": [
+        0.06975519734294716,
+        0.07482697906615539
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "process_seconds": 0.8825358850081102,
+    "engine_seconds": 0.5661390000000001
+  }
+}
+case 0 random 420 done
+case 1 novelty_archive 296 done
+case 2 codex_feedback 376 done
+three R8 prints and reveal animations retained
+{
+  "native_runs": 896,
+  "cell_updates": 45257353,
+  "engine_seconds_sum": 11.730011499999996,
+  "process_seconds_sum": 21.247285383018607,
+  "max_native_rss_kib": 3840,
+  "count_by_stage": {
+    "assay": 164,
+    "descendant_detector": 66,
+    "discovery_art": 261,
+    "ensemble": 14,
+    "galloway_validation": 6,
+    "heterogeneity": 100,
+    "nearby": 4,
+    "partner_dyad": 78,
+    "partner_followup": 24,
+    "reconstruction": 23,
+    "search": 144,
+    "search_confirmation": 12
+  },
+  "excluded_from_counts": [
+    "original executable fixture-oracle replays",
+    "temporary Java source-level oracle replays",
+    "separate unchanged-source symbiotic oracle replays and helpers-disabled counterfactuals",
+    "synthetic descriptor-control histories",
+    "development reruns and tests",
+    "compressed earlier metadata and incomplete-attempt archives"
+  ],
+  "budget_scope": "retained scientific native trajectories, not all development compute"
+}
+all exact 896 runs
+atlas worlds 72 registered native runs 896 payload bytes 14032062
+source snapshot: 121 files, 154820 bytes
+saved artwork pixels, figure hashes and evidence links pass
+Milestone regenerated; open atlas/index.html. No model calls executed.

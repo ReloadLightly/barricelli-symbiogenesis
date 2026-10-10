@@ -9,7 +9,8 @@ from barricelli.descriptors import describe,coverage,mean_nearest_diversity,boot
 BASE=ROOT/'results/corrections/descriptor_v2'
 
 def main():
- start=time.perf_counter(); records={}; deltas=[]
+ start=time.perf_counter(); records={}; deltas=[]; cache_valid={}
+ previous_damage={r['id']:r for r in json.loads((BASE/'heterogeneity_summary.json').read_text())['damage']} if (BASE/'heterogeneity_summary.json').exists() else {}
  cached_version=json.loads((BASE/'summary.json').read_text()).get('descriptor_sha256') if (BASE/'summary.json').exists() else None
  paths=[p.parent for folder in ['search','search_confirmation','heterogeneity'] for p in (ROOT/'results'/folder).rglob('provenance.json')]
  paths += [p.parent for p in (ROOT/'results/descriptor_controls').glob('*/config.json')]
@@ -21,7 +22,9 @@ def main():
   stats=json.loads((path/'statistics.json').read_text()) if (path/'statistics.json').exists() else None
   out=BASE/'runs'/path.relative_to(ROOT/'results'); saved=out/'analysis.json'
   prior=json.loads(saved.read_text()) if saved.exists() else None
-  desc=prior['descriptors'] if prior and cached_version==sha(ROOT/'barricelli/descriptors.py') and prior['trajectory_sha256']==sha(path/'trajectory.csv') and prior['boundary']==boundary else describe(read_csv(path/'trajectory.csv'),stats,boundary=boundary)
+  valid=bool(prior and cached_version==sha(ROOT/'barricelli/descriptors.py') and prior['trajectory_sha256']==sha(path/'trajectory.csv') and prior['boundary']==boundary)
+  cache_valid[str(path.relative_to(ROOT))]=valid
+  desc=prior['descriptors'] if valid else describe(read_csv(path/'trajectory.csv'),stats,boundary=boundary)
   old=json.loads(original.read_text()) if original.exists() else json.loads((path/'damage_outcome.json').read_text())['damaged']
   previous=old.get('descriptors',old); ident=str(path.relative_to(ROOT))
   changed={k:{'original':previous[k],'corrected':v} for k,v in desc.items() if k in previous and k!='descriptor_seconds' and previous[k]!=v}
@@ -55,7 +58,7 @@ def main():
  for old in original_environment['damage']:
   path=ROOT/'results/heterogeneity'/old['id']; desc=records[str(path.relative_to(ROOT))]['descriptors']
   baseline=ROOT/'results/heterogeneity'/old['id'].removesuffix('__damage')
-  control=describe(read_csv(baseline/'trajectory.csv')[256:385],boundary='ring')
+  control=previous_damage[old['id']]['undamaged_saved_window'] if old['id'] in previous_damage and cache_valid[str(baseline.relative_to(ROOT))] else describe(read_csv(baseline/'trajectory.csv')[256:385],boundary='ring')
   damage.append({**old,'damaged':desc,'undamaged_saved_window':control,'occupancy_difference':desc['tail_occupancy']-control['tail_occupancy'],'repeated4_difference':desc['tail_repeated4_fraction']-control['tail_repeated4_fraction']})
  save_json(BASE/'heterogeneity_summary.json',{'rows':rows,'contrasts':contrasts,'damage':damage,'scope':'saved baseline and matched-damage histories; original analyses remain preserved'})
  save_json(BASE/'summary.json',{'descriptor_version':2,'runs_reanalyzed':len(records),'runs_with_changes':sum(bool(r['changed_fields']) for r in deltas),'deltas':deltas,'elapsed_seconds':time.perf_counter()-start,'new_scientific_simulations':0,'descriptor_sha256':sha(ROOT/'barricelli/descriptors.py'),'original_archive_sha256':sha(BASE/'original_analyses.tar.gz'),'boundary_for_old_synthetic_controls':'ring explicitly assigned on correction: their imposed translation was generated with np.roll; this was absent from original control configs','original_search_means':{m:json.loads((ROOT/'results/search/summary.json').read_text())['aggregate'][m]['coverage']['mean'] for m in methods},'corrected_search_means':{m:aggregate[m]['coverage']['mean'] for m in methods},'adaptive_policy_limit':'Corrected historical summaries do not estimate what adaptive policies would have chosen under corrected feedback.'})

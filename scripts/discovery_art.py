@@ -135,8 +135,9 @@ def proposals(batch):
             if index in tested and not exists: raise ValueError('repeated index')
             execute('codex_feedback',repeat,trial,index,entry['hypothesis']); tested.add(index)
     feedback('codex_feedback',batch)
-    save_json(BASE/f'round{batch}_outcome.json',{'completed_utc':now(),'proposal_file':f'proposals{batch}.json','codex_coverage':[coverage(history('codex_feedback',r)) for r in range(4)],
-       'decision':'Read complete own-history visual/numeric feedback for next six proposals.' if batch==1 else 'Complete the predeclared aggregate comparison; choose bounded scientific follow-ups and separate aesthetic curation.'})
+    if not (BASE/f'round{batch}_outcome.json').exists():
+        save_json(BASE/f'round{batch}_outcome.json',{'completed_utc':now(),'proposal_file':f'proposals{batch}.json','codex_coverage':[coverage(history('codex_feedback',r)) for r in range(4)],
+           'decision':'Read complete own-history visual/numeric feedback for next six proposals.' if batch==1 else 'Complete the predeclared aggregate comparison; choose bounded scientific follow-ups and separate aesthetic curation.'})
 
 def summary():
     rows=[]

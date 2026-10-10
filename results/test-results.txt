@@ -37,6 +37,6 @@ test_unrelated_equal_templates_do_not_share_founder (test_lineage.Lineage) ... o
 test_untraced_mutation_helper_prevents_dependency_certificate (test_lineage.Lineage) ... ok
 
 ----------------------------------------------------------------------
-Ran 37 tests in 0.343s
+Ran 37 tests in 0.286s
 
 OK

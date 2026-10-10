@@ -1,0 +1,476 @@
+{
+  "searches": [
+    {
+      "method": "random",
+      "repeat": 0,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 6,
+      "nearest_diversity": 0.1011225177925262,
+      "engine_seconds": 0.14493931,
+      "process_seconds": 0.21935185399343027,
+      "descriptor_seconds": 9.791962751001847,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "method": "random",
+      "repeat": 1,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 7,
+      "nearest_diversity": 0.16278427865144462,
+      "engine_seconds": 0.13581737,
+      "process_seconds": 0.20525326099959784,
+      "descriptor_seconds": 9.13058413300314,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        7
+      ]
+    },
+    {
+      "method": "random",
+      "repeat": 2,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 5,
+      "nearest_diversity": 0.083470198077663,
+      "engine_seconds": 0.15426526000000002,
+      "process_seconds": 0.7634471890123677,
+      "descriptor_seconds": 10.349704672007647,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "method": "random",
+      "repeat": 3,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 7,
+      "nearest_diversity": 0.1325292451434592,
+      "engine_seconds": 0.14514662,
+      "process_seconds": 0.22413962800055742,
+      "descriptor_seconds": 9.145543025999359,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 0,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 6,
+      "nearest_diversity": 0.08164604192916561,
+      "engine_seconds": 0.13660908,
+      "process_seconds": 0.21075203700820566,
+      "descriptor_seconds": 8.477475352006877,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 1,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 5,
+      "nearest_diversity": 0.05129495897872676,
+      "engine_seconds": 0.1218241,
+      "process_seconds": 0.19226170800538966,
+      "descriptor_seconds": 8.513305589989614,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 2,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 7,
+      "nearest_diversity": 0.08084901303763745,
+      "engine_seconds": 0.15659891,
+      "process_seconds": 0.22899461600536597,
+      "descriptor_seconds": 9.614187810006115,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 3,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 6,
+      "nearest_diversity": 0.0817086423353321,
+      "engine_seconds": 0.15079377000000002,
+      "process_seconds": 0.2459048420023464,
+      "descriptor_seconds": 9.646382678005466,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 0,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 4,
+      "nearest_diversity": 0.06878555531038547,
+      "engine_seconds": 0.13574028000000002,
+      "process_seconds": 0.21473368400984327,
+      "descriptor_seconds": 8.860910069994134,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 1,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 7,
+      "nearest_diversity": 0.07266412344063224,
+      "engine_seconds": 0.14164233,
+      "process_seconds": 0.21614312599558616,
+      "descriptor_seconds": 9.024273148999782,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 2,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 6,
+      "nearest_diversity": 0.07611560629121203,
+      "engine_seconds": 0.13603780000000001,
+      "process_seconds": 0.22374805499930517,
+      "descriptor_seconds": 8.811459754004318,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 3,
+      "evaluations": 16,
+      "cell_updates": 1179648,
+      "coverage": 8,
+      "nearest_diversity": 0.07096109739098547,
+      "engine_seconds": 0.15271859000000002,
+      "process_seconds": 0.2279110200033756,
+      "descriptor_seconds": 8.753301515000203,
+      "max_native_rss_kib": 3840,
+      "coverage_by_trial": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "aggregate": {
+    "random": {
+      "coverage": {
+        "mean": 6.25,
+        "ci95_percentile": [
+          5.5,
+          7.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.11997655991627326,
+        "ci95_percentile": [
+          0.09229635793509461,
+          0.14765676189745192
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "process_seconds": 1.4121919320059533,
+      "engine_seconds": 0.5801685599999999
+    },
+    "novelty_archive": {
+      "coverage": {
+        "mean": 6.0,
+        "ci95_percentile": [
+          5.25,
+          6.75
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.07387466407021548,
+        "ci95_percentile": [
+          0.05888272971633647,
+          0.08167734213224885
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "process_seconds": 0.8779132030213077,
+      "engine_seconds": 0.56582586
+    },
+    "codex_feedback": {
+      "coverage": {
+        "mean": 6.25,
+        "ci95_percentile": [
+          4.75,
+          7.5
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.0721315956083038,
+        "ci95_percentile": [
+          0.06975519734294716,
+          0.07482697906615539
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "process_seconds": 0.8825358850081102,
+      "engine_seconds": 0.5661390000000001
+    }
+  },
+  "paired_coverage_difference_vs_random": {
+    "novelty_archive": {
+      "mean": -0.25,
+      "ci95_percentile": [
+        -1.5,
+        1.25
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "codex_feedback": {
+      "mean": 0.0,
+      "ci95_percentile": [
+        -1.25,
+        1.0
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    }
+  },
+  "retained_search_runs": 192,
+  "cell_updates": 14155776,
+  "model_use": {
+    "mode": "conversational Codex assistance",
+    "automated_integration": false,
+    "external_api_calls": 0,
+    "paid_calls": 0,
+    "serving_model": "not separately identified by this interface",
+    "exact_token_and_cost_metering": "unavailable; retain conversation and proposal timestamps; do not invent quantities",
+    "proposal_batches": 2,
+    "configurations_proposed": 48,
+    "feedback_to_submission_wall_seconds": [
+      79.666766,
+      96.349276
+    ],
+    "wall_interval_scope": "includes human-interface reasoning, tools and other repository work; not isolated model runtime"
+  },
+  "limitations": [
+    "four search units per method; exploratory bootstrap intervals",
+    "one conversation supplies all proposals; repeats do not replicate model sampling independently",
+    "rule and initialization dimensions broaden jointly; archive gain is descriptor-specific",
+    "same own-history files available; algorithms intentionally use different parts of feedback",
+    "no score proves life or open-ended evolution; aesthetic curation is separate"
+  ]
+}

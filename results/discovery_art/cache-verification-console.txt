@@ -1,0 +1,68 @@
+{
+  "random": {
+    "coverage": {
+      "mean": 6.25,
+      "ci95_percentile": [
+        5.5,
+        7.0
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "diversity": {
+      "mean": 0.11997655991627326,
+      "ci95_percentile": [
+        0.09229635793509461,
+        0.14765676189745192
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "process_seconds": 1.4121919320059533,
+    "engine_seconds": 0.5801685599999999
+  },
+  "novelty_archive": {
+    "coverage": {
+      "mean": 6.0,
+      "ci95_percentile": [
+        5.25,
+        6.75
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "diversity": {
+      "mean": 0.07387466407021548,
+      "ci95_percentile": [
+        0.05888272971633647,
+        0.08167734213224885
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "process_seconds": 0.8779132030213077,
+    "engine_seconds": 0.56582586
+  },
+  "codex_feedback": {
+    "coverage": {
+      "mean": 6.25,
+      "ci95_percentile": [
+        4.75,
+        7.5
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "diversity": {
+      "mean": 0.0721315956083038,
+      "ci95_percentile": [
+        0.06975519734294716,
+        0.07482697906615539
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "process_seconds": 0.8825358850081102,
+    "engine_seconds": 0.5661390000000001
+  }
+}

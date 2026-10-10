@@ -1,0 +1,81 @@
+{
+  "mode": "conversational Codex assistance",
+  "automated_integration": false,
+  "external_api_calls": 0,
+  "paid_calls": 0,
+  "serving_model": "not separately identified by this interface",
+  "exact_token_and_cost_metering": "unavailable; retain conversation and proposal timestamps; do not invent quantities",
+  "proposal_batches": 2,
+  "configurations_proposed": 48,
+  "feedback_to_submission_wall_seconds": [
+    79.666766,
+    96.349276
+  ],
+  "wall_interval_scope": "includes human-interface reasoning, tools and other repository work; not isolated model runtime",
+  "viewed_visuals": [
+    {
+      "repeat": 0,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat0.png",
+      "sha256": "73bae305e43d6ef5834bf7d75f12812abb34315b53b7286966b783b42438848d",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 1,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat1.png",
+      "sha256": "675e5e4d5ed8889d42acb4f768fcb8991ce6c748365ab1407c1d53c8efbb53d3",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 2,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat2.png",
+      "sha256": "e60f2a28fbcb8c6b641f9d10119aa63ab352179567564d936e9b5c9a7df7d1c4",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 3,
+      "file": "results/discovery_art/feedback/codex_feedback/batch0_repeat3.png",
+      "sha256": "ee1ef14701e7c4d7a4a612c23f46e0f7421e4d3a7a914c9910bfb497547caa93",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 0,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat0.png",
+      "sha256": "6ffb3a7052cc037a3ed757c856a3b3b69dd06b2fe926565c3ecdc5404eac0fba",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 1,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat1.png",
+      "sha256": "5dc6778965dc38bba699bc2929c30fbadad25f9edecfeb1b9c21b8a6081e20d9",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 2,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat2.png",
+      "sha256": "673cb4f28bd1fc3fe0ad6555fee8479bffddc4d9a5fcd56dca2334ccc4d7f7ad",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    },
+    {
+      "repeat": 3,
+      "file": "results/discovery_art/feedback/codex_feedback/batch1_repeat3.png",
+      "sha256": "13b473c6cd7707dd3d63c3a1d2cd9be242ab374b329960750bd3feaab628ec8d",
+      "contains": "every own-history saved trajectory, in trial order, unchanged common palette",
+      "time_axis": "downward"
+    }
+  ],
+  "execution_logs": [
+    "results/discovery_art/batch1-codex-console.txt",
+    "results/discovery_art/batch2-codex-console.txt"
+  ],
+  "proposals_files": [
+    "results/discovery_art/proposals1.json",
+    "results/discovery_art/proposals2.json"
+  ]
+}

@@ -5,7 +5,7 @@
     "Interfaces art"
   ],
   "completed_utc": "2026-10-10T20:21:34.188811+00:00",
-  "status": "executed; final replay/browser checks pending",
+  "status": "complete; all numerical, artifact and browser checks pass",
   "native_runs": 261,
   "cell_updates": 21457152,
   "search_runs": 192,
@@ -24,5 +24,20 @@
   "curated_works": 3,
   "nearby_worlds": 12,
   "limits": "exact motif scans cover384 updates; certified ancestry only first2 updates. No positive result required. Art selection is not scientific evidence.",
-  "decision": "Do not infer a Codex advantage or life. Mixed environments can retain transient signature novelty; selected erasure regimes coarsen into recurrence. Retain periodic art and test exceptional original-state duration with matched constituents next."
+  "decision": "Do not infer a Codex advantage or life. Mixed environments can retain transient signature novelty; selected erasure regimes coarsen into recurrence. Retain periodic art and test exceptional original-state duration with matched constituents next.",
+  "verification": {
+    "tests": 37,
+    "native_replay_runs": 896,
+    "saved_cells": 45502904,
+    "event_counters_exact": 9,
+    "original_native_artifact_hashes_preserved": 5319,
+    "atlas_worlds": 72,
+    "browser_assertions": 13,
+    "artworks": 6,
+    "scientific_figures": 26,
+    "cached_regeneration_seconds": 49.44,
+    "cached_regeneration_peak_rss_kib": 281600,
+    "new_runs_during_regeneration": 0,
+    "model_calls_during_regeneration": 0
+  }
 }

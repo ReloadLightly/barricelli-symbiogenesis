@@ -1,0 +1,23 @@
+{
+  "browser": "Playwright Chromium, local file URLs; no hosted service",
+  "assertions": [
+    "72 worlds selectable from saved numerical payload",
+    "6 linked print/animation/recipe cards",
+    "canvas dimensions and integer-value palette agree with source data",
+    "reset, timed reveal and pause operate without changing data",
+    "cell readout and numerical close-up work",
+    "coordinate-labelled enlarged close-up pixels agree with saved integers",
+    "saved nearby variants navigate correctly",
+    "R8 artwork selects its saved world, four neighbors and linked measurements; rule neighbor preserves dimensions",
+    "R6 copying calibration replays its saved dimensions and integer palette",
+    "R7 child pixels agree with the saved first-generation integers",
+    "R7 partner-deletion replay and six matched treatment neighbors operate",
+    "390px mobile viewport has no horizontal overflow",
+    "complete 896-run register filters correctly"
+  ],
+  "page_errors": [],
+  "screenshots": [
+    "results/atlas-desktop.png",
+    "results/atlas-mobile.png"
+  ]
+}

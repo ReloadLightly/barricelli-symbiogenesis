@@ -1,0 +1,10 @@
+{
+  "native_files_checked": 5319,
+  "native_hashes_preserved": true,
+  "new_scientific_runs": 0,
+  "model_calls": 0,
+  "replay_report": "results/replay_verification.json",
+  "scope": "complete make reproduce with compiled engine, cached searches, assays, numerical artwork regeneration and all-native replay; original native provenance/timing/counters preserved",
+  "correction": "cached replay initially refreshed two round completion timestamps and matched-window analysis timings; their pre-replay records were restored and cache handling fixed. No numerical, scientific or proposal outcome changed.",
+  "immutable_round_outcomes_and_window_analysis_verified": true
+}
