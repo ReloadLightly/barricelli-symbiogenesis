@@ -1,0 +1,26 @@
+{
+  "model": "research",
+  "variant": "r7_partner_dyad",
+  "norm": "symbiotic",
+  "width": 512,
+  "steps": 12,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/partner_dyad/runs/construction_d4_negative_removed/frozen.csv",
+  "trace_steps": 0,
+  "modifications": [
+    "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+    "external causal interventions declared in frozen design; observation-only trace"
+  ],
+  "experiment": {
+    "id": "construction_d4_negative_removed",
+    "setting": "construction_d4",
+    "stage": "construction",
+    "condition": "negative_removed",
+    "phase": "continuation",
+    "d": 4,
+    "founder": 240,
+    "intervention": null
+  }
+}

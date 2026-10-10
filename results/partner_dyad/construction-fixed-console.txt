@@ -1,0 +1,34 @@
+construction_d4_intact pair True final 13
+construction_d4_positive_removed pair False final 0
+construction_d4_negative_removed pair False final 0
+construction_d4_wrong_negative_same_occupancy pair False final 0
+construction_d4_composition_shuffled_fixed_gaps pair False final 0
+construction_d4_spacing_shift pair False final 0
+construction_d4_rescue pair True final 13
+construction_d4_background_intact pair True final 13
+construction_d4_background_partner_removed pair False final 0
+construction_d4_background_matched_damage pair True final 13
+{
+  "experiment": "R7",
+  "baseline_cases_planned": 31,
+  "baseline_cases_completed": 10,
+  "baseline_native_runs": 20,
+  "recovery_native_runs": 4,
+  "cell_updates": 79872,
+  "native_process_seconds_sum": 0.13786059700032638,
+  "maximum_native_rss_kib": 3840,
+  "oracle_historical_runs": 24,
+  "oracle_cells_compared": 92160,
+  "oracle_counterfactual_runs": 1,
+  "oracle_wall_seconds_sum": 0.10883019599896215,
+  "reserved_settings_verified": 0,
+  "checks": [
+    {
+      "setting": "construction_d4",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    }
+  ],
+  "claim": "Designed opposite-sign dyad produces two guarded, full-founder, partner-assisted numerical copies at t1. Each isolated first child reproduces. This is an operational numerical positive control, not evolved biological symbiosis.",
+  "ancestry_scope": "complete ordered native trace at t0\u2192t1 only; longer histories verified numerically with unchanged-source oracle and formula, not full lineage reconstruction"
+}

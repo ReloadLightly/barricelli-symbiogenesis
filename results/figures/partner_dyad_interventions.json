@@ -1,0 +1,82 @@
+{
+  "caption": "R7 construction causal controls, saved integer histories. Component deletions, wrong negative value, occupied-site shuffle and one-cell spacing shift eliminate exact dyad copying. Exact restoration recovers the intact history. The helpers-disabled panel is a separately saved, explicitly imposed rule intervention computed by the independent oracle: only direct copying remains. Every panel shows global positions184\u2013304 and times0\u201312, downward. These are explanatory selected construction histories; all matched background controls and reserved confirmations are retained separately.",
+  "data_sources": [
+    {
+      "file": "results/partner_dyad/design.json",
+      "sha256": "7f4c5bf795dd0562d0a858ad96800b1cda094a479fb95415c8ac1cc66a3c0f01"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/continuation/trajectory.csv",
+      "sha256": "3f4de4b68b99d55cc2f908354b84d827721ed5d44efa0088e6d39d1134175610"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_positive_removed/continuation/trajectory.csv",
+      "sha256": "42d281fc3a8ce11fefa8783da59ffc924c3cbee8f91709d6e67e2637c24e8ab9"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_negative_removed/continuation/trajectory.csv",
+      "sha256": "0442389fa0fb1c470ba58260261be7bf9b88d3dd9b7b46c05325527790f4acbf"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/continuation/trajectory.csv",
+      "sha256": "29d3292774e2b15d80b25e795139bdce2c2cca35ca1ea3886bc5fea3a1736201"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/continuation/trajectory.csv",
+      "sha256": "5cbcbd42646bb0a9088ba2b05b0aca4ced8b7d3b3c6cca3e70c705def80d59df"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_spacing_shift/continuation/trajectory.csv",
+      "sha256": "5719b9ba6d6a3ed2766475b641ea90be273bfaaa452acca3d90fa07f61ef55bd"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_rescue/continuation/trajectory.csv",
+      "sha256": "3f4de4b68b99d55cc2f908354b84d827721ed5d44efa0088e6d39d1134175610"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/oracle/helpers_disabled.csv",
+      "sha256": "b14aa9274e78aaeda4f8b455c0aeebe8b4140e363e901702b805196f8c5bebcb"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/partner_dyad_figures.py": "a85d0513e4098fbdae4937862abab061e0bd33744a32438edef0857fc02b87bf"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

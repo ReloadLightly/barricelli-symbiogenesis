@@ -1,0 +1,46 @@
+{
+  "caption": "R7 designed partner-assisted numerical copying control. Saved t0 cells +4 at240 and\u22124 at244 produce dyads beginning236 and244 at t1. Every component retains its distinct original copying root. Four source-specific copy events, including two helper-enabled events, are independently audited; arrows show those recorded edges only. The right panel is a saved numerical continuation, with13 exact dyads at t12. Its repeated lattice does not establish evolved symbiosis or organism boundaries. Initial arrangement is imposed; every later displayed value comes from the unchanged historical norm. Time increases downward.",
+  "data_sources": [
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/trace/trajectory.csv",
+      "sha256": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/continuation/trajectory.csv",
+      "sha256": "3f4de4b68b99d55cc2f908354b84d827721ed5d44efa0088e6d39d1134175610"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/trace/events.csv",
+      "sha256": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/trace/detector.json",
+      "sha256": "5144867b822eaa9a5d5c8820cf3f5421f4b3207f525062d3bbaee3fa2aa47972"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/first_step_audit.json",
+      "sha256": "1b40f0bb0fbad1120e4deeac30b30cb0ac0f1ecae2dba368d28e42a81ea43636"
+    },
+    {
+      "file": "results/partner_dyad/runs/construction_d4_intact/oracle/continuation.verification.json",
+      "sha256": "151a28d654bd64a06bdab8ea615dd9bd38cd47d9a4d28ace84d019e51f893d4d"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/partner_dyad_figures.py": "a85d0513e4098fbdae4937862abab061e0bd33744a32438edef0857fc02b87bf"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

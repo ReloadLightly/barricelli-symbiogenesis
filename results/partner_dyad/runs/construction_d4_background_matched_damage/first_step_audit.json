@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "children": [
+    236,
+    244
+  ],
+  "copied_edges": 4,
+  "helper_enabled_edges": 2,
+  "predicted_events": [
+    [
+      240,
+      244,
+      1,
+      4,
+      ""
+    ],
+    [
+      240,
+      236,
+      2,
+      4,
+      "244:-4"
+    ],
+    [
+      244,
+      240,
+      1,
+      -4,
+      ""
+    ],
+    [
+      244,
+      248,
+      2,
+      -4,
+      "240:4"
+    ]
+  ],
+  "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+  "sources_sha256": {
+    "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+    "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+    "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+  },
+  "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+}

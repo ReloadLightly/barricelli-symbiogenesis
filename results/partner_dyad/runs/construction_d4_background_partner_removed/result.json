@@ -1,0 +1,30 @@
+{
+  "id": "construction_d4_background_partner_removed",
+  "path": "results/partner_dyad/runs/construction_d4_background_partner_removed",
+  "setting": "construction_d4",
+  "stage": "construction",
+  "condition": "background_partner_removed",
+  "d": 4,
+  "detached_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "first_internal_helper_pair": null,
+  "first_update_trace_complete": true,
+  "oracle_all_cells_equal": true,
+  "oracle_cells": 7680,
+  "native_seconds": 0.00869438799963973,
+  "cell_updates": 6656,
+  "max_native_rss_kib": 3712
+}

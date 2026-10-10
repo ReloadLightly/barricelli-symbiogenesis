@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "mode": "historical",
+    "initial_sha256": "e42b854e3c438af8fb18cd6b1ae9328e2447c46b70b439e1ae594f51dc761f7b",
+    "steps": 12,
+    "native_trajectory_sha256": "5cbcbd42646bb0a9088ba2b05b0aca4ced8b7d3b3c6cca3e70c705def80d59df",
+    "oracle_binary_sha256": "9ddb10f4ebd52a576d9cbcf6aa767a3611566ed0d2bd896c8447c0b84942d7b6",
+    "upstream_sha256": "694fc1444d44f4a45a0df52dbdb82633db89ea03b6d3009b904aa1c4d53363db",
+    "harness_sha256": "1655e1a07414db5bdcf3e2a62d94f29c321e4a5093a88160d0348dbd364aabd9"
+  },
+  "created_utc": "2026-10-10T19:32:46.629797+00:00",
+  "trajectory_sha256": "5cbcbd42646bb0a9088ba2b05b0aca4ced8b7d3b3c6cca3e70c705def80d59df",
+  "cells_compared": 6656,
+  "equal_to_native": true,
+  "wall_seconds": 0.003637251000327524,
+  "resource": {
+    "max_rss_kib": 3456,
+    "elapsed_seconds": 0.0,
+    "user_seconds": 0.0,
+    "system_seconds": 0.0
+  },
+  "scope": "independent uninstrumented binary of retained original source"
+}

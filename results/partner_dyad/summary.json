@@ -1,0 +1,1009 @@
+{
+  "experiment": "R7",
+  "baseline_cases_planned": 31,
+  "baseline_cases_completed": 10,
+  "baseline_native_runs": 20,
+  "recovery_native_runs": 4,
+  "cell_updates": 79872,
+  "native_process_seconds_sum": 0.13786059700032638,
+  "maximum_native_rss_kib": 3840,
+  "oracle_historical_runs": 24,
+  "oracle_cells_compared": 92160,
+  "oracle_counterfactual_runs": 1,
+  "oracle_wall_seconds_sum": 0.10883019599896215,
+  "reserved_settings_verified": 0,
+  "checks": [
+    {
+      "setting": "construction_d4",
+      "all_predeclared_checks_passed": true,
+      "rescue_identical": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "construction_d4_intact",
+      "path": "results/partner_dyad/runs/construction_d4_intact",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "intact",
+      "d": 4,
+      "detached_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "first_internal_helper_pair": {
+        "time": 1,
+        "children": [
+          {
+            "position": 236,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              244
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          },
+          {
+            "position": 244,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              240
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          }
+        ]
+      },
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.011207555000510183,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3840,
+      "independent_first_step": {
+        "passed": true,
+        "children": [
+          236,
+          244
+        ],
+        "copied_edges": 4,
+        "helper_enabled_edges": 2,
+        "predicted_events": [
+          [
+            240,
+            244,
+            1,
+            4,
+            ""
+          ],
+          [
+            240,
+            236,
+            2,
+            4,
+            "244:-4"
+          ],
+          [
+            244,
+            240,
+            1,
+            -4,
+            ""
+          ],
+          [
+            244,
+            248,
+            2,
+            -4,
+            "240:4"
+          ]
+        ],
+        "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+        "sources_sha256": {
+          "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+          "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+          "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+        },
+        "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+      },
+      "formula_matches_all_saved_rows": true,
+      "helpers_disabled_detached_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "helpers_disabled_occupied_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "construction_d4_positive_removed",
+      "path": "results/partner_dyad/runs/construction_d4_positive_removed",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "positive_removed",
+      "d": 4,
+      "detached_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_internal_helper_pair": null,
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.009905343998980243,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712
+    },
+    {
+      "id": "construction_d4_negative_removed",
+      "path": "results/partner_dyad/runs/construction_d4_negative_removed",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "negative_removed",
+      "d": 4,
+      "detached_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_internal_helper_pair": null,
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.009748508999109617,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712
+    },
+    {
+      "id": "construction_d4_wrong_negative_same_occupancy",
+      "path": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "wrong_negative_same_occupancy",
+      "d": 4,
+      "detached_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_internal_helper_pair": null,
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.010978313999657985,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712
+    },
+    {
+      "id": "construction_d4_composition_shuffled_fixed_gaps",
+      "path": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "composition_shuffled_fixed_gaps",
+      "d": 4,
+      "detached_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_internal_helper_pair": null,
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.011538320000909152,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712
+    },
+    {
+      "id": "construction_d4_spacing_shift",
+      "path": "results/partner_dyad/runs/construction_d4_spacing_shift",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "spacing_shift",
+      "d": 4,
+      "detached_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_internal_helper_pair": null,
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.014699990999361034,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712
+    },
+    {
+      "id": "construction_d4_rescue",
+      "path": "results/partner_dyad/runs/construction_d4_rescue",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "rescue",
+      "d": 4,
+      "detached_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "first_internal_helper_pair": {
+        "time": 1,
+        "children": [
+          {
+            "position": 236,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              244
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          },
+          {
+            "position": 244,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              240
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          }
+        ]
+      },
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.010965007999402587,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3840,
+      "independent_first_step": {
+        "passed": true,
+        "children": [
+          236,
+          244
+        ],
+        "copied_edges": 4,
+        "helper_enabled_edges": 2,
+        "predicted_events": [
+          [
+            240,
+            244,
+            1,
+            4,
+            ""
+          ],
+          [
+            240,
+            236,
+            2,
+            4,
+            "244:-4"
+          ],
+          [
+            244,
+            240,
+            1,
+            -4,
+            ""
+          ],
+          [
+            244,
+            248,
+            2,
+            -4,
+            "240:4"
+          ]
+        ],
+        "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+        "sources_sha256": {
+          "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+          "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+          "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+        },
+        "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+      },
+      "formula_matches_all_saved_rows": true
+    },
+    {
+      "id": "construction_d4_background_intact",
+      "path": "results/partner_dyad/runs/construction_d4_background_intact",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "background_intact",
+      "d": 4,
+      "detached_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "first_internal_helper_pair": {
+        "time": 1,
+        "children": [
+          {
+            "position": 236,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              244
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          },
+          {
+            "position": 244,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              240
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          }
+        ]
+      },
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.015238590000080876,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3840,
+      "independent_first_step": {
+        "passed": true,
+        "children": [
+          236,
+          244
+        ],
+        "copied_edges": 4,
+        "helper_enabled_edges": 2,
+        "predicted_events": [
+          [
+            240,
+            244,
+            1,
+            4,
+            ""
+          ],
+          [
+            240,
+            236,
+            2,
+            4,
+            "244:-4"
+          ],
+          [
+            244,
+            240,
+            1,
+            -4,
+            ""
+          ],
+          [
+            244,
+            248,
+            2,
+            -4,
+            "240:4"
+          ]
+        ],
+        "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+        "sources_sha256": {
+          "initial.csv": "4f2a4e5d516a7875ca3d16162ba007bf0e0a074d68c5c8a1e0868bc6396ab6d6",
+          "trajectory.csv": "29a48993405aea2ce858bb7fd31d9529b2d10f0fea13225625d67d37a1d7266c",
+          "events.csv": "de78c83dd161ff65860810cc42e13a86922edea43ce5845c501a2b4097aac69a"
+        },
+        "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+      }
+    },
+    {
+      "id": "construction_d4_background_partner_removed",
+      "path": "results/partner_dyad/runs/construction_d4_background_partner_removed",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "background_partner_removed",
+      "d": 4,
+      "detached_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_internal_helper_pair": null,
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.00869438799963973,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712
+    },
+    {
+      "id": "construction_d4_background_matched_damage",
+      "path": "results/partner_dyad/runs/construction_d4_background_matched_damage",
+      "setting": "construction_d4",
+      "stage": "construction",
+      "condition": "background_matched_damage",
+      "d": 4,
+      "detached_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "first_internal_helper_pair": {
+        "time": 1,
+        "children": [
+          {
+            "position": 236,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              244
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          },
+          {
+            "position": 244,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              240
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          }
+        ]
+      },
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.009796961001484306,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3840,
+      "independent_first_step": {
+        "passed": true,
+        "children": [
+          236,
+          244
+        ],
+        "copied_edges": 4,
+        "helper_enabled_edges": 2,
+        "predicted_events": [
+          [
+            240,
+            244,
+            1,
+            4,
+            ""
+          ],
+          [
+            240,
+            236,
+            2,
+            4,
+            "244:-4"
+          ],
+          [
+            244,
+            240,
+            1,
+            -4,
+            ""
+          ],
+          [
+            244,
+            248,
+            2,
+            -4,
+            "240:4"
+          ]
+        ],
+        "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+        "sources_sha256": {
+          "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+          "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+          "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+        },
+        "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+      },
+      "formula_matches_all_saved_rows": true
+    }
+  ],
+  "recovery_probes": [
+    {
+      "id": "construction_d4_child1",
+      "path": "results/partner_dyad/recovery/construction_d4_child1",
+      "setting": "construction_d4_child1",
+      "stage": "recovery",
+      "condition": "isolated_child",
+      "d": 4,
+      "detached_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "first_internal_helper_pair": {
+        "time": 1,
+        "children": [
+          {
+            "position": 236,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              244
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          },
+          {
+            "position": 244,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              240
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          }
+        ]
+      },
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.01262756700089085,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3840,
+      "independent_first_step": {
+        "passed": true,
+        "children": [
+          236,
+          244
+        ],
+        "copied_edges": 4,
+        "helper_enabled_edges": 2,
+        "predicted_events": [
+          [
+            240,
+            244,
+            1,
+            4,
+            ""
+          ],
+          [
+            240,
+            236,
+            2,
+            4,
+            "244:-4"
+          ],
+          [
+            244,
+            240,
+            1,
+            -4,
+            ""
+          ],
+          [
+            244,
+            248,
+            2,
+            -4,
+            "240:4"
+          ]
+        ],
+        "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+        "sources_sha256": {
+          "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+          "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+          "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+        },
+        "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+      },
+      "formula_matches_all_saved_rows": true,
+      "reproduces_after_isolation": true,
+      "persistent_every_saved_time": true
+    },
+    {
+      "id": "construction_d4_child2",
+      "path": "results/partner_dyad/recovery/construction_d4_child2",
+      "setting": "construction_d4_child2",
+      "stage": "recovery",
+      "condition": "isolated_child",
+      "d": 4,
+      "detached_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "first_internal_helper_pair": {
+        "time": 1,
+        "children": [
+          {
+            "position": 236,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              244
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          },
+          {
+            "position": 244,
+            "copy_roots": [
+              240,
+              244
+            ],
+            "guaranteed_copy_roots": [
+              240,
+              244
+            ],
+            "dependency_roots": [
+              240,
+              244
+            ],
+            "helper_roots": [
+              240
+            ],
+            "unknown_copy_origin": false,
+            "unknown_dependency_origin": false,
+            "exclusive_full_founder_copying": true,
+            "dependencies_confined_to_founder": true,
+            "internal_helper_support": true
+          }
+        ]
+      },
+      "first_update_trace_complete": true,
+      "oracle_all_cells_equal": true,
+      "oracle_cells": 7680,
+      "native_seconds": 0.012460050000299816,
+      "cell_updates": 6656,
+      "max_native_rss_kib": 3712,
+      "independent_first_step": {
+        "passed": true,
+        "children": [
+          236,
+          244
+        ],
+        "copied_edges": 4,
+        "helper_enabled_edges": 2,
+        "predicted_events": [
+          [
+            240,
+            244,
+            1,
+            4,
+            ""
+          ],
+          [
+            240,
+            236,
+            2,
+            4,
+            "244:-4"
+          ],
+          [
+            244,
+            240,
+            1,
+            -4,
+            ""
+          ],
+          [
+            244,
+            248,
+            2,
+            -4,
+            "240:4"
+          ]
+        ],
+        "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+        "sources_sha256": {
+          "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+          "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+          "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+        },
+        "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+      },
+      "formula_matches_all_saved_rows": true,
+      "reproduces_after_isolation": true,
+      "persistent_every_saved_time": true
+    }
+  ],
+  "claim": "Designed opposite-sign dyad produces two guarded, full-founder, partner-assisted numerical copies at t1. Each isolated first child reproduces. This is an operational numerical positive control, not evolved biological symbiosis.",
+  "ancestry_scope": "complete ordered native trace at t0\u2192t1 only; longer histories verified numerically with unchanged-source oracle and formula, not full lineage reconstruction",
+  "limits": [
+    "A dyad is a distributed two-cell footprint. Its internal gap equals the gap between adjacent children. Partition is operational, not evidence of organism boundaries or independent later interaction.",
+    "Each cell alone translates and persists but cannot increase its count here. Assistance concerns pair copying, not individual survival.",
+    "An expanding regular lattice is expected. First-step detached copies plus isolation assays test numerical copying capacity, not life, biological symbiosis, inherited diversity or open-ended evolution.",
+    "Constructed calibration cannot reverse R6's negative findings for its historical and generated motifs."
+  ]
+}

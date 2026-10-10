@@ -1,0 +1,38 @@
+{
+  "panels": [
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_intact/trace/trajectory.csv",
+      "columns": [
+        232,
+        253
+      ],
+      "saved_times": [
+        0,
+        1
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_intact/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    }
+  ],
+  "overlays": {
+    "source": "results/partner_dyad/runs/construction_d4_intact/trace/events.csv",
+    "selection": "copy events at time0",
+    "solid": "direct copy",
+    "dashed": "helper-enabled copy"
+  }
+}

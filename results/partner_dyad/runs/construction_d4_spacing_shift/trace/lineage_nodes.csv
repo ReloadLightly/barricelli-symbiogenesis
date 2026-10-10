@@ -1,0 +1,5 @@
+time,x,value,copy_roots,dependency_roots,helper_roots,unknown_copy_origin,unknown_dependency_origin,same_value_arrivals
+0,240,4,240,240,,False,False,0
+0,245,-4,245,245,,False,False,0
+1,241,-4,245,245,,False,False,0
+1,244,4,240,240,,False,False,0

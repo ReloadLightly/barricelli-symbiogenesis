@@ -1,0 +1,127 @@
+{
+  "id": "construction_d4_rescue",
+  "path": "results/partner_dyad/runs/construction_d4_rescue",
+  "setting": "construction_d4",
+  "stage": "construction",
+  "condition": "rescue",
+  "d": 4,
+  "detached_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "first_internal_helper_pair": {
+    "time": 1,
+    "children": [
+      {
+        "position": 236,
+        "copy_roots": [
+          240,
+          244
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          244
+        ],
+        "dependency_roots": [
+          240,
+          244
+        ],
+        "helper_roots": [
+          244
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      },
+      {
+        "position": 244,
+        "copy_roots": [
+          240,
+          244
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          244
+        ],
+        "dependency_roots": [
+          240,
+          244
+        ],
+        "helper_roots": [
+          240
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      }
+    ]
+  },
+  "first_update_trace_complete": true,
+  "oracle_all_cells_equal": true,
+  "oracle_cells": 7680,
+  "native_seconds": 0.010965007999402587,
+  "cell_updates": 6656,
+  "max_native_rss_kib": 3840,
+  "independent_first_step": {
+    "passed": true,
+    "children": [
+      236,
+      244
+    ],
+    "copied_edges": 4,
+    "helper_enabled_edges": 2,
+    "predicted_events": [
+      [
+        240,
+        244,
+        1,
+        4,
+        ""
+      ],
+      [
+        240,
+        236,
+        2,
+        4,
+        "244:-4"
+      ],
+      [
+        244,
+        240,
+        1,
+        -4,
+        ""
+      ],
+      [
+        244,
+        248,
+        2,
+        -4,
+        "240:4"
+      ]
+    ],
+    "independence": "closed-form source-specific audit; does not call R6 lineage propagation",
+    "sources_sha256": {
+      "initial.csv": "d399be5f665be80b9a767954bb4a4e2fedb080bcfd5904e6d6a12763076f1317",
+      "trajectory.csv": "b1a0f4526d9c6fe2b2921adca6cd20f7301583cdcfb3c54465d6ffbea67426f0",
+      "events.csv": "cc6756c426def2fc1de002a3c13f94d5923e3675d5f1b8472f00d9e9b5a80f44"
+    },
+    "auditor_sha256": "4188c68655d411bc7adf91eb424823200a88891ff340059efcf732ee7c9c9233"
+  },
+  "formula_matches_all_saved_rows": true
+}

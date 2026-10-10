@@ -1,0 +1,144 @@
+{
+  "motif": [
+    4,
+    0,
+    0,
+    0,
+    -4
+  ],
+  "founder_position": 240,
+  "founder_cells": [
+    240,
+    244
+  ],
+  "trace_matches_every_saved_update": true,
+  "events_audited": 5,
+  "ambiguous_cell_times": 0,
+  "maximum_unguarded_matches": 2,
+  "maximum_detached_matches": 2,
+  "first_common_founder_pair": {
+    "time": 1,
+    "children": [
+      {
+        "position": 236,
+        "copy_roots": [
+          240,
+          244
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          244
+        ],
+        "dependency_roots": [
+          240,
+          244
+        ],
+        "helper_roots": [
+          244
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      },
+      {
+        "position": 244,
+        "copy_roots": [
+          240,
+          244
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          244
+        ],
+        "dependency_roots": [
+          240,
+          244
+        ],
+        "helper_roots": [
+          240
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      }
+    ]
+  },
+  "first_internal_helper_pair": {
+    "time": 1,
+    "children": [
+      {
+        "position": 236,
+        "copy_roots": [
+          240,
+          244
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          244
+        ],
+        "dependency_roots": [
+          240,
+          244
+        ],
+        "helper_roots": [
+          244
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      },
+      {
+        "position": 244,
+        "copy_roots": [
+          240,
+          244
+        ],
+        "guaranteed_copy_roots": [
+          240,
+          244
+        ],
+        "dependency_roots": [
+          240,
+          244
+        ],
+        "helper_roots": [
+          240
+        ],
+        "unknown_copy_origin": false,
+        "unknown_dependency_origin": false,
+        "exclusive_full_founder_copying": true,
+        "dependencies_confined_to_founder": true,
+        "internal_helper_support": true
+      }
+    ]
+  },
+  "history": [
+    {
+      "time": 0,
+      "unguarded_matches": 1,
+      "detached_matches": 1,
+      "full_founder_descendants": 1,
+      "internal_helper_descendants": 0
+    },
+    {
+      "time": 1,
+      "unguarded_matches": 2,
+      "detached_matches": 2,
+      "full_founder_descendants": 2,
+      "internal_helper_descendants": 2
+    }
+  ],
+  "interpretation": "set-valued operational numerical copying support; no biological ancestry claim",
+  "sources_sha256": {
+    "initial.csv": "4f2a4e5d516a7875ca3d16162ba007bf0e0a074d68c5c8a1e0868bc6396ab6d6",
+    "trajectory.csv": "29a48993405aea2ce858bb7fd31d9529b2d10f0fea13225625d67d37a1d7266c",
+    "events.csv": "de78c83dd161ff65860810cc42e13a86922edea43ce5845c501a2b4097aac69a"
+  },
+  "analyzer_sha256": "e2a5deada1bc930823d361128e8067a5c603406d861c0560242d7c64e918f00d"
+}

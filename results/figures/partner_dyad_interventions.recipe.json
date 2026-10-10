@@ -1,0 +1,117 @@
+{
+  "panels": [
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_intact/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_positive_removed/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_negative_removed/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_spacing_shift/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_rescue/continuation/trajectory.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    },
+    {
+      "trajectory": "results/partner_dyad/runs/construction_d4_intact/oracle/helpers_disabled.csv",
+      "columns": [
+        184,
+        305
+      ],
+      "saved_times": [
+        0,
+        12
+      ],
+      "horizontal_axis": "global position x",
+      "vertical_axis": "time t downward",
+      "cell_rendering": "nearest, unsmoothed; integers when noted"
+    }
+  ],
+  "selection": "all seven empty-background construction conditions plus declared rule counterfactual"
+}

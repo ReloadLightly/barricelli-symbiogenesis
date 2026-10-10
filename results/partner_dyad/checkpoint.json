@@ -1,0 +1,42 @@
+{
+  "design_sha256": "7f4c5bf795dd0562d0a858ad96800b1cda094a479fb95415c8ac1cc66a3c0f01",
+  "completed": [
+    "construction_d4_intact",
+    "construction_d4_positive_removed",
+    "construction_d4_negative_removed",
+    "construction_d4_wrong_negative_same_occupancy",
+    "construction_d4_composition_shuffled_fixed_gaps",
+    "construction_d4_spacing_shift",
+    "construction_d4_rescue",
+    "construction_d4_background_intact",
+    "construction_d4_background_partner_removed",
+    "construction_d4_background_matched_damage"
+  ],
+  "pending": [
+    "confirmation_d3_intact",
+    "confirmation_d3_positive_removed",
+    "confirmation_d3_negative_removed",
+    "confirmation_d3_wrong_negative_same_occupancy",
+    "confirmation_d3_composition_shuffled_fixed_gaps",
+    "confirmation_d3_spacing_shift",
+    "confirmation_d3_rescue",
+    "confirmation_d5_intact",
+    "confirmation_d5_positive_removed",
+    "confirmation_d5_negative_removed",
+    "confirmation_d5_wrong_negative_same_occupancy",
+    "confirmation_d5_composition_shuffled_fixed_gaps",
+    "confirmation_d5_spacing_shift",
+    "confirmation_d5_rescue",
+    "confirmation_long_d4_intact",
+    "confirmation_long_d4_positive_removed",
+    "confirmation_long_d4_negative_removed",
+    "confirmation_long_d4_wrong_negative_same_occupancy",
+    "confirmation_long_d4_composition_shuffled_fixed_gaps",
+    "confirmation_long_d4_spacing_shift",
+    "confirmation_long_d4_rescue"
+  ],
+  "recovery_completed": [
+    "construction_d4_child1",
+    "construction_d4_child2"
+  ]
+}
