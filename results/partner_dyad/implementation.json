@@ -1,0 +1,14 @@
+{
+  "stage": "Implementation before R7 execution",
+  "native_simulator_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "native_simulator_changed": false,
+  "r6_lineage_detector_changed": false,
+  "oracle_binary_sha256": "9ddb10f4ebd52a576d9cbcf6aa767a3611566ed0d2bd896c8447c0b84942d7b6",
+  "oracle_method": "Separate compiled uninstrumented harness includes retained unchanged Taylor source and calls updateWorld with SYMBIOTIC norm. It does not link laboratory adapter or event hooks.",
+  "independent_audit": "Source-specific four-edge and two-helper closed-form check, no import of R6 lineage propagation.",
+  "tests": "27 passed, including six adversarial independent-audit fixtures; no R7 experimental native runs executed before this checkpoint.",
+  "test_scope": "Existing fidelity tests and copying-detector tests plus missing-helper, equal-valued external-source, reordered-edge, incomplete-trace and occupied-guard rejection.",
+  "frozen_cases": 31,
+  "experimental_native_runs_before_checkpoint": 0,
+  "new_external_model_api_calls": 0
+}

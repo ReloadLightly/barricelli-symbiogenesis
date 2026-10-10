@@ -1,0 +1,2301 @@
+{
+  "design_sha256": "7f4c5bf795dd0562d0a858ad96800b1cda094a479fb95415c8ac1cc66a3c0f01",
+  "cases": [
+    {
+      "id": "construction_d4_intact",
+      "path": "results/partner_dyad/runs/construction_d4_intact",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "intact",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_intact/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_intact",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "intact",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_intact/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_intact",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "intact",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_positive_removed",
+      "path": "results/partner_dyad/runs/construction_d4_positive_removed",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "positive_removed",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_positive_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_positive_removed",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "positive_removed",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_positive_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_positive_removed",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "positive_removed",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_negative_removed",
+      "path": "results/partner_dyad/runs/construction_d4_negative_removed",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "negative_removed",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_negative_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_negative_removed",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "negative_removed",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_negative_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_negative_removed",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "negative_removed",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_wrong_negative_same_occupancy",
+      "path": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "wrong_negative_same_occupancy",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_wrong_negative_same_occupancy",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_wrong_negative_same_occupancy",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_composition_shuffled_fixed_gaps",
+      "path": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "composition_shuffled_fixed_gaps",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_composition_shuffled_fixed_gaps",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_composition_shuffled_fixed_gaps",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_spacing_shift",
+      "path": "results/partner_dyad/runs/construction_d4_spacing_shift",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "spacing_shift",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_spacing_shift/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_spacing_shift",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "spacing_shift",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_spacing_shift/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_spacing_shift",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "spacing_shift",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_rescue",
+      "path": "results/partner_dyad/runs/construction_d4_rescue",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "rescue",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_rescue/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_rescue",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "rescue",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_rescue/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_rescue",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "rescue",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_background_intact",
+      "path": "results/partner_dyad/runs/construction_d4_background_intact",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "background_intact",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_background_intact/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_background_intact",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "background_intact",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_background_intact/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_background_intact",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "background_intact",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_background_partner_removed",
+      "path": "results/partner_dyad/runs/construction_d4_background_partner_removed",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "background_partner_removed",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_background_partner_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_background_partner_removed",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "background_partner_removed",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_background_partner_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_background_partner_removed",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "background_partner_removed",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "construction_d4_background_matched_damage",
+      "path": "results/partner_dyad/runs/construction_d4_background_matched_damage",
+      "setting": {
+        "id": "construction_d4",
+        "stage": "construction",
+        "d": 4,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "background_matched_damage",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_background_matched_damage/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_background_matched_damage",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "background_matched_damage",
+            "phase": "trace",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/construction_d4_background_matched_damage/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "construction_d4_background_matched_damage",
+            "setting": "construction_d4",
+            "stage": "construction",
+            "condition": "background_matched_damage",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_intact",
+      "path": "results/partner_dyad/runs/confirmation_d3_intact",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "intact",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_intact/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_intact",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "intact",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_intact/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_intact",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "intact",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_positive_removed",
+      "path": "results/partner_dyad/runs/confirmation_d3_positive_removed",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "positive_removed",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_positive_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_positive_removed",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "positive_removed",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_positive_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_positive_removed",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "positive_removed",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_negative_removed",
+      "path": "results/partner_dyad/runs/confirmation_d3_negative_removed",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "negative_removed",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_negative_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_negative_removed",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "negative_removed",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_negative_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_negative_removed",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "negative_removed",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_wrong_negative_same_occupancy",
+      "path": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "wrong_negative_same_occupancy",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_wrong_negative_same_occupancy",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_wrong_negative_same_occupancy",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_composition_shuffled_fixed_gaps",
+      "path": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "composition_shuffled_fixed_gaps",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_composition_shuffled_fixed_gaps",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_composition_shuffled_fixed_gaps",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_spacing_shift",
+      "path": "results/partner_dyad/runs/confirmation_d3_spacing_shift",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "spacing_shift",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_spacing_shift/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_spacing_shift",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "spacing_shift",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_spacing_shift/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_spacing_shift",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "spacing_shift",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d3_rescue",
+      "path": "results/partner_dyad/runs/confirmation_d3_rescue",
+      "setting": {
+        "id": "confirmation_d3",
+        "stage": "confirmation",
+        "d": 3,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "rescue",
+      "motif": [
+        3,
+        0,
+        0,
+        -3
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_rescue/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_rescue",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "rescue",
+            "phase": "trace",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d3_rescue/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d3_rescue",
+            "setting": "confirmation_d3",
+            "stage": "confirmation",
+            "condition": "rescue",
+            "phase": "continuation",
+            "d": 3,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_intact",
+      "path": "results/partner_dyad/runs/confirmation_d5_intact",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "intact",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_intact/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_intact",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "intact",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_intact/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_intact",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "intact",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_positive_removed",
+      "path": "results/partner_dyad/runs/confirmation_d5_positive_removed",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "positive_removed",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_positive_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_positive_removed",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "positive_removed",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_positive_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_positive_removed",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "positive_removed",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_negative_removed",
+      "path": "results/partner_dyad/runs/confirmation_d5_negative_removed",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "negative_removed",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_negative_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_negative_removed",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "negative_removed",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_negative_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_negative_removed",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "negative_removed",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_wrong_negative_same_occupancy",
+      "path": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "wrong_negative_same_occupancy",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_wrong_negative_same_occupancy",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_wrong_negative_same_occupancy",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_composition_shuffled_fixed_gaps",
+      "path": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "composition_shuffled_fixed_gaps",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_composition_shuffled_fixed_gaps",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_composition_shuffled_fixed_gaps",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_spacing_shift",
+      "path": "results/partner_dyad/runs/confirmation_d5_spacing_shift",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "spacing_shift",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_spacing_shift/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_spacing_shift",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "spacing_shift",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_spacing_shift/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_spacing_shift",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "spacing_shift",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_d5_rescue",
+      "path": "results/partner_dyad/runs/confirmation_d5_rescue",
+      "setting": {
+        "id": "confirmation_d5",
+        "stage": "confirmation",
+        "d": 5,
+        "founder": 240,
+        "width": 512,
+        "steps": 12
+      },
+      "condition": "rescue",
+      "motif": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        -5
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_rescue/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_rescue",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "rescue",
+            "phase": "trace",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 512,
+          "steps": 12,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_d5_rescue/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_d5_rescue",
+            "setting": "confirmation_d5",
+            "stage": "confirmation",
+            "condition": "rescue",
+            "phase": "continuation",
+            "d": 5,
+            "founder": 240,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_intact",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_intact",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "intact",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_intact/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_intact",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "intact",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_intact/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_intact",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "intact",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_positive_removed",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_positive_removed",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "positive_removed",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_positive_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_positive_removed",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "positive_removed",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_positive_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_positive_removed",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "positive_removed",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_negative_removed",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_negative_removed",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "negative_removed",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_negative_removed/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_negative_removed",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "negative_removed",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_negative_removed/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_negative_removed",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "negative_removed",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_wrong_negative_same_occupancy",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "wrong_negative_same_occupancy",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_wrong_negative_same_occupancy",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_wrong_negative_same_occupancy/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_wrong_negative_same_occupancy",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "wrong_negative_same_occupancy",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_composition_shuffled_fixed_gaps",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "composition_shuffled_fixed_gaps",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_composition_shuffled_fixed_gaps",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_composition_shuffled_fixed_gaps/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_composition_shuffled_fixed_gaps",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "composition_shuffled_fixed_gaps",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_spacing_shift",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "spacing_shift",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_spacing_shift",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "spacing_shift",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_spacing_shift/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_spacing_shift",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "spacing_shift",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    },
+    {
+      "id": "confirmation_long_d4_rescue",
+      "path": "results/partner_dyad/runs/confirmation_long_d4_rescue",
+      "setting": {
+        "id": "confirmation_long_d4",
+        "stage": "confirmation",
+        "d": 4,
+        "founder": 992,
+        "width": 2048,
+        "steps": 96
+      },
+      "condition": "rescue",
+      "motif": [
+        4,
+        0,
+        0,
+        0,
+        -4
+      ],
+      "configs": {
+        "trace": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 1,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_rescue/frozen.csv",
+          "trace_steps": 1,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_rescue",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "rescue",
+            "phase": "trace",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        },
+        "continuation": {
+          "model": "research",
+          "variant": "r7_partner_dyad",
+          "norm": "symbiotic",
+          "width": 2048,
+          "steps": 96,
+          "boundary": "open",
+          "iteration_order": "ascending",
+          "seed": null,
+          "initial_state_file": "results/partner_dyad/runs/confirmation_long_d4_rescue/frozen.csv",
+          "trace_steps": 0,
+          "modifications": [
+            "R7 designed integer inoculation; historical symbiotic arithmetic unchanged",
+            "external causal interventions declared in frozen design; observation-only trace"
+          ],
+          "experiment": {
+            "id": "confirmation_long_d4_rescue",
+            "setting": "confirmation_long_d4",
+            "stage": "confirmation",
+            "condition": "rescue",
+            "phase": "continuation",
+            "d": 4,
+            "founder": 992,
+            "intervention": null
+          }
+        }
+      }
+    }
+  ],
+  "execution": "serial; hash-checked native cache preserves original provenance",
+  "recovery_selection": "two first children from each intact setting only; retain failures"
+}

@@ -24,4 +24,5 @@ def build():
  common=['g++','-std=c++20','-O2','-I'+str(ROOT/'engine/compat'),'-I'+str(ROOT/'engine'),'-I'+str(builddir)]
  subprocess.run(common+[str(ROOT/'engine/upstream/barricelli54.cpp'),'-o',str(builddir/'reference')],check=True)
  subprocess.run(common+[str(ROOT/'engine/adapter.cpp'),'-o',str(builddir/'simulator')],check=True)
+ subprocess.run(common+[str(ROOT/'engine/symbiotic_oracle.cpp'),'-o',str(builddir/'symbiotic_oracle')],check=True)
 if __name__=='__main__': build()
