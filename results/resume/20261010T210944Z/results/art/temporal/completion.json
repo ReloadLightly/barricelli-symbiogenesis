@@ -1,0 +1,49 @@
+{
+  "status": "verified",
+  "completed_utc": "2026-10-10T21:09:44.059096+00:00",
+  "design": "results/art/temporal/design.json",
+  "manifest": "results/art/temporal/manifest.json",
+  "question_answer": "Fixed cumulative views reveal different changes in the three saved worlds; no increasing-complexity claim is made.",
+  "series": 3,
+  "panels": 9,
+  "triptychs": 3,
+  "elapsed_steps": [
+    170,
+    341,
+    511
+  ],
+  "panel_dimensions": [
+    4919,
+    4968
+  ],
+  "triptych_dimensions": [
+    14757,
+    4968
+  ],
+  "scale": "nine pixels per position and saved time row; identical across every stage",
+  "unchanged_original_files": 38,
+  "numerical_panel_pixels_checked": 190729728,
+  "triptych_pixels_checked": 219938328,
+  "existing_tests_passed": 37,
+  "browser_assertions": 16,
+  "source_files_verified": 124,
+  "source_snapshot_sha256": "e17381578ad49b65b65032354fcb778e24541a896ac862f208fce357763f2649",
+  "new_scientific_simulations": 0,
+  "new_model_api_calls": 0,
+  "new_animation_frames": 0,
+  "native_runs_retained": 896,
+  "atlas_worlds": 72,
+  "existing_artwork_and_animation_pairs": 6,
+  "render_implementation_commit": "e8ede726bb9ec2f5c1b7bf0406b63dfe3dea8e0a",
+  "reproduction_command": "make temporal-art",
+  "scientific_replay_scope": "Previous 896-run replay evidence is retained; native code, binary and saved numerical experiments are unchanged. This art round verifies its source hashes and numerical raster pixels, without rerunning those worlds.",
+  "resources": {
+    "render": "results/art/temporal/render-resource.txt",
+    "first_raster_check": "results/art/temporal/check-resource.txt",
+    "cached_regeneration": "results/art/temporal/regeneration-log.txt",
+    "cached_render": "results/art/temporal/render-latest-resource.txt",
+    "artifact_checks": "results/art/temporal/artifact-check-resource.txt",
+    "final_browser": "results/art/temporal/browser-final-resource.txt"
+  },
+  "next_decision": "Keep these temporal views with the existing prints and animations. The proposed 6144-update mixed-source scientific experiment remains unexecuted."
+}

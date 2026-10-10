@@ -1,0 +1,42 @@
+test_exact_motif_and_guard_cross_ring_seam (test_descriptors.CorrectedDiagnostics) ... ok
+test_failed_native_probe_selects_compatibility (test_descriptors.CorrectedDiagnostics) ... ok
+test_native_format_probe_never_sees_shim (test_descriptors.CorrectedDiagnostics) ... ok
+test_nonstationary_periodic_aliases_are_ambiguous (test_descriptors.CorrectedDiagnostics) ... ok
+test_open_motion_does_not_wrap_or_accept_boundary_loss (test_descriptors.CorrectedDiagnostics) ... ok
+test_ring_footprints_do_not_overlap_across_seam (test_descriptors.CorrectedDiagnostics) ... ok
+test_seam_windows_depend_on_boundary (test_descriptors.CorrectedDiagnostics) ... ok
+test_short_open_world_and_invalid_boundary (test_descriptors.CorrectedDiagnostics) ... ok
+test_stationary_periodic_and_empty_are_not_motion (test_descriptors.CorrectedDiagnostics) ... ok
+test_unique_open_motion (test_descriptors.CorrectedDiagnostics) ... ok
+test_equal_valued_external_source_is_not_founder (test_dyad.IndependentDyadAudit) ... ok
+test_incomplete_trace_rejected (test_dyad.IndependentDyadAudit) ... ok
+test_missing_enabling_partner_rejected_even_with_same_numbers (test_dyad.IndependentDyadAudit) ... ok
+test_occupied_guard_rejected (test_dyad.IndependentDyadAudit) ... ok
+test_source_specific_four_edge_fixture (test_dyad.IndependentDyadAudit) ... ok
+test_wrong_write_order_rejected (test_dyad.IndependentDyadAudit) ... ok
+test_all_historical_fixtures (test_fidelity.Fidelity) ... ok
+test_constituent_collision_norms (test_fidelity.Fidelity) ... ok
+test_equal_helper_recurses_three_attempts (test_fidelity.Fidelity) ... ok
+test_exclusion_marker_not_empty_and_does_not_reproduce (test_fidelity.Fidelity) ... ok
+test_galloway_erasure_allows_later_reuse (test_fidelity.Fidelity) ... ok
+test_historical_open_boundary (test_fidelity.Fidelity) ... ok
+test_profiles_do_not_silently_mix (test_fidelity.Fidelity) ... ok
+test_recurrence_includes_environment_phase (test_fidelity.Fidelity) ... ok
+test_ring_wrap_and_old_row_mutation (test_fidelity.Fidelity) ... ok
+test_template_translations_and_domain_guard (test_fidelity.Fidelity) ... ok
+test_equal_arrivals_preserve_alternative_roots (test_lineage.Lineage) ... ok
+test_erasure_and_later_reuse_remove_prior_roots (test_lineage.Lineage) ... ok
+test_full_horizon_is_required (test_lineage.Lineage) ... ok
+test_helper_sites_are_separate_from_copying_parents (test_lineage.Lineage) ... ok
+test_incomplete_and_corrupted_trace_rejected (test_lineage.Lineage) ... ok
+test_mutation_does_not_invent_copied_ancestry (test_lineage.Lineage) ... ok
+test_native_common_founder_copying_and_no_helper_claim (test_lineage.Lineage) ... ok
+test_overwrite_removes_prior_root (test_lineage.Lineage) ... ok
+test_possible_root_coverage_does_not_guarantee_all_components (test_lineage.Lineage) ... ok
+test_unrelated_equal_templates_do_not_share_founder (test_lineage.Lineage) ... ok
+test_untraced_mutation_helper_prevents_dependency_certificate (test_lineage.Lineage) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.332s
+
+OK

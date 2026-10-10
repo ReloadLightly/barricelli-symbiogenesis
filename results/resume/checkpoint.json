@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-10T20:34:53.703601+00:00",
+  "updated_utc": "2026-10-10T21:09:44.059096+00:00",
   "status": "verified",
-  "milestone_status": "complete through C1 and R8; original analyses retained",
+  "milestone_status": "complete through C1, R8 and temporal artwork; original analyses retained",
   "current_source_snapshot": "results/source_snapshot.tar.gz",
-  "source_snapshot_sha256": "ecb80114450a5c82766cb0e982adcf13721cf8db4206600f4d8202b5e53279be",
-  "source_files_verified": 121,
+  "source_snapshot_sha256": "e17381578ad49b65b65032354fcb778e24541a896ac862f208fce357763f2649",
+  "source_files_verified": 124,
   "native_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
   "symbiotic_oracle_binary_sha256": "9ddb10f4ebd52a576d9cbcf6aa767a3611566ed0d2bd896c8447c0b84942d7b6",
   "verified_results": {
@@ -14,7 +14,7 @@
     "all_nine_event_counters_exact": true,
     "cell_updates": 45257353,
     "atlas_worlds": 72,
-    "browser_assertions": 13,
+    "browser_assertions": 16,
     "artworks": 6,
     "scientific_figures": 26,
     "r6_baseline_worlds": 64,
@@ -32,7 +32,13 @@
     "r8_followup_and_nearby_worlds": 69,
     "r8_reserved_worlds_recurred": 12,
     "r8_short_audit_certified_pairs": 0,
-    "native_artifact_hashes_preserved": 5319
+    "native_artifact_hashes_preserved": 5319,
+    "temporal_series": 3,
+    "temporal_stage_panels": 9,
+    "temporal_triptychs": 3,
+    "temporal_original_files_preserved": 38,
+    "temporal_numerical_pixels_exact": 190729728,
+    "temporal_composition_pixels_exact": 219938328
   },
   "verification_evidence": [
     {
@@ -94,9 +100,84 @@
       "source": "references/source_manifest.json",
       "copy": "results/resume/20261010T203453Z/references/source_manifest.json",
       "sha256": "90d65d858ef6582efeb90425b1dad16ef718cb4e2f30490e565c124a5521d46d"
+    },
+    {
+      "source": "results/art/temporal/design.json",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/design.json",
+      "sha256": "e1bb9d7ade54f6b2b3c6c731dbdeb750ebd0faedab1cc35ec6616d54b15c3926"
+    },
+    {
+      "source": "results/art/temporal/manifest.json",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/manifest.json",
+      "sha256": "e1aa21c3e3df736de97885038b8b8f5ca6a0dd698da757460fc393ab216ff3b3"
+    },
+    {
+      "source": "results/art/temporal/checks.json",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/checks.json",
+      "sha256": "0c85414bd13ffecf26333ab916a6486a3a61f5212a6cf482f1c035907e27e07f"
+    },
+    {
+      "source": "results/art/temporal/completion.json",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/completion.json",
+      "sha256": "39c1c8e3ea37fecd3bbe726b4b580d7c94d895dd359beecdd11b1494e1c9a79b"
+    },
+    {
+      "source": "results/art/temporal/test-results.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/test-results.txt",
+      "sha256": "3416d5b431fa157130249fa2ccb8ee80e06f4b78435356a2fe09ce1117eca1ff"
+    },
+    {
+      "source": "results/art/temporal/render-resource.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/render-resource.txt",
+      "sha256": "c02a56afd7c38f5846ad37d21e0c02ea49c80318f5cdcbf807755c7e4427b3ba"
+    },
+    {
+      "source": "results/art/temporal/check-resource.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/check-resource.txt",
+      "sha256": "2d46b7deaf63ff89377ace6cfdf2a1d68654151ef41efd776e3027e883e01ee0"
+    },
+    {
+      "source": "results/art/temporal/regeneration-log.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/regeneration-log.txt",
+      "sha256": "304c927feaf3f6c5bed7c893d80aeedb757b6b05f6f73639ad8e7cc5998b55f5"
+    },
+    {
+      "source": "results/art/temporal/render-latest-resource.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/render-latest-resource.txt",
+      "sha256": "23b71a1d364091f312176a1e1506238c76c82bd529b4b5327d5c7e2326baa690"
+    },
+    {
+      "source": "results/art/temporal/check-latest-resource.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/check-latest-resource.txt",
+      "sha256": "d94bf409c0cc6114f67c640ed7bc25056059ebb243972011a60d5da7b1edbd81"
+    },
+    {
+      "source": "results/art/temporal/artifact-check-resource.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/artifact-check-resource.txt",
+      "sha256": "94d394d9d6f8df77a99435371e19ff001ca78e4cee14d3dfb0131f583e1c9345"
+    },
+    {
+      "source": "results/art/temporal/browser-final-resource.txt",
+      "copy": "results/resume/20261010T210944Z/results/art/temporal/browser-final-resource.txt",
+      "sha256": "0357940d2f7c25737695ed3c3203586568d2b679e8e8dee0f3897172725f97a2"
+    },
+    {
+      "source": "results/atlas_qa.json",
+      "copy": "results/resume/20261010T210944Z/results/atlas_qa.json",
+      "sha256": "c553cf2a113d1ef158e326939e97c14540bfe1fc50cda922424936dec33444bd"
+    },
+    {
+      "source": "results/artifact_checks.json",
+      "copy": "results/resume/20261010T210944Z/results/artifact_checks.json",
+      "sha256": "431de6f5f203bc0e9645e77f1ff22ccbe7a6f0b3b122258aff0c4feedaea8128"
+    },
+    {
+      "source": "references/source_manifest.json",
+      "copy": "results/resume/20261010T210944Z/references/source_manifest.json",
+      "sha256": "e9d75ac15df1d295bcae8987b48983ac2175880ff338cb5caa6d5fdcbb520905"
     }
   ],
-  "execution_scope": "C1 GCC/header and descriptor corrections; all R7 reserved checks; executed192-world broader search,69 targeted/nearby worlds and Interfaces art. Cached full regeneration adds zero native experiments or model calls; all5319 tracked native artifacts preserved.",
+  "execution_scope": "C1 GCC/header and descriptor corrections; all R7 reserved checks; executed192-world broader search,69 targeted/nearby worlds and Interfaces art. Cached full regeneration adds zero native experiments or model calls; all5319 tracked native artifacts preserved. Temporal-art extension exports nine cumulative stills and three triptychs from three unchanged saved worlds, with fixed scale and blank future time; all38 protected numerical/art files match. The native replay evidence above is retained, not repeated for this presentation change.",
   "prior_full_regeneration": {
     "native_runs": 557,
     "elapsed_seconds": 110.6,
@@ -111,12 +192,13 @@
     "policy": "push each completed stage; final checkpoint is committed with the verified tree",
     "about_metadata": "references/github.json"
   },
-  "next_action": "Proposed next experiment: extend actual exceptional R8 spatial-mixture source through6144 updates with same-start A/B controls. The execution declaration remains a future step; further calibration is deferred.",
+  "next_action": "Temporal-art request complete. Proposed next scientific experiment remains the actual exceptional R8 spatial-mixture source through6144 updates with same-start A/B controls; unexecuted.",
   "resume_commands": [
     "make test",
     "make reproduce",
     "make discovery-art",
-    ".venv/bin/python scripts/replay_verify.py"
+    ".venv/bin/python scripts/replay_verify.py",
+    "make temporal-art"
   ],
-  "verification_directory": "results/resume/20261010T203453Z"
+  "verification_directory": "results/resume/20261010T210944Z"
 }

@@ -1,0 +1,7 @@
+/usr/bin/time -v -o results/art/temporal/render-latest-resource.txt .venv/bin/python scripts/temporal_art.py
+.venv/bin/python scripts/build_atlas.py
+atlas worlds 72 registered native runs 896 payload bytes 14047840
+/usr/bin/time -v -o results/art/temporal/check-latest-resource.txt .venv/bin/python scripts/check_temporal_art.py
+confluence all stage and triptych pixels exact
+strata all stage and triptych pixels exact
+fault-lines all stage and triptych pixels exact

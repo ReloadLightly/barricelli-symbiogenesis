@@ -1,0 +1,85 @@
+{
+  "artworks": [
+    {
+      "recipe": "results/art/strata.recipe.json",
+      "final_frame_numeric_pixels_exact": true,
+      "source_and_palette_hashes_exact": true
+    },
+    {
+      "recipe": "results/art/fault-lines.recipe.json",
+      "final_frame_numeric_pixels_exact": true,
+      "source_and_palette_hashes_exact": true
+    },
+    {
+      "recipe": "results/art/confluence.recipe.json",
+      "final_frame_numeric_pixels_exact": true,
+      "source_and_palette_hashes_exact": true
+    },
+    {
+      "recipe": "results/art/r8-residue.recipe.json",
+      "final_frame_numeric_pixels_exact": true,
+      "source_and_palette_hashes_exact": true
+    },
+    {
+      "recipe": "results/art/r8-intervals.recipe.json",
+      "final_frame_numeric_pixels_exact": true,
+      "source_and_palette_hashes_exact": true
+    },
+    {
+      "recipe": "results/art/r8-shear.recipe.json",
+      "final_frame_numeric_pixels_exact": true,
+      "source_and_palette_hashes_exact": true
+    }
+  ],
+  "temporal_art": {
+    "series": [
+      {
+        "world": "results/reconstruction/galloway2026",
+        "seed": 2026,
+        "elapsed_steps": [
+          170,
+          341,
+          511
+        ],
+        "all_reached_and_blank_future_pixels_exact": true,
+        "triptych_all_pixels_equal_panels": true,
+        "one_saved_world_and_fixed_scales": true
+      },
+      {
+        "world": "results/ensemble/galloway2029",
+        "seed": 2029,
+        "elapsed_steps": [
+          170,
+          341,
+          511
+        ],
+        "all_reached_and_blank_future_pixels_exact": true,
+        "triptych_all_pixels_equal_panels": true,
+        "one_saved_world_and_fixed_scales": true
+      },
+      {
+        "world": "results/ensemble/galloway2030",
+        "seed": 2030,
+        "elapsed_steps": [
+          170,
+          341,
+          511
+        ],
+        "all_reached_and_blank_future_pixels_exact": true,
+        "triptych_all_pixels_equal_panels": true,
+        "one_saved_world_and_fixed_scales": true
+      }
+    ],
+    "panels": 9,
+    "triptychs": 3,
+    "numerical_panel_pixels_checked": 190729728,
+    "composed_triptych_pixels_checked": 219938328,
+    "protected_original_files": 38,
+    "protected_original_hashes_exact": true,
+    "no_reruns_or_animation_exports": true
+  },
+  "scientific_figure_source_hashes": "all exact",
+  "scientific_figures": 26,
+  "local_links_checked": true,
+  "broken_links": []
+}
