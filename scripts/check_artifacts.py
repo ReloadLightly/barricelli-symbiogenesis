@@ -7,6 +7,7 @@ from barricelli.run import ROOT,read_csv,sha,save_json
 from barricelli.plot import color
 import numpy as np
 from PIL import Image
+from check_temporal_art import check as check_temporal
 def main():
  results=[]
  for p in (ROOT/'results/art').glob('*.recipe.json'):
@@ -29,5 +30,6 @@ def main():
    path=(p.parent/link.split('#')[0]).resolve()
    if not path.exists(): broken.append({'file':str(p.relative_to(ROOT)),'link':link})
  assert not broken,broken
- save_json(ROOT/'results/artifact_checks.json',{'artworks':results,'scientific_figure_source_hashes':'all exact','scientific_figures':len(list((ROOT/'results/figures').glob('*.png'))),'local_links_checked':True,'broken_links':broken}); print('saved artwork pixels, figure hashes and evidence links pass')
+ temporal=check_temporal() if (ROOT/'results/art/temporal/manifest.json').exists() else None
+ save_json(ROOT/'results/artifact_checks.json',{'artworks':results,'temporal_art':temporal,'scientific_figure_source_hashes':'all exact','scientific_figures':len(list((ROOT/'results/figures').glob('*.png'))),'local_links_checked':True,'broken_links':broken}); print('saved artwork pixels, figure hashes and evidence links pass')
 if __name__=='__main__': main()

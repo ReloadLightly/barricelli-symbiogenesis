@@ -3,6 +3,9 @@
   "assertions": [
     "72 worlds selectable from saved numerical payload",
     "6 linked print/animation/recipe cards",
+    "three single-world temporal series publish all nine loaded 170/341/511 previews with blank-future labels",
+    "each temporal-series button selects its exact saved seed/world at step170 and leaves future rows blank",
+    "individual full-resolution panels, composed triptychs, recipes and unchanged reveal animations are linked",
     "canvas dimensions and integer-value palette agree with source data",
     "reset, timed reveal and pause operate without changing data",
     "cell readout and numerical close-up work",

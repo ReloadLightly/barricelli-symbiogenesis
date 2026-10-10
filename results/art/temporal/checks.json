@@ -1,0 +1,47 @@
+{
+  "series": [
+    {
+      "world": "results/reconstruction/galloway2026",
+      "seed": 2026,
+      "elapsed_steps": [
+        170,
+        341,
+        511
+      ],
+      "all_reached_and_blank_future_pixels_exact": true,
+      "triptych_all_pixels_equal_panels": true,
+      "one_saved_world_and_fixed_scales": true
+    },
+    {
+      "world": "results/ensemble/galloway2029",
+      "seed": 2029,
+      "elapsed_steps": [
+        170,
+        341,
+        511
+      ],
+      "all_reached_and_blank_future_pixels_exact": true,
+      "triptych_all_pixels_equal_panels": true,
+      "one_saved_world_and_fixed_scales": true
+    },
+    {
+      "world": "results/ensemble/galloway2030",
+      "seed": 2030,
+      "elapsed_steps": [
+        170,
+        341,
+        511
+      ],
+      "all_reached_and_blank_future_pixels_exact": true,
+      "triptych_all_pixels_equal_panels": true,
+      "one_saved_world_and_fixed_scales": true
+    }
+  ],
+  "panels": 9,
+  "triptychs": 3,
+  "numerical_panel_pixels_checked": 190729728,
+  "composed_triptych_pixels_checked": 219938328,
+  "protected_original_files": 38,
+  "protected_original_hashes_exact": true,
+  "no_reruns_or_animation_exports": true
+}

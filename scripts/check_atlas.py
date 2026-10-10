@@ -18,6 +18,36 @@ def main():
   assert page.locator('#world option').count()==expected_worlds; assertions.append(f'{expected_worlds} worlds selectable from saved numerical payload')
   expected_prints=len(list((ROOT/'results/art').glob('*.recipe.json')))
   assert page.locator('#printcards article').count()==expected_prints; assertions.append(f'{expected_prints} linked print/animation/recipe cards')
+  temporal=ROOT/'results/art/temporal/manifest.json'
+  if temporal.exists():
+   series=json.loads(temporal.read_text())['series']
+   assert page.locator('#temporalseries .temporal-series').count()==len(series)==3
+   assert page.locator('#temporalseries figure').count()==9
+   for item in series:
+    article=page.locator(f'#temporalseries article[data-world="{item["source_run"]}"]')
+    assert article.locator('figure').evaluate_all('(items)=>items.map(i=>Number(i.dataset.step))')==[170,341,511]
+    assert str(item['world']['seed']) in article.locator('p').first.inner_text()
+    for panel in item['panels']:
+     image=article.locator(f'figure[data-step="{panel["elapsed_step"]}"] img')
+     assert image.get_attribute('src')=='../'+panel['preview_file']
+     assert 'future rows blank' in image.get_attribute('alt')
+     image.scroll_into_view_if_needed(); image.evaluate('(img)=>img.decode()')
+     assert image.evaluate('(img)=>img.naturalWidth>0')
+   assertions.append('three single-world temporal series publish all nine loaded 170/341/511 previews with blank-future labels')
+   for item in series:
+    article=page.locator(f'#temporalseries article[data-world="{item["source_run"]}"]')
+    article.locator('button').click()
+    assert page.locator('#world').input_value()==item['source_run'].replace('/','--')
+    assert page.locator('#time').input_value()=='170'
+    assert page.evaluate('Array.from(ctx.getImageData(0,171,1,1).data).slice(0,3)')==[8,15,28]
+    assert page.evaluate('current.seed')==item['world']['seed']
+   assertions.append('each temporal-series button selects its exact saved seed/world at step170 and leaves future rows blank')
+   for item in series:
+    article=page.locator(f'#temporalseries article[data-world="{item["source_run"]}"]')
+    for path in [item['triptych']['file'],item['recipe_file'],'results/art/'+item['slug']+'.gif',*[p['file'] for p in item['panels']]]:
+     assert article.locator(f'a[href="../{path}"]').count()>=1 and (ROOT/path).exists()
+   assertions.append('individual full-resolution panels, composed triptychs, recipes and unchanged reveal animations are linked')
+   page.locator('#world').select_option('results--reconstruction--galloway2026')
   # Avoid the global browser History object: canvas is the source of dimensions.
   data=page.evaluate('({width:canvas.width,height:canvas.height,value:current.values[0],rgb:Array.from(ctx.getImageData(0,0,1,1).data)})')
   assert [data['width'],data['height']]==[511,512]; assert data['rgb'][:3]==list(bytes.fromhex(color(data['value'])[1:])); assertions.append('canvas dimensions and integer-value palette agree with source data')
@@ -56,7 +86,9 @@ def main():
    assert page.evaluate('current.values.filter(v=>v===-4).length')==0
    page.locator('#neighbors button').first.click(); assert page.locator('#world').input_value()==r7
    assertions.append('R7 partner-deletion replay and six matched treatment neighbors operate')
-  page.locator('#world').select_option('results--reconstruction--galloway2026'); page.evaluate('window.scrollTo(0,0)'); page.screenshot(path=str(ROOT/'results/atlas-desktop.png'),full_page=True)
+  page.locator('#world').select_option('results--reconstruction--galloway2026')
+  for image in page.locator('#printcards img').all(): image.scroll_into_view_if_needed(); image.evaluate('(img)=>img.decode()')
+  page.evaluate('window.scrollTo(0,0)'); page.screenshot(path=str(ROOT/'results/atlas-desktop.png'),full_page=True)
   page.set_viewport_size({'width':390,'height':844}); page.screenshot(path=str(ROOT/'results/atlas-mobile.png'),full_page=True)
   assert page.evaluate('document.documentElement.scrollWidth<=window.innerWidth'); assertions.append('390px mobile viewport has no horizontal overflow')
   page.goto((ROOT/'atlas/register.html').as_uri()); total=page.locator('tbody tr').count(); assert total==len(json.loads((ROOT/'results/run_register.json').read_text()))

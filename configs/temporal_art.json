@@ -1,0 +1,29 @@
+{
+  "selection": "The three existing selected 511-update worlds; fixed horizons, no selection for increasing complexity.",
+  "works": [
+    {
+      "slug": "confluence",
+      "observations": {
+        "early": "Diagonal lanes emerge from the finely mottled opening rows, with dark gaps between several colored regions.",
+        "middle": "The added history contains intersecting bands, fine stripes and irregular patches; earlier lanes do not remain uniform throughout.",
+        "late": "Further diagonal bands and interrupted textures accumulate. The final rows remain visually mixed rather than settling into one broad band."
+      }
+    },
+    {
+      "slug": "strata",
+      "observations": {
+        "early": "Blue and green diagonal regions occupy much of the early history; yellow bands begin to cross them.",
+        "middle": "Broad yellow bands and a finely striped blue region occupy much of the added history, replacing some earlier local variety.",
+        "late": "Broad green and blue diagonal regions dominate the late addition. The yellow middle bands stay visible above because this is cumulative history."
+      }
+    },
+    {
+      "slug": "fault-lines",
+      "observations": {
+        "early": "Fine colored lanes and mottled patches share the early history with dark gaps; a broad purple diagonal is beginning toward the right.",
+        "middle": "The added rows reveal more of the broad purple diagonal beside a dark corridor and zones of repeated vertical stripes.",
+        "late": "New blue and purple striped regions appear lower down, alongside further diagonal lanes and dark gaps. The broad middle diagonal is retained above."
+      }
+    }
+  ]
+}

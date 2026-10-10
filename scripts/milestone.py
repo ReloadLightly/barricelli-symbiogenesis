@@ -32,6 +32,7 @@ def main():
  if (ROOT/'results/discovery_art/curation.json').exists():
   call('discovery_art.py','--phase','replay'); call('investigate_discoveries.py','--phase','declare'); call('investigate_discoveries.py','--phase','run'); call('investigate_discoveries.py','--phase','nearby')
   call('discovery_artworks.py'); call('discovery_figures.py')
+ if (ROOT/'results/art/temporal/design.json').exists(): call('temporal_art.py')
  call('register.py'); call('replay_verify.py'); call('build_atlas.py')
  with (ROOT/'results/test-results.txt').open('w') as output:
   subprocess.run([sys.executable,'-m','unittest','discover','-s','tests','-v'],cwd=ROOT,stdout=output,stderr=subprocess.STDOUT,check=True)

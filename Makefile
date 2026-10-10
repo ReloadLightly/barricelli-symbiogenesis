@@ -1,6 +1,6 @@
 PYTHON ?= .venv/bin/python
 
-.PHONY: build test reproduce figures art atlas descendants partner-dyad corrections discovery-art
+.PHONY: build test reproduce figures art temporal-art atlas descendants partner-dyad corrections discovery-art
 build:
 	$(PYTHON) scripts/build.py
 test: build
@@ -20,6 +20,10 @@ partner-dyad: build
 	$(PYTHON) scripts/partner_dyad_figures.py
 art:
 	$(PYTHON) scripts/art.py
+temporal-art:
+	/usr/bin/time -v -o results/art/temporal/render-latest-resource.txt $(PYTHON) scripts/temporal_art.py
+	$(PYTHON) scripts/build_atlas.py
+	/usr/bin/time -v -o results/art/temporal/check-latest-resource.txt $(PYTHON) scripts/check_temporal_art.py
 atlas:
 	$(PYTHON) scripts/register.py
 	$(PYTHON) scripts/build_atlas.py

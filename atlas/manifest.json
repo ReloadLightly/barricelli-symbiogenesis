@@ -290,6 +290,23 @@
       "trajectory_sha256": "32a24d2de87063ffbe6ea57ee7891bd82344ed14cdc010c85b0fed2c5826f520"
     }
   ],
+  "temporal_series": [
+    {
+      "source_run": "results/reconstruction/galloway2026",
+      "recipe_file": "results/art/temporal/confluence/series.recipe.json",
+      "recipe_sha256": "cbb858cf9247b9059a45271edeb0102aff654a4f9ce9f905c7f145c909fbb8af"
+    },
+    {
+      "source_run": "results/ensemble/galloway2029",
+      "recipe_file": "results/art/temporal/strata/series.recipe.json",
+      "recipe_sha256": "f2c50da721291aa966b78513efdaa74650e4164645aafdfc80d67fe48bcb0c7c"
+    },
+    {
+      "source_run": "results/ensemble/galloway2030",
+      "recipe_file": "results/art/temporal/fault-lines/series.recipe.json",
+      "recipe_sha256": "5bb98ef18f22c4f96f2b51224a290282538e6230b066f51bfb3f2b09b12f3c82"
+    }
+  ],
   "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
-  "numeric_payload_sha256": "08e2a54021591bf7018e641d00d56a0c8cb00120a9f3c24a6e1c845b64db2f62"
+  "numeric_payload_sha256": "6942d7c26cebe96186b19fb2de5eded9139b5fba33882596df0f9a2daf0066d2"
 }

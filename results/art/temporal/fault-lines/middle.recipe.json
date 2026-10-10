@@ -1,0 +1,82 @@
+{
+  "world": {
+    "slug": "fault-lines",
+    "title": "Fault lines / 2030",
+    "source_run": "results/ensemble/galloway2030",
+    "seed": 2030,
+    "profile": "galloway_published",
+    "norm": "galloway_B",
+    "updates": 511,
+    "initial_sha256": "abf6b79807c843c9e3a19194458ed63be374aed61bb28d11930f53c8a3172a3e",
+    "trajectory_sha256": "238f2635514158c0dc4ea57df7fb45b3696f6fd0565d5ae7c4630dcc9cd8b508",
+    "config_sha256": "073c3bd7b003b7016bf4fa1d0a1cf59635bffced1f1d6badbc9e7b0dfe7d549c",
+    "provenance_sha256": "67e6b754daad78a5b1a26354d71e80f100d612691db1bf05f897ad6c46052483",
+    "original_recipe_sha256": "eacc7548d8954996193160a3c7a4cc5c9932f5087d50b48c7fc5b44dbcf18ed2"
+  },
+  "panel": {
+    "stage": "middle",
+    "elapsed_step": 341,
+    "included_rows": [
+      0,
+      341
+    ],
+    "unreached_rows": [
+      342,
+      511
+    ],
+    "file": "results/art/temporal/fault-lines/middle.png",
+    "sha256": "4af5694782416ba0f8e247224367a64d0cd69923f2e4da0bebcd456e9458c57a",
+    "preview_file": "results/art/temporal/fault-lines/middle.preview.png",
+    "preview_sha256": "1b88ab56e7672174ac469bd9b679ac0218142b4d51c5495f4e7a96b0d61d51c8",
+    "dimensions": [
+      4919,
+      4968
+    ],
+    "numerical_crop": [
+      160,
+      180,
+      4759,
+      4788
+    ],
+    "integer_cell_scale": 9,
+    "observation": "The added rows reveal more of the broad purple diagonal beside a dark corridor and zones of repeated vertical stripes.",
+    "elapsed_row_counts": {
+      "nonzero_cells": 289,
+      "distinct_nonzero_values": 9
+    }
+  },
+  "fixed_presentation": {
+    "canvas_dimensions": [
+      4919,
+      4968
+    ],
+    "integer_cell_scale": 9,
+    "numerical_origin": [
+      160,
+      180
+    ],
+    "full_numeric_extent": [
+      4599,
+      4608
+    ],
+    "palette_file": "configs/palette.json",
+    "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+    "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    "background": "#080f1c",
+    "axes": "position x right; time t downward",
+    "unreached_time": "blank background, never stretched",
+    "triptych": "full-resolution panels pasted side by side at 1:1; same scale, no resampling"
+  },
+  "renderer_inputs_sha256": {
+    "scripts/temporal_art.py": "9b6baf93b7d0d01b0773e546e758c6e67d23f67c76244caa253f75e5e2ed8c8c",
+    "scripts/art.py": "f17e756366eb123d2e8b56302676d06254d0e80e1f4cf6164ef565536cf9f729",
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "barricelli/run.py": "d4be0dfc4efe8c5abe8975588a2be9ec872d84de2c5bc0c79946748f14dcd465",
+    "configs/temporal_art.json": "25c3135b8ec0c63a005898b3dc96edc982e591fbe2bb1807b5d34d61116491b4",
+    "results/art/temporal/design.json": "e1bb9d7ade54f6b2b3c6c731dbdeb750ebd0faedab1cc35ec6616d54b15c3926",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf": "39c29931201f08dd89fdba4129c76288e6baeecf7c94fe4f6a757f2b50718b1b"
+  },
+  "simulation_source_version": "1b3db46426e3337d24c2a5c2918a4c0862184b20",
+  "simulation_binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "source_provenance": "results/ensemble/galloway2030/provenance.json"
+}
