@@ -1,0 +1,14 @@
+{
+  "finished_utc": "2026-10-10T20:08:14.528186+00:00",
+  "binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "files_sha256": {
+    "initial.csv": "8af7b956b52db2f0da1b197c00c32f0d65c7747ed078dd2d7d5a57a21e7dcbd1",
+    "trajectory.csv": "1f200d1ba1050addac2f798d980830597a1f7b9cbdebe3265f86109ab4b9ef83",
+    "trajectory.npz": "d7eb1d926666645b6670be81dc9d6cc2c3c32adb83a7f8b1f7e0899f68f7a06e",
+    "events.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "config.json": "6814fc25c301d3053645f71a8c8df9080661f8d60b94202080284fe7f755272b",
+    "statistics.json": "4b205a1609c80631ad7a33d31af1d1625f3734869906767c45ce4e48d595bf3f",
+    "resource.json": "947336bcefe98acb9d4f2f782494b5ee3d6f27e9354e216b7c2f1adb9134111a",
+    "provenance.json": "ac97d78591bcf4a84586788acd31b268b0c17c3d799f61b8ae817445d7aeaff6"
+  }
+}

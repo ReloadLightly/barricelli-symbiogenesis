@@ -1,0 +1,54 @@
+{
+  "method": "codex_feedback",
+  "repeat": 0,
+  "trial": 12,
+  "space_index": 376,
+  "theta": {
+    "norm": "galloway_0",
+    "alphabet_id": 3,
+    "density": 0.9,
+    "layout": "uniform",
+    "initial_style": "iid"
+  },
+  "seed": 24012,
+  "path": "results/discovery_art/search/codex_feedback/repeat0/trial12",
+  "reason": "Sparse erasure often saturated into visually regular striped domains. Dense broad-alphabet collisions may instead sustain holes or collapse.",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.9956868489583334,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 690,
+    "descriptor_seconds": 0.5757354240013228,
+    "recurrence": {
+      "first_time": 69,
+      "return_time": 71,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.9956868489583334
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.0005289713541666666,
+  "engine_seconds": 0.00947926,
+  "process_seconds": 0.01327341000069282,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

@@ -1,0 +1,54 @@
+{
+  "method": "codex_feedback",
+  "repeat": 3,
+  "trial": 14,
+  "space_index": 588,
+  "theta": {
+    "norm": "galloway_AB_quarters",
+    "alphabet_id": 2,
+    "density": 0.35,
+    "layout": "two_patches",
+    "initial_style": "iid"
+  },
+  "seed": 27014,
+  "path": "results/discovery_art/search/codex_feedback/repeat3/trial14",
+  "reason": "Quarter interfaces remained rich visually but often transient. Sparse five-value patches test a missing regime without changing renderer or collecting unbudgeted follow-ups.",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.9951171875,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 1.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 2722,
+    "descriptor_seconds": 0.5512356139988697,
+    "recurrence": {
+      "first_time": 352,
+      "return_time": 354,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.9951171875
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.0006239149305555802,
+  "engine_seconds": 0.00932716,
+  "process_seconds": 0.014528813997458201,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

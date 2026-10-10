@@ -1,0 +1,50 @@
+{
+  "method": "codex_feedback",
+  "repeat": 1,
+  "trial": 13,
+  "space_index": 235,
+  "theta": {
+    "norm": "galloway_A",
+    "alphabet_id": 3,
+    "density": 0.35,
+    "layout": "center_patch",
+    "initial_style": "block8_jitter"
+  },
+  "seed": 25013,
+  "path": "results/discovery_art/search/codex_feedback/repeat1/trial13",
+  "reason": "Dense A bands still tended toward periodic stripes; a sparse repeated mixed-sign block tests the imposed organization/empty-exterior sensitivity.",
+  "descriptors": {
+    "tail_occupancy": 0.9129231770833334,
+    "tail_activity": 0.9185147849462365,
+    "tail_repeated4_fraction": 0.8623936244260435,
+    "retained_repeated4_signatures": 8,
+    "tail_new4_signatures": 15,
+    "tail_entropy_bits": 1.4939491776924443,
+    "tail_compressibility": 0.986328125,
+    "exact_translation_fraction": 0.06451612903225806,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 4924,
+    "descriptor_seconds": 0.6377278789987031,
+    "recurrence": null,
+    "vector": [
+      0.9129231770833334,
+      0.9185147849462365,
+      0.8623936244260435,
+      0.986328125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.15384052563015155,
+  "engine_seconds": 0.00981676,
+  "process_seconds": 0.013399206000030972,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

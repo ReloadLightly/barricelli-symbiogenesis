@@ -1,0 +1,216 @@
+{
+  "round": "R8b",
+  "declared_utc": "2026-10-10T20:09:56.949216+00:00",
+  "question": "Do selected regimes retain their structure on unseen states and longer runs, depend on nearby components, or show exact recoverable inherited copies?",
+  "selection": "one occupied candidate per method: highest retained signatures, then late novelty, then previous-history descriptor novelty; earliest repeat/trial breaks ties. Shared bootstrap states can recur; these are targeted cases, not independent population estimates.",
+  "candidates": [
+    {
+      "method": "random",
+      "repeat": 1,
+      "trial": 5,
+      "space_index": 420,
+      "theta": {
+        "norm": "galloway_AB_halves",
+        "alphabet_id": 1,
+        "density": 0.15,
+        "layout": "two_patches",
+        "initial_style": "iid"
+      },
+      "seed": 25005,
+      "path": "results/discovery_art/search/random/repeat1/trial05",
+      "reason": "uniform untested admissible index",
+      "descriptors": {
+        "tail_occupancy": 0.8779296875,
+        "tail_activity": 0.766633064516129,
+        "tail_repeated4_fraction": 0.6994838786036075,
+        "retained_repeated4_signatures": 31,
+        "tail_new4_signatures": 20,
+        "tail_entropy_bits": 1.967949993667197,
+        "tail_compressibility": 0.982421875,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 787,
+        "descriptor_seconds": 0.5742127029989206,
+        "recurrence": null,
+        "vector": [
+          0.8779296875,
+          0.766633064516129,
+          0.6994838786036075,
+          0.982421875
+        ],
+        "archive_bin": [
+          4,
+          3,
+          3
+        ]
+      },
+      "novelty_to_previous_knn3": 0.2889475830787089,
+      "engine_seconds": 0.0090682,
+      "process_seconds": 0.012844240001868457,
+      "max_rss_kib": 3712,
+      "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 2,
+      "trial": 12,
+      "space_index": 296,
+      "theta": {
+        "norm": "galloway_0",
+        "alphabet_id": 1,
+        "density": 0.35,
+        "layout": "uniform",
+        "initial_style": "iid"
+      },
+      "seed": 26012,
+      "path": "results/discovery_art/search/novelty_archive/repeat2/trial12",
+      "reason": "mean3-nearest descriptor novelty parent; untested one-factor neighbor",
+      "descriptors": {
+        "tail_occupancy": 0.9427083333333334,
+        "tail_activity": 0.890625,
+        "tail_repeated4_fraction": 0.9947916666666666,
+        "retained_repeated4_signatures": 29,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 1.6154041505033356,
+        "tail_compressibility": 0.9875895182291666,
+        "exact_translation_fraction": 0.0,
+        "median_best_shift": 1.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 169,
+        "descriptor_seconds": 0.6180465409997851,
+        "recurrence": null,
+        "vector": [
+          0.9427083333333334,
+          0.890625,
+          0.9947916666666666,
+          0.9875895182291666
+        ],
+        "archive_bin": [
+          4,
+          4,
+          4
+        ]
+      },
+      "novelty_to_previous_knn3": 0.11141292722368397,
+      "engine_seconds": 0.0106479,
+      "process_seconds": 0.01588622299823328,
+      "max_rss_kib": 3712,
+      "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 3,
+      "trial": 12,
+      "space_index": 376,
+      "theta": {
+        "norm": "galloway_0",
+        "alphabet_id": 3,
+        "density": 0.9,
+        "layout": "uniform",
+        "initial_style": "iid"
+      },
+      "seed": 27012,
+      "path": "results/discovery_art/search/codex_feedback/repeat3/trial12",
+      "reason": "Sparse erasure often saturated into visually regular striped domains. Dense broad-alphabet collisions may instead sustain holes or collapse.",
+      "descriptors": {
+        "tail_occupancy": 0.703125,
+        "tail_activity": 0.9010416666666666,
+        "tail_repeated4_fraction": 0.9012345679012346,
+        "retained_repeated4_signatures": 37,
+        "tail_new4_signatures": 0,
+        "tail_entropy_bits": 2.0215388347691663,
+        "tail_compressibility": 0.9866943359375,
+        "exact_translation_fraction": 1.0,
+        "median_best_shift": 5.0,
+        "stationary_fraction": 0.0,
+        "ambiguous_translation_fraction": 0.0,
+        "boundary": "ring",
+        "descriptor_version": 2,
+        "signature_count_total": 739,
+        "descriptor_seconds": 0.5303395279988763,
+        "recurrence": {
+          "first_time": 175,
+          "return_time": 367,
+          "period": 192
+        },
+        "vector": [
+          0.703125,
+          0.9010416666666666,
+          0.9012345679012346,
+          0.9866943359375
+        ],
+        "archive_bin": [
+          3,
+          4,
+          4
+        ]
+      },
+      "novelty_to_previous_knn3": 0.21388987057339545,
+      "engine_seconds": 0.00780424,
+      "process_seconds": 0.012319344998104498,
+      "max_rss_kib": 3712,
+      "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+    }
+  ],
+  "source_time": 192,
+  "focal": "earliest richest valid eight-cell window at t192; maximize distinct nonzero types then occupancy; exclude X; whole snapshot is retained",
+  "confirmation": {
+    "seeds": [
+      48000,
+      48001,
+      48002,
+      48003
+    ],
+    "steps": 1536,
+    "width": 192
+  },
+  "conditions": [
+    "whole",
+    "focal_only",
+    "left_half_only",
+    "right_half_only",
+    "adjacent_removed",
+    "matched_damage_elsewhere",
+    "composition_shuffle",
+    "spacing_shuffle",
+    "global_shuffle",
+    "rescue",
+    "rule_control1",
+    "rule_control2",
+    "rule_control3"
+  ],
+  "assay_steps": 384,
+  "trace": "whole and isolated focal run separately for two fully traced updates; unchanged ancestry criteria; ring matching uses explicit wrapping",
+  "recovery": "at most earliest two certified internally supported common-founder children per candidate; temporal A/B only at even times to retain restart phase; extract actual child into empty same-boundary world,32 updates",
+  "measures": [
+    "phase-aware world recurrence",
+    "retained and newly appearing signatures",
+    "tail occupancy/activity/compression",
+    "exact focal template presence/persistence/guarded counts",
+    "matched damage/rescue equality",
+    "full-founder copying and helper dependencies from surviving traced edges",
+    "child recovery: template every time and first-update branching"
+  ],
+  "controls": "adjacent component removal versus same-value/count damage elsewhere, two isolated halves, occupancy/composition-preserving shuffles, exact restoration; three same-start constituent rule controls. Fixed source time192 preserves temporal phase.",
+  "budget": {
+    "long_confirmation_runs": 12,
+    "perturbation_and_rule_controls": 39,
+    "two_update_traces": 6,
+    "nearby_art_worlds": 12,
+    "baseline_native_runs": 69,
+    "baseline_cell_updates": 7301376,
+    "max_child_recovery_runs": 6,
+    "max_child_recovery_updates": 36864,
+    "mode": "serial CPU, one trajectory at a time; traced events streamed"
+  },
+  "completion": "retain all69 baseline outcomes; exact continuing snapshot check, complete first-two-update trace audit; execute any qualifying child probes; three actual-trajectory artworks plus four saved neighbors each; negative reproduction/persistence completes the round",
+  "interpretation": "exact templates and first-two-update ancestry are limited operational checks; absence excludes only these specified events, not every form of reproduction. Template proliferation alone is not inheritance. No biological partner label is inferred from a component position.",
+  "next_decision": "Choose the next bounded hypothesis from actual longer-horizon and perturbation outcomes; keep art and scientific claims separate."
+}

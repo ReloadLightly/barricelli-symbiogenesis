@@ -1,0 +1,50 @@
+{
+  "method": "codex_feedback",
+  "repeat": 3,
+  "trial": 15,
+  "space_index": 462,
+  "theta": {
+    "norm": "galloway_AB_halves",
+    "alphabet_id": 2,
+    "density": 0.35,
+    "layout": "bands",
+    "initial_style": "iid"
+  },
+  "seed": 27015,
+  "path": "results/discovery_art/search/codex_feedback/repeat3/trial15",
+  "reason": "Halves were the most seed-sensitive common anchor; change alphabet and mask to test whether lower repeated-signature bins can recur under a simpler heterogeneous initial state.",
+  "descriptors": {
+    "tail_occupancy": 0.8396809895833334,
+    "tail_activity": 0.8696236559139785,
+    "tail_repeated4_fraction": 0.9301168450463273,
+    "retained_repeated4_signatures": 14,
+    "tail_new4_signatures": 6,
+    "tail_entropy_bits": 2.0005972229058804,
+    "tail_compressibility": 0.9849446614583334,
+    "exact_translation_fraction": 0.7096774193548387,
+    "median_best_shift": -2.0,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "ring",
+    "descriptor_version": 2,
+    "signature_count_total": 5969,
+    "descriptor_seconds": 0.6783280340023339,
+    "recurrence": null,
+    "vector": [
+      0.8396809895833334,
+      0.8696236559139785,
+      0.9301168450463273,
+      0.9849446614583334
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.09403617070727803,
+  "engine_seconds": 0.00991901,
+  "process_seconds": 0.013683607998245861,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}

@@ -1,0 +1,31 @@
+{
+  "model": "research",
+  "variant": "r8_galloway_AB_temporal",
+  "norm": "galloway_AB_temporal",
+  "width": 192,
+  "steps": 384,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": 26015,
+  "initial_state_file": "results/discovery_art/search/novelty_archive/repeat2/trial15/frozen.csv",
+  "trace_steps": 0,
+  "initial_design": {
+    "norm": "galloway_AB_temporal",
+    "alphabet_id": 1,
+    "density": 0.65,
+    "layout": "uniform",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8a",
+    "method": "novelty_archive",
+    "repeat": 2,
+    "trial": 15,
+    "space_index": 688
+  }
+}

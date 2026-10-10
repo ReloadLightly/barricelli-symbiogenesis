@@ -1,0 +1,54 @@
+{
+  "method": "codex_feedback",
+  "repeat": 2,
+  "trial": 11,
+  "space_index": 986,
+  "theta": {
+    "norm": "exclusion",
+    "alphabet_id": 2,
+    "density": 0.9,
+    "layout": "center_patch",
+    "initial_style": "iid"
+  },
+  "seed": 26011,
+  "path": "results/discovery_art/search/codex_feedback/repeat2/trial11",
+  "reason": "Vary the five-value exclusion patch away from the prior bands. Test sparse isolated histories versus dense patched collisions, keeping all failed outcomes.",
+  "descriptors": {
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.9956868489583334,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": null,
+    "stationary_fraction": 0.0,
+    "ambiguous_translation_fraction": 0.0,
+    "boundary": "open",
+    "descriptor_version": 2,
+    "signature_count_total": 262,
+    "descriptor_seconds": 0.5165735750015301,
+    "recurrence": {
+      "first_time": 85,
+      "return_time": 87,
+      "period": 2
+    },
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.9956868489583334
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.012648452341846764,
+  "engine_seconds": 0.00877322,
+  "process_seconds": 0.01332381799875293,
+  "max_rss_kib": 3712,
+  "descriptor_sha256": "c1303633da1b821e26833d33b14f8117887a493481a51ecf3ebc560604c5d562"
+}
