@@ -1,0 +1,38 @@
+{
+  "caption": "Exact integer cutouts, x72\u201383 and t184\u2013195, from each curated source. Local axes carry the explicitly stated offsets; colors encode values, not individual organisms. Enlarged atlas close-ups use the same integers.",
+  "data_sources": [
+    {
+      "file": "results/discovery_art/search/codex_feedback/repeat3/trial00/trajectory.csv",
+      "sha256": "2b07af64eda430cb33d1fcbc81f19ae5c0ec72669438ffadc4e37b3d537434d0"
+    },
+    {
+      "file": "results/discovery_art/search/random/repeat1/trial05/trajectory.csv",
+      "sha256": "c394ef9e64c4988d546fcb467ad8d64250e136d2d1e9683550b4eb6a265a5033"
+    },
+    {
+      "file": "results/discovery_art/search/codex_feedback/repeat0/trial05/trajectory.csv",
+      "sha256": "370dd2fdca15e18bafb8f4f8fb5aadf9e47eb6b6c054d023eed1d69d1f817aff"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/discovery_figures.py": "d2bf5e781752f6457222dbf5f97069eec25103eece0f6e3ba6f0810e42828ce1"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "position x \u221272",
+      "vertical": "time t \u2212184 (downward)"
+    },
+    {
+      "horizontal": "position x \u221272",
+      "vertical": "time t \u2212184 (downward)"
+    },
+    {
+      "horizontal": "position x \u221272",
+      "vertical": "time t \u2212184 (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

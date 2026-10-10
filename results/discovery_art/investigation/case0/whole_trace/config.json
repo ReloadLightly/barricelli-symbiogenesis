@@ -1,0 +1,29 @@
+{
+  "model": "research",
+  "variant": "r8_galloway_AB_halves",
+  "norm": "galloway_AB_halves",
+  "width": 192,
+  "steps": 2,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/discovery_art/investigation/case0/whole_trace/frozen.csv",
+  "trace_steps": 2,
+  "initial_design": {
+    "norm": "galloway_AB_halves",
+    "alphabet_id": 1,
+    "density": 0.15,
+    "layout": "two_patches",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8b_trace",
+    "candidate": 0,
+    "condition": "whole"
+  }
+}

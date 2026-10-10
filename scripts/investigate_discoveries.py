@@ -75,6 +75,11 @@ def treatments(row,x):
        'spacing_shuffle_identity':np.array_equal(result['spacing_shuffle'],row),'all_edits':'externally imposed at saved t192 before assay t0; no intervention during dynamics'}
 
 def analyze(path,motif):
+    if (path/'analysis.json').exists():
+        old=json.loads((path/'analysis.json').read_text()); p=json.loads((path/'provenance.json').read_text())
+        if old['trajectory_sha256']!=sha(path/'trajectory.csv') or p['source_files_sha256']['barricelli/descriptors.py']!=sha(ROOT/'barricelli/descriptors.py'):
+            raise ValueError('preserve prior analysis and create a named correction before changing its source or descriptors')
+        return old
     c=json.loads((path/'config.json').read_text()); a=read_csv(path/'trajectory.csv'); s=json.loads((path/'statistics.json').read_text())
     rec={'path':str(path.relative_to(ROOT)),'descriptors':describe(a,s,boundary=c['boundary']),'template':outcome(a,motif,boundary=c['boundary']),
          'trajectory_sha256':sha(path/'trajectory.csv')}
@@ -130,7 +135,8 @@ def run_study():
                 for index,child in enumerate(pair['children']):
                     isolated=np.zeros(192,dtype=np.int32); isolated[88:96]=traced[pair['time'],(child['position']+np.arange(8))%192]
                     p=STUDY/f'case{ci}'/f'child{index}'; conf=configuration(candidate['theta'],None,p,steps=32,row=isolated,experiment={'stage':'R8b_recovery','candidate':ci,'source_time':pair['time'],'source_child':child,'intervention':'extract actual footprint, translate to88, clear exterior'})
-                    native(conf,p); record=analyze(p,motif); record['persistent_every_time']=record['template']['times_with_motif']==33; recoveries.append(record)
+                    native(conf,p); record=analyze(p,motif); record['persistent_every_time']=record['template']['times_with_motif']==33
+                    record['first_update_has_two_guarded_matches']=record['template']['detached_counts_by_time'][1]>=2; recoveries.append(record)
         print('case',ci,candidate['method'],candidate['space_index'],'done',flush=True)
     contrast=[]
     for ci in range(3):

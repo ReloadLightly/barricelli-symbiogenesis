@@ -1,0 +1,14 @@
+{
+  "finished_utc": "2026-10-10T20:12:10.665346+00:00",
+  "binary_sha256": "239b96093d4c49962e29875f4ddf28d4e70e3c94d496b36cfd0e40ff63cad42f",
+  "files_sha256": {
+    "initial.csv": "7cfbf5961657ff2da4c86cbe9406ed81ff55bafdc36a67ad446a5890cad7ed02",
+    "trajectory.csv": "39237dbc3f657c979d5ea0d2abbeeb0db7ac01c5012c79d2e34a0315254bc218",
+    "trajectory.npz": "5c1ddd9a062dc2b19321707548c263cf911bd874fe40ae5aebc8e1159a86c5b3",
+    "events.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "config.json": "166944e6893ece1086e9fb5861cdc0be68f745a27e8c731b9439d1ee61159ded",
+    "statistics.json": "cb5a51894ad57add5d876b0e45c441532cecda28c5e6abe1979076cbdd308c15",
+    "resource.json": "bd504d6b8454f3f5ef5204bb17e4862bf009bc58f676d07302ef960d59417d8b",
+    "provenance.json": "4faddeecd1f827ef218c4ba9c4ec3533905090abe034b6e452e068cd641a6085"
+  }
+}

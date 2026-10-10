@@ -1,0 +1,1 @@
+Four unseen seeds per scientifically selected rule/configuration;1536 updates. These cases were selected by retained signatures, not art. Counts are exact short templates; recurrence and mutation ambiguity remain separate evidence.

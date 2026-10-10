@@ -1,0 +1,26 @@
+{
+  "caption": "R8:192 retained searches in1,024 declared configurations;16 evaluations per repeated search, four repeats/method. Bands span search minima/maxima; points are search units. Codex used its own saved visuals and numerical feedback. Descriptor coverage is not life or aesthetic quality.",
+  "data_sources": [
+    {
+      "file": "results/discovery_art/summary.json",
+      "sha256": "0bc336aa2a562e03ce2a8209ff928cdeb2149c2f6cdce867709f36949e5284d3"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/discovery_figures.py": "d2bf5e781752f6457222dbf5f97069eec25103eece0f6e3ba6f0810e42828ce1"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "evaluations per search (identical update budget)",
+      "vertical": "occupied descriptor archive bins"
+    },
+    {
+      "horizontal": "",
+      "vertical": "final archive coverage"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

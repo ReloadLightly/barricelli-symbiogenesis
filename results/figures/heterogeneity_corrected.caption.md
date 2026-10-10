@@ -1,0 +1,1 @@
+C1 ring-aware reanalysis of every saved heterogeneous baseline. Dots are seed/world units and diamonds are means. Original analyses/figures remain preserved. Local novelty sometimes survives512 updates; every longer fresh-state confirmation has zero late unseen signatures.

@@ -1,0 +1,5184 @@
+[
+  {
+    "time": 1,
+    "x": 0,
+    "value": 5,
+    "copy_roots": [
+      191
+    ],
+    "helper_roots": [
+      0,
+      4
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 1,
+    "value": 1,
+    "copy_roots": [
+      0,
+      4,
+      188
+    ],
+    "helper_roots": [
+      5,
+      189
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 3,
+    "value": 1,
+    "copy_roots": [
+      2,
+      190
+    ],
+    "helper_roots": [
+      3,
+      191
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 4,
+    "value": 5,
+    "copy_roots": [
+      3,
+      191
+    ],
+    "helper_roots": [
+      4,
+      8
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 5,
+    "value": 1,
+    "copy_roots": [
+      4,
+      8
+    ],
+    "helper_roots": [
+      5,
+      9
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 6,
+    "value": -3,
+    "copy_roots": [
+      5,
+      9
+    ],
+    "helper_roots": [
+      2,
+      6
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 7,
+    "value": 1,
+    "copy_roots": [
+      2,
+      6
+    ],
+    "helper_roots": [
+      3,
+      7
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 8,
+    "value": 5,
+    "copy_roots": [
+      3,
+      7
+    ],
+    "helper_roots": [
+      8,
+      12
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 9,
+    "value": 1,
+    "copy_roots": [
+      8,
+      12
+    ],
+    "helper_roots": [
+      9,
+      13
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 10,
+    "value": -3,
+    "copy_roots": [
+      9,
+      13
+    ],
+    "helper_roots": [
+      6,
+      10
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 11,
+    "value": 1,
+    "copy_roots": [
+      6,
+      10
+    ],
+    "helper_roots": [
+      7,
+      11
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 12,
+    "value": 5,
+    "copy_roots": [
+      7,
+      11
+    ],
+    "helper_roots": [
+      12,
+      16
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 13,
+    "value": 1,
+    "copy_roots": [
+      12,
+      16
+    ],
+    "helper_roots": [
+      13,
+      17
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 14,
+    "value": -3,
+    "copy_roots": [
+      13,
+      17
+    ],
+    "helper_roots": [
+      10,
+      14
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 15,
+    "value": 1,
+    "copy_roots": [
+      10,
+      14
+    ],
+    "helper_roots": [
+      11,
+      15
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 16,
+    "value": 5,
+    "copy_roots": [
+      11,
+      15
+    ],
+    "helper_roots": [
+      16,
+      20
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 17,
+    "value": 1,
+    "copy_roots": [
+      16
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 18,
+    "value": -3,
+    "copy_roots": [
+      17
+    ],
+    "helper_roots": [
+      14,
+      18
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 19,
+    "value": 1,
+    "copy_roots": [
+      14,
+      18
+    ],
+    "helper_roots": [
+      15,
+      19
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 20,
+    "value": 5,
+    "copy_roots": [
+      15,
+      19
+    ],
+    "helper_roots": [
+      20,
+      24
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 21,
+    "value": 1,
+    "copy_roots": [
+      20
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 23,
+    "value": 1,
+    "copy_roots": [
+      18,
+      22
+    ],
+    "helper_roots": [
+      19,
+      23
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 24,
+    "value": 5,
+    "copy_roots": [
+      19,
+      23
+    ],
+    "helper_roots": [
+      24,
+      28
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 25,
+    "value": 1,
+    "copy_roots": [
+      24
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 27,
+    "value": 1,
+    "copy_roots": [
+      22,
+      26
+    ],
+    "helper_roots": [
+      23,
+      27
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 28,
+    "value": 5,
+    "copy_roots": [
+      23,
+      27
+    ],
+    "helper_roots": [
+      28,
+      32
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 29,
+    "value": 1,
+    "copy_roots": [
+      28
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 31,
+    "value": 1,
+    "copy_roots": [
+      26,
+      30
+    ],
+    "helper_roots": [
+      27,
+      31
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 32,
+    "value": 5,
+    "copy_roots": [
+      27,
+      31
+    ],
+    "helper_roots": [
+      32,
+      36
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 33,
+    "value": 1,
+    "copy_roots": [
+      32
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 35,
+    "value": 1,
+    "copy_roots": [
+      30,
+      34
+    ],
+    "helper_roots": [
+      31,
+      35
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 36,
+    "value": 5,
+    "copy_roots": [
+      31,
+      35
+    ],
+    "helper_roots": [
+      36,
+      40
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 37,
+    "value": 1,
+    "copy_roots": [
+      36
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 39,
+    "value": 1,
+    "copy_roots": [
+      34,
+      38
+    ],
+    "helper_roots": [
+      35,
+      39
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 40,
+    "value": 5,
+    "copy_roots": [
+      35,
+      39
+    ],
+    "helper_roots": [
+      40,
+      44
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 41,
+    "value": 1,
+    "copy_roots": [
+      40
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 43,
+    "value": 1,
+    "copy_roots": [
+      38,
+      42
+    ],
+    "helper_roots": [
+      39,
+      43
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 44,
+    "value": 5,
+    "copy_roots": [
+      39,
+      43
+    ],
+    "helper_roots": [
+      44,
+      48
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 45,
+    "value": 1,
+    "copy_roots": [
+      44
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 46,
+    "value": 5,
+    "copy_roots": [
+      45
+    ],
+    "helper_roots": [
+      46,
+      50
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 47,
+    "value": 1,
+    "copy_roots": [
+      42,
+      46
+    ],
+    "helper_roots": [
+      43,
+      47
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 48,
+    "value": 5,
+    "copy_roots": [
+      43,
+      47
+    ],
+    "helper_roots": [
+      48,
+      52
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 49,
+    "value": 1,
+    "copy_roots": [
+      44,
+      48
+    ],
+    "helper_roots": [
+      45,
+      49
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 50,
+    "value": 5,
+    "copy_roots": [
+      45,
+      49
+    ],
+    "helper_roots": [
+      50,
+      54
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 51,
+    "value": 1,
+    "copy_roots": [
+      46,
+      50
+    ],
+    "helper_roots": [
+      47,
+      51
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 52,
+    "value": 5,
+    "copy_roots": [
+      47,
+      51
+    ],
+    "helper_roots": [
+      52,
+      56
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 53,
+    "value": 1,
+    "copy_roots": [
+      48,
+      52
+    ],
+    "helper_roots": [
+      49,
+      53
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 54,
+    "value": 5,
+    "copy_roots": [
+      49,
+      53
+    ],
+    "helper_roots": [
+      54,
+      58
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 55,
+    "value": 1,
+    "copy_roots": [
+      50,
+      54
+    ],
+    "helper_roots": [
+      51,
+      55
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 56,
+    "value": 5,
+    "copy_roots": [
+      51,
+      55
+    ],
+    "helper_roots": [
+      56,
+      60
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 57,
+    "value": 1,
+    "copy_roots": [
+      52,
+      56
+    ],
+    "helper_roots": [
+      53,
+      57
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 58,
+    "value": 5,
+    "copy_roots": [
+      53,
+      57
+    ],
+    "helper_roots": [
+      58,
+      62
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 59,
+    "value": 1,
+    "copy_roots": [
+      54,
+      58
+    ],
+    "helper_roots": [
+      55,
+      59
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 60,
+    "value": 5,
+    "copy_roots": [
+      55,
+      59
+    ],
+    "helper_roots": [
+      60,
+      64
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 61,
+    "value": 1,
+    "copy_roots": [
+      56,
+      60
+    ],
+    "helper_roots": [
+      57,
+      61
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 62,
+    "value": 5,
+    "copy_roots": [
+      57,
+      61
+    ],
+    "helper_roots": [
+      62,
+      66
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 63,
+    "value": 1,
+    "copy_roots": [
+      58,
+      62
+    ],
+    "helper_roots": [
+      59,
+      63
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 64,
+    "value": 5,
+    "copy_roots": [
+      59,
+      63
+    ],
+    "helper_roots": [
+      64,
+      68
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 65,
+    "value": 1,
+    "copy_roots": [
+      60,
+      64
+    ],
+    "helper_roots": [
+      61,
+      65
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 66,
+    "value": 5,
+    "copy_roots": [
+      61
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 67,
+    "value": 1,
+    "copy_roots": [
+      62,
+      66
+    ],
+    "helper_roots": [
+      63,
+      67
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 68,
+    "value": 5,
+    "copy_roots": [
+      63,
+      67
+    ],
+    "helper_roots": [
+      68,
+      72
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 69,
+    "value": 1,
+    "copy_roots": [
+      64,
+      68
+    ],
+    "helper_roots": [
+      65,
+      69
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 70,
+    "value": 5,
+    "copy_roots": [
+      65,
+      73
+    ],
+    "helper_roots": [
+      78
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 71,
+    "value": 1,
+    "copy_roots": [
+      66
+    ],
+    "helper_roots": [
+      67,
+      71
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 72,
+    "value": 5,
+    "copy_roots": [
+      67,
+      71
+    ],
+    "helper_roots": [
+      72,
+      76
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 73,
+    "value": 1,
+    "copy_roots": [
+      68,
+      72
+    ],
+    "helper_roots": [
+      69,
+      73
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 74,
+    "value": 5,
+    "copy_roots": [
+      69,
+      77
+    ],
+    "helper_roots": [
+      82
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 75,
+    "value": -3,
+    "copy_roots": [
+      78
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 76,
+    "value": 5,
+    "copy_roots": [
+      71,
+      75
+    ],
+    "helper_roots": [
+      76,
+      80
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 77,
+    "value": 1,
+    "copy_roots": [
+      72,
+      76
+    ],
+    "helper_roots": [
+      73,
+      77
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 78,
+    "value": 5,
+    "copy_roots": [
+      73,
+      81
+    ],
+    "helper_roots": [
+      78,
+      86
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 79,
+    "value": -3,
+    "copy_roots": [
+      82
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 80,
+    "value": 5,
+    "copy_roots": [
+      75,
+      79
+    ],
+    "helper_roots": [
+      80,
+      84
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 81,
+    "value": 1,
+    "copy_roots": [
+      76,
+      80
+    ],
+    "helper_roots": [
+      77,
+      81
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 82,
+    "value": 5,
+    "copy_roots": [
+      77,
+      85
+    ],
+    "helper_roots": [
+      82,
+      90
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 83,
+    "value": -3,
+    "copy_roots": [
+      78,
+      86
+    ],
+    "helper_roots": [
+      75,
+      83
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 84,
+    "value": 5,
+    "copy_roots": [
+      79,
+      83
+    ],
+    "helper_roots": [
+      84,
+      88
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 85,
+    "value": 1,
+    "copy_roots": [
+      80,
+      84
+    ],
+    "helper_roots": [
+      81,
+      85
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 86,
+    "value": 5,
+    "copy_roots": [
+      81,
+      89
+    ],
+    "helper_roots": [
+      86,
+      94
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 87,
+    "value": -3,
+    "copy_roots": [
+      82,
+      90
+    ],
+    "helper_roots": [
+      79,
+      87
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 88,
+    "value": 5,
+    "copy_roots": [
+      83,
+      87
+    ],
+    "helper_roots": [
+      88,
+      92
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 89,
+    "value": 1,
+    "copy_roots": [
+      84,
+      88
+    ],
+    "helper_roots": [
+      85,
+      89
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 90,
+    "value": 5,
+    "copy_roots": [
+      85,
+      93
+    ],
+    "helper_roots": [
+      90,
+      98
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 91,
+    "value": -3,
+    "copy_roots": [
+      86,
+      94
+    ],
+    "helper_roots": [
+      83,
+      91
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 92,
+    "value": 5,
+    "copy_roots": [
+      87,
+      91
+    ],
+    "helper_roots": [
+      92,
+      96
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 93,
+    "value": 1,
+    "copy_roots": [
+      88,
+      92
+    ],
+    "helper_roots": [
+      89,
+      93
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 94,
+    "value": 5,
+    "copy_roots": [
+      89,
+      97
+    ],
+    "helper_roots": [
+      94,
+      102
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 95,
+    "value": -3,
+    "copy_roots": [
+      90,
+      98
+    ],
+    "helper_roots": [
+      87,
+      95
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 96,
+    "value": 5,
+    "copy_roots": [
+      91,
+      95
+    ],
+    "helper_roots": [
+      96,
+      100
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 97,
+    "value": 1,
+    "copy_roots": [
+      92,
+      96
+    ],
+    "helper_roots": [
+      93,
+      97
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 98,
+    "value": 5,
+    "copy_roots": [
+      93,
+      101
+    ],
+    "helper_roots": [
+      98,
+      106
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 99,
+    "value": -3,
+    "copy_roots": [
+      94,
+      102
+    ],
+    "helper_roots": [
+      91,
+      99
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 100,
+    "value": 5,
+    "copy_roots": [
+      95,
+      99
+    ],
+    "helper_roots": [
+      100,
+      104
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 101,
+    "value": 1,
+    "copy_roots": [
+      96,
+      100
+    ],
+    "helper_roots": [
+      97,
+      101
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 102,
+    "value": 5,
+    "copy_roots": [
+      97,
+      105
+    ],
+    "helper_roots": [
+      102,
+      110
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 103,
+    "value": -3,
+    "copy_roots": [
+      98,
+      106
+    ],
+    "helper_roots": [
+      95,
+      103
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 104,
+    "value": 5,
+    "copy_roots": [
+      99,
+      103
+    ],
+    "helper_roots": [
+      104,
+      108
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 105,
+    "value": 1,
+    "copy_roots": [
+      100,
+      104
+    ],
+    "helper_roots": [
+      101,
+      105
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 106,
+    "value": 5,
+    "copy_roots": [
+      101,
+      109
+    ],
+    "helper_roots": [
+      106,
+      114
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 107,
+    "value": -3,
+    "copy_roots": [
+      102,
+      110
+    ],
+    "helper_roots": [
+      99,
+      107
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 108,
+    "value": 5,
+    "copy_roots": [
+      103,
+      107
+    ],
+    "helper_roots": [
+      108,
+      112
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 109,
+    "value": 1,
+    "copy_roots": [
+      104,
+      108
+    ],
+    "helper_roots": [
+      105,
+      109
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 110,
+    "value": 5,
+    "copy_roots": [
+      105,
+      113
+    ],
+    "helper_roots": [
+      110,
+      118
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 111,
+    "value": -3,
+    "copy_roots": [
+      106,
+      114
+    ],
+    "helper_roots": [
+      103,
+      111
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 112,
+    "value": 5,
+    "copy_roots": [
+      107,
+      111
+    ],
+    "helper_roots": [
+      112,
+      116
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 113,
+    "value": 1,
+    "copy_roots": [
+      108,
+      112
+    ],
+    "helper_roots": [
+      109,
+      113
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 114,
+    "value": 5,
+    "copy_roots": [
+      109,
+      117
+    ],
+    "helper_roots": [
+      114,
+      122
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 115,
+    "value": -3,
+    "copy_roots": [
+      110,
+      118
+    ],
+    "helper_roots": [
+      107,
+      115
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 116,
+    "value": 5,
+    "copy_roots": [
+      111,
+      115
+    ],
+    "helper_roots": [
+      116,
+      120
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 117,
+    "value": 1,
+    "copy_roots": [
+      112,
+      116
+    ],
+    "helper_roots": [
+      113,
+      117
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 118,
+    "value": 5,
+    "copy_roots": [
+      113,
+      121
+    ],
+    "helper_roots": [
+      118,
+      126
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 119,
+    "value": -3,
+    "copy_roots": [
+      114,
+      122
+    ],
+    "helper_roots": [
+      111,
+      119
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 120,
+    "value": 5,
+    "copy_roots": [
+      115,
+      119
+    ],
+    "helper_roots": [
+      120,
+      124
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 121,
+    "value": 1,
+    "copy_roots": [
+      116,
+      120
+    ],
+    "helper_roots": [
+      117,
+      121
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 122,
+    "value": 5,
+    "copy_roots": [
+      117,
+      125
+    ],
+    "helper_roots": [
+      122,
+      130
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 123,
+    "value": -3,
+    "copy_roots": [
+      118,
+      126
+    ],
+    "helper_roots": [
+      115,
+      123
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 124,
+    "value": 5,
+    "copy_roots": [
+      119,
+      123
+    ],
+    "helper_roots": [
+      124,
+      128
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 125,
+    "value": 1,
+    "copy_roots": [
+      120,
+      124
+    ],
+    "helper_roots": [
+      121,
+      125
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 126,
+    "value": 5,
+    "copy_roots": [
+      121,
+      129
+    ],
+    "helper_roots": [
+      126,
+      134
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 127,
+    "value": -3,
+    "copy_roots": [
+      122,
+      130
+    ],
+    "helper_roots": [
+      119,
+      127
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 128,
+    "value": 5,
+    "copy_roots": [
+      123,
+      127
+    ],
+    "helper_roots": [
+      128,
+      132
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 129,
+    "value": 1,
+    "copy_roots": [
+      124,
+      128
+    ],
+    "helper_roots": [
+      125,
+      129
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 130,
+    "value": 5,
+    "copy_roots": [
+      125,
+      133
+    ],
+    "helper_roots": [
+      130,
+      138
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 131,
+    "value": -3,
+    "copy_roots": [
+      126,
+      130,
+      134
+    ],
+    "helper_roots": [
+      123,
+      127,
+      131,
+      135
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 132,
+    "value": 5,
+    "copy_roots": [
+      127,
+      131
+    ],
+    "helper_roots": [
+      132,
+      136
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 133,
+    "value": 1,
+    "copy_roots": [
+      128,
+      132
+    ],
+    "helper_roots": [
+      129,
+      133
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 134,
+    "value": 5,
+    "copy_roots": [
+      129
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 135,
+    "value": -3,
+    "copy_roots": [
+      130,
+      134,
+      138
+    ],
+    "helper_roots": [
+      127,
+      131,
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 136,
+    "value": 1,
+    "copy_roots": [
+      135
+    ],
+    "helper_roots": [
+      136
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 137,
+    "value": 1,
+    "copy_roots": [
+      132,
+      136
+    ],
+    "helper_roots": [
+      133,
+      137
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 138,
+    "value": 5,
+    "copy_roots": [
+      133
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 139,
+    "value": -3,
+    "copy_roots": [
+      134,
+      138
+    ],
+    "helper_roots": [
+      131,
+      135,
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 140,
+    "value": 1,
+    "copy_roots": [
+      139
+    ],
+    "helper_roots": [
+      140
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 141,
+    "value": 1,
+    "copy_roots": [
+      136,
+      140
+    ],
+    "helper_roots": [
+      137,
+      141
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 142,
+    "value": 5,
+    "copy_roots": [
+      137
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 144,
+    "value": 1,
+    "copy_roots": [
+      143
+    ],
+    "helper_roots": [
+      144
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 145,
+    "value": 1,
+    "copy_roots": [
+      140,
+      144
+    ],
+    "helper_roots": [
+      141,
+      145
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 146,
+    "value": 5,
+    "copy_roots": [
+      141
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 148,
+    "value": 1,
+    "copy_roots": [
+      147
+    ],
+    "helper_roots": [
+      148
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 149,
+    "value": 1,
+    "copy_roots": [
+      144,
+      148
+    ],
+    "helper_roots": [
+      145,
+      149
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 150,
+    "value": 5,
+    "copy_roots": [
+      145
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 152,
+    "value": 1,
+    "copy_roots": [
+      151
+    ],
+    "helper_roots": [
+      152
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 153,
+    "value": 1,
+    "copy_roots": [
+      148,
+      152
+    ],
+    "helper_roots": [
+      149,
+      153
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 154,
+    "value": 5,
+    "copy_roots": [
+      149,
+      153
+    ],
+    "helper_roots": [
+      158
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 156,
+    "value": 1,
+    "copy_roots": [
+      155
+    ],
+    "helper_roots": [
+      156
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 157,
+    "value": 1,
+    "copy_roots": [
+      152,
+      156
+    ],
+    "helper_roots": [
+      153,
+      157
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 158,
+    "value": 5,
+    "copy_roots": [
+      153,
+      157
+    ],
+    "helper_roots": [
+      158,
+      162
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 159,
+    "value": 1,
+    "copy_roots": [
+      158
+    ],
+    "helper_roots": [
+      159
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 160,
+    "value": 1,
+    "copy_roots": [
+      159
+    ],
+    "helper_roots": [
+      160
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 161,
+    "value": 1,
+    "copy_roots": [
+      156,
+      160
+    ],
+    "helper_roots": [
+      157,
+      161
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 162,
+    "value": 5,
+    "copy_roots": [
+      157,
+      161
+    ],
+    "helper_roots": [
+      162,
+      166
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 163,
+    "value": 1,
+    "copy_roots": [
+      162
+    ],
+    "helper_roots": [
+      163
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 164,
+    "value": 1,
+    "copy_roots": [
+      163
+    ],
+    "helper_roots": [
+      164
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 165,
+    "value": 1,
+    "copy_roots": [
+      160,
+      164
+    ],
+    "helper_roots": [
+      161,
+      165
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 166,
+    "value": 5,
+    "copy_roots": [
+      161,
+      165
+    ],
+    "helper_roots": [
+      166,
+      170
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 167,
+    "value": 1,
+    "copy_roots": [
+      166
+    ],
+    "helper_roots": [
+      167
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 168,
+    "value": 1,
+    "copy_roots": [
+      167
+    ],
+    "helper_roots": [
+      168
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 169,
+    "value": 1,
+    "copy_roots": [
+      164,
+      168
+    ],
+    "helper_roots": [
+      165,
+      169
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 170,
+    "value": 5,
+    "copy_roots": [
+      165,
+      169
+    ],
+    "helper_roots": [
+      170,
+      174
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 171,
+    "value": 1,
+    "copy_roots": [
+      170
+    ],
+    "helper_roots": [
+      171
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 172,
+    "value": 1,
+    "copy_roots": [
+      171
+    ],
+    "helper_roots": [
+      172
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 173,
+    "value": 1,
+    "copy_roots": [
+      168,
+      172
+    ],
+    "helper_roots": [
+      169,
+      173
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 174,
+    "value": 5,
+    "copy_roots": [
+      169,
+      173
+    ],
+    "helper_roots": [
+      174,
+      178
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 175,
+    "value": 1,
+    "copy_roots": [
+      174
+    ],
+    "helper_roots": [
+      175
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 176,
+    "value": 1,
+    "copy_roots": [
+      175
+    ],
+    "helper_roots": [
+      176
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 177,
+    "value": 1,
+    "copy_roots": [
+      172,
+      176
+    ],
+    "helper_roots": [
+      173,
+      177
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 178,
+    "value": 5,
+    "copy_roots": [
+      173,
+      177
+    ],
+    "helper_roots": [
+      178,
+      182
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 179,
+    "value": 1,
+    "copy_roots": [
+      178
+    ],
+    "helper_roots": [
+      179
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 180,
+    "value": 1,
+    "copy_roots": [
+      179
+    ],
+    "helper_roots": [
+      180
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 181,
+    "value": 1,
+    "copy_roots": [
+      176,
+      180
+    ],
+    "helper_roots": [
+      177,
+      181
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 182,
+    "value": 5,
+    "copy_roots": [
+      177,
+      181
+    ],
+    "helper_roots": [
+      182,
+      186
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 183,
+    "value": 1,
+    "copy_roots": [
+      182
+    ],
+    "helper_roots": [
+      183
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 184,
+    "value": 1,
+    "copy_roots": [
+      183
+    ],
+    "helper_roots": [
+      184
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 185,
+    "value": 1,
+    "copy_roots": [
+      180,
+      184
+    ],
+    "helper_roots": [
+      181,
+      185
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 186,
+    "value": 5,
+    "copy_roots": [
+      181,
+      185
+    ],
+    "helper_roots": [
+      186,
+      190
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 187,
+    "value": 1,
+    "copy_roots": [
+      186
+    ],
+    "helper_roots": [
+      187
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 188,
+    "value": 1,
+    "copy_roots": [
+      187
+    ],
+    "helper_roots": [
+      188
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 189,
+    "value": 1,
+    "copy_roots": [
+      184,
+      188
+    ],
+    "helper_roots": [
+      185,
+      189
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 190,
+    "value": 5,
+    "copy_roots": [
+      185,
+      189
+    ],
+    "helper_roots": [
+      2,
+      190
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 191,
+    "value": 1,
+    "copy_roots": [
+      190
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 0,
+    "value": 1,
+    "copy_roots": [
+      190
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 1,
+    "value": 5,
+    "copy_roots": [
+      191
+    ],
+    "helper_roots": [
+      0,
+      4,
+      8,
+      188
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 2,
+    "value": 1,
+    "copy_roots": [
+      0,
+      4,
+      8,
+      184,
+      188
+    ],
+    "helper_roots": [
+      5,
+      9,
+      185,
+      189
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 4,
+    "value": 1,
+    "copy_roots": [
+      2,
+      190
+    ],
+    "helper_roots": [
+      3,
+      191
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 5,
+    "value": 5,
+    "copy_roots": [
+      3,
+      191
+    ],
+    "helper_roots": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 6,
+    "value": 1,
+    "copy_roots": [
+      4,
+      8,
+      12
+    ],
+    "helper_roots": [
+      5,
+      9,
+      13
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 7,
+    "value": -3,
+    "copy_roots": [
+      5,
+      9,
+      13
+    ],
+    "helper_roots": [
+      2,
+      6,
+      10,
+      190
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 8,
+    "value": 1,
+    "copy_roots": [
+      2,
+      6,
+      190
+    ],
+    "helper_roots": [
+      3,
+      7,
+      191
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 9,
+    "value": 5,
+    "copy_roots": [
+      3,
+      7,
+      191
+    ],
+    "helper_roots": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 10,
+    "value": 1,
+    "copy_roots": [
+      8,
+      12,
+      16
+    ],
+    "helper_roots": [
+      9,
+      13,
+      17
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 11,
+    "value": -3,
+    "copy_roots": [
+      9,
+      13,
+      17
+    ],
+    "helper_roots": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 12,
+    "value": 1,
+    "copy_roots": [
+      2,
+      6,
+      10
+    ],
+    "helper_roots": [
+      3,
+      7,
+      11
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 13,
+    "value": 5,
+    "copy_roots": [
+      3,
+      7,
+      11
+    ],
+    "helper_roots": [
+      8,
+      12,
+      16
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 14,
+    "value": 1,
+    "copy_roots": [
+      12,
+      16
+    ],
+    "helper_roots": [
+      13,
+      17
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 15,
+    "value": -3,
+    "copy_roots": [
+      13,
+      17
+    ],
+    "helper_roots": [
+      6,
+      10,
+      14,
+      18
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 16,
+    "value": 1,
+    "copy_roots": [
+      6,
+      10,
+      14
+    ],
+    "helper_roots": [
+      7,
+      11,
+      15
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 17,
+    "value": 5,
+    "copy_roots": [
+      7,
+      11,
+      15
+    ],
+    "helper_roots": [
+      12,
+      16,
+      20
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 18,
+    "value": 1,
+    "copy_roots": [
+      16
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 19,
+    "value": -3,
+    "copy_roots": [
+      17
+    ],
+    "helper_roots": [
+      10,
+      14,
+      18
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 20,
+    "value": 1,
+    "copy_roots": [
+      10,
+      14,
+      18
+    ],
+    "helper_roots": [
+      11,
+      15,
+      19
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 21,
+    "value": 5,
+    "copy_roots": [
+      11,
+      15,
+      19
+    ],
+    "helper_roots": [
+      16,
+      20,
+      24
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 22,
+    "value": 1,
+    "copy_roots": [
+      20
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 24,
+    "value": 1,
+    "copy_roots": [
+      14,
+      18,
+      22
+    ],
+    "helper_roots": [
+      15,
+      19,
+      23
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 25,
+    "value": 5,
+    "copy_roots": [
+      15,
+      19,
+      23
+    ],
+    "helper_roots": [
+      20,
+      24,
+      28
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 26,
+    "value": 1,
+    "copy_roots": [
+      24
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 28,
+    "value": 1,
+    "copy_roots": [
+      18,
+      22,
+      26
+    ],
+    "helper_roots": [
+      19,
+      23,
+      27
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 29,
+    "value": 5,
+    "copy_roots": [
+      19,
+      23,
+      27
+    ],
+    "helper_roots": [
+      24,
+      28,
+      32
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 30,
+    "value": 1,
+    "copy_roots": [
+      28
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 32,
+    "value": 1,
+    "copy_roots": [
+      22,
+      26,
+      30
+    ],
+    "helper_roots": [
+      23,
+      27,
+      31
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 33,
+    "value": 5,
+    "copy_roots": [
+      23,
+      27,
+      31
+    ],
+    "helper_roots": [
+      28,
+      32,
+      36
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 34,
+    "value": 1,
+    "copy_roots": [
+      32
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 36,
+    "value": 1,
+    "copy_roots": [
+      26,
+      30,
+      34
+    ],
+    "helper_roots": [
+      27,
+      31,
+      35
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 37,
+    "value": 5,
+    "copy_roots": [
+      27,
+      31,
+      35
+    ],
+    "helper_roots": [
+      32,
+      36,
+      40
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 38,
+    "value": 1,
+    "copy_roots": [
+      36
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 40,
+    "value": 1,
+    "copy_roots": [
+      30,
+      34,
+      38
+    ],
+    "helper_roots": [
+      31,
+      35,
+      39
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 41,
+    "value": 5,
+    "copy_roots": [
+      31,
+      35,
+      39
+    ],
+    "helper_roots": [
+      36,
+      40,
+      44
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 42,
+    "value": 1,
+    "copy_roots": [
+      40
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 44,
+    "value": 1,
+    "copy_roots": [
+      34,
+      38,
+      42
+    ],
+    "helper_roots": [
+      35,
+      39,
+      43
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 45,
+    "value": 5,
+    "copy_roots": [
+      35,
+      39,
+      43
+    ],
+    "helper_roots": [
+      40,
+      44,
+      48
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 46,
+    "value": 1,
+    "copy_roots": [
+      44
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 47,
+    "value": 5,
+    "copy_roots": [
+      45
+    ],
+    "helper_roots": [
+      42,
+      46,
+      50
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 48,
+    "value": 1,
+    "copy_roots": [
+      38,
+      42,
+      46
+    ],
+    "helper_roots": [
+      39,
+      43,
+      47
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 49,
+    "value": 5,
+    "copy_roots": [
+      39,
+      43,
+      47
+    ],
+    "helper_roots": [
+      44,
+      48,
+      52
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 50,
+    "value": 1,
+    "copy_roots": [
+      44,
+      48
+    ],
+    "helper_roots": [
+      45,
+      49
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 51,
+    "value": 5,
+    "copy_roots": [
+      45,
+      49
+    ],
+    "helper_roots": [
+      46,
+      50,
+      54
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 52,
+    "value": 1,
+    "copy_roots": [
+      42,
+      46,
+      50
+    ],
+    "helper_roots": [
+      43,
+      47,
+      51
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 53,
+    "value": 5,
+    "copy_roots": [
+      43,
+      47,
+      51
+    ],
+    "helper_roots": [
+      48,
+      52,
+      56
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 54,
+    "value": 1,
+    "copy_roots": [
+      44,
+      48,
+      52
+    ],
+    "helper_roots": [
+      45,
+      49,
+      53
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 55,
+    "value": 5,
+    "copy_roots": [
+      45,
+      49,
+      53
+    ],
+    "helper_roots": [
+      50,
+      54,
+      58
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 56,
+    "value": 1,
+    "copy_roots": [
+      46,
+      50,
+      54
+    ],
+    "helper_roots": [
+      47,
+      51,
+      55
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 57,
+    "value": 5,
+    "copy_roots": [
+      47,
+      51,
+      55
+    ],
+    "helper_roots": [
+      52,
+      56,
+      60
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 58,
+    "value": 1,
+    "copy_roots": [
+      48,
+      52,
+      56
+    ],
+    "helper_roots": [
+      49,
+      53,
+      57
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 59,
+    "value": 5,
+    "copy_roots": [
+      49,
+      53,
+      57
+    ],
+    "helper_roots": [
+      54,
+      58,
+      62
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 60,
+    "value": 1,
+    "copy_roots": [
+      50,
+      54,
+      58
+    ],
+    "helper_roots": [
+      51,
+      55,
+      59
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 61,
+    "value": 5,
+    "copy_roots": [
+      51,
+      55,
+      59
+    ],
+    "helper_roots": [
+      56,
+      60,
+      64
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 62,
+    "value": 1,
+    "copy_roots": [
+      52,
+      56,
+      60
+    ],
+    "helper_roots": [
+      53,
+      57,
+      61
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 63,
+    "value": 5,
+    "copy_roots": [
+      53,
+      57,
+      61
+    ],
+    "helper_roots": [
+      58,
+      62,
+      66
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 64,
+    "value": 1,
+    "copy_roots": [
+      54,
+      58,
+      62
+    ],
+    "helper_roots": [
+      55,
+      59,
+      63
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 65,
+    "value": 5,
+    "copy_roots": [
+      55,
+      59,
+      63
+    ],
+    "helper_roots": [
+      60,
+      64,
+      68
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 66,
+    "value": 1,
+    "copy_roots": [
+      56,
+      60,
+      64
+    ],
+    "helper_roots": [
+      57,
+      61,
+      65
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 67,
+    "value": 5,
+    "copy_roots": [
+      57,
+      61,
+      65,
+      73
+    ],
+    "helper_roots": [
+      62,
+      66,
+      78
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 68,
+    "value": 1,
+    "copy_roots": [
+      58,
+      62,
+      66
+    ],
+    "helper_roots": [
+      59,
+      63,
+      67
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 69,
+    "value": 5,
+    "copy_roots": [
+      59,
+      63,
+      67
+    ],
+    "helper_roots": [
+      64,
+      68,
+      72
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 70,
+    "value": 1,
+    "copy_roots": [
+      60,
+      64,
+      68
+    ],
+    "helper_roots": [
+      61,
+      65,
+      69,
+      73
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 71,
+    "value": 5,
+    "copy_roots": [
+      61,
+      65,
+      69,
+      73,
+      77
+    ],
+    "helper_roots": [
+      62,
+      66,
+      78,
+      82
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 73,
+    "value": 5,
+    "copy_roots": [
+      63,
+      67,
+      71
+    ],
+    "helper_roots": [
+      68,
+      72,
+      76
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 74,
+    "value": 1,
+    "copy_roots": [
+      64,
+      68,
+      72
+    ],
+    "helper_roots": [
+      65,
+      69,
+      73,
+      77
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 75,
+    "value": 5,
+    "copy_roots": [
+      65,
+      69,
+      73,
+      77,
+      81
+    ],
+    "helper_roots": [
+      66,
+      78,
+      82,
+      86
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 77,
+    "value": 5,
+    "copy_roots": [
+      67,
+      71,
+      75
+    ],
+    "helper_roots": [
+      72,
+      76,
+      80
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 78,
+    "value": 1,
+    "copy_roots": [
+      68,
+      72,
+      76
+    ],
+    "helper_roots": [
+      69,
+      73,
+      77,
+      81
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 79,
+    "value": 5,
+    "copy_roots": [
+      69,
+      77,
+      85
+    ],
+    "helper_roots": [
+      82,
+      90
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 80,
+    "value": -3,
+    "copy_roots": [
+      78,
+      86
+    ],
+    "helper_roots": [
+      67,
+      71,
+      75,
+      79,
+      83
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 81,
+    "value": 5,
+    "copy_roots": [
+      71,
+      75,
+      79
+    ],
+    "helper_roots": [
+      76,
+      80,
+      84
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 82,
+    "value": 1,
+    "copy_roots": [
+      72,
+      76,
+      80
+    ],
+    "helper_roots": [
+      73,
+      77,
+      81,
+      85
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 83,
+    "value": 5,
+    "copy_roots": [
+      73,
+      81,
+      89
+    ],
+    "helper_roots": [
+      78,
+      86,
+      94
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 84,
+    "value": -3,
+    "copy_roots": [
+      82,
+      90
+    ],
+    "helper_roots": [
+      71,
+      75,
+      79,
+      83,
+      87
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 85,
+    "value": 5,
+    "copy_roots": [
+      75,
+      79,
+      83
+    ],
+    "helper_roots": [
+      80,
+      84,
+      88
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 86,
+    "value": 1,
+    "copy_roots": [
+      76,
+      80,
+      84
+    ],
+    "helper_roots": [
+      77,
+      81,
+      85,
+      89
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 87,
+    "value": 5,
+    "copy_roots": [
+      77,
+      85,
+      93
+    ],
+    "helper_roots": [
+      82,
+      90,
+      98
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 88,
+    "value": -3,
+    "copy_roots": [
+      78,
+      86,
+      94
+    ],
+    "helper_roots": [
+      75,
+      79,
+      83,
+      87,
+      91
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 89,
+    "value": 5,
+    "copy_roots": [
+      79,
+      83,
+      87
+    ],
+    "helper_roots": [
+      84,
+      88,
+      92
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 90,
+    "value": 1,
+    "copy_roots": [
+      80,
+      84,
+      88
+    ],
+    "helper_roots": [
+      81,
+      85,
+      89,
+      93
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 91,
+    "value": 5,
+    "copy_roots": [
+      81,
+      89,
+      97
+    ],
+    "helper_roots": [
+      86,
+      94,
+      102
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 92,
+    "value": -3,
+    "copy_roots": [
+      82,
+      90,
+      98
+    ],
+    "helper_roots": [
+      79,
+      83,
+      87,
+      91,
+      95
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 93,
+    "value": 5,
+    "copy_roots": [
+      83,
+      87,
+      91
+    ],
+    "helper_roots": [
+      88,
+      92,
+      96
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 94,
+    "value": 1,
+    "copy_roots": [
+      84,
+      88,
+      92
+    ],
+    "helper_roots": [
+      85,
+      89,
+      93,
+      97
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 95,
+    "value": 5,
+    "copy_roots": [
+      85,
+      93,
+      101
+    ],
+    "helper_roots": [
+      90,
+      98,
+      106
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 96,
+    "value": -3,
+    "copy_roots": [
+      86,
+      94,
+      102
+    ],
+    "helper_roots": [
+      83,
+      87,
+      91,
+      95,
+      99
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 97,
+    "value": 5,
+    "copy_roots": [
+      87,
+      91,
+      95
+    ],
+    "helper_roots": [
+      92,
+      96,
+      100
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 98,
+    "value": 1,
+    "copy_roots": [
+      88,
+      92,
+      96
+    ],
+    "helper_roots": [
+      89,
+      93,
+      97,
+      101
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 99,
+    "value": 5,
+    "copy_roots": [
+      89,
+      97,
+      105
+    ],
+    "helper_roots": [
+      94,
+      102,
+      110
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 100,
+    "value": -3,
+    "copy_roots": [
+      90,
+      98,
+      106
+    ],
+    "helper_roots": [
+      87,
+      91,
+      95,
+      99,
+      103
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 101,
+    "value": 5,
+    "copy_roots": [
+      91,
+      95,
+      99
+    ],
+    "helper_roots": [
+      96,
+      100,
+      104
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 102,
+    "value": 1,
+    "copy_roots": [
+      92,
+      96,
+      100
+    ],
+    "helper_roots": [
+      93,
+      97,
+      101,
+      105
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 103,
+    "value": 5,
+    "copy_roots": [
+      93,
+      101,
+      109
+    ],
+    "helper_roots": [
+      98,
+      106,
+      114
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 104,
+    "value": -3,
+    "copy_roots": [
+      94,
+      102,
+      110
+    ],
+    "helper_roots": [
+      91,
+      95,
+      99,
+      103,
+      107
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 105,
+    "value": 5,
+    "copy_roots": [
+      95,
+      99,
+      103
+    ],
+    "helper_roots": [
+      100,
+      104,
+      108
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 106,
+    "value": 1,
+    "copy_roots": [
+      96,
+      100,
+      104
+    ],
+    "helper_roots": [
+      97,
+      101,
+      105,
+      109
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 107,
+    "value": 5,
+    "copy_roots": [
+      97,
+      105,
+      113
+    ],
+    "helper_roots": [
+      102,
+      110,
+      118
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 108,
+    "value": -3,
+    "copy_roots": [
+      98,
+      106,
+      114
+    ],
+    "helper_roots": [
+      95,
+      99,
+      103,
+      107,
+      111
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 109,
+    "value": 5,
+    "copy_roots": [
+      99,
+      103,
+      107
+    ],
+    "helper_roots": [
+      104,
+      108,
+      112
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 110,
+    "value": 1,
+    "copy_roots": [
+      100,
+      104,
+      108
+    ],
+    "helper_roots": [
+      101,
+      105,
+      109,
+      113
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 111,
+    "value": 5,
+    "copy_roots": [
+      101,
+      109,
+      117
+    ],
+    "helper_roots": [
+      106,
+      114,
+      122
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 112,
+    "value": -3,
+    "copy_roots": [
+      102,
+      110,
+      118
+    ],
+    "helper_roots": [
+      99,
+      103,
+      107,
+      111,
+      115
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 113,
+    "value": 5,
+    "copy_roots": [
+      103,
+      107,
+      111
+    ],
+    "helper_roots": [
+      108,
+      112,
+      116
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 114,
+    "value": 1,
+    "copy_roots": [
+      104,
+      108,
+      112
+    ],
+    "helper_roots": [
+      105,
+      109,
+      113,
+      117
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 115,
+    "value": 5,
+    "copy_roots": [
+      105,
+      113,
+      121
+    ],
+    "helper_roots": [
+      110,
+      118,
+      126
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 116,
+    "value": -3,
+    "copy_roots": [
+      106,
+      114,
+      122
+    ],
+    "helper_roots": [
+      103,
+      107,
+      111,
+      115,
+      119
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 117,
+    "value": 5,
+    "copy_roots": [
+      107,
+      111,
+      115
+    ],
+    "helper_roots": [
+      112,
+      116,
+      120
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 118,
+    "value": 1,
+    "copy_roots": [
+      108,
+      112,
+      116
+    ],
+    "helper_roots": [
+      109,
+      113,
+      117,
+      121
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 119,
+    "value": 5,
+    "copy_roots": [
+      109,
+      117,
+      125
+    ],
+    "helper_roots": [
+      114,
+      122,
+      130
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 120,
+    "value": -3,
+    "copy_roots": [
+      110,
+      118,
+      126
+    ],
+    "helper_roots": [
+      107,
+      111,
+      115,
+      119,
+      123
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 121,
+    "value": 5,
+    "copy_roots": [
+      111,
+      115,
+      119
+    ],
+    "helper_roots": [
+      116,
+      120,
+      124
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 122,
+    "value": 1,
+    "copy_roots": [
+      112,
+      116,
+      120
+    ],
+    "helper_roots": [
+      113,
+      117,
+      121,
+      125
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 123,
+    "value": 5,
+    "copy_roots": [
+      113,
+      121,
+      129
+    ],
+    "helper_roots": [
+      118,
+      126,
+      130,
+      134
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 124,
+    "value": -3,
+    "copy_roots": [
+      114,
+      122,
+      130
+    ],
+    "helper_roots": [
+      111,
+      115,
+      119,
+      123,
+      127
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 125,
+    "value": 5,
+    "copy_roots": [
+      115,
+      119,
+      123
+    ],
+    "helper_roots": [
+      120,
+      124,
+      128
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 126,
+    "value": 1,
+    "copy_roots": [
+      116,
+      120,
+      124
+    ],
+    "helper_roots": [
+      117,
+      121,
+      125,
+      129
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 127,
+    "value": 5,
+    "copy_roots": [
+      117,
+      125,
+      133
+    ],
+    "helper_roots": [
+      122,
+      130,
+      134,
+      138
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 128,
+    "value": -3,
+    "copy_roots": [
+      118,
+      126,
+      130,
+      134
+    ],
+    "helper_roots": [
+      115,
+      119,
+      123,
+      127,
+      131,
+      135
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 129,
+    "value": 5,
+    "copy_roots": [
+      119,
+      123,
+      127
+    ],
+    "helper_roots": [
+      124,
+      128,
+      132
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 130,
+    "value": 1,
+    "copy_roots": [
+      120,
+      124,
+      128
+    ],
+    "helper_roots": [
+      121,
+      125,
+      129,
+      133
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 131,
+    "value": 5,
+    "copy_roots": [
+      121,
+      129
+    ],
+    "helper_roots": [
+      126,
+      130,
+      134,
+      138
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 132,
+    "value": -3,
+    "copy_roots": [
+      122,
+      126,
+      130,
+      134,
+      138
+    ],
+    "helper_roots": [
+      119,
+      123,
+      127,
+      131,
+      135,
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 133,
+    "value": 5,
+    "copy_roots": [
+      123,
+      127,
+      131
+    ],
+    "helper_roots": [
+      128,
+      132,
+      136
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 134,
+    "value": 1,
+    "copy_roots": [
+      124,
+      128,
+      132
+    ],
+    "helper_roots": [
+      125,
+      129,
+      133
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 135,
+    "value": 5,
+    "copy_roots": [
+      125,
+      133
+    ],
+    "helper_roots": [
+      130,
+      138
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 136,
+    "value": -3,
+    "copy_roots": [
+      126,
+      130,
+      134,
+      138
+    ],
+    "helper_roots": [
+      123,
+      127,
+      131,
+      135,
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 137,
+    "value": 1,
+    "copy_roots": [
+      135
+    ],
+    "helper_roots": [
+      132,
+      136
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 138,
+    "value": 1,
+    "copy_roots": [
+      128,
+      132,
+      136
+    ],
+    "helper_roots": [
+      129,
+      133,
+      137
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 139,
+    "value": 5,
+    "copy_roots": [
+      129
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 140,
+    "value": -3,
+    "copy_roots": [
+      130,
+      134,
+      138
+    ],
+    "helper_roots": [
+      127,
+      131,
+      135,
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 141,
+    "value": 1,
+    "copy_roots": [
+      139
+    ],
+    "helper_roots": [
+      136,
+      140
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 142,
+    "value": 1,
+    "copy_roots": [
+      132,
+      136,
+      140
+    ],
+    "helper_roots": [
+      133,
+      137,
+      141
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 143,
+    "value": 5,
+    "copy_roots": [
+      133
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 145,
+    "value": 1,
+    "copy_roots": [
+      143
+    ],
+    "helper_roots": [
+      140,
+      144
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 146,
+    "value": 1,
+    "copy_roots": [
+      136,
+      140,
+      144
+    ],
+    "helper_roots": [
+      137,
+      141,
+      145
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 147,
+    "value": 5,
+    "copy_roots": [
+      137
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 149,
+    "value": 1,
+    "copy_roots": [
+      147
+    ],
+    "helper_roots": [
+      144,
+      148
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 150,
+    "value": 1,
+    "copy_roots": [
+      140,
+      144,
+      148
+    ],
+    "helper_roots": [
+      141,
+      145,
+      149
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 151,
+    "value": 5,
+    "copy_roots": [
+      141
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 153,
+    "value": 1,
+    "copy_roots": [
+      151
+    ],
+    "helper_roots": [
+      148,
+      152
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 154,
+    "value": 1,
+    "copy_roots": [
+      144,
+      148,
+      152
+    ],
+    "helper_roots": [
+      145,
+      149,
+      153
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 155,
+    "value": 5,
+    "copy_roots": [
+      145,
+      149,
+      153
+    ],
+    "helper_roots": [
+      158
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 157,
+    "value": 1,
+    "copy_roots": [
+      155
+    ],
+    "helper_roots": [
+      152,
+      156
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 158,
+    "value": 1,
+    "copy_roots": [
+      148,
+      152,
+      156
+    ],
+    "helper_roots": [
+      149,
+      153,
+      157
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 159,
+    "value": 5,
+    "copy_roots": [
+      149,
+      153,
+      157
+    ],
+    "helper_roots": [
+      158,
+      162
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 160,
+    "value": 1,
+    "copy_roots": [
+      158
+    ],
+    "helper_roots": [
+      159
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 161,
+    "value": 1,
+    "copy_roots": [
+      159
+    ],
+    "helper_roots": [
+      156,
+      160
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 162,
+    "value": 1,
+    "copy_roots": [
+      152,
+      156,
+      160
+    ],
+    "helper_roots": [
+      153,
+      157,
+      161
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 163,
+    "value": 5,
+    "copy_roots": [
+      153,
+      157,
+      161
+    ],
+    "helper_roots": [
+      158,
+      162,
+      166
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 164,
+    "value": 1,
+    "copy_roots": [
+      162
+    ],
+    "helper_roots": [
+      163
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 165,
+    "value": 1,
+    "copy_roots": [
+      163
+    ],
+    "helper_roots": [
+      160,
+      164
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 166,
+    "value": 1,
+    "copy_roots": [
+      156,
+      160,
+      164
+    ],
+    "helper_roots": [
+      157,
+      161,
+      165
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 167,
+    "value": 5,
+    "copy_roots": [
+      157,
+      161,
+      165
+    ],
+    "helper_roots": [
+      162,
+      166,
+      170
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 168,
+    "value": 1,
+    "copy_roots": [
+      166
+    ],
+    "helper_roots": [
+      167
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 169,
+    "value": 1,
+    "copy_roots": [
+      167
+    ],
+    "helper_roots": [
+      164,
+      168
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 170,
+    "value": 1,
+    "copy_roots": [
+      160,
+      164,
+      168
+    ],
+    "helper_roots": [
+      161,
+      165,
+      169
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 171,
+    "value": 5,
+    "copy_roots": [
+      161,
+      165,
+      169
+    ],
+    "helper_roots": [
+      166,
+      170,
+      174
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 172,
+    "value": 1,
+    "copy_roots": [
+      170
+    ],
+    "helper_roots": [
+      171
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 173,
+    "value": 1,
+    "copy_roots": [
+      171
+    ],
+    "helper_roots": [
+      168,
+      172
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 174,
+    "value": 1,
+    "copy_roots": [
+      164,
+      168,
+      172
+    ],
+    "helper_roots": [
+      165,
+      169,
+      173
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 175,
+    "value": 5,
+    "copy_roots": [
+      165,
+      169,
+      173
+    ],
+    "helper_roots": [
+      170,
+      174,
+      178
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 176,
+    "value": 1,
+    "copy_roots": [
+      174
+    ],
+    "helper_roots": [
+      175
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 177,
+    "value": 1,
+    "copy_roots": [
+      175
+    ],
+    "helper_roots": [
+      172,
+      176
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 178,
+    "value": 1,
+    "copy_roots": [
+      168,
+      172,
+      176
+    ],
+    "helper_roots": [
+      169,
+      173,
+      177
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 179,
+    "value": 5,
+    "copy_roots": [
+      169,
+      173,
+      177
+    ],
+    "helper_roots": [
+      174,
+      178,
+      182
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 180,
+    "value": 1,
+    "copy_roots": [
+      178
+    ],
+    "helper_roots": [
+      179
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 181,
+    "value": 1,
+    "copy_roots": [
+      179
+    ],
+    "helper_roots": [
+      176,
+      180
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 182,
+    "value": 1,
+    "copy_roots": [
+      172,
+      176,
+      180
+    ],
+    "helper_roots": [
+      173,
+      177,
+      181
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 183,
+    "value": 5,
+    "copy_roots": [
+      173,
+      177,
+      181
+    ],
+    "helper_roots": [
+      178,
+      182,
+      186
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 184,
+    "value": 1,
+    "copy_roots": [
+      182
+    ],
+    "helper_roots": [
+      183
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 185,
+    "value": 1,
+    "copy_roots": [
+      183
+    ],
+    "helper_roots": [
+      180,
+      184
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 186,
+    "value": 1,
+    "copy_roots": [
+      176,
+      180,
+      184
+    ],
+    "helper_roots": [
+      177,
+      181,
+      185
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 187,
+    "value": 5,
+    "copy_roots": [
+      177,
+      181,
+      185
+    ],
+    "helper_roots": [
+      182,
+      186,
+      190
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 188,
+    "value": 1,
+    "copy_roots": [
+      186
+    ],
+    "helper_roots": [
+      187
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 189,
+    "value": 1,
+    "copy_roots": [
+      187
+    ],
+    "helper_roots": [
+      184,
+      188
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 190,
+    "value": 1,
+    "copy_roots": [
+      180,
+      184,
+      188
+    ],
+    "helper_roots": [
+      181,
+      185,
+      189
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 191,
+    "value": 5,
+    "copy_roots": [
+      181,
+      185,
+      189
+    ],
+    "helper_roots": [
+      2,
+      186,
+      190
+    ],
+    "unknown": false
+  }
+]

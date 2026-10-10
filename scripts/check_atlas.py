@@ -27,9 +27,18 @@ def main():
   page.locator('#history').scroll_into_view_if_needed(); box=page.locator('#history').bounding_box(); page.mouse.click(box['x']+box['width']*.4,box['y']+box['height']*.2)
   assert 'value' in page.locator('#readout').inner_text(); assert 'x:' in page.locator('#numbers').inner_text(); assertions.append('cell readout and numerical close-up work')
   if page.locator('#zoom').count():
-   assert page.evaluate('document.getElementById("zoom").width>0'); assert 't' in page.locator('#zoomnote').inner_text(); assertions.append('coordinate-labelled enlarged pixel close-up is generated from saved integers')
+   zoom=page.evaluate('''(()=>{const n=document.getElementById('zoomnote').textContent,m=n.match(/x(\d+).*t(\d+)/);return {note:n,rgb:Array.from(document.getElementById('zoom').getContext('2d').getImageData(0,0,1,1).data),value:current.values[Number(m[2])*current.width+Number(m[1])]}})()''')
+   assert zoom['rgb'][:3]==list(bytes.fromhex(color(zoom['value'])[1:])); assertions.append('coordinate-labelled enlarged close-up pixels agree with saved integers')
   page.locator('#world').select_option('results--search--codex_feedback--repeat3--trial07'); assert page.locator('#neighbors button').count()==4
   page.locator('#neighbors button').first.click(); assert 'Nearby' in page.locator('#world option:checked').inner_text(); assertions.append('saved nearby variants navigate correctly')
+  r8='results--discovery_art--search--codex_feedback--repeat3--trial00'
+  if page.locator(f'#world option[value="{r8}"]').count():
+   page.locator('#printcards button').first.click(); assert page.locator('#world').input_value()==r8
+   assert page.locator('#neighbors button').count()==4
+   page.locator('#neighbors button').last.click(); assert 'rule_neighbor' in page.locator('#world').input_value()
+   assert page.evaluate('canvas.width===192 && canvas.height===385')
+   assert page.locator('#downloads a').filter(has_text='Measurements').count()==1
+   assertions.append('R8 artwork selects its saved world, four neighbors and linked measurements; rule neighbor preserves dimensions')
   r6='results--descendant_detector--runs--copying_positive'
   if page.locator(f'#world option[value="{r6}"]').count():
    page.locator('#world').select_option(r6)

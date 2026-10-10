@@ -78,7 +78,8 @@ def main():
   for r8_group in r8_groups:
    if w['path'] in r8_group: w['neighbors']+= [p.replace('/','--') for p in r8_group if p!=w['path'] and p.replace('/','--') not in w['neighbors']]
  prints=[]
- for p in sorted((ROOT/'results/art').glob('*.recipe.json')):
+ order=[w['slug'] for w in json.loads((r8/'curation.json').read_text())['works']] if (r8/'curation.json').exists() else []
+ for p in sorted((ROOT/'results/art').glob('*.recipe.json'),key=lambda p:(order.index(p.name.removesuffix('.recipe.json')) if p.name.removesuffix('.recipe.json') in order else len(order),p.name)):
   recipe=json.loads(p.read_text()); slug=p.name.removesuffix('.recipe.json'); recipe['slug']=slug; prints.append(recipe)
   with Image.open(p.with_name(slug+'.png')) as im:
    im.thumbnail((980,1000),Image.Resampling.NEAREST); im.save(p.with_name(slug+'.preview.png'))

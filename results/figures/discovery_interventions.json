@@ -1,0 +1,110 @@
+{
+  "caption": "Saved R8 causal-assay histories. Component extraction/removal and matched damage are imposed before assay t0, from discovery t192. Appearance, persistence, exact template spread and certified ancestry are distinct. All shuffles, restoration and constituent rules are retained in the complete experiment.",
+  "data_sources": [
+    {
+      "file": "results/discovery_art/investigation/case0/whole/trajectory.csv",
+      "sha256": "efd8231eb3fb13951da36486d34fc3e676b747a3f894e7623b8a9cc61d7a7f6b"
+    },
+    {
+      "file": "results/discovery_art/investigation/case0/focal_only/trajectory.csv",
+      "sha256": "50ddc0d8cd049f59f8c1bdf1fe7dc81d664767eac44f7f7fec037c1b842de807"
+    },
+    {
+      "file": "results/discovery_art/investigation/case0/adjacent_removed/trajectory.csv",
+      "sha256": "56535a235976222b9144010ebaab7db8b24896d420fad1733ee9f4360b9a2294"
+    },
+    {
+      "file": "results/discovery_art/investigation/case0/matched_damage_elsewhere/trajectory.csv",
+      "sha256": "3f982a00598af0a2999336a0941fadd0b7576c5551cea5786723a04efd7f4688"
+    },
+    {
+      "file": "results/discovery_art/investigation/case1/whole/trajectory.csv",
+      "sha256": "982e398452f9fa44a3560e98d83fdd0e803caecabfab01a9ff8d11fb1ac27ab2"
+    },
+    {
+      "file": "results/discovery_art/investigation/case1/focal_only/trajectory.csv",
+      "sha256": "88f6cfdbd4d8fc145a40c81535916dd73ff1844c8c61d282cb6500b8f38eff3b"
+    },
+    {
+      "file": "results/discovery_art/investigation/case1/adjacent_removed/trajectory.csv",
+      "sha256": "9ee59cd0b04272aba9c134d9e680d124a3007f165c8057e54e9521f49724ab60"
+    },
+    {
+      "file": "results/discovery_art/investigation/case1/matched_damage_elsewhere/trajectory.csv",
+      "sha256": "0442eca26069eae7f231f2317529c8b63d316d1e46ff4eb2c023ce1005d4cfc6"
+    },
+    {
+      "file": "results/discovery_art/investigation/case2/whole/trajectory.csv",
+      "sha256": "2e0b2467cf5df504a92d7df07468d2213e91152c1c454529f53dc6ae36213a70"
+    },
+    {
+      "file": "results/discovery_art/investigation/case2/focal_only/trajectory.csv",
+      "sha256": "977277fbe2ebb292722ae4882fdcc0b751d2ea5654882ee5566c5a76c320c46c"
+    },
+    {
+      "file": "results/discovery_art/investigation/case2/adjacent_removed/trajectory.csv",
+      "sha256": "2fe72e657fde6532ee29a0655bdb91314890a4a539f39ce9639264d7531a7b77"
+    },
+    {
+      "file": "results/discovery_art/investigation/case2/matched_damage_elsewhere/trajectory.csv",
+      "sha256": "70b48ef00c8d34f186f8bd13a5a5c7354d1d547e3427bbe3de259229b325877f"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/discovery_figures.py": "d2bf5e781752f6457222dbf5f97069eec25103eece0f6e3ba6f0810e42828ce1"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

@@ -4,5 +4,11 @@
   "historical_environment": "results/corrections/descriptor_v2/heterogeneity_summary.json",
   "correction": "results/corrections/descriptor_v2/summary.json",
   "originals_retained": true,
-  "r7": "results/partner_dyad/summary.json"
+  "r7": "results/partner_dyad/summary.json",
+  "broader_search": "results/discovery_art/summary.json",
+  "broader_investigation": "results/discovery_art/investigation/summary.json",
+  "art_series": "results/discovery_art/art_manifest.json",
+  "broader_model_use": "results/discovery_art/model_use.json",
+  "latest_round": "results/discovery_art/completion.json",
+  "next_experiment": "results/discovery_art/next_experiment.json"
 }

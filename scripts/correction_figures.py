@@ -30,4 +30,12 @@ def main():
  ax.bar(x+.25,[r[2]['ambiguous_translation_fraction'] for r in rows],width=.25,color='#bfa9ff',label='Ambiguous periodic shifts')
  ax.set(xticks=x,xticklabels=[r[0].replace('_',' ') for r in rows],ylabel='Fraction of final-window updates',title='Saved imposed controls: stationary equality and periodic aliases'); style(ax); ax.legend(facecolor=PALETTE['background'],labelcolor=PALETTE['text']); fig.tight_layout()
  save(fig,OUT/'motion_detection_correction.png','Correction C1 on original saved synthetic control histories. Stationary and empty rows are not motion. Period-two and spatially periodic shifting rows admit several exact shifts and are reported as ambiguous, not uniquely identified motion. All are explicitly imposed controls, not discovered organisms.',[ROOT/'results/descriptor_controls/summary.json',*[BASE/'runs/descriptor_controls'/r[0]/'analysis.json' for r in rows]])
+ env=json.loads((BASE/'heterogeneity_summary.json').read_text()); norms=['galloway_A','galloway_B','galloway_AB_halves','galloway_AB_quarters','galloway_AB_temporal']
+ fig,axes=plt.subplots(1,2,figsize=(11,4),facecolor=PALETTE['background'])
+ for ax,cohort in zip(axes,['exploration','confirmation']):
+  for i,norm in enumerate(norms):
+   values=[r['tail_new4_signatures'] for r in env['rows'] if r['cohort']==cohort and r['norm']==norm]
+   ax.scatter(i+np.linspace(-.13,.13,len(values)),values,color=PALETTE['accent'],alpha=.65); ax.scatter(i,np.mean(values),color='#bfa9ff',marker='D')
+  ax.set(xticks=range(5),xticklabels=['A','B','Halves','Quarters','Temporal'],ylabel='new signatures in final32 rows',title='Corrected saved '+cohort+' / '+('512' if cohort=='exploration' else '2048')+' updates'); style(ax)
+ fig.tight_layout(); save(fig,OUT/'heterogeneity_corrected.png','C1 ring-aware reanalysis of every saved heterogeneous baseline. Dots are seed/world units and diamonds are means. Original analyses/figures remain preserved. Local novelty sometimes survives512 updates; every longer fresh-state confirmation has zero late unseen signatures.',[BASE/'heterogeneity_summary.json'])
 if __name__=='__main__': main()

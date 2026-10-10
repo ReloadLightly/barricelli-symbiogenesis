@@ -1,0 +1,26 @@
+{
+  "caption": "Four unseen seeds per scientifically selected rule/configuration;1536 updates. These cases were selected by retained signatures, not art. Counts are exact short templates; recurrence and mutation ambiguity remain separate evidence.",
+  "data_sources": [
+    {
+      "file": "results/discovery_art/investigation/summary.json",
+      "sha256": "a106654a1660c21316c998c7c1f707aaae49c3f9bbd18920af7fe2b10ed81d7a"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/discovery_figures.py": "d2bf5e781752f6457222dbf5f97069eec25103eece0f6e3ba6f0810e42828ce1"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "",
+      "vertical": "number of exact four-cell signatures"
+    },
+    {
+      "horizontal": "",
+      "vertical": "number of exact four-cell signatures"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

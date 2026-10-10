@@ -1,0 +1,46 @@
+{
+  "series": "Interfaces / R8",
+  "curation_sha256": "09d950c0400aafe1faace0940660daeb185242bd31da2c503a3de7f464526e49",
+  "works": [
+    {
+      "work": {
+        "source_run": "results/discovery_art/search/codex_feedback/repeat3/trial00",
+        "slug": "r8-intervals",
+        "title": "Intervals / R8",
+        "judgment": "Dark corridors, cyan interfaces and interrupted bright strata; opening selection from viewed common exploration."
+      },
+      "recipe_file": "results/art/r8-intervals.recipe.json",
+      "recipe_sha256": "6132a820fc9e66276accc079cd75282f4020df625c3114e83eb8c2859066cbe8",
+      "trajectory_sha256": "2b07af64eda430cb33d1fcbc81f19ae5c0ec72669438ffadc4e37b3d537434d0",
+      "print_sha256": "2201e3268bb4f51827daabf49d5614835cae2fd5b15afe459c3dafa2bee8b6a3",
+      "animation_sha256": "405b0c62af344d78f0f3140c94e653da8679243740aeaea302cc25dd692aacda"
+    },
+    {
+      "work": {
+        "source_run": "results/discovery_art/search/random/repeat1/trial05",
+        "slug": "r8-shear",
+        "title": "Shear / R8",
+        "judgment": "Long descending diagonal slabs with yellow/cyan seams; viewed after all Codex proposals were frozen. This is also the objectively selected random scientific case, but artwork is a separate judgment."
+      },
+      "recipe_file": "results/art/r8-shear.recipe.json",
+      "recipe_sha256": "1582fffbff64f1fac717ea53f53b6361f6a9462e661307445027fdf50c3bead3",
+      "trajectory_sha256": "c394ef9e64c4988d546fcb467ad8d64250e136d2d1e9683550b4eb6a265a5033",
+      "print_sha256": "5c180ae14db4c1cf343df7ce3f0f862987b654e5b055359ac07d4a7ffc586331",
+      "animation_sha256": "35ae13af5c1c5c21f84acd907a9dc9ba98b36bbde52109b81fca4461a6206530"
+    },
+    {
+      "work": {
+        "source_run": "results/discovery_art/search/codex_feedback/repeat0/trial05",
+        "slug": "r8-residue",
+        "title": "Residue / R8",
+        "judgment": "Sparse red/pink columns after a brief oblique collision front; the periodic remnant contrasts with dense interfaces. Periodicity is retained as an aesthetic outcome, not claimed as life."
+      },
+      "recipe_file": "results/art/r8-residue.recipe.json",
+      "recipe_sha256": "838131a3c750d87ee16c9d818521d5e9c5b42b7b3412695658608b96c8a2f13a",
+      "trajectory_sha256": "370dd2fdca15e18bafb8f4f8fb5aadf9e47eb6b6c054d023eed1d69d1f817aff",
+      "print_sha256": "7398fb80f641f4f66b9f70062051ee9ba26de917e4adb94608e8520f16db18fb",
+      "animation_sha256": "b097b08c42a2d0ffcbabdc6838806f5747522644cbefc3d7d42e3eaa5070b42e"
+    }
+  ],
+  "mode": "reproduction of recorded choices and integer trajectories, without model calls"
+}

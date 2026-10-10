@@ -148,8 +148,148 @@
     {
       "path": "results/partner_dyad/recovery/construction_d4_child2/continuation",
       "trajectory_sha256": "3f4de4b68b99d55cc2f908354b84d827721ed5d44efa0088e6d39d1134175610"
+    },
+    {
+      "path": "results/discovery_art/search/codex_feedback/repeat3/trial00",
+      "trajectory_sha256": "2b07af64eda430cb33d1fcbc81f19ae5c0ec72669438ffadc4e37b3d537434d0"
+    },
+    {
+      "path": "results/discovery_art/nearby/work0/new_seed",
+      "trajectory_sha256": "01ba1af143b9d3a0f2d068bff9f3af30fc6064ac4639e3df2a156d46d4fadd76"
+    },
+    {
+      "path": "results/discovery_art/nearby/work0/density_neighbor",
+      "trajectory_sha256": "6a6633aaf87785daff807095cf71783d3f385725203c664af9ee3b014612bb5f"
+    },
+    {
+      "path": "results/discovery_art/nearby/work0/layout_neighbor",
+      "trajectory_sha256": "f9d4680e67c5a56845e4ee6bd2560f8858b6b6ddf7a81dfd0cc7107578910ad4"
+    },
+    {
+      "path": "results/discovery_art/nearby/work0/rule_neighbor",
+      "trajectory_sha256": "b1cc94b283c6646d4d6b0b956bd419c9766260f5564f05553a623e4da7faecb1"
+    },
+    {
+      "path": "results/discovery_art/search/random/repeat1/trial05",
+      "trajectory_sha256": "c394ef9e64c4988d546fcb467ad8d64250e136d2d1e9683550b4eb6a265a5033"
+    },
+    {
+      "path": "results/discovery_art/nearby/work1/new_seed",
+      "trajectory_sha256": "4cd056c1e14fb82755260ed36e5f85c8b9574dfa53d3a8a7f539103f93617226"
+    },
+    {
+      "path": "results/discovery_art/nearby/work1/density_neighbor",
+      "trajectory_sha256": "35ea2929f198791abca6516024eebfe6ceb207479887c107f3afae0f9b3f5488"
+    },
+    {
+      "path": "results/discovery_art/nearby/work1/layout_neighbor",
+      "trajectory_sha256": "77ba0cd7721f2571a6a2516b89d4de66a0c9ca9e20dc73654d1bc15cd3ab9361"
+    },
+    {
+      "path": "results/discovery_art/nearby/work1/rule_neighbor",
+      "trajectory_sha256": "44f0bcf7dcd2418f5f4d96aad46f79c3799f4acad0f76a6a3196be5df1322192"
+    },
+    {
+      "path": "results/discovery_art/search/codex_feedback/repeat0/trial05",
+      "trajectory_sha256": "370dd2fdca15e18bafb8f4f8fb5aadf9e47eb6b6c054d023eed1d69d1f817aff"
+    },
+    {
+      "path": "results/discovery_art/nearby/work2/new_seed",
+      "trajectory_sha256": "e9737d6d89bf2cc03e5a0e4796454c76f6899a85419917b01644676bcc3ee8d1"
+    },
+    {
+      "path": "results/discovery_art/nearby/work2/density_neighbor",
+      "trajectory_sha256": "549d10478e49f357c17795108e6b1b731d204672775377fbf4d194169a052362"
+    },
+    {
+      "path": "results/discovery_art/nearby/work2/layout_neighbor",
+      "trajectory_sha256": "2acd8d9ec8465b93181249d39c70a3a7b298b3bfb7da84ff6d9269451a79edbe"
+    },
+    {
+      "path": "results/discovery_art/nearby/work2/rule_neighbor",
+      "trajectory_sha256": "a16405d46b2446b29141dd60083876bfe3a9a4d370c921fcac03de553d1930e4"
+    },
+    {
+      "path": "results/discovery_art/investigation/case0/whole",
+      "trajectory_sha256": "efd8231eb3fb13951da36486d34fc3e676b747a3f894e7623b8a9cc61d7a7f6b"
+    },
+    {
+      "path": "results/discovery_art/investigation/case0/focal_only",
+      "trajectory_sha256": "50ddc0d8cd049f59f8c1bdf1fe7dc81d664767eac44f7f7fec037c1b842de807"
+    },
+    {
+      "path": "results/discovery_art/investigation/case0/adjacent_removed",
+      "trajectory_sha256": "56535a235976222b9144010ebaab7db8b24896d420fad1733ee9f4360b9a2294"
+    },
+    {
+      "path": "results/discovery_art/investigation/case0/matched_damage_elsewhere",
+      "trajectory_sha256": "3f982a00598af0a2999336a0941fadd0b7576c5551cea5786723a04efd7f4688"
+    },
+    {
+      "path": "results/discovery_art/investigation/case0/rescue",
+      "trajectory_sha256": "efd8231eb3fb13951da36486d34fc3e676b747a3f894e7623b8a9cc61d7a7f6b"
+    },
+    {
+      "path": "results/discovery_art/investigation/case0/confirmation48000",
+      "trajectory_sha256": "96ee54d50db67180ce64c35d14774e7a3c2df0cc4dcfeb4b02ff8ccc01e4ed9c"
+    },
+    {
+      "path": "results/discovery_art/search/novelty_archive/repeat2/trial12",
+      "trajectory_sha256": "ecbd68dc8247435b70df18623ed7c05d088aff118c105421c061fb06ca9f3f96"
+    },
+    {
+      "path": "results/discovery_art/investigation/case1/whole",
+      "trajectory_sha256": "982e398452f9fa44a3560e98d83fdd0e803caecabfab01a9ff8d11fb1ac27ab2"
+    },
+    {
+      "path": "results/discovery_art/investigation/case1/focal_only",
+      "trajectory_sha256": "88f6cfdbd4d8fc145a40c81535916dd73ff1844c8c61d282cb6500b8f38eff3b"
+    },
+    {
+      "path": "results/discovery_art/investigation/case1/adjacent_removed",
+      "trajectory_sha256": "9ee59cd0b04272aba9c134d9e680d124a3007f165c8057e54e9521f49724ab60"
+    },
+    {
+      "path": "results/discovery_art/investigation/case1/matched_damage_elsewhere",
+      "trajectory_sha256": "0442eca26069eae7f231f2317529c8b63d316d1e46ff4eb2c023ce1005d4cfc6"
+    },
+    {
+      "path": "results/discovery_art/investigation/case1/rescue",
+      "trajectory_sha256": "982e398452f9fa44a3560e98d83fdd0e803caecabfab01a9ff8d11fb1ac27ab2"
+    },
+    {
+      "path": "results/discovery_art/investigation/case1/confirmation48000",
+      "trajectory_sha256": "6787fb59f19a8404dad73275d838547783ee593624be039dbb9636b7401e4712"
+    },
+    {
+      "path": "results/discovery_art/search/codex_feedback/repeat3/trial12",
+      "trajectory_sha256": "b3259fd7bc741855856632c3305a6adbeaac8d61af6c5a2543b84b8792f5fb02"
+    },
+    {
+      "path": "results/discovery_art/investigation/case2/whole",
+      "trajectory_sha256": "2e0b2467cf5df504a92d7df07468d2213e91152c1c454529f53dc6ae36213a70"
+    },
+    {
+      "path": "results/discovery_art/investigation/case2/focal_only",
+      "trajectory_sha256": "977277fbe2ebb292722ae4882fdcc0b751d2ea5654882ee5566c5a76c320c46c"
+    },
+    {
+      "path": "results/discovery_art/investigation/case2/adjacent_removed",
+      "trajectory_sha256": "2fe72e657fde6532ee29a0655bdb91314890a4a539f39ce9639264d7531a7b77"
+    },
+    {
+      "path": "results/discovery_art/investigation/case2/matched_damage_elsewhere",
+      "trajectory_sha256": "70b48ef00c8d34f186f8bd13a5a5c7354d1d547e3427bbe3de259229b325877f"
+    },
+    {
+      "path": "results/discovery_art/investigation/case2/rescue",
+      "trajectory_sha256": "2e0b2467cf5df504a92d7df07468d2213e91152c1c454529f53dc6ae36213a70"
+    },
+    {
+      "path": "results/discovery_art/investigation/case2/confirmation48000",
+      "trajectory_sha256": "32a24d2de87063ffbe6ea57ee7891bd82344ed14cdc010c85b0fed2c5826f520"
     }
   ],
   "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
-  "numeric_payload_sha256": "06a15f6deb8a906e140b944d2cb0374ec0e3632025599c24237bdb4d6583013d"
+  "numeric_payload_sha256": "08e2a54021591bf7018e641d00d56a0c8cb00120a9f3c24a6e1c845b64db2f62"
 }

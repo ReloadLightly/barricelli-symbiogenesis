@@ -6,7 +6,7 @@ build:
 test: build
 	$(PYTHON) -m unittest discover -s tests -v
 reproduce:
-	/usr/bin/time -v -o results/milestone-resource.txt $(PYTHON) scripts/milestone.py
+	/usr/bin/time -v -o results/reproduce-latest-resource.txt $(PYTHON) scripts/milestone.py
 figures:
 	$(PYTHON) scripts/figures.py
 	$(PYTHON) scripts/comparison_figures.py

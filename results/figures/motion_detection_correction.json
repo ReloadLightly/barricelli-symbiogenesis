@@ -28,7 +28,7 @@
   ],
   "renderer_files_sha256": {
     "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
-    "scripts/correction_figures.py": "275c7dc2e0c89f0918c6261b437b115688ef5514c4de2edba46067b6125beec7"
+    "scripts/correction_figures.py": "6b75c6ba7985994af61882a773bffd27cb521921e90802c34acf35bfb6890221"
   },
   "palette": "configs/palette.json",
   "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",

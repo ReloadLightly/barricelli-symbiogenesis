@@ -1,0 +1,29 @@
+{
+  "model": "research",
+  "variant": "r8_galloway_0",
+  "norm": "galloway_0",
+  "width": 192,
+  "steps": 1536,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": 48003,
+  "initial_state_file": "results/discovery_art/investigation/case2/confirmation48003/frozen.csv",
+  "trace_steps": 0,
+  "initial_design": {
+    "norm": "galloway_0",
+    "alphabet_id": 3,
+    "density": 0.9,
+    "layout": "uniform",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8b_reserved",
+    "candidate": 2,
+    "source": "results/discovery_art/search/codex_feedback/repeat3/trial12"
+  }
+}

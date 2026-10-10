@@ -1,0 +1,1 @@
+R8:192 retained searches in1,024 declared configurations;16 evaluations per repeated search, four repeats/method. Bands span search minima/maxima; points are search units. Codex used its own saved visuals and numerical feedback. Descriptor coverage is not life or aesthetic quality.

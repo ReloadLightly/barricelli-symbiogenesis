@@ -1,0 +1,36 @@
+{
+  "source_run": "results/discovery_art/search/codex_feedback/repeat3/trial12",
+  "source_trajectory_sha256": "b3259fd7bc741855856632c3305a6adbeaac8d61af6c5a2543b84b8792f5fb02",
+  "source_time": 192,
+  "selection_method": "codex_feedback",
+  "focal_position": 179,
+  "motif": [
+    -7,
+    5,
+    1,
+    5,
+    -9,
+    5,
+    1,
+    5
+  ],
+  "adjacent_removed_sites": [
+    172,
+    173,
+    174,
+    176,
+    177
+  ],
+  "matched_removed_sites": [
+    0,
+    1,
+    4,
+    6,
+    5
+  ],
+  "damage_same_count": true,
+  "damage_same_value_multiset": true,
+  "composition_shuffle_identity": false,
+  "spacing_shuffle_identity": false,
+  "all_edits": "externally imposed at saved t192 before assay t0; no intervention during dynamics"
+}

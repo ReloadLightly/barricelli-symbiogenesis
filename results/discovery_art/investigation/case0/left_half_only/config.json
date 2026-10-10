@@ -1,0 +1,63 @@
+{
+  "model": "research",
+  "variant": "r8_galloway_AB_halves",
+  "norm": "galloway_AB_halves",
+  "width": 192,
+  "steps": 384,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/discovery_art/investigation/case0/left_half_only/frozen.csv",
+  "trace_steps": 0,
+  "initial_design": {
+    "norm": "galloway_AB_halves",
+    "alphabet_id": 1,
+    "density": 0.15,
+    "layout": "two_patches",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8b_assay",
+    "candidate": 0,
+    "condition": "left_half_only",
+    "focal_position": 138,
+    "motif": [
+      1,
+      1,
+      1,
+      0,
+      2,
+      3,
+      1,
+      5
+    ],
+    "adjacent_removed_sites": [
+      146,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+    ],
+    "matched_removed_sites": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      7,
+      6
+    ],
+    "damage_same_count": true,
+    "damage_same_value_multiset": true,
+    "composition_shuffle_identity": false,
+    "spacing_shuffle_identity": false,
+    "all_edits": "externally imposed at saved t192 before assay t0; no intervention during dynamics"
+  }
+}

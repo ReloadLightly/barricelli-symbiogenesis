@@ -1,12 +1,13 @@
 {
-  "native_runs": 635,
-  "cell_updates": 23800201,
-  "engine_seconds_sum": 9.060949247,
-  "process_seconds_sum": 16.77193049298876,
+  "native_runs": 896,
+  "cell_updates": 45257353,
+  "engine_seconds_sum": 11.730011499999996,
+  "process_seconds_sum": 21.247285383018607,
   "max_native_rss_kib": 3840,
   "count_by_stage": {
     "assay": 164,
     "descendant_detector": 66,
+    "discovery_art": 261,
     "ensemble": 14,
     "galloway_validation": 6,
     "heterogeneity": 100,

@@ -1,0 +1,31 @@
+{
+  "trace_matches_every_saved_update": true,
+  "updates": [
+    {
+      "time": 1,
+      "events_audited": 14,
+      "guarded_template_matches": 0,
+      "qualified_children": [],
+      "recovery_phase_eligible": true,
+      "ambiguous_cells": 0,
+      "unknown_copy_origins": 0
+    },
+    {
+      "time": 2,
+      "events_audited": 15,
+      "guarded_template_matches": 0,
+      "qualified_children": [],
+      "recovery_phase_eligible": true,
+      "ambiguous_cells": 0,
+      "unknown_copy_origins": 1
+    }
+  ],
+  "first_internal_common_founder_pair": null,
+  "source_hashes": {
+    "initial.csv": "e8537cb421f534fe66a9056e9ef2e1d508f6b857ea3a4490dea040c8fc105a27",
+    "trajectory.csv": "acd09d57ca17638395cbc2719dca5ccde1abdf9b3a1c7a5491398c504fd02f26",
+    "events.csv": "7b764ecbe884155bb3898c9306c298571f7bfe41d095483fd9f1a5d06bc7f0ca"
+  },
+  "criterion": "unchanged full-founder unambiguous copy roots, confined dependencies and internal helper support; two disjoint exact footprints with2 empty exterior cells",
+  "scope": "two-update operational ancestry only; changed or mutation-origin templates excluded"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "proposed next experiment; no execution authorized by this declaration and no run yet performed",
+  "question": "Does the actual exceptional R8 mixed-rule source retain late signature novelty through6144 updates, relative to same-start A/B constituent controls, or was its organization a finite transient?",
+  "source_run": "results/discovery_art/search/random/repeat1/trial05",
+  "proposed_measures": [
+    "phase-aware recurrence",
+    "new and retained signatures in successive32-row windows",
+    "occupancy and interface persistence",
+    "same-start mixture-minus-constituent contrasts"
+  ],
+  "proposed_budget": {
+    "configs": [
+      "galloway_A",
+      "galloway_B",
+      "galloway_AB_halves"
+    ],
+    "states": "the exact original starting row plus3 previously unused seed states, matched across norms",
+    "worlds": 12,
+    "width": 192,
+    "steps": 6144,
+    "cell_updates": 14155776,
+    "execution": "serial/resumable CPU; no model dependency"
+  },
+  "proposed_completion": "all12 outcomes and controls, a saved numerical explanation and one new artwork, including fully recurrent/negative outcomes; no new calibration prerequisite",
+  "mission": [
+    "emergence research",
+    "LLM-assisted discovery",
+    "reproducible numerical art"
+  ],
+  "reason": "All fresh R8 long checks recurred; the actual original mixed-rule source still had late novelty through its576-update continuation. Original-state extension resolves that specific uncertainty without changing the mission."
+}

@@ -1,0 +1,1 @@
+Saved R8 causal-assay histories. Component extraction/removal and matched damage are imposed before assay t0, from discovery t192. Appearance, persistence, exact template spread and certified ancestry are distinct. All shuffles, restoration and constituent rules are retained in the complete experiment.

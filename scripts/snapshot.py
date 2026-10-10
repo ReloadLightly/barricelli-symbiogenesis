@@ -9,7 +9,7 @@ def main():
  for folder in ['engine','barricelli','scripts','configs','fixtures','tests','atlas','references']:
   for p in (ROOT/folder).rglob('*'):
    if p.is_file() and '__pycache__' not in str(p) and p.name not in ['data.js','manifest.json','register.html','source_manifest.json']: files.append(p)
- for name in ['README.md','AGENTS.md','PROVENANCE.md','NOTICES.md','RESEARCH_RECORD.md','DEVELOPMENT_LOG.md','LICENSE','Makefile','pyproject.toml','requirements.txt','.gitignore']: files.append(ROOT/name)
+ for name in ['README.md','AGENTS.md','PROVENANCE.md','NOTICES.md','RESEARCH_RECORD.md','DEVELOPMENT_LOG.md','RULE_VARIANTS.md','LICENSE','Makefile','pyproject.toml','requirements.txt','.gitignore']: files.append(ROOT/name)
  archive_path=ROOT/'results/source_snapshot.tar.gz'
  with archive_path.open('wb') as raw:
   with gzip.GzipFile(filename='',fileobj=raw,mode='wb',mtime=0) as zipped:

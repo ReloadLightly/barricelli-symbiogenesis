@@ -1,0 +1,30 @@
+{
+  "model": "research",
+  "variant": "r8_exclusion",
+  "norm": "exclusion",
+  "width": 192,
+  "steps": 384,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": 24005,
+  "initial_state_file": "results/discovery_art/nearby/work2/layout_neighbor/frozen.csv",
+  "trace_steps": 0,
+  "initial_design": {
+    "norm": "exclusion",
+    "alphabet_id": 2,
+    "density": 0.35,
+    "layout": "uniform",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8_art_nearby",
+    "source": "results/discovery_art/search/codex_feedback/repeat0/trial05",
+    "condition": "layout_neighbor",
+    "intervention": "external one-parameter design change; rule neighbor shares exact original integer row"
+  }
+}

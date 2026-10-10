@@ -1,0 +1,26 @@
+{
+  "caption": "C1 ring-aware reanalysis of every saved heterogeneous baseline. Dots are seed/world units and diamonds are means. Original analyses/figures remain preserved. Local novelty sometimes survives512 updates; every longer fresh-state confirmation has zero late unseen signatures.",
+  "data_sources": [
+    {
+      "file": "results/corrections/descriptor_v2/heterogeneity_summary.json",
+      "sha256": "898f27bb555545223efae5ada3b352843873f681b08f8924de67efcd052fc5f6"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/correction_figures.py": "6b75c6ba7985994af61882a773bffd27cb521921e90802c34acf35bfb6890221"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "",
+      "vertical": "new signatures in final32 rows"
+    },
+    {
+      "horizontal": "",
+      "vertical": "new signatures in final32 rows"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

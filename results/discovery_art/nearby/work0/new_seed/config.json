@@ -1,0 +1,30 @@
+{
+  "model": "research",
+  "variant": "r8_galloway_B",
+  "norm": "galloway_B",
+  "width": 192,
+  "steps": 384,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": 27001,
+  "initial_state_file": "results/discovery_art/nearby/work0/new_seed/frozen.csv",
+  "trace_steps": 0,
+  "initial_design": {
+    "norm": "galloway_B",
+    "alphabet_id": 2,
+    "density": 0.65,
+    "layout": "uniform",
+    "initial_style": "iid"
+  },
+  "modifications": [
+    "R8 explicitly designed initial integer state; inspectable rule profile in RULE_VARIANTS.md",
+    "W192 research world; fixed numerical rule throughout, except declared temporal A/B schedule",
+    "any extraction, perturbation or environment intervention is recorded in experiment"
+  ],
+  "experiment": {
+    "stage": "R8_art_nearby",
+    "source": "results/discovery_art/search/codex_feedback/repeat3/trial00",
+    "condition": "new_seed",
+    "intervention": "external one-parameter design change; rule neighbor shares exact original integer row"
+  }
+}

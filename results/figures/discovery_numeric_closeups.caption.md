@@ -1,0 +1,1 @@
+Exact integer cutouts, x72–83 and t184–195, from each curated source. Local axes carry the explicitly stated offsets; colors encode values, not individual organisms. Enlarged atlas close-ups use the same integers.

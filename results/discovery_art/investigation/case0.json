@@ -1,0 +1,40 @@
+{
+  "source_run": "results/discovery_art/search/random/repeat1/trial05",
+  "source_trajectory_sha256": "c394ef9e64c4988d546fcb467ad8d64250e136d2d1e9683550b4eb6a265a5033",
+  "source_time": 192,
+  "selection_method": "random",
+  "focal_position": 138,
+  "motif": [
+    1,
+    1,
+    1,
+    0,
+    2,
+    3,
+    1,
+    5
+  ],
+  "adjacent_removed_sites": [
+    146,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
+  ],
+  "matched_removed_sites": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    7,
+    6
+  ],
+  "damage_same_count": true,
+  "damage_same_value_multiset": true,
+  "composition_shuffle_identity": false,
+  "spacing_shuffle_identity": false,
+  "all_edits": "externally imposed at saved t192 before assay t0; no intervention during dynamics"
+}

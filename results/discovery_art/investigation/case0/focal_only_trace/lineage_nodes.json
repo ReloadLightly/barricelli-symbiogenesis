@@ -1,0 +1,200 @@
+[
+  {
+    "time": 1,
+    "x": 139,
+    "value": 1,
+    "copy_roots": [
+      138
+    ],
+    "helper_roots": [
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 140,
+    "value": 1,
+    "copy_roots": [
+      139
+    ],
+    "helper_roots": [
+      140
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 141,
+    "value": 1,
+    "copy_roots": [
+      140
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 143,
+    "value": 2,
+    "copy_roots": [
+      142
+    ],
+    "helper_roots": [
+      144
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 144,
+    "value": 2,
+    "copy_roots": [
+      142
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 146,
+    "value": 3,
+    "copy_roots": [
+      143
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 149,
+    "value": 1,
+    "copy_roots": [
+      144
+    ],
+    "helper_roots": [
+      145
+    ],
+    "unknown": false
+  },
+  {
+    "time": 1,
+    "x": 150,
+    "value": 5,
+    "copy_roots": [
+      145
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 140,
+    "value": 1,
+    "copy_roots": [
+      138
+    ],
+    "helper_roots": [
+      139
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 141,
+    "value": 1,
+    "copy_roots": [
+      139
+    ],
+    "helper_roots": [
+      140
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 142,
+    "value": 1,
+    "copy_roots": [
+      140
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 145,
+    "value": 2,
+    "copy_roots": [
+      142
+    ],
+    "helper_roots": [
+      144
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 146,
+    "value": 2,
+    "copy_roots": [
+      142
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 147,
+    "value": 2,
+    "copy_roots": [],
+    "helper_roots": [
+      144
+    ],
+    "unknown": true
+  },
+  {
+    "time": 2,
+    "x": 149,
+    "value": 3,
+    "copy_roots": [
+      143
+    ],
+    "helper_roots": [],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 150,
+    "value": 1,
+    "copy_roots": [
+      144
+    ],
+    "helper_roots": [
+      145
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 154,
+    "value": 1,
+    "copy_roots": [
+      144
+    ],
+    "helper_roots": [
+      145
+    ],
+    "unknown": false
+  },
+  {
+    "time": 2,
+    "x": 155,
+    "value": 5,
+    "copy_roots": [
+      145
+    ],
+    "helper_roots": [],
+    "unknown": false
+  }
+]
