@@ -1,0 +1,24 @@
+{
+  "declared_utc": "2026-10-10T20:11:27.071662+00:00",
+  "question": "Can contrasting interfaces and sparse periodic remnants become a coherent reproducible numerical series with useful nearby comparisons?",
+  "measures": [
+    "exact source/palette hashes",
+    "full trajectory pixel correspondence in final reveal",
+    "print dimensions",
+    "four saved one-parameter neighbors per work",
+    "numerical close-up coordinates"
+  ],
+  "budget": {
+    "additional_prints": 2,
+    "existing_opening_print": 1,
+    "animation_frames_per_work": 40,
+    "streamed_frames": true,
+    "render_peak_rss_ceiling_mib": 512,
+    "nearby_worlds": 12,
+    "cell_updates": 884736,
+    "simulation_count_scope": "already included in R8b baseline"
+  },
+  "completion": "three high-resolution prints, three progressive-reveal animations and recipes, nearby navigation and numeric/pixel close-ups; no simulation depends on aesthetic choices",
+  "resource_note": "Opening print already measured351.55 MiB, exceeding the search orchestration target256 MiB; print rendering is budgeted separately here. Search batches measured below82 MiB.",
+  "decision": "Use frozen actual-trajectory curation; preserve periodic as well as transient-looking forms and report science separately."
+}

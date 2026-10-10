@@ -1,0 +1,33 @@
+{
+  "series": "Interfaces / R8",
+  "selected_utc": "2026-10-10T20:10:55.620280+00:00",
+  "selection": "three aesthetic choices actually viewed from saved discovery trajectories; no visual changes to simulated integers; not representative sampling or evidence of a method advantage",
+  "works": [
+    {
+      "source_run": "results/discovery_art/search/codex_feedback/repeat3/trial00",
+      "slug": "r8-intervals",
+      "title": "Intervals / R8",
+      "judgment": "Dark corridors, cyan interfaces and interrupted bright strata; opening selection from viewed common exploration."
+    },
+    {
+      "source_run": "results/discovery_art/search/random/repeat1/trial05",
+      "slug": "r8-shear",
+      "title": "Shear / R8",
+      "judgment": "Long descending diagonal slabs with yellow/cyan seams; viewed after all Codex proposals were frozen. This is also the objectively selected random scientific case, but artwork is a separate judgment."
+    },
+    {
+      "source_run": "results/discovery_art/search/codex_feedback/repeat0/trial05",
+      "slug": "r8-residue",
+      "title": "Residue / R8",
+      "judgment": "Sparse red/pink columns after a brief oblique collision front; the periodic remnant contrasts with dense interfaces. Periodicity is retained as an aesthetic outcome, not claimed as life."
+    }
+  ],
+  "nearby_budget": {
+    "runs": 12,
+    "width": 192,
+    "steps": 384,
+    "cell_updates": 884736,
+    "covered_by": "R8b baseline declaration"
+  },
+  "next_decision": "Preserve contrasting periodic and transient-looking visual works, then report longer scientific outcomes independently."
+}

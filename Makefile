@@ -1,6 +1,6 @@
 PYTHON ?= .venv/bin/python
 
-.PHONY: build test reproduce figures art atlas descendants partner-dyad corrections
+.PHONY: build test reproduce figures art atlas descendants partner-dyad corrections discovery-art
 build:
 	$(PYTHON) scripts/build.py
 test: build
@@ -27,3 +27,14 @@ atlas:
 corrections:
 	$(PYTHON) scripts/correct_descriptors.py
 	$(PYTHON) scripts/correction_figures.py
+
+discovery-art: build
+	$(PYTHON) scripts/discovery_art.py --phase replay
+	$(PYTHON) scripts/investigate_discoveries.py --phase declare
+	$(PYTHON) scripts/investigate_discoveries.py --phase run
+	$(PYTHON) scripts/investigate_discoveries.py --phase nearby
+	$(PYTHON) scripts/discovery_artworks.py
+	$(PYTHON) scripts/discovery_figures.py
+	$(PYTHON) scripts/register.py
+	$(PYTHON) scripts/build_atlas.py
+	$(PYTHON) scripts/check_artifacts.py
