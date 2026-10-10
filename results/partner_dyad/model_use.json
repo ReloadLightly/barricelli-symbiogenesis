@@ -1,0 +1,13 @@
+{
+  "experiment": "R7",
+  "proposal_utc": "2026-10-10T19:27:00Z",
+  "method": "feedback-informed conversational Codex construction",
+  "inputs": ["R6: zero partner-assisted detached cases", "unchanged Taylor reproduceSymbiotic source", "R6 strict founder criterion"],
+  "proposal": "Opposite signed integers at separation d, d >= 3; four frozen settings and causal controls.",
+  "automated_model_integration_executed": false,
+  "new_external_model_api_calls": 0,
+  "paid_services_added": false,
+  "model_identity_and_token_usage": "Exact serving identity and token counts are not exposed by this session; do not estimate.",
+  "comparison_scope": "Targeted analytical construction and independent verification, not an equal-budget search comparison.",
+  "feedback_at_proposal": "Source inspection only. No R7 simulations yet. Implementation and interpretation occur after this declaration."
+}

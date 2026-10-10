@@ -1,0 +1,59 @@
+{
+  "experiment": "R7 / independently verified partner-assisted dyad",
+  "declared_utc": "2026-10-10T19:27:00Z",
+  "status_at_declaration": "Analytical proposal only; no R7 simulations executed",
+  "proposal": "Under the unchanged historical symbiotic norm, place +d at x and -d at x+d, with zero exterior. Each source first copies onto its partner's old position and then uses that partner's value to copy in the opposite direction. Predicted first children start at x-d and x+d. This is a designed initial condition, not an evolved organism or a novel rule.",
+  "primary_basis": {
+    "source": "engine/upstream/barricelli54.cpp",
+    "sha256": "694fc1444d44f4a45a0df52dbdb82633db89ea03b6d3009b904aa1c4d53363db",
+    "reference_commit": "beeea928d17c73a66ff5dccee19270ba717596ac",
+    "functions": ["updateSymbiotic", "reproduceSymbiotic"],
+    "url": "https://github.com/tim-taylor/barricelli54/tree/beeea928d17c73a66ff5dccee19270ba717596ac",
+    "paper": "https://www.tim-taylor.com/papers/barricelli2026numerical.pdf",
+    "scope": "Historical helper rule; this dyad construction and assay are research extensions. No claim this case was a published figure."
+  },
+  "settings": [
+    {"id": "construction_d4", "stage": "construction", "d": 4, "founder": 240, "width": 512, "steps": 12},
+    {"id": "confirmation_d3", "stage": "confirmation", "d": 3, "founder": 240, "width": 512, "steps": 12},
+    {"id": "confirmation_d5", "stage": "confirmation", "d": 5, "founder": 240, "width": 512, "steps": 12},
+    {"id": "confirmation_long_d4", "stage": "confirmation", "d": 4, "founder": 992, "width": 2048, "steps": 96}
+  ],
+  "conditions": ["intact", "positive_removed", "negative_removed", "wrong_negative_same_occupancy", "composition_shuffled_fixed_gaps", "spacing_shift", "rescue"],
+  "interventions": {
+    "positive_removed": "Set x to zero; remove exactly one occupied cell.",
+    "negative_removed": "Set x+d to zero; remove exactly one occupied cell. Symmetric damage size; this two-cell founder has no dispensable internal cell.",
+    "wrong_negative_same_occupancy": "Replace -d at x+d by -(d+1); keep occupied positions.",
+    "composition_shuffled_fixed_gaps": "Swap +d and -d; preserve occupied positions and multiset.",
+    "spacing_shift": "Move -d from x+d to x+d+1; preserve values and cell count.",
+    "rescue": "Restore removed -d at its exact original position before t0.",
+    "background_matched_damage": "Three additional construction controls place unrelated -4 at x400, outside the 12-update dyad interaction cone: background intact, focal -4 removed, unrelated -4 removed. Matches removed value and count without asserting a dispensable internal component.",
+    "helpers_disabled_oracle": "Oracle-only rule intervention: suppress recursion, retain first copy, order and boundaries. Save the numerical history; do not label this the historical norm.",
+    "child_isolation": "Extract each exact first child, clear exterior cells, translate to x240 in W512. Separately test one traced update and 12-update reproduction/persistence. Isolation is imposed; original branching arises from declared dynamics."
+  },
+  "evidence_requirements": [
+    "At t1, two exact translated footprints with two empty exterior cells and unchanged R6 exclusive full-founder copying criteria, internal helper paths and no external or unknown roots.",
+    "Ordered trace reconstructs every one-update value. A separately written first-step audit checks four predicted copying edges and two helper uses without importing R6 lineage propagation.",
+    "Uninstrumented harness includes Taylor's unchanged source and calls original update functions. Every R7 native history must match this separate binary cell for cell.",
+    "Component deletion, wrong-value, shuffle and spacing changes cannot pass first-step reproduction. Rescue restores all native numbers and ordered events.",
+    "Unrelated same-value deletion retains branching; helpers-disabled counterfactual loses it.",
+    "Both first children from each intact setting reproduce after isolation and retain exact footprints through the recovery horizon.",
+    "All three reserved settings and longer horizon are reported regardless of outcome; deterministic robustness cases, not independent population samples."
+  ],
+  "trace_scope": "Complete traces and unchanged R6 analysis on one-update native runs. Matched continuation runs use trace_steps=0: numerical matching and reference replay only beyond t1. Interior helper cycles reach the historical width cap; full repeated stacks would waste disk. Do not claim long-horizon cell ancestry.",
+  "budgets": {
+    "baseline_settings_conditions": 31,
+    "baseline_native_runs": 62,
+    "baseline_cell_updates": 1550336,
+    "selected_recovery_native_runs_max": 16,
+    "recovery_cell_updates_max": 53248,
+    "oracle_compute": "One unchanged-source replay per native run; additionally one helpers-disabled continuation per intact setting. Count separately.",
+    "execution": "Serial CPU-only, resumable hash checks. No random campaign or estimate of search-method advantage."
+  },
+  "limits": [
+    "A dyad is a distributed two-cell footprint. Its internal gap equals the gap between adjacent children. Partition is operational, not evidence of organism boundaries or independent later interaction.",
+    "Each cell alone translates and persists but cannot increase its count here. Assistance concerns pair copying, not individual survival.",
+    "An expanding regular lattice is expected. First-step detached copies plus isolation assays test numerical copying capacity, not life, biological symbiosis, inherited diversity or open-ended evolution.",
+    "Constructed calibration cannot reverse R6's negative findings for its historical and generated motifs."
+  ],
+  "model_use": "One conversational Codex construction based on saved R6 failures and historical source. No new external model API call or paid service; exact serving-model tokens unavailable."
+}

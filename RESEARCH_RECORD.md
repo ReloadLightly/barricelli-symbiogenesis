@@ -58,6 +58,10 @@ The subsequently executed 24 reserved worlds also produce no detached common-fou
 
 The numerical copying detector core is calibrated, and both recorded motifs remain cases of domain propagation. A native positive case of partner-assisted detached collective reproduction, distributed footprints, changed descendants and phase cycles remain outside the established result. Evidence: `results/descendant_detector/summary.json`, `calibration.json`, per-run `detector.json` and streamed lineage node/edge CSVs. Next: obtain and independently verify a native partner-assisted detached positive case, then extend the detector to distributed or phase-dependent structures before a new discovery campaign.
 
+## R7 — partner-assisted dyad, declared 10 October 2026
+
+[The frozen R7 design](results/partner_dyad/design.json) proposes two opposite signed integers at separation d under Taylor's unchanged symbiotic norm. Old-row partner lookup predicts two translated dyads in one update. This is a transparent designed inoculation, with no claim of evolutionary discovery or novelty. The strict R6 copying criteria remain unchanged. Independent verification will use an uninstrumented unchanged-source binary, a separately written first-update audit, partner and arrangement perturbations, matched background damage, exact rescue and child-isolation reproduction. Three reserved settings include a 96-update numerical continuation. Complete short traces are separate from longer untraced histories to avoid excessive helper-cycle trace storage. The baseline budget is 62 native runs and 1,550,336 cell updates; at most 16 recovery runs add 53,248 updates. Oracle compute is recorded separately. No R7 run had executed at declaration.
+
 ## Art record
 
 Curated illustrations and exports are explicitly selected aesthetic works. Each has a source trajectory and fixed rendering recipe. Complete unselected experiments remain registered; no selected picture is evidence of typical behavior.
