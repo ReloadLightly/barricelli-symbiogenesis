@@ -1,0 +1,22 @@
+{
+  "round": "bootstrap",
+  "declared_utc": "2026-10-10T20:00:40.760348+00:00",
+  "question": "What baseline regimes do four common anchors expose?",
+  "measures": {
+    "primary": "5\u00d75\u00d75 archive coverage from tail occupancy/activity/repeated4; search repeats are units",
+    "supplementary": [
+      "mean nearest-neighbor descriptor diversity",
+      "whole-world recurrence with environment phase",
+      "retained signatures",
+      "late novel signatures",
+      "unique vs ambiguous translation",
+      "engine/process/descriptor time and model use separately"
+    ],
+    "controls": "existing saved stationary, periodic, noisy controls reanalyzed in C1; high scores do not establish life"
+  },
+  "budget": {
+    "runs": 48,
+    "cell_updates": 3538944
+  },
+  "completion": "four identical configuration/seed anchors per repeat/method; save every numeric and visual outcome, then declare batch1"
+}
