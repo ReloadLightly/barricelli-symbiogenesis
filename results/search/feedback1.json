@@ -1,0 +1,1705 @@
+{
+  "batch": 1,
+  "generated_utc": "2026-10-10T18:12:12.240556+00:00",
+  "instructions": "Propose four untested admissible space indexes per repeat to expand descriptor archive coverage. No renderer/rule changes. Every proposal is a hypothesis; use feedback and retain all outcomes.",
+  "space": [
+    {
+      "alphabet_id": 0,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.9,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.9,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.9,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "two_patches"
+    }
+  ],
+  "repeats": {
+    "0": [
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 0,
+        "space_index": 12,
+        "theta": {
+          "alphabet_id": 1,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4100,
+        "path": "results/search/codex_feedback/repeat0/trial00",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 0.920654296875,
+          "tail_activity": 0.7459677419354839,
+          "tail_repeated4_fraction": 0.97075,
+          "retained_repeated4_signatures": 8,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.3165105299097077,
+          "tail_compressibility": 0.9864501953125,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -2.0,
+          "signature_count_total": 1071,
+          "descriptor_seconds": 1.471208740000293,
+          "recurrence": null,
+          "vector": [
+            0.920654296875,
+            0.7459677419354839,
+            0.97075,
+            0.9864501953125
+          ],
+          "archive_bin": [
+            4,
+            3,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": null,
+        "engine_seconds": 0.00578921,
+        "process_seconds": 0.012687227999776951,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 1,
+        "space_index": 10,
+        "theta": {
+          "alphabet_id": 0,
+          "density": 0.9,
+          "layout": "center_patch"
+        },
+        "seed": 4101,
+        "path": "results/search/codex_feedback/repeat0/trial01",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99456787109375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 40,
+          "descriptor_seconds": 0.6374072010003147,
+          "recurrence": {
+            "first_time": 92,
+            "return_time": 94,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99456787109375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.2678611354822626,
+        "engine_seconds": 0.0117299,
+        "process_seconds": 0.021851405999768758,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 2,
+        "space_index": 31,
+        "theta": {
+          "alphabet_id": 2,
+          "density": 0.65,
+          "layout": "center_patch"
+        },
+        "seed": 4102,
+        "path": "results/search/codex_feedback/repeat0/trial02",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.9945068359375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 898,
+          "descriptor_seconds": 1.7601123130007181,
+          "recurrence": {
+            "first_time": 114,
+            "return_time": 116,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.9945068359375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.13396016394135365,
+        "engine_seconds": 0.0201677,
+        "process_seconds": 0.04030460499961919,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 3,
+        "space_index": 11,
+        "theta": {
+          "alphabet_id": 0,
+          "density": 0.9,
+          "layout": "two_patches"
+        },
+        "seed": 4103,
+        "path": "results/search/codex_feedback/repeat0/trial03",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 42,
+          "descriptor_seconds": 1.0612874819998979,
+          "recurrence": {
+            "first_time": 128,
+            "return_time": 130,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.08934869920052928,
+        "engine_seconds": 0.0260407,
+        "process_seconds": 0.04403499100044428,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 4,
+        "space_index": 36,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4104,
+        "path": "results/search/codex_feedback/repeat0/trial04",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.923095703125,
+          "tail_activity": 0.8462701612903226,
+          "tail_repeated4_fraction": 0.8803060412317403,
+          "retained_repeated4_signatures": 8,
+          "tail_new4_signatures": 13,
+          "tail_entropy_bits": 1.838813713186247,
+          "tail_compressibility": 0.9791259765625,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1440,
+          "descriptor_seconds": 1.3303060489997733,
+          "recurrence": null,
+          "vector": [
+            0.923095703125,
+            0.8462701612903226,
+            0.8803060412317403,
+            0.9791259765625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.18511077295306969,
+        "engine_seconds": 0.00936719,
+        "process_seconds": 0.019969502000094508,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 5,
+        "space_index": 39,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.35,
+          "layout": "uniform"
+        },
+        "seed": 4105,
+        "path": "results/search/codex_feedback/repeat0/trial05",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.90673828125,
+          "tail_activity": 0.6622983870967742,
+          "tail_repeated4_fraction": 0.8125194998249732,
+          "retained_repeated4_signatures": 3,
+          "tail_new4_signatures": 6,
+          "tail_entropy_bits": 1.3914762748370197,
+          "tail_compressibility": 0.97698974609375,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1886,
+          "descriptor_seconds": 1.7126742700002069,
+          "recurrence": null,
+          "vector": [
+            0.90673828125,
+            0.6622983870967742,
+            0.8125194998249732,
+            0.97698974609375
+          ],
+          "archive_bin": [
+            4,
+            3,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.25809113614116314,
+        "engine_seconds": 0.0157648,
+        "process_seconds": 0.025059861000045203,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 6,
+        "space_index": 24,
+        "theta": {
+          "alphabet_id": 2,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4106,
+        "path": "results/search/codex_feedback/repeat0/trial06",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.8125,
+          "tail_activity": 0.921875,
+          "tail_repeated4_fraction": 0.88125,
+          "retained_repeated4_signatures": 12,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.9855662121133189,
+          "tail_compressibility": 0.98773193359375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1830,
+          "descriptor_seconds": 1.737801170998864,
+          "recurrence": {
+            "first_time": 122,
+            "return_time": 250,
+            "period": 128
+          },
+          "vector": [
+            0.8125,
+            0.921875,
+            0.88125,
+            0.98773193359375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.1982321594365657,
+        "engine_seconds": 0.0163626,
+        "process_seconds": 0.04005843099912454,
+        "max_rss_kib": 3584
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 0,
+        "trial": 7,
+        "space_index": 14,
+        "theta": {
+          "alphabet_id": 1,
+          "density": 0.15,
+          "layout": "two_patches"
+        },
+        "seed": 4107,
+        "path": "results/search/codex_feedback/repeat0/trial07",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.734375,
+          "tail_activity": 0.734375,
+          "tail_repeated4_fraction": 0.9586776859504132,
+          "retained_repeated4_signatures": 8,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.5068558015234421,
+          "tail_compressibility": 0.99090576171875,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": 1.0,
+          "signature_count_total": 93,
+          "descriptor_seconds": 1.1004004950009403,
+          "recurrence": null,
+          "vector": [
+            0.734375,
+            0.734375,
+            0.9586776859504132,
+            0.99090576171875
+          ],
+          "archive_bin": [
+            3,
+            3,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.2125873247579039,
+        "engine_seconds": 0.0136067,
+        "process_seconds": 0.03181203500025731,
+        "max_rss_kib": 3712
+      }
+    ],
+    "1": [
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 0,
+        "space_index": 45,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.9,
+          "layout": "uniform"
+        },
+        "seed": 4200,
+        "path": "results/search/codex_feedback/repeat1/trial00",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 0.748046875,
+          "tail_activity": 0.8510584677419355,
+          "tail_repeated4_fraction": 0.9277500000000001,
+          "retained_repeated4_signatures": 13,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.61565811485004,
+          "tail_compressibility": 0.9852294921875,
+          "exact_translation_fraction": 0.8709677419354839,
+          "median_best_shift": -3.0,
+          "signature_count_total": 2037,
+          "descriptor_seconds": 0.834039617999224,
+          "recurrence": null,
+          "vector": [
+            0.748046875,
+            0.8510584677419355,
+            0.9277500000000001,
+            0.9852294921875
+          ],
+          "archive_bin": [
+            3,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": null,
+        "engine_seconds": 0.00804304,
+        "process_seconds": 0.013795849999951315,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 1,
+        "space_index": 3,
+        "theta": {
+          "alphabet_id": 0,
+          "density": 0.35,
+          "layout": "uniform"
+        },
+        "seed": 4201,
+        "path": "results/search/codex_feedback/repeat1/trial01",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 35,
+          "descriptor_seconds": 0.8960020400008943,
+          "recurrence": {
+            "first_time": 131,
+            "return_time": 133,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.3016162606912366,
+        "engine_seconds": 0.00919593,
+        "process_seconds": 0.016951121000602143,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 2,
+        "space_index": 33,
+        "theta": {
+          "alphabet_id": 2,
+          "density": 0.9,
+          "layout": "uniform"
+        },
+        "seed": 4202,
+        "path": "results/search/codex_feedback/repeat1/trial02",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 0.937255859375,
+          "tail_activity": 0.6333165322580645,
+          "tail_repeated4_fraction": 0.9452499999999999,
+          "retained_repeated4_signatures": 21,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.5102686909621714,
+          "tail_compressibility": 0.97711181640625,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -5.0,
+          "signature_count_total": 968,
+          "descriptor_seconds": 0.7966490949984291,
+          "recurrence": null,
+          "vector": [
+            0.937255859375,
+            0.6333165322580645,
+            0.9452499999999999,
+            0.97711181640625
+          ],
+          "archive_bin": [
+            4,
+            3,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.3327682368745443,
+        "engine_seconds": 0.0095975,
+        "process_seconds": 0.01686439200057066,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 3,
+        "space_index": 42,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.65,
+          "layout": "uniform"
+        },
+        "seed": 4203,
+        "path": "results/search/codex_feedback/repeat1/trial03",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 2036,
+          "descriptor_seconds": 0.8060373190000973,
+          "recurrence": {
+            "first_time": 193,
+            "return_time": 195,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.2260147378239549,
+        "engine_seconds": 0.00646593,
+        "process_seconds": 0.012856315001045004,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 4,
+        "space_index": 36,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4204,
+        "path": "results/search/codex_feedback/repeat1/trial04",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99456787109375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 2269,
+          "descriptor_seconds": 1.0200285789996997,
+          "recurrence": {
+            "first_time": 214,
+            "return_time": 216,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99456787109375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.10057881170169934,
+        "engine_seconds": 0.00973339,
+        "process_seconds": 0.019954261000748374,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 5,
+        "space_index": 37,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "center_patch"
+        },
+        "seed": 4205,
+        "path": "results/search/codex_feedback/repeat1/trial05",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 1596,
+          "descriptor_seconds": 1.8505541710001125,
+          "recurrence": {
+            "first_time": 201,
+            "return_time": 203,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 2.0345052083333332e-05,
+        "engine_seconds": 0.0165815,
+        "process_seconds": 0.03584470599889755,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 6,
+        "space_index": 24,
+        "theta": {
+          "alphabet_id": 2,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4206,
+        "path": "results/search/codex_feedback/repeat1/trial06",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.9296875,
+          "tail_activity": 0.578125,
+          "tail_repeated4_fraction": 0.96275,
+          "retained_repeated4_signatures": 12,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.2963499974865935,
+          "tail_compressibility": 0.987548828125,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": 1.0,
+          "signature_count_total": 1044,
+          "descriptor_seconds": 0.8876866219998192,
+          "recurrence": null,
+          "vector": [
+            0.9296875,
+            0.578125,
+            0.96275,
+            0.987548828125
+          ],
+          "archive_bin": [
+            4,
+            2,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.27280328695680334,
+        "engine_seconds": 0.00965776,
+        "process_seconds": 0.020281113000237383,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 1,
+        "trial": 7,
+        "space_index": 12,
+        "theta": {
+          "alphabet_id": 1,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4207,
+        "path": "results/search/codex_feedback/repeat1/trial07",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.645263671875,
+          "tail_activity": 0.7064012096774194,
+          "tail_repeated4_fraction": 0.7369858065680532,
+          "retained_repeated4_signatures": 3,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.9029744973494327,
+          "tail_compressibility": 0.98388671875,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1024,
+          "descriptor_seconds": 1.2384272780000174,
+          "recurrence": null,
+          "vector": [
+            0.645263671875,
+            0.7064012096774194,
+            0.7369858065680532,
+            0.98388671875
+          ],
+          "archive_bin": [
+            3,
+            3,
+            3
+          ]
+        },
+        "novelty_to_previous_knn3": 0.3372580301257872,
+        "engine_seconds": 0.00641076,
+        "process_seconds": 0.01242951999847719,
+        "max_rss_kib": 3712
+      }
+    ],
+    "2": [
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 0,
+        "space_index": 38,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "two_patches"
+        },
+        "seed": 4300,
+        "path": "results/search/codex_feedback/repeat2/trial00",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 0.9609375,
+          "tail_activity": 0.9921875,
+          "tail_repeated4_fraction": 0.8943089430894309,
+          "retained_repeated4_signatures": 3,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.3542733870131107,
+          "tail_compressibility": 0.9901123046875,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1512,
+          "descriptor_seconds": 0.6280818800005363,
+          "recurrence": null,
+          "vector": [
+            0.9609375,
+            0.9921875,
+            0.8943089430894309,
+            0.9901123046875
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": null,
+        "engine_seconds": 0.0184904,
+        "process_seconds": 0.03146372999981395,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 1,
+        "space_index": 9,
+        "theta": {
+          "alphabet_id": 0,
+          "density": 0.9,
+          "layout": "uniform"
+        },
+        "seed": 4301,
+        "path": "results/search/codex_feedback/repeat2/trial01",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99456787109375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 42,
+          "descriptor_seconds": 0.644952241998908,
+          "recurrence": {
+            "first_time": 129,
+            "return_time": 131,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99456787109375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.11303701006915241,
+        "engine_seconds": 0.0112326,
+        "process_seconds": 0.016313730000547366,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 2,
+        "space_index": 45,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.9,
+          "layout": "uniform"
+        },
+        "seed": 4302,
+        "path": "results/search/codex_feedback/repeat2/trial02",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.9945068359375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 1323,
+          "descriptor_seconds": 0.8098834120009997,
+          "recurrence": {
+            "first_time": 92,
+            "return_time": 94,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.9945068359375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.05654782793141496,
+        "engine_seconds": 0.0108666,
+        "process_seconds": 0.019077877999734483,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 3,
+        "space_index": 5,
+        "theta": {
+          "alphabet_id": 0,
+          "density": 0.35,
+          "layout": "two_patches"
+        },
+        "seed": 4303,
+        "path": "results/search/codex_feedback/repeat2/trial03",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 27,
+          "descriptor_seconds": 0.6876533439990453,
+          "recurrence": {
+            "first_time": 131,
+            "return_time": 133,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.037740845935215116,
+        "engine_seconds": 0.00758477,
+        "process_seconds": 0.014089698001043871,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 4,
+        "space_index": 36,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4304,
+        "path": "results/search/codex_feedback/repeat2/trial04",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.9945068359375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 2023,
+          "descriptor_seconds": 1.626480265000282,
+          "recurrence": {
+            "first_time": 193,
+            "return_time": 195,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.9945068359375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 6.103515625e-05,
+        "engine_seconds": 0.0119401,
+        "process_seconds": 0.025764877998881275,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 5,
+        "space_index": 39,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.35,
+          "layout": "uniform"
+        },
+        "seed": 4305,
+        "path": "results/search/codex_feedback/repeat2/trial05",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.662109375,
+          "tail_activity": 0.766633064516129,
+          "tail_repeated4_fraction": 0.4421830272732591,
+          "retained_repeated4_signatures": 7,
+          "tail_new4_signatures": 117,
+          "tail_entropy_bits": 2.4172920991169367,
+          "tail_compressibility": 0.9197998046875,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 2667,
+          "descriptor_seconds": 1.1346205379995808,
+          "recurrence": null,
+          "vector": [
+            0.662109375,
+            0.766633064516129,
+            0.4421830272732591,
+            0.9197998046875
+          ],
+          "archive_bin": [
+            3,
+            3,
+            2
+          ]
+        },
+        "novelty_to_previous_knn3": 0.6615287506326019,
+        "engine_seconds": 0.0123852,
+        "process_seconds": 0.020894573999612476,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 6,
+        "space_index": 24,
+        "theta": {
+          "alphabet_id": 2,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4306,
+        "path": "results/search/codex_feedback/repeat2/trial06",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.9921875,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 0.964,
+          "retained_repeated4_signatures": 4,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.5458527858540099,
+          "tail_compressibility": 0.99237060546875,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1717,
+          "descriptor_seconds": 1.4697509420002461,
+          "recurrence": {
+            "first_time": 206,
+            "return_time": 208,
+            "period": 2
+          },
+          "vector": [
+            0.9921875,
+            1.0,
+            0.964,
+            0.99237060546875
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.03690104062509921,
+        "engine_seconds": 0.0152991,
+        "process_seconds": 0.029027860999121913,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 2,
+        "trial": 7,
+        "space_index": 13,
+        "theta": {
+          "alphabet_id": 1,
+          "density": 0.15,
+          "layout": "center_patch"
+        },
+        "seed": 4307,
+        "path": "results/search/codex_feedback/repeat2/trial07",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.765625,
+          "tail_activity": 0.90625,
+          "tail_repeated4_fraction": 0.9257093243265226,
+          "retained_repeated4_signatures": 6,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.9061204292963432,
+          "tail_compressibility": 0.99005126953125,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 854,
+          "descriptor_seconds": 0.9807675189986185,
+          "recurrence": null,
+          "vector": [
+            0.765625,
+            0.90625,
+            0.9257093243265226,
+            0.99005126953125
+          ],
+          "archive_bin": [
+            3,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.2423429426985492,
+        "engine_seconds": 0.0150084,
+        "process_seconds": 0.033952096999200876,
+        "max_rss_kib": 3712
+      }
+    ],
+    "3": [
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 0,
+        "space_index": 37,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "center_patch"
+        },
+        "seed": 4400,
+        "path": "results/search/codex_feedback/repeat3/trial00",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 0.5,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 4,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99359130859375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 2056,
+          "descriptor_seconds": 0.797227428000042,
+          "recurrence": {
+            "first_time": 211,
+            "return_time": 215,
+            "period": 4
+          },
+          "vector": [
+            1.0,
+            0.5,
+            1.0,
+            0.99359130859375
+          ],
+          "archive_bin": [
+            4,
+            2,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": null,
+        "engine_seconds": 0.00684805,
+        "process_seconds": 0.014938737998818397,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 1,
+        "space_index": 41,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.35,
+          "layout": "two_patches"
+        },
+        "seed": 4401,
+        "path": "results/search/codex_feedback/repeat3/trial01",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 1270,
+          "descriptor_seconds": 1.0932847969997965,
+          "recurrence": {
+            "first_time": 139,
+            "return_time": 141,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.5000010766077372,
+        "engine_seconds": 0.00716218,
+        "process_seconds": 0.012062273000992718,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 2,
+        "space_index": 21,
+        "theta": {
+          "alphabet_id": 1,
+          "density": 0.9,
+          "layout": "uniform"
+        },
+        "seed": 4402,
+        "path": "results/search/codex_feedback/repeat3/trial02",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.9945068359375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 677,
+          "descriptor_seconds": 0.6859478290007246,
+          "recurrence": {
+            "first_time": 120,
+            "return_time": 122,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.9945068359375
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.2500614542510573,
+        "engine_seconds": 0.0086437,
+        "process_seconds": 0.01723952499924053,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 3,
+        "space_index": 43,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.65,
+          "layout": "center_patch"
+        },
+        "seed": 4403,
+        "path": "results/search/codex_feedback/repeat3/trial03",
+        "reason": "shared initial exploration",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 1.0,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 1.0,
+          "tail_compressibility": 0.99462890625,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 1686,
+          "descriptor_seconds": 1.048553966000327,
+          "recurrence": {
+            "first_time": 168,
+            "return_time": 170,
+            "period": 2
+          },
+          "vector": [
+            1.0,
+            1.0,
+            1.0,
+            0.99462890625
+          ],
+          "archive_bin": [
+            4,
+            4,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.16670771564007905,
+        "engine_seconds": 0.00633188,
+        "process_seconds": 0.011934121999729541,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 4,
+        "space_index": 36,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4404,
+        "path": "results/search/codex_feedback/repeat3/trial04",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.957275390625,
+          "tail_activity": 0.5372983870967742,
+          "tail_repeated4_fraction": 0.8864176433365124,
+          "retained_repeated4_signatures": 2,
+          "tail_new4_signatures": 3,
+          "tail_entropy_bits": 1.1159823571672343,
+          "tail_compressibility": 0.98321533203125,
+          "exact_translation_fraction": 0.7096774193548387,
+          "median_best_shift": -1.0,
+          "signature_count_total": 2787,
+          "descriptor_seconds": 0.9904767120006,
+          "recurrence": null,
+          "vector": [
+            0.957275390625,
+            0.5372983870967742,
+            0.8864176433365124,
+            0.98321533203125
+          ],
+          "archive_bin": [
+            4,
+            2,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.3614494393441863,
+        "engine_seconds": 0.0114815,
+        "process_seconds": 0.028781912000340526,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 5,
+        "space_index": 39,
+        "theta": {
+          "alphabet_id": 3,
+          "density": 0.35,
+          "layout": "uniform"
+        },
+        "seed": 4405,
+        "path": "results/search/codex_feedback/repeat3/trial05",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.857421875,
+          "tail_activity": 0.9490927419354839,
+          "tail_repeated4_fraction": 0.7698044228333496,
+          "retained_repeated4_signatures": 7,
+          "tail_new4_signatures": 95,
+          "tail_entropy_bits": 2.3495108749772378,
+          "tail_compressibility": 0.9600830078125,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -5.0,
+          "signature_count_total": 3241,
+          "descriptor_seconds": 1.0586943799989967,
+          "recurrence": null,
+          "vector": [
+            0.857421875,
+            0.9490927419354839,
+            0.7698044228333496,
+            0.9600830078125
+          ],
+          "archive_bin": [
+            4,
+            4,
+            3
+          ]
+        },
+        "novelty_to_previous_knn3": 0.2776701047316228,
+        "engine_seconds": 0.00736535,
+        "process_seconds": 0.014626213000155985,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 6,
+        "space_index": 24,
+        "theta": {
+          "alphabet_id": 2,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4406,
+        "path": "results/search/codex_feedback/repeat3/trial06",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 1.0,
+          "tail_activity": 0.5,
+          "tail_repeated4_fraction": 1.0,
+          "retained_repeated4_signatures": 4,
+          "tail_new4_signatures": 0,
+          "tail_entropy_bits": 0.8112781244591328,
+          "tail_compressibility": 0.99365234375,
+          "exact_translation_fraction": 1.0,
+          "median_best_shift": -7.0,
+          "signature_count_total": 971,
+          "descriptor_seconds": 1.0219974629999342,
+          "recurrence": {
+            "first_time": 182,
+            "return_time": 186,
+            "period": 4
+          },
+          "vector": [
+            1.0,
+            0.5,
+            1.0,
+            0.99365234375
+          ],
+          "archive_bin": [
+            4,
+            2,
+            4
+          ]
+        },
+        "novelty_to_previous_knn3": 0.20914827629503926,
+        "engine_seconds": 0.00902239,
+        "process_seconds": 0.02429837999989104,
+        "max_rss_kib": 3712
+      },
+      {
+        "method": "codex_feedback",
+        "repeat": 3,
+        "trial": 7,
+        "space_index": 12,
+        "theta": {
+          "alphabet_id": 1,
+          "density": 0.15,
+          "layout": "uniform"
+        },
+        "seed": 4407,
+        "path": "results/search/codex_feedback/repeat3/trial07",
+        "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+        "descriptors": {
+          "tail_occupancy": 0.3955078125,
+          "tail_activity": 0.5133568548387096,
+          "tail_repeated4_fraction": 0.3232867816798404,
+          "retained_repeated4_signatures": 5,
+          "tail_new4_signatures": 124,
+          "tail_entropy_bits": 1.7446011226176177,
+          "tail_compressibility": 0.9534912109375,
+          "exact_translation_fraction": 0.0,
+          "median_best_shift": -1.0,
+          "signature_count_total": 1016,
+          "descriptor_seconds": 0.6934771120013465,
+          "recurrence": null,
+          "vector": [
+            0.3955078125,
+            0.5133568548387096,
+            0.3232867816798404,
+            0.9534912109375
+          ],
+          "archive_bin": [
+            1,
+            2,
+            1
+          ]
+        },
+        "novelty_to_previous_knn3": 0.8270055530596708,
+        "engine_seconds": 0.00734723,
+        "process_seconds": 0.02537977500105626,
+        "max_rss_kib": 3712
+      }
+    ]
+  }
+}

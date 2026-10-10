@@ -1,0 +1,62 @@
+{
+  "caption": "Historical reconstruction: Figures 2, 5, 7, 8, 12 and 18 match Taylor fixtures exactly. Empty cells are blank, negative values underlined, and x denotes exclusion. Displacement, assisted copying, propagation, crossing and mutation are separate observations; Figure7 domain propagation does not establish detached offspring.",
+  "data_sources": [
+    {
+      "file": "results/reconstruction/figure02/trajectory.csv",
+      "sha256": "754651f3431800fce82b81c4e1d6a0b9c872bf152a65addb332dfd01ae9d16fc"
+    },
+    {
+      "file": "results/reconstruction/figure05/trajectory.csv",
+      "sha256": "496f3883cb97a14fadbed8af6602843d4abc2dcc0bbd148f33e59ecd4311b02a"
+    },
+    {
+      "file": "results/reconstruction/figure07/trajectory.csv",
+      "sha256": "df5a2dc720ef7d6a4081d5dec84aaf8addc3d06edae652d3ccb49b42d1c702e1"
+    },
+    {
+      "file": "results/reconstruction/figure08/trajectory.csv",
+      "sha256": "4c45517bff8216eaa0071d64b2d2c7c165684bb6c1b7e0626fdcf980322e893e"
+    },
+    {
+      "file": "results/reconstruction/figure12/trajectory.csv",
+      "sha256": "ae6d1e187e4547bda4b498ba94dc4c25ba3d3337045028df24cf359881dfe732"
+    },
+    {
+      "file": "results/reconstruction/figure18/trajectory.csv",
+      "sha256": "f068c9e0ebef04dc9f7513d21c96ace9076804e4d79ec4a1f1479d04200da6a5"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/figures.py": "782fdd23c98554395e61bb54156bc1e2c40e94f7b20f2d3c07b90a5d39688eeb"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

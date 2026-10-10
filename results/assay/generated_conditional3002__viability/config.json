@@ -1,0 +1,12 @@
+{
+  "model": "research",
+  "norm": "conditional",
+  "width": 256,
+  "steps": 8,
+  "boundary": "open",
+  "seed": null,
+  "initial_state_file": "results/assay/generated_conditional3002__viability/frozen.csv",
+  "modifications": [
+    "eight-step isolated numerical motif recovery check"
+  ]
+}

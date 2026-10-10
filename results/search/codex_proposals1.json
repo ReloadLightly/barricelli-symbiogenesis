@@ -1,0 +1,87 @@
+{
+  "batch": 1,
+  "author": "conversational Codex assistant (GPT-6 family; exact serving identifier not exposed)",
+  "automated_model_integration": false,
+  "external_api_calls": 0,
+  "paid_calls": 0,
+  "feedback_sha256": "b63dca95783798790c6fd6eefb87b1dda4616f7d0a27bef593f7cef8d3a2fa40",
+  "submitted_utc": "2026-10-10T18:11:49.259748+00:00",
+  "feedback_to_submission_wall_seconds": 106.718128,
+  "model_time_and_tokens": "not separately metered; wall interval includes other task work",
+  "observed_feedback": "many bootstrap runs end in full-occupancy, full-activity, repeated period-two textures; some wide/sparse initial conditions occupy different bins",
+  "strategy": "probe sparse wide-displacement alphabets and compare contiguous versus split initial patches; expand archive coverage rather than optimizing an appearance target",
+  "repeats": {
+    "0": [
+      {
+        "space_index": 36,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 39,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 24,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 14,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      }
+    ],
+    "1": [
+      {
+        "space_index": 36,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 37,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 24,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 12,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      }
+    ],
+    "2": [
+      {
+        "space_index": 36,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 39,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 24,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 13,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      }
+    ],
+    "3": [
+      {
+        "space_index": 36,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 39,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 24,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      },
+      {
+        "space_index": 12,
+        "hypothesis": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget."
+      }
+    ]
+  }
+}

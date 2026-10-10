@@ -1,0 +1,380 @@
+{
+  "declared_before_confirmation_execution": true,
+  "selections": [
+    {
+      "method": "random",
+      "selected_from": "results/search/random/repeat3/trial07",
+      "space_index": 26,
+      "theta": {
+        "alphabet_id": 2,
+        "density": 0.15,
+        "layout": "two_patches"
+      },
+      "rule": "largest fixed numerical descriptor distance from the full period-two control; tie favors first recorded run",
+      "selection_is_exploratory": true
+    },
+    {
+      "method": "novelty_archive",
+      "selected_from": "results/search/novelty_archive/repeat2/trial09",
+      "space_index": 39,
+      "theta": {
+        "alphabet_id": 3,
+        "density": 0.35,
+        "layout": "uniform"
+      },
+      "rule": "largest fixed numerical descriptor distance from the full period-two control; tie favors first recorded run",
+      "selection_is_exploratory": true
+    },
+    {
+      "method": "codex_feedback",
+      "selected_from": "results/search/codex_feedback/repeat1/trial10",
+      "space_index": 13,
+      "theta": {
+        "alphabet_id": 1,
+        "density": 0.15,
+        "layout": "center_patch"
+      },
+      "rule": "largest fixed numerical descriptor distance from the full period-two control; tie favors first recorded run",
+      "selection_is_exploratory": true
+    }
+  ],
+  "runs": [
+    {
+      "id": "random_9100",
+      "method": "random",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9100,
+        "initialization": "designed_random",
+        "alphabet": [
+          -5,
+          -3,
+          1,
+          3,
+          5
+        ],
+        "density": 0.15,
+        "layout": "two_patches",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "random_9101",
+      "method": "random",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9101,
+        "initialization": "designed_random",
+        "alphabet": [
+          -5,
+          -3,
+          1,
+          3,
+          5
+        ],
+        "density": 0.15,
+        "layout": "two_patches",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "random_9102",
+      "method": "random",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9102,
+        "initialization": "designed_random",
+        "alphabet": [
+          -5,
+          -3,
+          1,
+          3,
+          5
+        ],
+        "density": 0.15,
+        "layout": "two_patches",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "random_9103",
+      "method": "random",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9103,
+        "initialization": "designed_random",
+        "alphabet": [
+          -5,
+          -3,
+          1,
+          3,
+          5
+        ],
+        "density": 0.15,
+        "layout": "two_patches",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "novelty_archive_9100",
+      "method": "novelty_archive",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9100,
+        "initialization": "designed_random",
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "novelty_archive_9101",
+      "method": "novelty_archive",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9101,
+        "initialization": "designed_random",
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "novelty_archive_9102",
+      "method": "novelty_archive",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9102,
+        "initialization": "designed_random",
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "novelty_archive_9103",
+      "method": "novelty_archive",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9103,
+        "initialization": "designed_random",
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "codex_feedback_9100",
+      "method": "codex_feedback",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9100,
+        "initialization": "designed_random",
+        "alphabet": [
+          -3,
+          1,
+          5
+        ],
+        "density": 0.15,
+        "layout": "center_patch",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "codex_feedback_9101",
+      "method": "codex_feedback",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9101,
+        "initialization": "designed_random",
+        "alphabet": [
+          -3,
+          1,
+          5
+        ],
+        "density": 0.15,
+        "layout": "center_patch",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "codex_feedback_9102",
+      "method": "codex_feedback",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9102,
+        "initialization": "designed_random",
+        "alphabet": [
+          -3,
+          1,
+          5
+        ],
+        "density": 0.15,
+        "layout": "center_patch",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    },
+    {
+      "id": "codex_feedback_9103",
+      "method": "codex_feedback",
+      "config": {
+        "model": "research",
+        "variant": "search_confirmation_B",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 1024,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "seed": 9103,
+        "initialization": "designed_random",
+        "alphabet": [
+          -3,
+          1,
+          5
+        ],
+        "density": 0.15,
+        "layout": "center_patch",
+        "modifications": [
+          "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+          "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+        ]
+      }
+    }
+  ],
+  "limited_generalization": "four fresh states per selected configuration; does not establish broad policy superiority"
+}

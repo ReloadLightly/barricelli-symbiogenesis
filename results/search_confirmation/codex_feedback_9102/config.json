@@ -1,0 +1,22 @@
+{
+  "model": "research",
+  "variant": "search_confirmation_B",
+  "norm": "galloway_B",
+  "width": 128,
+  "steps": 1024,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": 9102,
+  "initialization": "designed_random",
+  "alphabet": [
+    -3,
+    1,
+    5
+  ],
+  "density": 0.15,
+  "layout": "center_patch",
+  "modifications": [
+    "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution",
+    "unseen initial state and four-times discovery horizon; no parameter selection on confirmation data"
+  ]
+}

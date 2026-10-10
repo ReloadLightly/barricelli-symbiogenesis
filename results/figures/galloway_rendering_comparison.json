@@ -1,0 +1,26 @@
+{
+  "caption": "Selected illustration: first predeclared ensemble seed2026, identical saved511\u00d7512 values in two explicit rendering modes. Published palette defaults to white for both0 and out-of-palette values (this run generates\u221222). Research mapping distinguishes them; hue identifies value, not organism.",
+  "data_sources": [
+    {
+      "file": "results/reconstruction/galloway2026/trajectory.csv",
+      "sha256": "48fcff7c2a3ef292dabac9cf7c72649b062ef276abd01298062d943601b35090"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/figures.py": "782fdd23c98554395e61bb54156bc1e2c40e94f7b20f2d3c07b90a5d39688eeb"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

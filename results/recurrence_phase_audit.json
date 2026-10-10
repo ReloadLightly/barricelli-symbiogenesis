@@ -1,0 +1,178 @@
+{
+  "reason": "A temporal A/B environment is part of the dynamical state; recurrence requires equal row AND equal environment phase",
+  "numeric_trajectories_changed": false,
+  "records": [
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_temporal__damage",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_temporal__damage",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_temporal",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_temporal",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_temporal",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6107_galloway_AB_temporal",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_temporal",
+      "previous": {
+        "first_time": 365,
+        "return_time": 367,
+        "period": 2
+      },
+      "phase_aware": {
+        "first_time": 365,
+        "return_time": 367,
+        "period": 2
+      }
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9203_galloway_AB_temporal",
+      "previous": {
+        "first_time": 190,
+        "return_time": 192,
+        "period": 2
+      },
+      "phase_aware": {
+        "first_time": 190,
+        "return_time": 192,
+        "period": 2
+      }
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_temporal",
+      "previous": {
+        "first_time": 383,
+        "return_time": 447,
+        "period": 64
+      },
+      "phase_aware": {
+        "first_time": 383,
+        "return_time": 447,
+        "period": 64
+      }
+    },
+    {
+      "path": "results/heterogeneity/exploration_6101_galloway_AB_temporal__damage",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9201_galloway_AB_temporal",
+      "previous": {
+        "first_time": 347,
+        "return_time": 417,
+        "period": 70
+      },
+      "phase_aware": {
+        "first_time": 347,
+        "return_time": 417,
+        "period": 70
+      }
+    },
+    {
+      "path": "results/heterogeneity/exploration_6104_galloway_AB_temporal",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6102_galloway_AB_temporal__damage",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6106_galloway_AB_temporal__damage",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_temporal__damage",
+      "previous": null,
+      "phase_aware": null
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_temporal__damage",
+      "previous": {
+        "first_time": 81,
+        "return_time": 83,
+        "period": 2
+      },
+      "phase_aware": {
+        "first_time": 81,
+        "return_time": 83,
+        "period": 2
+      }
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9202_galloway_AB_temporal",
+      "previous": {
+        "first_time": 175,
+        "return_time": 239,
+        "period": 64
+      },
+      "phase_aware": {
+        "first_time": 175,
+        "return_time": 239,
+        "period": 64
+      }
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_temporal",
+      "previous": {
+        "first_time": 107,
+        "return_time": 109,
+        "period": 2
+      },
+      "phase_aware": {
+        "first_time": 107,
+        "return_time": 109,
+        "period": 2
+      }
+    },
+    {
+      "path": "results/heterogeneity/exploration_6105_galloway_AB_temporal__damage",
+      "previous": {
+        "first_time": 2,
+        "return_time": 4,
+        "period": 2
+      },
+      "phase_aware": {
+        "first_time": 2,
+        "return_time": 4,
+        "period": 2
+      }
+    },
+    {
+      "path": "results/heterogeneity/exploration_6103_galloway_AB_temporal",
+      "previous": {
+        "first_time": 367,
+        "return_time": 431,
+        "period": 64
+      },
+      "phase_aware": {
+        "first_time": 367,
+        "return_time": 431,
+        "period": 64
+      }
+    }
+  ]
+}

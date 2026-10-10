@@ -1,0 +1,25 @@
+{
+  "tail_occupancy": 0.856689453125,
+  "tail_activity": 0.6693548387096774,
+  "tail_repeated4_fraction": 0.7311133028792913,
+  "retained_repeated4_signatures": 11,
+  "tail_new4_signatures": 0,
+  "tail_entropy_bits": 1.8820574010686872,
+  "tail_compressibility": 0.9820556640625,
+  "exact_translation_fraction": 0.0,
+  "median_best_shift": -1.0,
+  "signature_count_total": 3862,
+  "descriptor_seconds": 7.5245670009990135,
+  "recurrence": null,
+  "vector": [
+    0.856689453125,
+    0.6693548387096774,
+    0.7311133028792913,
+    0.9820556640625
+  ],
+  "archive_bin": [
+    4,
+    3,
+    3
+  ]
+}

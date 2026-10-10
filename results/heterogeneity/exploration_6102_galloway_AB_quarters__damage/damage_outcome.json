@@ -1,0 +1,58 @@
+{
+  "id": "exploration_6102_galloway_AB_quarters__damage",
+  "seed": 6102,
+  "norm": "galloway_AB_quarters",
+  "removed_cells": 8,
+  "damaged": {
+    "tail_occupancy": 0.9921875,
+    "tail_activity": 0.6640625,
+    "tail_repeated4_fraction": 0.9836710210610504,
+    "retained_repeated4_signatures": 3,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 0.9703865123152997,
+    "tail_compressibility": 0.99127197265625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "signature_count_total": 27,
+    "descriptor_seconds": 0.5368562879993988,
+    "recurrence": null,
+    "vector": [
+      0.9921875,
+      0.6640625,
+      0.9836710210610504,
+      0.99127197265625
+    ],
+    "archive_bin": [
+      4,
+      3,
+      4
+    ]
+  },
+  "undamaged_saved_window": {
+    "tail_occupancy": 0.9921875,
+    "tail_activity": 0.6640625,
+    "tail_repeated4_fraction": 0.9836710210610504,
+    "retained_repeated4_signatures": 3,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 0.9703865123152997,
+    "tail_compressibility": 0.99127197265625,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "signature_count_total": 23,
+    "descriptor_seconds": 1.1483619659993565,
+    "vector": [
+      0.9921875,
+      0.6640625,
+      0.9836710210610504,
+      0.99127197265625
+    ],
+    "archive_bin": [
+      4,
+      3,
+      4
+    ]
+  },
+  "occupancy_difference": 0.0,
+  "repeated4_difference": 0.0,
+  "process_seconds": 0.01421963400025561
+}

@@ -1,0 +1,58 @@
+{
+  "caption": "Five explicitly imposed numerical histories, not simulated discoveries: W128,T256, RNG seed7711 for IID noise. Activity equals1 for the period-two and translation controls; IID noise has high entropy but zero retained repeated signatures. Repetition, motion, persistence and entropy therefore require separate interpretations. Every panel derives from saved control CSVs; time increases downward.",
+  "data_sources": [
+    {
+      "file": "results/descriptor_controls/static_periodic/trajectory.csv",
+      "sha256": "1d9ede8d5b9232ba2b8441e5f81bf31f48a290d029725ef6b219edf967d2ff4c"
+    },
+    {
+      "file": "results/descriptor_controls/period_two/trajectory.csv",
+      "sha256": "c3b2c830d0bbea7a17849b83ad9919c1d9fcee2dbfb5f00e300d1dd2845883b6"
+    },
+    {
+      "file": "results/descriptor_controls/translation/trajectory.csv",
+      "sha256": "8cf3d19569e7080c7c1961ef3857af29c4cce85c9aa8d82df3d923e510502e5b"
+    },
+    {
+      "file": "results/descriptor_controls/iid_noise/trajectory.csv",
+      "sha256": "e2c09e137f0395536e99fac85d2508beb361dcf0983b40e28077f003dc42db86"
+    },
+    {
+      "file": "results/descriptor_controls/empty/trajectory.csv",
+      "sha256": "361175270f53359541794fb1a89114c106b8e18f50f37e5e15894cc098912b53"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/comparison_figures.py": "75cb02e297dd6eb61125f918f911a781058542c5272ae773c94332dbc36d940c"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "",
+      "vertical": ""
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

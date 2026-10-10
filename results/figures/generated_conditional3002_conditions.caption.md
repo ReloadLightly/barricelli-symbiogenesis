@@ -1,0 +1,1 @@
+Selected explanatory setting: generated_conditional3002, empty background, placement112, all six specified conditions at the same48-update horizon; shown x64–151 from width256. All other settings remain in assay aggregates. Template equality and occupied domain expansion are measured separately from detached offspring; two-cell guards outside each motif define detachment.

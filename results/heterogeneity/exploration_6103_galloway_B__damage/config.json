@@ -1,0 +1,29 @@
+{
+  "model": "research",
+  "variant": "galloway_B_scaled",
+  "norm": "galloway_B",
+  "width": 128,
+  "steps": 128,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "initialization": "designed_random",
+  "seed": null,
+  "alphabet": [
+    -9,
+    -7,
+    -3,
+    1,
+    5,
+    9,
+    11
+  ],
+  "density": 0.35,
+  "layout": "uniform",
+  "modifications": [
+    "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+    "explicit collision rule: galloway_B",
+    "whole-ring old-row nearest-number lookup across norm boundaries",
+    "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+  ],
+  "initial_state_file": "results/heterogeneity/exploration_6103_galloway_B__damage/frozen.csv"
+}

@@ -1,0 +1,19 @@
+{
+  "model": "research",
+  "norm": "exclusion",
+  "width": 256,
+  "steps": 48,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/assay/historical_figure7__empty__x112__cleared_footprint/frozen.csv",
+  "modifications": [
+    "paired background control with cleared candidate footprint"
+  ],
+  "assay": {
+    "candidate": "historical_figure7",
+    "background": "empty",
+    "placement": 112,
+    "condition": "cleared_footprint"
+  }
+}

@@ -1,0 +1,20 @@
+// Minimal output-only compatibility shim for GCC 11's missing <format>.
+// Used by unchanged Taylor source; does not affect numerical update rules.
+#pragma once
+#include <sstream>
+#include <iomanip>
+#include <string>
+namespace std {
+inline void format_args(ostringstream& out, const string& s, size_t start) { out << s.substr(start); }
+template<class T, class... Args>
+void format_args(ostringstream& out, const string& s, size_t start, T value, Args... rest) {
+  size_t a=s.find('{',start), b=s.find('}',a);
+  out << s.substr(start,a-start);
+  if(b>a+2 && s[a+1]==':') out << setw(stoi(s.substr(a+2,b-a-2)));
+  out << value;
+  format_args(out,s,b+1,rest...);
+}
+template<class... Args> string format(const string& s, Args... args) {
+  ostringstream out; format_args(out,s,0,args...); return out.str();
+}
+}

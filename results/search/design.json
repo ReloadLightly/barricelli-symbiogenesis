@@ -1,0 +1,300 @@
+{
+  "declared_before_execution": true,
+  "methods": [
+    "random",
+    "novelty_archive",
+    "codex_feedback"
+  ],
+  "repeated_searches": 4,
+  "evaluations_per_search": 12,
+  "width": 128,
+  "steps": 256,
+  "update_budget_per_search": 393216,
+  "space": [
+    {
+      "alphabet_id": 0,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 0,
+      "density": 0.9,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 1,
+      "density": 0.9,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 2,
+      "density": 0.9,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.15,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.15,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.15,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.35,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.35,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.35,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.65,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.65,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.65,
+      "layout": "two_patches"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "uniform"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "center_patch"
+    },
+    {
+      "alphabet_id": 3,
+      "density": 0.9,
+      "layout": "two_patches"
+    }
+  ],
+  "alphabets": [
+    [
+      -1,
+      1
+    ],
+    [
+      -3,
+      1,
+      5
+    ],
+    [
+      -5,
+      -3,
+      1,
+      3,
+      5
+    ],
+    [
+      -9,
+      -7,
+      -3,
+      1,
+      5,
+      9,
+      11
+    ]
+  ],
+  "shared_bootstrap": "first4 configurations and seed schedule identical across methods; actual simulation executions counted for each method",
+  "random_policy": "uniform configuration index, without replacement after shared bootstrap",
+  "novelty_policy": "select evaluated parent with largest mean three-nearest descriptor distance; sample an untested one-factor neighbor; fall back to untested random",
+  "codex_policy": "two conversational feedback rounds, four proposals per repeated search per round; admissible configuration indexes only; logs retained",
+  "fixed_renderer": "configs/palette.json; numerical descriptors do not depend on renderer",
+  "primary_measure": "coverage in5\u00d75\u00d75 occupancy/activity/repeated4 archive; nearest-neighbor diversity supplementary",
+  "model_use": {
+    "automated_integration": false,
+    "external_api_calls": 0,
+    "paid_calls": 0,
+    "token_cost": "not separately metered by the conversational interface"
+  },
+  "confirmation_seeds": [
+    9100,
+    9101,
+    9102,
+    9103
+  ]
+}

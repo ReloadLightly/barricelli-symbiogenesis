@@ -1,0 +1,47 @@
+{
+  "method": "codex_feedback",
+  "repeat": 0,
+  "trial": 9,
+  "space_index": 27,
+  "theta": {
+    "alphabet_id": 2,
+    "density": 0.35,
+    "layout": "uniform"
+  },
+  "seed": 4109,
+  "path": "results/search/codex_feedback/repeat0/trial09",
+  "reason": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation.",
+  "descriptors": {
+    "tail_occupancy": 0.999755859375,
+    "tail_activity": 0.9942036290322581,
+    "tail_repeated4_fraction": 0.9885,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.003010845326418,
+    "tail_compressibility": 0.99298095703125,
+    "exact_translation_fraction": 0.9354838709677419,
+    "median_best_shift": -7.0,
+    "signature_count_total": 1382,
+    "descriptor_seconds": 1.5310770369997044,
+    "recurrence": {
+      "first_time": 238,
+      "return_time": 240,
+      "period": 2
+    },
+    "vector": [
+      0.999755859375,
+      0.9942036290322581,
+      0.9885,
+      0.99298095703125
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": 0.012973016052521338,
+  "engine_seconds": 0.0214488,
+  "process_seconds": 0.03303699800017057,
+  "max_rss_kib": 3712
+}

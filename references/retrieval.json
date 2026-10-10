@@ -1,0 +1,89 @@
+[
+  {
+    "name": "barricelli2026numerical.pdf",
+    "url": "https://www.tim-taylor.com/papers/barricelli2026numerical.pdf",
+    "retrieved_utc": "2026-10-10T17:49:35.068057+00:00",
+    "status": 200,
+    "final_url": "https://www.tim-taylor.com/papers/barricelli2026numerical.pdf",
+    "bytes": 926089,
+    "sha256": "3cef8ee9444d5a30b119083795e96b9454b9d60dd12064cb839d3ca345718c8a"
+  },
+  {
+    "name": "taylor2026commentary.pdf",
+    "url": "https://www.tim-taylor.com/papers/taylor2026commentary.pdf",
+    "retrieved_utc": "2026-10-10T17:49:35.069523+00:00",
+    "status": 200,
+    "final_url": "https://www.tim-taylor.com/papers/taylor2026commentary.pdf",
+    "bytes": 4206732,
+    "sha256": "46393165639786b2884a0cf1a617a9bab32f68d15237a75265efced7bea21e9a"
+  },
+  {
+    "name": "Barricelli.pde",
+    "url": "https://cultureandcommunication.org/galloway/Barricelli/Barricelli.pde",
+    "retrieved_utc": "2026-10-10T17:49:35.069952+00:00",
+    "status": 200,
+    "final_url": "https://cultureandcommunication.org/galloway/Barricelli/Barricelli.pde",
+    "bytes": 12052,
+    "sha256": "2b39ea4623ca9b350c5127fa324006ec2cdfa5690636f0b89a7ff3aaabfb65ae"
+  },
+  {
+    "name": "galloway-index.html",
+    "url": "https://cultureandcommunication.org/galloway/Barricelli/",
+    "retrieved_utc": "2026-10-10T17:49:35.070358+00:00",
+    "status": 200,
+    "final_url": "https://cultureandcommunication.org/galloway/Barricelli/",
+    "bytes": 5106,
+    "sha256": "751e5273352c6ffc82371fd35050a45e16ed8d1c21db96162a3818d512200051"
+  },
+  {
+    "name": "galloway-retrospective.html",
+    "url": "https://cultureandcommunication.org/galloway/ephemera-pt-3-barricelli",
+    "retrieved_utc": "2026-10-10T17:49:35.070731+00:00",
+    "status": 200,
+    "final_url": "https://cultureandcommunication.org/galloway/ephemera-pt-3-barricelli",
+    "bytes": 31330,
+    "sha256": "2dbcc44e508c63e24c56ad426e028d04469c2aca66e831e58edaa94a5c615f8d"
+  },
+  {
+    "name": "ashford-arxiv-v1.html",
+    "url": "https://arxiv.org/html/2603.08463v1",
+    "retrieved_utc": "2026-10-10T17:49:35.071198+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2603.08463v1",
+    "bytes": 274567,
+    "sha256": "18ea612094ed0e4720df8725f965a89042f58ac9d8a58a67647b38ec592e58a8"
+  },
+  {
+    "name": "ashford-arxiv-abstract.html",
+    "url": "https://arxiv.org/abs/2603.08463",
+    "retrieved_utc": "2026-10-10T17:49:35.071602+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2603.08463",
+    "bytes": 41195,
+    "sha256": "d49311ac152ddac191c3a03d826f7dd0b31859b13c788713476bb923db0448b6"
+  },
+  {
+    "name": "chapter-5.html",
+    "url": "https://www.tim-taylor.com/selfrepbook/web/chapter-5.html",
+    "retrieved_utc": "2026-10-10T17:49:35.071953+00:00",
+    "status": 200,
+    "final_url": "https://www.tim-taylor.com/selfrepbook/web/chapter-5.html",
+    "bytes": 149180,
+    "sha256": "d8de92a9515f08777ed6187e7031d005be58d674197486199f9351dddb532884"
+  },
+  {
+    "name": "gecco-doi.html",
+    "url": "https://doi.org/10.1145/3795101.3814707",
+    "retrieved_utc": "2026-10-10T17:49:35.261267+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "symba-readme.md",
+    "url": "https://raw.githubusercontent.com/JELAshford/symba-alice-2026/main/README.md",
+    "retrieved_utc": "2026-10-10T17:49:35.399423+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/JELAshford/symba-alice-2026/main/README.md",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

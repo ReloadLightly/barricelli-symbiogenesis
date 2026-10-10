@@ -1,0 +1,13 @@
+{
+  "model": "research",
+  "width": 256,
+  "steps": 24,
+  "norm": "exclusion",
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "initialization": "resident_exclusion",
+  "seed": 3001,
+  "modifications": [
+    "width256, sampled {-3,0,1,5} resident row; exclusion norm unchanged"
+  ]
+}

@@ -1,0 +1,1 @@
+Historical reconstruction: Figures 2, 5, 7, 8, 12 and 18 match Taylor fixtures exactly. Empty cells are blank, negative values underlined, and x denotes exclusion. Displacement, assisted copying, propagation, crossing and mutation are separate observations; Figure7 domain propagation does not establish detached offspring.

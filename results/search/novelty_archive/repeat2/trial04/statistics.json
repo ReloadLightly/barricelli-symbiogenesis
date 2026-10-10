@@ -1,0 +1,31 @@
+{
+  "engine_seconds": 0.00695269,
+  "max_rss_kib": 3712,
+  "attempted_copies": 54435,
+  "accepted_outcomes": 54140,
+  "collisions": 295,
+  "newly_produced_values": 5,
+  "erasures": 290,
+  "fresh_writes": 22114,
+  "same_value_outcomes": 32026,
+  "out_of_bounds": 0,
+  "depth_cap": 0,
+  "inprocess_rusage_max_rss_kib": 3328,
+  "process_seconds": 0.015202284999759286,
+  "width": 128,
+  "steps": 256,
+  "final_occupancy": 92,
+  "peak_occupancy": 92,
+  "unique_valid_values": 9,
+  "values_absent_initial": [
+    -5,
+    -1,
+    3,
+    12
+  ],
+  "whole_world_recurrence": {
+    "first_time": 82,
+    "return_time": 210,
+    "period": 128
+  }
+}

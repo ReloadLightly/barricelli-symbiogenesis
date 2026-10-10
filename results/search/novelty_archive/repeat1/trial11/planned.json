@@ -1,0 +1,35 @@
+{
+  "config": {
+    "model": "research",
+    "variant": "galloway_B_scaled",
+    "norm": "galloway_B",
+    "width": 128,
+    "steps": 256,
+    "boundary": "ring",
+    "iteration_order": "ascending",
+    "seed": 4211,
+    "initialization": "designed_random",
+    "alphabet": [
+      -9,
+      -7,
+      -3,
+      1,
+      5,
+      9,
+      11
+    ],
+    "density": 0.15,
+    "layout": "two_patches",
+    "modifications": [
+      "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution"
+    ],
+    "search": {
+      "method": "novelty_archive",
+      "repeat": 1,
+      "trial": 11,
+      "space_index": 38
+    }
+  },
+  "reason": "descriptor-novel parent; untested one-factor neighbor",
+  "declared_utc": "2026-10-10T18:09:10.572413+00:00"
+}

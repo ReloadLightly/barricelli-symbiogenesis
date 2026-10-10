@@ -1,0 +1,20 @@
+{
+  "selection": "three selected illustrations from the complete six-run published-profile ensemble; aesthetic judgments, not scientific sampling",
+  "works": [
+    {
+      "run": "results/reconstruction/galloway2026",
+      "slug": "confluence",
+      "title": "Confluence / 2026"
+    },
+    {
+      "run": "results/ensemble/galloway2029",
+      "slug": "strata",
+      "title": "Strata / 2029"
+    },
+    {
+      "run": "results/ensemble/galloway2030",
+      "slug": "fault-lines",
+      "title": "Fault lines / 2030"
+    }
+  ]
+}

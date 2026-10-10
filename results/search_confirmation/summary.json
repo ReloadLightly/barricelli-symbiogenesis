@@ -1,0 +1,438 @@
+{
+  "selections": [
+    {
+      "method": "random",
+      "selected_from": "results/search/random/repeat3/trial07",
+      "space_index": 26,
+      "theta": {
+        "alphabet_id": 2,
+        "density": 0.15,
+        "layout": "two_patches"
+      },
+      "rule": "largest fixed numerical descriptor distance from the full period-two control; tie favors first recorded run",
+      "selection_is_exploratory": true
+    },
+    {
+      "method": "novelty_archive",
+      "selected_from": "results/search/novelty_archive/repeat2/trial09",
+      "space_index": 39,
+      "theta": {
+        "alphabet_id": 3,
+        "density": 0.35,
+        "layout": "uniform"
+      },
+      "rule": "largest fixed numerical descriptor distance from the full period-two control; tie favors first recorded run",
+      "selection_is_exploratory": true
+    },
+    {
+      "method": "codex_feedback",
+      "selected_from": "results/search/codex_feedback/repeat1/trial10",
+      "space_index": 13,
+      "theta": {
+        "alphabet_id": 1,
+        "density": 0.15,
+        "layout": "center_patch"
+      },
+      "rule": "largest fixed numerical descriptor distance from the full period-two control; tie favors first recorded run",
+      "selection_is_exploratory": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "random_9100",
+      "method": "random",
+      "seed": 9100,
+      "path": "results/search_confirmation/random_9100",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 72,
+      "descriptor_seconds": 3.8590274440011854,
+      "recurrence": {
+        "first_time": 50,
+        "return_time": 52,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "random_9101",
+      "method": "random",
+      "seed": 9101,
+      "path": "results/search_confirmation/random_9101",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.5,
+      "tail_compressibility": 0.9935302734375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 2630,
+      "descriptor_seconds": 2.487950336000722,
+      "recurrence": {
+        "first_time": 371,
+        "return_time": 375,
+        "period": 4
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9935302734375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "random_9102",
+      "method": "random",
+      "seed": 9102,
+      "path": "results/search_confirmation/random_9102",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99444580078125,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 240,
+      "descriptor_seconds": 2.816604298999664,
+      "recurrence": {
+        "first_time": 58,
+        "return_time": 60,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99444580078125
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "random_9103",
+      "method": "random",
+      "seed": 9103,
+      "path": "results/search_confirmation/random_9103",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99462890625,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 968,
+      "descriptor_seconds": 2.6364801619984064,
+      "recurrence": {
+        "first_time": 241,
+        "return_time": 243,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99462890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "novelty_archive_9100",
+      "method": "novelty_archive",
+      "seed": 9100,
+      "path": "results/search_confirmation/novelty_archive_9100",
+      "tail_occupancy": 0.9921875,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 0.964,
+      "retained_repeated4_signatures": 4,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.2259692194347762,
+      "tail_compressibility": 0.99371337890625,
+      "exact_translation_fraction": 0.0,
+      "median_best_shift": -1.0,
+      "signature_count_total": 1407,
+      "descriptor_seconds": 2.6497087170009763,
+      "recurrence": {
+        "first_time": 141,
+        "return_time": 143,
+        "period": 2
+      },
+      "vector": [
+        0.9921875,
+        1.0,
+        0.964,
+        0.99371337890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "novelty_archive_9101",
+      "method": "novelty_archive",
+      "seed": 9101,
+      "path": "results/search_confirmation/novelty_archive_9101",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99456787109375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 2704,
+      "descriptor_seconds": 2.7397657000001345,
+      "recurrence": {
+        "first_time": 262,
+        "return_time": 264,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99456787109375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "novelty_archive_9102",
+      "method": "novelty_archive",
+      "seed": 9102,
+      "path": "results/search_confirmation/novelty_archive_9102",
+      "tail_occupancy": 0.9990234375,
+      "tail_activity": 0.6582661290322581,
+      "tail_repeated4_fraction": 0.9843850806451613,
+      "retained_repeated4_signatures": 3,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.9241154599098083,
+      "tail_compressibility": 0.9903564453125,
+      "exact_translation_fraction": 0.8064516129032258,
+      "median_best_shift": -2.0,
+      "signature_count_total": 3116,
+      "descriptor_seconds": 3.046125431001201,
+      "recurrence": {
+        "first_time": 648,
+        "return_time": 715,
+        "period": 67
+      },
+      "vector": [
+        0.9990234375,
+        0.6582661290322581,
+        0.9843850806451613,
+        0.9903564453125
+      ],
+      "archive_bin": [
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "novelty_archive_9103",
+      "method": "novelty_archive",
+      "seed": 9103,
+      "path": "results/search_confirmation/novelty_archive_9103",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.9945068359375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 1171,
+      "descriptor_seconds": 3.346324169999207,
+      "recurrence": {
+        "first_time": 93,
+        "return_time": 95,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.9945068359375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "codex_feedback_9100",
+      "method": "codex_feedback",
+      "seed": 9100,
+      "path": "results/search_confirmation/codex_feedback_9100",
+      "tail_occupancy": 0.0625,
+      "tail_activity": 0.125,
+      "tail_repeated4_fraction": 0.0,
+      "retained_repeated4_signatures": 0,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 0.3372900666170139,
+      "tail_compressibility": 0.99420166015625,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": 1.0,
+      "signature_count_total": 0,
+      "descriptor_seconds": 1.8183442449990252,
+      "recurrence": {
+        "first_time": 0,
+        "return_time": 128,
+        "period": 128
+      },
+      "vector": [
+        0.0625,
+        0.125,
+        0.0,
+        0.99420166015625
+      ],
+      "archive_bin": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "codex_feedback_9101",
+      "method": "codex_feedback",
+      "seed": 9101,
+      "path": "results/search_confirmation/codex_feedback_9101",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99444580078125,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 1145,
+      "descriptor_seconds": 7.872711907999474,
+      "recurrence": {
+        "first_time": 110,
+        "return_time": 112,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99444580078125
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "codex_feedback_9102",
+      "method": "codex_feedback",
+      "seed": 9102,
+      "path": "results/search_confirmation/codex_feedback_9102",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99456787109375,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 804,
+      "descriptor_seconds": 5.7505143899998075,
+      "recurrence": {
+        "first_time": 515,
+        "return_time": 517,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99456787109375
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "id": "codex_feedback_9103",
+      "method": "codex_feedback",
+      "seed": 9103,
+      "path": "results/search_confirmation/codex_feedback_9103",
+      "tail_occupancy": 1.0,
+      "tail_activity": 1.0,
+      "tail_repeated4_fraction": 1.0,
+      "retained_repeated4_signatures": 2,
+      "tail_new4_signatures": 0,
+      "tail_entropy_bits": 1.0,
+      "tail_compressibility": 0.99462890625,
+      "exact_translation_fraction": 1.0,
+      "median_best_shift": -7.0,
+      "signature_count_total": 1095,
+      "descriptor_seconds": 5.818349732999195,
+      "recurrence": {
+        "first_time": 435,
+        "return_time": 437,
+        "period": 2
+      },
+      "vector": [
+        1.0,
+        1.0,
+        1.0,
+        0.99462890625
+      ],
+      "archive_bin": [
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}

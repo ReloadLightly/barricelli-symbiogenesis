@@ -1,0 +1,62 @@
+{
+  "caption": "Complete six-run Galloway ensemble, seeds2026\u20132031, all W511 and511 updates (512 saved rows). Runs are unselected. Stable textures and moving boundaries show numerical dynamics; these panels do not identify reproducing collectives. Values outside the legacy palette remain distinct from empty cells in the research palette.",
+  "data_sources": [
+    {
+      "file": "results/reconstruction/galloway2026/trajectory.csv",
+      "sha256": "48fcff7c2a3ef292dabac9cf7c72649b062ef276abd01298062d943601b35090"
+    },
+    {
+      "file": "results/ensemble/galloway2027/trajectory.csv",
+      "sha256": "3d11c4f7d7b4ffa55d026f20f9d87744e21a44087ab544fddd849f351babe6af"
+    },
+    {
+      "file": "results/ensemble/galloway2028/trajectory.csv",
+      "sha256": "7b28b3863b231d6ad4407d9d68d39d8190db19c6f7d027114f41c7e61135eeb7"
+    },
+    {
+      "file": "results/ensemble/galloway2029/trajectory.csv",
+      "sha256": "1fef8742dbe71ac444f0fc11634fe95f0e681785322a6fa50cf201d3b48aa701"
+    },
+    {
+      "file": "results/ensemble/galloway2030/trajectory.csv",
+      "sha256": "238f2635514158c0dc4ea57df7fb45b3696f6fd0565d5ae7c4630dcc9cd8b508"
+    },
+    {
+      "file": "results/ensemble/galloway2031/trajectory.csv",
+      "sha256": "d076a8759cafcc256bd2ae79e7fa7b787e8f2d8bbda4297f1206fe52f75c8eb3"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/figures.py": "782fdd23c98554395e61bb54156bc1e2c40e94f7b20f2d3c07b90a5d39688eeb"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

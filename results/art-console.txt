@@ -1,0 +1,2 @@
+.venv/bin/python scripts/art.py
+[('Confluence / 2026', [4919, 4968]), ('Strata / 2029', [4919, 4968]), ('Fault lines / 2030', [4919, 4968])]

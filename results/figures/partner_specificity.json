@@ -1,0 +1,46 @@
+{
+  "caption": "Exploratory dependency-directed follow-up, selected empty-background placement112; all24 follow-up runs remain registered. Historical Figure7 motif, research/exclusion,W256,T48, x64\u2013151 shown. Removing its direct helper at offset5 or changing\u22123 to\u22124 prevents exact-motif recovery; removal of the same type at offset1 permits recovery; exact rescue restores the intact trajectory. This tests partner arrangement for propagation; no additional detached collective reproduction was detected.",
+  "data_sources": [
+    {
+      "file": "results/partner_followup/empty__x112__direct_helper_removed/trajectory.csv",
+      "sha256": "2213570bdd7c9c8a2100f783800ca324dd86f54856cce5b79d1c0885cff0950b"
+    },
+    {
+      "file": "results/partner_followup/empty__x112__rescue/trajectory.csv",
+      "sha256": "feb17a347191b4dfdc7dc0e3e9ddb2cd3d824d472ad53541cb9f7b8d7b1624df"
+    },
+    {
+      "file": "results/partner_followup/empty__x112__same_type_damage_elsewhere/trajectory.csv",
+      "sha256": "0ec3c088674e66c9e6f9883959ca7e9bf55819d9e660212c20bb2e2a1591ae05"
+    },
+    {
+      "file": "results/partner_followup/empty__x112__wrong_helper_same_occupancy/trajectory.csv",
+      "sha256": "d58c328baac2a30c00421958627cb3a8d90ed28cb8625abb00f4f3be0ed55e9d"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/comparison_figures.py": "75cb02e297dd6eb61125f918f911a781058542c5272ae773c94332dbc36d940c"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "galloway_published",
+  "width": 511,
+  "steps": 8,
+  "norm": "galloway_B",
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "initialization": "galloway_float_truncation",
+  "seed": null,
+  "initial_state_file": "/home/roland/actir/barricelli-symbiogenesis/results/galloway_validation/empty/frozen.csv",
+  "trace_steps": 2
+}

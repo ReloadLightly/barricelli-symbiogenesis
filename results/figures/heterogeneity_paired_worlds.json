@@ -1,0 +1,54 @@
+{
+  "caption": "Selected explanatory seed6100: five research collision environments, identical saved128-cell initial row and512 updates. Axes and research palette match. A andB settle into simple recurrent domains; this seed\u2019s spatial halves treatment retains a nonrepeating transient. All other seeds are included in aggregate results. Time increases downward.",
+  "data_sources": [
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_A/trajectory.csv",
+      "sha256": "db04476ebee7335488b13944eadfd0800699366fe6e43a6d1e8b4bb4137c6702"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_B/trajectory.csv",
+      "sha256": "bce947e84f38aaa39e95798451c6a4090d83c699ded8c2d75bbe86dc8f04941d"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_AB_halves/trajectory.csv",
+      "sha256": "004def92b150bab1c4ddeea1fb3c425ea76393a11266b9f9ff21a7a9f569ee70"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_AB_quarters/trajectory.csv",
+      "sha256": "e97753084ef164a76504857d46dc298d637ab0af7808b9647d9b42c73f674d2a"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_AB_temporal/trajectory.csv",
+      "sha256": "80f119ddde8bbb8346b2ba25319739d57b96e51956f15b46aab05c2128b00c4b"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/comparison_figures.py": "75cb02e297dd6eb61125f918f911a781058542c5272ae773c94332dbc36d940c"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

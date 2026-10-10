@@ -1,0 +1,74 @@
+[
+  {
+    "name": "asal.html",
+    "url": "https://arxiv.org/html/2412.17799",
+    "retrieved_utc": "2026-10-10T18:09:01.355803+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2412.17799",
+    "bytes": 212739,
+    "sha256": "078b721d4f140127d87a85c2c5d0551c5ef3a701605ebfd263cead968297781f"
+  },
+  {
+    "name": "asal-plus-plus.html",
+    "url": "https://arxiv.org/html/2509.22447",
+    "retrieved_utc": "2026-10-10T18:09:01.360823+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2509.22447",
+    "bytes": 141335,
+    "sha256": "fa3bd4ad27d0a6e9624651bcb81328a1079b58a9a6b49f630ea5a860d7dd497a"
+  },
+  {
+    "name": "computational-life.html",
+    "url": "https://arxiv.org/html/2406.19108",
+    "retrieved_utc": "2026-10-10T18:09:01.361892+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2406.19108",
+    "bytes": 846680,
+    "sha256": "2820cc4b2ce6191b3e84c0ae4428a984bdc47ef725148d4777118807d2d97c42"
+  },
+  {
+    "name": "bff-followup.html",
+    "url": "https://arxiv.org/html/2607.01483",
+    "retrieved_utc": "2026-10-10T18:09:01.366673+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2607.01483",
+    "bytes": 131707,
+    "sha256": "7c5ae850b768d5d051d04c7317e3ef6d4ba5f2cc15bf9ff9e832c44af2f380a9"
+  },
+  {
+    "name": "distributed-replication.html",
+    "url": "https://arxiv.org/html/2508.08047",
+    "retrieved_utc": "2026-10-10T18:09:01.368344+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2508.08047",
+    "bytes": 97820,
+    "sha256": "4ad0f84d390e10a73ee6341bd04135832b9bc337cf9fab13fd782303e10471e0"
+  },
+  {
+    "name": "programmable-ca.html",
+    "url": "https://arxiv.org/html/2609.06102",
+    "retrieved_utc": "2026-10-10T18:09:01.369575+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2609.06102",
+    "bytes": 234008,
+    "sha256": "fdb80613b3599a8494d7ecb30d1ac169c9e3c0958ef49668b7df1922f91518b0"
+  },
+  {
+    "name": "lenia.html",
+    "url": "https://arxiv.org/html/1812.05433",
+    "retrieved_utc": "2026-10-10T18:09:01.370538+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/1812.05433",
+    "bytes": 532242,
+    "sha256": "caf8044a6f0f2a2e1628827c0bc22f5ec76255af997a5b3007babc92aacadec1"
+  },
+  {
+    "name": "genetic-images.html",
+    "url": "https://www.karlsims.com/genetic-images.html",
+    "retrieved_utc": "2026-10-10T18:09:01.371426+00:00",
+    "status": 200,
+    "final_url": "https://www.karlsims.com/genetic-images.html",
+    "bytes": 13332,
+    "sha256": "45ae7db9a393a6fd23a620a8da051195e41d481d73494db3f0ff2ebeacd97d7a"
+  }
+]

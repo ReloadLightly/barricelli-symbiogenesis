@@ -1,0 +1,83 @@
+{
+  "selection": "browsable subset for illustration; complete native-run register is separate",
+  "worlds": [
+    {
+      "path": "results/reconstruction/galloway2026",
+      "trajectory_sha256": "48fcff7c2a3ef292dabac9cf7c72649b062ef276abd01298062d943601b35090"
+    },
+    {
+      "path": "results/ensemble/galloway2027",
+      "trajectory_sha256": "3d11c4f7d7b4ffa55d026f20f9d87744e21a44087ab544fddd849f351babe6af"
+    },
+    {
+      "path": "results/ensemble/galloway2028",
+      "trajectory_sha256": "7b28b3863b231d6ad4407d9d68d39d8190db19c6f7d027114f41c7e61135eeb7"
+    },
+    {
+      "path": "results/ensemble/galloway2029",
+      "trajectory_sha256": "1fef8742dbe71ac444f0fc11634fe95f0e681785322a6fa50cf201d3b48aa701"
+    },
+    {
+      "path": "results/ensemble/galloway2030",
+      "trajectory_sha256": "238f2635514158c0dc4ea57df7fb45b3696f6fd0565d5ae7c4630dcc9cd8b508"
+    },
+    {
+      "path": "results/ensemble/galloway2031",
+      "trajectory_sha256": "d076a8759cafcc256bd2ae79e7fa7b787e8f2d8bbda4297f1206fe52f75c8eb3"
+    },
+    {
+      "path": "results/reconstruction/figure07",
+      "trajectory_sha256": "df5a2dc720ef7d6a4081d5dec84aaf8addc3d06edae652d3ccb49b42d1c702e1"
+    },
+    {
+      "path": "results/ensemble/conditional3002",
+      "trajectory_sha256": "089887a42e92f9cac7a298795ff30ab3b06fe2fc585d9fab0853d87ae0f7fc71"
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_A",
+      "trajectory_sha256": "db04476ebee7335488b13944eadfd0800699366fe6e43a6d1e8b4bb4137c6702"
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_B",
+      "trajectory_sha256": "bce947e84f38aaa39e95798451c6a4090d83c699ded8c2d75bbe86dc8f04941d"
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_halves",
+      "trajectory_sha256": "004def92b150bab1c4ddeea1fb3c425ea76393a11266b9f9ff21a7a9f569ee70"
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_quarters",
+      "trajectory_sha256": "e97753084ef164a76504857d46dc298d637ab0af7808b9647d9b42c73f674d2a"
+    },
+    {
+      "path": "results/heterogeneity/exploration_6100_galloway_AB_temporal",
+      "trajectory_sha256": "80f119ddde8bbb8346b2ba25319739d57b96e51956f15b46aab05c2128b00c4b"
+    },
+    {
+      "path": "results/heterogeneity/confirmation_9200_galloway_AB_halves",
+      "trajectory_sha256": "e1309d19480242dca9e6b5977d3b1b6ee6bf5801d448e44298eba42e1248bb2f"
+    },
+    {
+      "path": "results/search/codex_feedback/repeat3/trial07",
+      "trajectory_sha256": "b3db73ecad97b24570246869465fecd2881a4d61f32bbdc3ffadb1a5508a8513"
+    },
+    {
+      "path": "results/nearby/density_down",
+      "trajectory_sha256": "53692520b2c2a5cca629aa43b09a252e118a6745b2f2704da87abfc6d47fceba"
+    },
+    {
+      "path": "results/nearby/density_up",
+      "trajectory_sha256": "a79077703111bb244126e7a7100bc5d0161c5e923c0a2c3fccdab7227734a927"
+    },
+    {
+      "path": "results/nearby/next_layout",
+      "trajectory_sha256": "cdc5c9b9a68b13f17c1a3391fc49e43809284f4503cd5e4f8b64d71ad7f9aef3"
+    },
+    {
+      "path": "results/nearby/constituent_A",
+      "trajectory_sha256": "ac13ad3ff6d4a8c547931b12afadd4bbb86eba52a89dd547b2d22f5f4fe65338"
+    }
+  ],
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "numeric_payload_sha256": "2e849c1e5e173dc3c9726212e8dc574bdfffdc18fef5a2d8c563d020ab6729c1"
+}

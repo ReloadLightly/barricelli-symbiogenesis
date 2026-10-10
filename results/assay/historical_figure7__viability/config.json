@@ -1,0 +1,12 @@
+{
+  "model": "research",
+  "norm": "exclusion",
+  "width": 256,
+  "steps": 8,
+  "boundary": "open",
+  "seed": null,
+  "initial_state_file": "results/assay/historical_figure7__viability/frozen.csv",
+  "modifications": [
+    "eight-step isolated numerical motif recovery check"
+  ]
+}

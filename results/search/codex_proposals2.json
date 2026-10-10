@@ -1,0 +1,87 @@
+{
+  "batch": 2,
+  "author": "conversational Codex assistant (GPT-6 family; exact serving identifier not exposed)",
+  "automated_model_integration": false,
+  "external_api_calls": 0,
+  "paid_calls": 0,
+  "feedback_sha256": "ab9e21b3adbe919c630704e2e8aa8dea15e3874c3cc234183f9ec391d722fdbb",
+  "submitted_utc": "2026-10-10T18:14:02.129500+00:00",
+  "feedback_to_submission_wall_seconds": 109.888997,
+  "model_time_and_tokens": "not separately metered; wall interval includes other task work",
+  "observed_feedback": "low-density {-3,1,5} and wider alphabets sometimes move away from the full period-two attractor; sparse outcomes remain seed-dependent",
+  "strategy": "test adjacent densities and alternative patch geometry around the sparse successful stepping stones; use narrower three-type alphabet to probe the low-occupancy archive region",
+  "repeats": {
+    "0": [
+      {
+        "space_index": 15,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 27,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 25,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 18,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      }
+    ],
+    "1": [
+      {
+        "space_index": 15,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 27,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 13,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 14,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      }
+    ],
+    "2": [
+      {
+        "space_index": 12,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 15,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 27,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 40,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      }
+    ],
+    "3": [
+      {
+        "space_index": 13,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 14,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 15,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      },
+      {
+        "space_index": 27,
+        "hypothesis": "Nearby density/layout choices may extend descriptor coverage around the sparse non-period-two outcomes; a changed initial seed can overturn this expectation."
+      }
+    ]
+  }
+}

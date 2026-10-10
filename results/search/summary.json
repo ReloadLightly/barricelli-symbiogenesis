@@ -1,0 +1,231 @@
+{
+  "searches": [
+    {
+      "method": "random",
+      "repeat": 0,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 4,
+      "nearest_diversity": 0.0714633703753786,
+      "engine_seconds": 0.11989962,
+      "process_seconds": 0.2629252530023223,
+      "descriptor_seconds": 13.95146167600069,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "random",
+      "repeat": 1,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 3,
+      "nearest_diversity": 0.05108259176660846,
+      "engine_seconds": 0.13242505000000002,
+      "process_seconds": 0.28265571300107695,
+      "descriptor_seconds": 12.830237379002938,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "random",
+      "repeat": 2,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 1,
+      "nearest_diversity": 0.010233643005753733,
+      "engine_seconds": 0.11298001,
+      "process_seconds": 0.2163218049918214,
+      "descriptor_seconds": 10.180329105000055,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "random",
+      "repeat": 3,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 4,
+      "nearest_diversity": 0.09749581645035686,
+      "engine_seconds": 0.16531986,
+      "process_seconds": 0.3069518490028713,
+      "descriptor_seconds": 9.278404816002876,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 0,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.10077765748838931,
+      "engine_seconds": 0.14821726,
+      "process_seconds": 0.27299120100542495,
+      "descriptor_seconds": 13.896851453999261,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 1,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.1136879571572873,
+      "engine_seconds": 0.16304069,
+      "process_seconds": 0.28755335599635146,
+      "descriptor_seconds": 14.358519049999813,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 2,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 5,
+      "nearest_diversity": 0.0885547101495212,
+      "engine_seconds": 0.10214220999999998,
+      "process_seconds": 0.20082872599596158,
+      "descriptor_seconds": 9.792592239995429,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "novelty_archive",
+      "repeat": 3,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 3,
+      "nearest_diversity": 0.04395731704601566,
+      "engine_seconds": 0.11120484000000001,
+      "process_seconds": 0.20238889300708252,
+      "descriptor_seconds": 9.60322234999876,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 0,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 4,
+      "nearest_diversity": 0.08847934814922137,
+      "engine_seconds": 0.18233649999999998,
+      "process_seconds": 0.34716857399871515,
+      "descriptor_seconds": 17.49848787100018,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 1,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 6,
+      "nearest_diversity": 0.10674221652109417,
+      "engine_seconds": 0.12773806,
+      "process_seconds": 0.25084726700151805,
+      "descriptor_seconds": 11.972681158998967,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 2,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 6,
+      "nearest_diversity": 0.09541703613324336,
+      "engine_seconds": 0.15761287000000002,
+      "process_seconds": 0.2820753189989773,
+      "descriptor_seconds": 12.706679403996532,
+      "highest_repeat4": 1.0
+    },
+    {
+      "method": "codex_feedback",
+      "repeat": 3,
+      "evaluations": 12,
+      "cell_updates": 393216,
+      "archive_coverage": 6,
+      "nearest_diversity": 0.10569341051046689,
+      "engine_seconds": 0.10591465,
+      "process_seconds": 0.23116810400097165,
+      "descriptor_seconds": 11.851930080001694,
+      "highest_repeat4": 1.0
+    }
+  ],
+  "aggregate": {
+    "random": {
+      "coverage": {
+        "mean": 3.0,
+        "ci95_percentile": [
+          1.75,
+          4.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.057568855399524416,
+        "ci95_percentile": [
+          0.02554107484815995,
+          0.08589251027941977
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    },
+    "novelty_archive": {
+      "coverage": {
+        "mean": 4.5,
+        "ci95_percentile": [
+          3.5,
+          5.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.08674441046030337,
+        "ci95_percentile": [
+          0.058162402156609075,
+          0.10740464540534578
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    },
+    "codex_feedback": {
+      "coverage": {
+        "mean": 5.5,
+        "ci95_percentile": [
+          4.5,
+          6.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "diversity": {
+        "mean": 0.09908300282850645,
+        "ci95_percentile": [
+          0.09194819214123237,
+          0.10621781351578052
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  "paired_coverage_difference_vs_random": {
+    "novelty_archive": {
+      "mean": 1.5,
+      "ci95_percentile": [
+        -0.25,
+        3.25
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    },
+    "codex_feedback": {
+      "mean": 2.5,
+      "ci95_percentile": [
+        0.75,
+        4.25
+      ],
+      "units": 4,
+      "method": "seed/search-level bootstrap; exploratory with very few units"
+    }
+  },
+  "interpretation": "exploratory low-budget comparison; four search units; Codex shares conversation context; no broad model-performance or biological claim"
+}

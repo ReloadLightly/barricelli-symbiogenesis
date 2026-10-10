@@ -1,0 +1,14 @@
+{
+  "seed": 7711,
+  "explicitly_imposed_histories": true,
+  "role": "calibrate descriptors, not simulations or discovered organisms",
+  "controls": [
+    "static_periodic",
+    "period_two",
+    "translation",
+    "iid_noise",
+    "empty"
+  ],
+  "width": 128,
+  "updates": 256
+}

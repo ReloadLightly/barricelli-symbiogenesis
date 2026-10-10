@@ -1,0 +1,107 @@
+{
+  "declared_before_execution": true,
+  "basis": {
+    "benchmark_process_seconds": 0.04632460100037861,
+    "benchmark_rss_kib": 3712,
+    "decision": "six display-scale Galloway rows, eight historical-scale conditional rows and one resident-background run fit comfortably; no sweep"
+  },
+  "runs": [
+    {
+      "id": "galloway2026",
+      "model": "galloway_published",
+      "seed": 2026,
+      "config": "configs/galloway_published.json",
+      "existing_run": "results/reconstruction/galloway2026"
+    },
+    {
+      "id": "galloway2027",
+      "model": "galloway_published",
+      "seed": 2027,
+      "config": "configs/galloway_published.json",
+      "existing_run": null
+    },
+    {
+      "id": "galloway2028",
+      "model": "galloway_published",
+      "seed": 2028,
+      "config": "configs/galloway_published.json",
+      "existing_run": null
+    },
+    {
+      "id": "galloway2029",
+      "model": "galloway_published",
+      "seed": 2029,
+      "config": "configs/galloway_published.json",
+      "existing_run": null
+    },
+    {
+      "id": "galloway2030",
+      "model": "galloway_published",
+      "seed": 2030,
+      "config": "configs/galloway_published.json",
+      "existing_run": null
+    },
+    {
+      "id": "galloway2031",
+      "model": "galloway_published",
+      "seed": 2031,
+      "config": "configs/galloway_published.json",
+      "existing_run": null
+    },
+    {
+      "id": "conditional3002",
+      "model": "research",
+      "seed": 3002,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3003",
+      "model": "research",
+      "seed": 3003,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3004",
+      "model": "research",
+      "seed": 3004,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3005",
+      "model": "research",
+      "seed": 3005,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3006",
+      "model": "research",
+      "seed": 3006,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3007",
+      "model": "research",
+      "seed": 3007,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3008",
+      "model": "research",
+      "seed": 3008,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "conditional3009",
+      "model": "research",
+      "seed": 3009,
+      "config": "configs/research.json"
+    },
+    {
+      "id": "resident3001",
+      "model": "research",
+      "seed": 3001,
+      "config": "configs/research_resident.json"
+    }
+  ],
+  "confirmation_seeds": "9000-9999 reserved at the first ensemble stage; later consumption is declared in search_confirmation and heterogeneity manifests"
+}

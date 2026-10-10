@@ -1,0 +1,270 @@
+{
+  "caption": "Complete60 baseline worlds: research profiles, W128, shared initial rows within each seed; exploration6100\u20136107,T512 and confirmation9200\u20139203,T2048. Full-world recurrence includes environment phase for temporal A/B. Triangles are right-censored, not exact recurrence events. Some mixed environments have late local novelty at512 updates; every longer confirmation has zero unseen four-cell signatures in its final32-row window. Local sequences are not inherited collective variants.",
+  "data_sources": [
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_A/descriptors.json",
+      "sha256": "efef30d15745aa87064d69873cfb35bd27f893690153236d40cc17a6de68e415"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_B/descriptors.json",
+      "sha256": "6d15c9ab4cf33758831d58ff4cf07e6b5cca588a250a6b8815d839a5ac65a71a"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_AB_halves/descriptors.json",
+      "sha256": "5e970dfd45e6780c121364624cbf2e3a4ac8215b33d8fa4c3b337e332adc7a0a"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_AB_quarters/descriptors.json",
+      "sha256": "04fa5459aac2ae4ad3547c50603209f85f6d9c3b57b7dc1fddebb0349a2b209c"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6100_galloway_AB_temporal/descriptors.json",
+      "sha256": "38e0906815f180532cb2d54d01a43a3a49f86636ed40b39988846f7eb124a500"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6101_galloway_A/descriptors.json",
+      "sha256": "eefd7e5e55d7cc4397dad8b54e93a9e6e8267d536f5670c6b80ebb1a54b0329f"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6101_galloway_B/descriptors.json",
+      "sha256": "6164c9761f21136b27dccaed4ff21f96ad1c59d27d51a10000d6e4290beb85df"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6101_galloway_AB_halves/descriptors.json",
+      "sha256": "1a16530bbdfc9f80dd00522a9ab517db293f241754273514895cb7a695974ede"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6101_galloway_AB_quarters/descriptors.json",
+      "sha256": "e9b0aa7c91a01dd3d6a411a9389927f4bed2c6f57e861efbf5e807cea8895970"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6101_galloway_AB_temporal/descriptors.json",
+      "sha256": "9818cd999d0539c2adda6904afc97a430a15d1a55039dd285473192570e74fa8"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6102_galloway_A/descriptors.json",
+      "sha256": "0b37c8bcf5d6f0f622be492b47edc1ad751dd54bd1410f4e4a540c143a504e99"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6102_galloway_B/descriptors.json",
+      "sha256": "aaa3b321c98fcb7bbad210b400e36de4ee899c270c056ae5816fa451214b1f50"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6102_galloway_AB_halves/descriptors.json",
+      "sha256": "4327c6a7019b224e50ee4b0b8edfb07c413e852a042dba8960f92dead1321176"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6102_galloway_AB_quarters/descriptors.json",
+      "sha256": "f156dea5cda2771a1c5e517d144e8c31518ae3add7ca60aa4531e00c10efd0dd"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6102_galloway_AB_temporal/descriptors.json",
+      "sha256": "3fb45d48c0f0c6728d27696c6fc38a48deb67de5e8ec6f4eb5593647c5ae255c"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6103_galloway_A/descriptors.json",
+      "sha256": "1d796f7ac0f3d4c7450266f22f16bb09bf2742ebee73e844d5a6c51b30f11f49"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6103_galloway_B/descriptors.json",
+      "sha256": "5a6f76e198edc7d1f77abd42f85d8fa28e2fa995ffa96eeb3312c0609f90264a"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6103_galloway_AB_halves/descriptors.json",
+      "sha256": "9a63d73dbadfda68c70385aa479dd513d9bffd96c79e7d3ea2ac110b6a0d84ab"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6103_galloway_AB_quarters/descriptors.json",
+      "sha256": "6360ac084ac3281d2f40c7f13cfecda2297d299f0db4fc6266664f8a4df0efc3"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6103_galloway_AB_temporal/descriptors.json",
+      "sha256": "099aadf51b20e87217c6543a89133ebcfa04884114eaf89485bacbcb233c407b"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6104_galloway_A/descriptors.json",
+      "sha256": "ecd8689161e81e6dc75f7e65d874ee9964593c1ccf002945f19b2c6c8c4c9894"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6104_galloway_B/descriptors.json",
+      "sha256": "18387b8d407fbd0278b09b1f63742f1370b8f01f228847cd12dafbfcf9609c51"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6104_galloway_AB_halves/descriptors.json",
+      "sha256": "7adbbd6e6a2791d6a055abb66f304a43c45087e730e0271c330aa7ca2a0e805f"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6104_galloway_AB_quarters/descriptors.json",
+      "sha256": "4c6cd7f90db0f73add6a1e490e0459183743adb1c56435509749389146b21d7d"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6104_galloway_AB_temporal/descriptors.json",
+      "sha256": "886e2e208c6e6ca995d2429d860a55001e12235714b9710d4727e9207a6c1fff"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6105_galloway_A/descriptors.json",
+      "sha256": "c2da8be9d7988c4b45539cb75df1f4d38225bf7ffc13cd5ab859784b2f3c9013"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6105_galloway_B/descriptors.json",
+      "sha256": "65c2e7a3e44f0a7f2c26fd3a0acd8216ebdf804420c8e8d511edefe740555789"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6105_galloway_AB_halves/descriptors.json",
+      "sha256": "2d3075e4254e330c986b55fe24da2a4727af4d8f61a8199960a180d34b7c1c69"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6105_galloway_AB_quarters/descriptors.json",
+      "sha256": "59d91cf9cd16e1decdca2b9786ec4838a7a5e1e5f9f693d3bcda6691f5ffa41e"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6105_galloway_AB_temporal/descriptors.json",
+      "sha256": "c18225a4bfc5efa58b6eac2f27ab738d5f25ef99e5c1fee698aeaeb52f4bbe05"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6106_galloway_A/descriptors.json",
+      "sha256": "f830765b2ae0b300ee097973ee792838f4aff31c4aca286192f2b0a4ee042d03"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6106_galloway_B/descriptors.json",
+      "sha256": "d1a65909825546aa3aa119783c298421af0954321c41a7bfb9f2e378ad8eb087"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6106_galloway_AB_halves/descriptors.json",
+      "sha256": "1f130424ce35bee9c970496c00356d607a3fae229723e6e0e2f4e8df6ab72d69"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6106_galloway_AB_quarters/descriptors.json",
+      "sha256": "affaf28a67f24ac4452edcac983f3947af0ba6b3a64c099b8771e96e7050434a"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6106_galloway_AB_temporal/descriptors.json",
+      "sha256": "48eab3de1a4ad9f462457fa7043c211a60863cec5ece90e61b98e672dddb04d4"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6107_galloway_A/descriptors.json",
+      "sha256": "14633c41e81bb1c1ffab9d4d13f28df452678c27cb5e4f9c1fbb096e88ac3da9"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6107_galloway_B/descriptors.json",
+      "sha256": "05eb0165c72d764357f4ac72d2d4a46c308501a48f923e52264bc1bfc9ad2eec"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6107_galloway_AB_halves/descriptors.json",
+      "sha256": "1effee987d3640e250f9e439d91bd42498c7e122713a322f637da419e2d2cdd7"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6107_galloway_AB_quarters/descriptors.json",
+      "sha256": "42d2ebeff789f2979736c623f375ea776f24a00b7ffce54cdeef25b21d87922d"
+    },
+    {
+      "file": "results/heterogeneity/exploration_6107_galloway_AB_temporal/descriptors.json",
+      "sha256": "6a77b1ca39e1f55140c7e6400c09e608b9d7e08a44cc6c7d50a1030a9d15ff65"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9200_galloway_A/descriptors.json",
+      "sha256": "281a7d506339816e9f2ac822ad5ae848d4c9fd3a72db66bd5446c4a9674ebb75"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9200_galloway_B/descriptors.json",
+      "sha256": "233dc6c1a2c5d1e2d75454d69df4e490a03cd77e93c0008f5c06d597477b511f"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9200_galloway_AB_halves/descriptors.json",
+      "sha256": "4587ae0718985bb659bba65178d5b1af7826ce7854de120fe8fffab630deb80c"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9200_galloway_AB_quarters/descriptors.json",
+      "sha256": "f6c3aa68bcffc729ccc302bdcbdff97d0c0db308fbfc4b30279b933a855ee340"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9200_galloway_AB_temporal/descriptors.json",
+      "sha256": "f71ca3c74e491cf9102b6ffee5e42e19906e9701c1e600d20ef79c09085f675b"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9201_galloway_A/descriptors.json",
+      "sha256": "95c01d52c6cf29d666eb374f827bdbe912af8d4e2bdfd6a2a2017655551e8ab2"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9201_galloway_B/descriptors.json",
+      "sha256": "789661a61b42a82ece01ac3e4227164fab955c913564556c2ad6459944c2f935"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9201_galloway_AB_halves/descriptors.json",
+      "sha256": "3b0b81bc10a0d7d11cff64e23d859a2f883d2cc040f9a499a776bff3dea47f6c"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9201_galloway_AB_quarters/descriptors.json",
+      "sha256": "73969a53abdb1f51344c86338d6791f1b1f719a72d8a51cf824a190c4b3e53fa"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9201_galloway_AB_temporal/descriptors.json",
+      "sha256": "7555549e829b55c276b73653dfd05a172f4bc968a6e2adf71d31cefcf862d139"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9202_galloway_A/descriptors.json",
+      "sha256": "e3d44360f30036b5ff9a87224e60bb8b596e1158b2197edf273d26d4826f4e9a"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9202_galloway_B/descriptors.json",
+      "sha256": "f1c77769527399309d2dd5db16ee3f258854036b6e15046e0c7d4f825408907b"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9202_galloway_AB_halves/descriptors.json",
+      "sha256": "20e5c15e9034467a68c20d40a48849dd931b26f115b16d6c1f64dda06f8017f6"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9202_galloway_AB_quarters/descriptors.json",
+      "sha256": "697eb00d684928423e3c7e19868fd9aa80e88a1d324b78b8cc0e19e42b52cc7d"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9202_galloway_AB_temporal/descriptors.json",
+      "sha256": "49852e0c33d3d1396065076f1d1a343eeaefca10de39023bc835cdce006b77d8"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9203_galloway_A/descriptors.json",
+      "sha256": "8e970f351ce7864701b4e24a74d7c1a0438e677d736b092e6809461c7c8a725b"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9203_galloway_B/descriptors.json",
+      "sha256": "bbd946af708210d85c1c8f24b0a84ef16a62b83646e0e3b07990c53c6144a173"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9203_galloway_AB_halves/descriptors.json",
+      "sha256": "e6386e5c9fd75b89267cda279538d6bc5ba651dcf4f588821548f830a1a009cf"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9203_galloway_AB_quarters/descriptors.json",
+      "sha256": "1756cd6ea50963782f2e6039baf9267b64b3aedab5731a0827843e53e9479aea"
+    },
+    {
+      "file": "results/heterogeneity/confirmation_9203_galloway_AB_temporal/descriptors.json",
+      "sha256": "ade495c26ee4893d39d5f7e8df1c9aef507919e4d1d95e2026b5d00a8c13176f"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/comparison_figures.py": "75cb02e297dd6eb61125f918f911a781058542c5272ae773c94332dbc36d940c"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "",
+      "vertical": "First recurrence return time\n\u25b2 = no recurrence by horizon"
+    },
+    {
+      "horizontal": "",
+      "vertical": "New four-cell signatures\nin final32 saved rows"
+    },
+    {
+      "horizontal": "",
+      "vertical": "First recurrence return time\n\u25b2 = no recurrence by horizon"
+    },
+    {
+      "horizontal": "",
+      "vertical": "New four-cell signatures\nin final32 saved rows"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

@@ -1,0 +1,1405 @@
+{
+  "declared_before_damage_execution": true,
+  "runs": [
+    {
+      "id": "exploration_6100_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6100_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6100_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6100_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6100_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6100_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6100_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6100_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6100_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 4
+    },
+    {
+      "id": "exploration_6100_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6100_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6100_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 5
+    },
+    {
+      "id": "exploration_6100_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6100_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6100_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 5
+    },
+    {
+      "id": "exploration_6101_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6101_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6101_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6101_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6101_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6101_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6101_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6101_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6101_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 6
+    },
+    {
+      "id": "exploration_6101_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6101_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6101_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6101_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6101_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6101_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6102_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6102_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6102_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 4
+    },
+    {
+      "id": "exploration_6102_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6102_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6102_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 6
+    },
+    {
+      "id": "exploration_6102_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6102_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6102_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6102_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6102_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6102_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6102_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6102_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6102_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6103_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6103_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6103_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 7
+    },
+    {
+      "id": "exploration_6103_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6103_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6103_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6103_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6103_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6103_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6103_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6103_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6103_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 4
+    },
+    {
+      "id": "exploration_6103_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6103_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6103_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 5
+    },
+    {
+      "id": "exploration_6104_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6104_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6104_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 3
+    },
+    {
+      "id": "exploration_6104_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6104_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6104_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6104_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6104_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6104_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 6
+    },
+    {
+      "id": "exploration_6104_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6104_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6104_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 0
+    },
+    {
+      "id": "exploration_6104_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6104_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6104_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 7
+    },
+    {
+      "id": "exploration_6105_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6105_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6105_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6105_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6105_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6105_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6105_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6105_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6105_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6105_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6105_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6105_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6105_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6105_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6105_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6106_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6106_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6106_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 6
+    },
+    {
+      "id": "exploration_6106_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6106_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6106_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 7
+    },
+    {
+      "id": "exploration_6106_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6106_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6106_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6106_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6106_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6106_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6106_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6106_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6106_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 3
+    },
+    {
+      "id": "exploration_6107_galloway_A__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6107_galloway_A__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6107_galloway_A",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6107_galloway_B__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6107_galloway_B__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6107_galloway_B",
+      "baseline_time": 256,
+      "removed_cells": 8
+    },
+    {
+      "id": "exploration_6107_galloway_AB_halves__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6107_galloway_AB_halves__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6107_galloway_AB_halves",
+      "baseline_time": 256,
+      "removed_cells": 5
+    },
+    {
+      "id": "exploration_6107_galloway_AB_quarters__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6107_galloway_AB_quarters__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6107_galloway_AB_quarters",
+      "baseline_time": 256,
+      "removed_cells": 7
+    },
+    {
+      "id": "exploration_6107_galloway_AB_temporal__damage",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 128,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": null,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries",
+          "EXTERNAL INTERVENTION: clear x48..55 in baseline row256, restart time at0"
+        ],
+        "initial_state_file": "results/heterogeneity/exploration_6107_galloway_AB_temporal__damage/frozen.csv"
+      },
+      "paired_undamaged": "exploration_6107_galloway_AB_temporal",
+      "baseline_time": 256,
+      "removed_cells": 8
+    }
+  ]
+}

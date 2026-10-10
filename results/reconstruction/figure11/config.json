@@ -1,0 +1,11 @@
+{
+  "model": "barricelli1954_reference",
+  "figure": 11,
+  "width": 84,
+  "steps": 10,
+  "norm": "exclusion",
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "initial_state_file": "fixtures/fig11.csv",
+  "seed": null
+}

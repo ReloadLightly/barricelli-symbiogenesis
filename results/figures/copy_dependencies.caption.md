@@ -1,0 +1,1 @@
+Selected numerical explanation: Figure7 motif in research/exclusion, empty width256, initial placement112,48 updates. Saved first-step events record the5 at112 copying to117, then through helper−3 at117 to109 (the old-row cell109 is empty, so this chain stops). Both source and ordered numerical partners are recorded. Equal values elsewhere do not establish this ancestry.

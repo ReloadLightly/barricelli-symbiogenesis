@@ -1,0 +1,20 @@
+{
+  "model": "research",
+  "norm": "conditional",
+  "width": 256,
+  "steps": 48,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__type_only_1/frozen.csv",
+  "trace_steps": 0,
+  "modifications": [
+    "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+  ],
+  "assay": {
+    "candidate": "generated_conditional3002",
+    "background": "original_ecology",
+    "placement": 112,
+    "condition": "type_only_1"
+  }
+}

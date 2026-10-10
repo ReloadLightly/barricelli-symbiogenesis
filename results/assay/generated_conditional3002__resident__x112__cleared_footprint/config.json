@@ -1,0 +1,19 @@
+{
+  "model": "research",
+  "norm": "conditional",
+  "width": 256,
+  "steps": 48,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/assay/generated_conditional3002__resident__x112__cleared_footprint/frozen.csv",
+  "modifications": [
+    "paired background control with cleared candidate footprint"
+  ],
+  "assay": {
+    "candidate": "generated_conditional3002",
+    "background": "resident",
+    "placement": 112,
+    "condition": "cleared_footprint"
+  }
+}

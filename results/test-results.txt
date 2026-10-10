@@ -1,0 +1,15 @@
+test_all_historical_fixtures (test_fidelity.Fidelity) ... ok
+test_constituent_collision_norms (test_fidelity.Fidelity) ... ok
+test_equal_helper_recurses_three_attempts (test_fidelity.Fidelity) ... ok
+test_exclusion_marker_not_empty_and_does_not_reproduce (test_fidelity.Fidelity) ... ok
+test_galloway_erasure_allows_later_reuse (test_fidelity.Fidelity) ... ok
+test_historical_open_boundary (test_fidelity.Fidelity) ... ok
+test_profiles_do_not_silently_mix (test_fidelity.Fidelity) ... ok
+test_recurrence_includes_environment_phase (test_fidelity.Fidelity) ... ok
+test_ring_wrap_and_old_row_mutation (test_fidelity.Fidelity) ... ok
+test_template_translations_and_domain_guard (test_fidelity.Fidelity) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.225s
+
+OK

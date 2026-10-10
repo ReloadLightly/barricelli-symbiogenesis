@@ -1,0 +1,260 @@
+[
+  {
+    "cohort": "exploration",
+    "treatment": "galloway_AB_halves",
+    "contrast": "minus paired mean(A,B)",
+    "metrics": {
+      "tail_activity": {
+        "mean": -0.13645098286290322,
+        "ci95_percentile": [
+          -0.3309759324596774,
+          0.024715300529233847
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_repeated4_fraction": {
+        "mean": -0.10552089266964884,
+        "ci95_percentile": [
+          -0.23986192394233943,
+          0.006864170026288584
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "retained_repeated4_signatures": {
+        "mean": 0.4375,
+        "ci95_percentile": [
+          -1.9375,
+          3.2515624999999773
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_new4_signatures": {
+        "mean": 15.875,
+        "ci95_percentile": [
+          0.0,
+          44.625
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  {
+    "cohort": "exploration",
+    "treatment": "galloway_AB_quarters",
+    "contrast": "minus paired mean(A,B)",
+    "metrics": {
+      "tail_activity": {
+        "mean": -0.059554561491935484,
+        "ci95_percentile": [
+          -0.17527721774193547,
+          0.049631426411290314
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_repeated4_fraction": {
+        "mean": -0.07031037735983015,
+        "ci95_percentile": [
+          -0.2171521969283148,
+          0.01710435258619082
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "retained_repeated4_signatures": {
+        "mean": 0.4375,
+        "ci95_percentile": [
+          -2.0625,
+          3.5
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_new4_signatures": {
+        "mean": 17.125,
+        "ci95_percentile": [
+          0.0,
+          51.375
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  {
+    "cohort": "exploration",
+    "treatment": "galloway_AB_temporal",
+    "contrast": "minus paired mean(A,B)",
+    "metrics": {
+      "tail_activity": {
+        "mean": -0.2549930695564516,
+        "ci95_percentile": [
+          -0.3799469978578629,
+          -0.1259765625
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_repeated4_fraction": {
+        "mean": -0.20455584615299743,
+        "ci95_percentile": [
+          -0.45277987624878635,
+          -0.011609980240520788
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "retained_repeated4_signatures": {
+        "mean": -1.0625,
+        "ci95_percentile": [
+          -3.875,
+          2.1875
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_new4_signatures": {
+        "mean": 32.5,
+        "ci95_percentile": [
+          0.0,
+          88.0
+        ],
+        "units": 8,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "treatment": "galloway_AB_halves",
+    "contrast": "minus paired mean(A,B)",
+    "metrics": {
+      "tail_activity": {
+        "mean": -0.021767893145161282,
+        "ci95_percentile": [
+          -0.22845262096774197,
+          0.12408644153225812
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_repeated4_fraction": {
+        "mean": -0.04706540798716563,
+        "ci95_percentile": [
+          -0.19331572848569278,
+          0.040312532586023075
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "retained_repeated4_signatures": {
+        "mean": -1.25,
+        "ci95_percentile": [
+          -9.125,
+          5.625
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_new4_signatures": {
+        "mean": 0.0,
+        "ci95_percentile": [
+          0.0,
+          0.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "treatment": "galloway_AB_quarters",
+    "contrast": "minus paired mean(A,B)",
+    "metrics": {
+      "tail_activity": {
+        "mean": -0.08363785282258063,
+        "ci95_percentile": [
+          -0.21484375,
+          0.047568044354838745
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_repeated4_fraction": {
+        "mean": -0.008862833876767756,
+        "ci95_percentile": [
+          -0.03416264325127333,
+          0.01807414162097007
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "retained_repeated4_signatures": {
+        "mean": -0.75,
+        "ci95_percentile": [
+          -9.875,
+          6.875
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_new4_signatures": {
+        "mean": 0.0,
+        "ci95_percentile": [
+          0.0,
+          0.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  },
+  {
+    "cohort": "confirmation",
+    "treatment": "galloway_AB_temporal",
+    "contrast": "minus paired mean(A,B)",
+    "metrics": {
+      "tail_activity": {
+        "mean": -0.09838079637096772,
+        "ci95_percentile": [
+          -0.2794858870967742,
+          0.08272429435483875
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_repeated4_fraction": {
+        "mean": -0.03475507269545336,
+        "ci95_percentile": [
+          -0.12771335164281394,
+          0.023499544846776466
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "retained_repeated4_signatures": {
+        "mean": 1.75,
+        "ci95_percentile": [
+          -9.0,
+          11.5
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      },
+      "tail_new4_signatures": {
+        "mean": 0.0,
+        "ci95_percentile": [
+          0.0,
+          0.0
+        ],
+        "units": 4,
+        "method": "seed/search-level bootstrap; exploratory with very few units"
+      }
+    }
+  }
+]

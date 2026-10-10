@@ -1,0 +1,43 @@
+{
+  "method": "codex_feedback",
+  "repeat": 2,
+  "trial": 0,
+  "space_index": 38,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.15,
+    "layout": "two_patches"
+  },
+  "seed": 4300,
+  "path": "results/search/codex_feedback/repeat2/trial00",
+  "reason": "shared initial exploration",
+  "descriptors": {
+    "tail_occupancy": 0.9609375,
+    "tail_activity": 0.9921875,
+    "tail_repeated4_fraction": 0.8943089430894309,
+    "retained_repeated4_signatures": 3,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.3542733870131107,
+    "tail_compressibility": 0.9901123046875,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -1.0,
+    "signature_count_total": 1512,
+    "descriptor_seconds": 0.6280818800005363,
+    "recurrence": null,
+    "vector": [
+      0.9609375,
+      0.9921875,
+      0.8943089430894309,
+      0.9901123046875
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  "novelty_to_previous_knn3": null,
+  "engine_seconds": 0.0184904,
+  "process_seconds": 0.03146372999981395,
+  "max_rss_kib": 3712
+}

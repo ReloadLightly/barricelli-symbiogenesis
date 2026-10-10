@@ -1,0 +1,62 @@
+{
+  "caption": "Selected explanatory setting: historical_figure7, empty background, placement112, all six specified conditions at the same48-update horizon; shown x64\u2013151 from width256. All other settings remain in assay aggregates. Template equality and occupied domain expansion are measured separately from detached offspring; two-cell guards outside each motif define detachment.",
+  "data_sources": [
+    {
+      "file": "results/assay/historical_figure7__empty__x112__intact/trajectory.csv",
+      "sha256": "feb17a347191b4dfdc7dc0e3e9ddb2cd3d824d472ad53541cb9f7b8d7b1624df"
+    },
+    {
+      "file": "results/assay/historical_figure7__empty__x112__helper_removed/trajectory.csv",
+      "sha256": "0ec3c088674e66c9e6f9883959ca7e9bf55819d9e660212c20bb2e2a1591ae05"
+    },
+    {
+      "file": "results/assay/historical_figure7__empty__x112__rescue/trajectory.csv",
+      "sha256": "feb17a347191b4dfdc7dc0e3e9ddb2cd3d824d472ad53541cb9f7b8d7b1624df"
+    },
+    {
+      "file": "results/assay/historical_figure7__empty__x112__composition_shuffled_fixed_gaps/trajectory.csv",
+      "sha256": "0aa2ea546fd6f50c23b818ed8943cbbfda06bab2754537e06885a946eecf387e"
+    },
+    {
+      "file": "results/assay/historical_figure7__empty__x112__wrong_helper_same_occupancy/trajectory.csv",
+      "sha256": "a614d7fc911bcee30cbcb2ebc142c2c41800bf5418fc8d83504f8cb372c4cdd9"
+    },
+    {
+      "file": "results/assay/historical_figure7__empty__x112__matched_delete_same_type/trajectory.csv",
+      "sha256": "2213570bdd7c9c8a2100f783800ca324dd86f54856cce5b79d1c0885cff0950b"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/figures.py": "782fdd23c98554395e61bb54156bc1e2c40e94f7b20f2d3c07b90a5d39688eeb"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

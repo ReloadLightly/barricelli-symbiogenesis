@@ -1,0 +1,3720 @@
+{
+  "declared_before_execution": true,
+  "runs": [
+    {
+      "id": "historical_figure7__empty__x16__intact",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__type_only_-3",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__type_only_-3/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "type_only_-3"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__type_only_5",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__type_only_5/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "type_only_5"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__rescue",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__intact",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__intact/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__type_only_-3",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__type_only_-3/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "type_only_-3"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__type_only_1/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__type_only_5",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__type_only_5/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "type_only_5"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__helper_removed/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__rescue",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__rescue/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__matched_delete_same_type/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__matched_delete_other_type/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__intact",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__type_only_-3",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__type_only_-3/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "type_only_-3"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__type_only_5",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__type_only_5/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "type_only_5"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__rescue",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__intact",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__type_only_-3",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__type_only_-3/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "type_only_-3"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__type_only_5",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__type_only_5/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "type_only_5"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__rescue",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__intact",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__type_only_-3",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__type_only_-3/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "type_only_-3"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__type_only_5",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__type_only_5/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "type_only_5"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__rescue",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__intact",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__type_only_-3",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__type_only_-3/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "type_only_-3"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__type_only_5",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__type_only_5/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "type_only_5"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__rescue",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__intact/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__type_only_-1/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__type_only_1/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__helper_removed/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__rescue/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__matched_delete_same_type/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__matched_delete_other_type/frozen.csv",
+        "trace_steps": 8,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x16__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x16__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 16,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x93__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x93__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 93,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x112__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x112__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 112,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__intact",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__intact/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "intact"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__type_only_-1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__type_only_-1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "type_only_-1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__type_only_1",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__type_only_1/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "type_only_1"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__helper_removed",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__helper_removed/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "helper_removed"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__rescue",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__rescue/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "rescue"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__composition_shuffled_fixed_gaps",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__composition_shuffled_fixed_gaps/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "composition_shuffled_fixed_gaps"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__wrong_helper_same_occupancy",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__wrong_helper_same_occupancy/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "wrong_helper_same_occupancy"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__matched_delete_same_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__matched_delete_same_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "matched_delete_same_type"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__original_ecology__x232__matched_delete_other_type",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__original_ecology__x232__matched_delete_other_type/frozen.csv",
+        "trace_steps": 0,
+        "modifications": [
+          "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "original_ecology",
+          "placement": 232,
+          "condition": "matched_delete_other_type"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x16__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x16__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 16,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x16__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x16__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 16,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x112__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x112__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 112,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x112__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x112__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 112,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__empty__x232__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__empty__x232__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "empty",
+          "placement": 232,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "historical_figure7__resident__x232__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "exclusion",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/historical_figure7__resident__x232__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "historical_figure7",
+          "background": "resident",
+          "placement": 232,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x16__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x16__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 16,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x16__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x16__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 16,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x112__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x112__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 112,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x112__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x112__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 112,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__empty__x232__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__empty__x232__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "empty",
+          "placement": 232,
+          "condition": "cleared_footprint"
+        }
+      }
+    },
+    {
+      "id": "generated_conditional3002__resident__x232__cleared_footprint",
+      "config": {
+        "model": "research",
+        "norm": "conditional",
+        "width": 256,
+        "steps": 48,
+        "boundary": "open",
+        "iteration_order": "ascending",
+        "seed": null,
+        "initial_state_file": "results/assay/generated_conditional3002__resident__x232__cleared_footprint/frozen.csv",
+        "modifications": [
+          "paired background control with cleared candidate footprint"
+        ],
+        "assay": {
+          "candidate": "generated_conditional3002",
+          "background": "resident",
+          "placement": 232,
+          "condition": "cleared_footprint"
+        }
+      }
+    }
+  ],
+  "recovery_rule": "all distinct candidate motifs are viability probed once in empty width256 at112 for8 updates; detached counts are only potential copies until ancestry supported"
+}

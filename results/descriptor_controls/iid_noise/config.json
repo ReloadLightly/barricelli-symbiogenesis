@@ -1,0 +1,8 @@
+{
+  "model": "descriptor_control",
+  "variant": "iid_noise",
+  "width": 128,
+  "steps": 256,
+  "seed": 7711,
+  "intervention": "entire history externally specified; no simulator dynamics"
+}

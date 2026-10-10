@@ -1,0 +1,10 @@
+{
+  "model": "galloway_published",
+  "width": 511,
+  "steps": 511,
+  "norm": "galloway_B",
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "initialization": "galloway_float_truncation",
+  "seed": 2029
+}

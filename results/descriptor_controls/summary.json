@@ -1,0 +1,127 @@
+[
+  {
+    "id": "static_periodic",
+    "tail_occupancy": 1.0,
+    "tail_activity": 0.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.99688720703125,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -8.0,
+    "signature_count_total": 2,
+    "descriptor_seconds": 0.27411938200020813,
+    "vector": [
+      1.0,
+      0.0,
+      1.0,
+      0.99688720703125
+    ],
+    "archive_bin": [
+      4,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "period_two",
+    "tail_occupancy": 1.0,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 2,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.0,
+    "tail_compressibility": 0.99462890625,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -7.0,
+    "signature_count_total": 2,
+    "descriptor_seconds": 0.2188633200003096,
+    "vector": [
+      1.0,
+      1.0,
+      1.0,
+      0.99462890625
+    ],
+    "archive_bin": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "translation",
+    "tail_occupancy": 0.75,
+    "tail_activity": 1.0,
+    "tail_repeated4_fraction": 1.0,
+    "retained_repeated4_signatures": 4,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 2.0,
+    "tail_compressibility": 0.99334716796875,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -7.0,
+    "signature_count_total": 4,
+    "descriptor_seconds": 0.23807057299927692,
+    "vector": [
+      0.75,
+      1.0,
+      1.0,
+      0.99334716796875
+    ],
+    "archive_bin": [
+      3,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "iid_noise",
+    "tail_occupancy": 0.877685546875,
+    "tail_activity": 0.8755040322580645,
+    "tail_repeated4_fraction": 0.030250171453240365,
+    "retained_repeated4_signatures": 0,
+    "tail_new4_signatures": 3,
+    "tail_entropy_bits": 2.999270561569781,
+    "tail_compressibility": 0.84271240234375,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": 1.0,
+    "signature_count_total": 3989,
+    "descriptor_seconds": 0.3298704170010751,
+    "vector": [
+      0.877685546875,
+      0.8755040322580645,
+      0.030250171453240365,
+      0.84271240234375
+    ],
+    "archive_bin": [
+      4,
+      4,
+      0
+    ]
+  },
+  {
+    "id": "empty",
+    "tail_occupancy": 0.0,
+    "tail_activity": 0.0,
+    "tail_repeated4_fraction": 0.0,
+    "retained_repeated4_signatures": 0,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": -0.0,
+    "tail_compressibility": 0.99761962890625,
+    "exact_translation_fraction": 1.0,
+    "median_best_shift": -8.0,
+    "signature_count_total": 0,
+    "descriptor_seconds": 0.1968795640004828,
+    "vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.99761962890625
+    ],
+    "archive_bin": [
+      0,
+      0,
+      0
+    ]
+  }
+]

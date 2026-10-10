@@ -1,0 +1,164 @@
+assay runs 162 recovery probes 2 candidates [('historical_figure7', [5, -3, 1, -3, 0, -3, 1, 0]), ('generated_conditional3002', [1, -1, 1, -1])]
+max detached beyond one 0
+[
+  {
+    "candidate": "historical_figure7",
+    "background": "empty",
+    "placement": 16,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "historical_figure7",
+    "background": "empty",
+    "placement": 112,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "historical_figure7",
+    "background": "empty",
+    "placement": 232,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "historical_figure7",
+    "background": "resident",
+    "placement": 16,
+    "intact_persistence": 0,
+    "removed_persistence": 0,
+    "rescue_persistence": 0,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "historical_figure7",
+    "background": "resident",
+    "placement": 112,
+    "intact_persistence": 0,
+    "removed_persistence": 0,
+    "rescue_persistence": 0,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "historical_figure7",
+    "background": "resident",
+    "placement": 232,
+    "intact_persistence": 0,
+    "removed_persistence": 0,
+    "rescue_persistence": 0,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "empty",
+    "placement": 16,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "empty",
+    "placement": 112,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "empty",
+    "placement": 232,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "original_ecology",
+    "placement": 16,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "original_ecology",
+    "placement": 93,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "original_ecology",
+    "placement": 112,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "original_ecology",
+    "placement": 232,
+    "intact_persistence": 48,
+    "removed_persistence": 48,
+    "rescue_persistence": 48,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "resident",
+    "placement": 16,
+    "intact_persistence": 0,
+    "removed_persistence": 0,
+    "rescue_persistence": 0,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "resident",
+    "placement": 112,
+    "intact_persistence": 0,
+    "removed_persistence": 0,
+    "rescue_persistence": 0,
+    "intact_minus_removed": 0,
+    "rescue_trajectory_identical": true
+  },
+  {
+    "candidate": "generated_conditional3002",
+    "background": "resident",
+    "placement": 232,
+    "intact_persistence": 14,
+    "removed_persistence": 33,
+    "rescue_persistence": 14,
+    "intact_minus_removed": -19,
+    "rescue_trajectory_identical": true
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "model": "research",
+  "variant": "galloway_B_scaled",
+  "norm": "galloway_B",
+  "width": 128,
+  "steps": 256,
+  "boundary": "ring",
+  "iteration_order": "ascending",
+  "seed": 4409,
+  "initialization": "designed_random",
+  "alphabet": [
+    -9,
+    -7,
+    -3,
+    1,
+    5,
+    9,
+    11
+  ],
+  "density": 0.15,
+  "layout": "uniform",
+  "modifications": [
+    "ring width128 and256 updates; independently authored published-style B update; designed random initial distribution"
+  ],
+  "search": {
+    "method": "random",
+    "repeat": 3,
+    "trial": 9,
+    "space_index": 36
+  }
+}

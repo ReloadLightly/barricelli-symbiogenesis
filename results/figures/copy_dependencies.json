@@ -1,0 +1,26 @@
+{
+  "caption": "Selected numerical explanation: Figure7 motif in research/exclusion, empty width256, initial placement112,48 updates. Saved first-step events record the5 at112 copying to117, then through helper\u22123 at117 to109 (the old-row cell109 is empty, so this chain stops). Both source and ordered numerical partners are recorded. Equal values elsewhere do not establish this ancestry.",
+  "data_sources": [
+    {
+      "file": "results/assay/historical_figure7__empty__x112__intact/trajectory.csv",
+      "sha256": "feb17a347191b4dfdc7dc0e3e9ddb2cd3d824d472ad53541cb9f7b8d7b1624df"
+    },
+    {
+      "file": "results/assay/historical_figure7__empty__x112__intact/events.csv",
+      "sha256": "1416675b6986b868c71f7feebf1aab410ee6e8f725b694db3d28bbb3f6bf75a4"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/figures.py": "782fdd23c98554395e61bb54156bc1e2c40e94f7b20f2d3c07b90a5d39688eeb"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

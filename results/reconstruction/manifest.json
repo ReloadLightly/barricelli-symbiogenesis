@@ -1,0 +1,98 @@
+{
+  "declared_before_execution": true,
+  "runs": [
+    {
+      "id": "figure01",
+      "config": "configs/figure01.json"
+    },
+    {
+      "id": "figure02",
+      "config": "configs/figure02.json"
+    },
+    {
+      "id": "figure03",
+      "config": "configs/figure03.json"
+    },
+    {
+      "id": "figure04",
+      "config": "configs/figure04.json"
+    },
+    {
+      "id": "figure05",
+      "config": "configs/figure05.json"
+    },
+    {
+      "id": "figure06",
+      "config": "configs/figure06.json"
+    },
+    {
+      "id": "figure07",
+      "config": "configs/figure07.json"
+    },
+    {
+      "id": "figure08",
+      "config": "configs/figure08.json"
+    },
+    {
+      "id": "figure09",
+      "config": "configs/figure09.json"
+    },
+    {
+      "id": "figure10",
+      "config": "configs/figure10.json"
+    },
+    {
+      "id": "figure11",
+      "config": "configs/figure11.json"
+    },
+    {
+      "id": "figure12",
+      "config": "configs/figure12.json"
+    },
+    {
+      "id": "figure13",
+      "config": "configs/figure13.json"
+    },
+    {
+      "id": "figure14",
+      "config": "configs/figure14.json"
+    },
+    {
+      "id": "figure15",
+      "config": "configs/figure15.json"
+    },
+    {
+      "id": "figure16",
+      "config": "configs/figure16.json"
+    },
+    {
+      "id": "figure17",
+      "config": "configs/figure17.json"
+    },
+    {
+      "id": "figure18",
+      "config": "configs/figure18.json"
+    },
+    {
+      "id": "figure19",
+      "config": "configs/figure19.json"
+    },
+    {
+      "id": "figure20",
+      "config": "configs/figure20.json"
+    },
+    {
+      "id": "figure21",
+      "config": "configs/figure21.json"
+    },
+    {
+      "id": "figure22",
+      "config": "configs/figure22.json"
+    },
+    {
+      "id": "galloway2026",
+      "config": "configs/galloway_published.json",
+      "role": "display-scale throughput benchmark; also ensemble member"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Selected illustration: first predeclared ensemble seed2026, identical saved511×512 values in two explicit rendering modes. Published palette defaults to white for both0 and out-of-palette values (this run generates−22). Research mapping distinguishes them; hue identifies value, not organism.

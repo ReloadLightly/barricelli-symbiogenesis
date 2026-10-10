@@ -1,0 +1,43 @@
+{
+  "method": "codex_feedback",
+  "repeat": 1,
+  "trial": 7,
+  "space_index": 12,
+  "theta": {
+    "alphabet_id": 1,
+    "density": 0.15,
+    "layout": "uniform"
+  },
+  "seed": 4207,
+  "path": "results/search/codex_feedback/repeat1/trial07",
+  "reason": "Sparse or wider displacements may avoid the common full-occupancy period-two attractor; compare this saved initial-layout configuration under the same update budget.",
+  "descriptors": {
+    "tail_occupancy": 0.645263671875,
+    "tail_activity": 0.7064012096774194,
+    "tail_repeated4_fraction": 0.7369858065680532,
+    "retained_repeated4_signatures": 3,
+    "tail_new4_signatures": 0,
+    "tail_entropy_bits": 1.9029744973494327,
+    "tail_compressibility": 0.98388671875,
+    "exact_translation_fraction": 0.0,
+    "median_best_shift": -1.0,
+    "signature_count_total": 1024,
+    "descriptor_seconds": 1.2384272780000174,
+    "recurrence": null,
+    "vector": [
+      0.645263671875,
+      0.7064012096774194,
+      0.7369858065680532,
+      0.98388671875
+    ],
+    "archive_bin": [
+      3,
+      3,
+      3
+    ]
+  },
+  "novelty_to_previous_knn3": 0.3372580301257872,
+  "engine_seconds": 0.00641076,
+  "process_seconds": 0.01242951999847719,
+  "max_rss_kib": 3712
+}

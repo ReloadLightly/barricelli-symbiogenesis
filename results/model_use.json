@@ -1,0 +1,27 @@
+{
+  "mode": "conversational Codex feedback-informed configuration proposals; no automated model integration",
+  "feedback_rounds": 2,
+  "nonbootstrap_configuration_proposals": 32,
+  "searches": 4,
+  "native_simulator_evaluations": 48,
+  "native_cell_updates": 1572864,
+  "model_identifier": "Codex assistant, GPT-6 family; exact serving identifier not exposed",
+  "external_model_api_calls": 0,
+  "paid_model_calls": 0,
+  "per_cell_model_dependency": false,
+  "proposal_feedback_to_submission_wall_seconds": [
+    106.718128,
+    109.888997
+  ],
+  "isolated_proposal_model_latency_tokens_cost": "not separately available; wall intervals include other work; aggregate goal usage is not policy-specific cost",
+  "logs": [
+    "results/search/codex_proposals1.json",
+    "results/search/codex_proposals2.json"
+  ],
+  "aggregate_goal_usage_as_of_audit": {
+    "tokensUsed": 314864,
+    "timeUsedSeconds": 2348,
+    "updatedAt": 1791657779,
+    "scope": "Whole goal work, including research, implementation, documentation and tools; cannot assign this meter to proposal policy, model billing or isolated inference runtime."
+  }
+}

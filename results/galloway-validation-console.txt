@@ -1,0 +1,111 @@
+{
+  "source_sha256": "2b39ea4623ca9b350c5127fa324006ec2cdfa5690636f0b89a7ff3aaabfb65ae",
+  "oracle": "published numerical method bodies compiled with javac; original source numeric methods unchanged for primary comparison",
+  "checks": [
+    {
+      "id": "galloway2026",
+      "cells": 261632,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "galloway2027",
+      "cells": 261632,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "galloway2028",
+      "cells": 261632,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "galloway2029",
+      "cells": 261632,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "galloway2030",
+      "cells": 261632,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "galloway2031",
+      "cells": 261632,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "empty",
+      "cells": 4599,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "same_helper",
+      "cells": 4599,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "seam",
+      "cells": 4599,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "erased_reuse",
+      "cells": 4599,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "mutation_under_empty",
+      "cells": 4599,
+      "mismatches": 0,
+      "exact": true
+    },
+    {
+      "id": "mixed",
+      "cells": 4599,
+      "mismatches": 0,
+      "exact": true
+    }
+  ],
+  "total_cells": 1597386,
+  "all_exact": true,
+  "collision_branch_audit": [
+    {
+      "id": "galloway2026",
+      "counts": "B=41881,A=0"
+    },
+    {
+      "id": "galloway2027",
+      "counts": "B=16491,A=0"
+    },
+    {
+      "id": "galloway2028",
+      "counts": "B=17567,A=0"
+    },
+    {
+      "id": "galloway2029",
+      "counts": "B=24654,A=0"
+    },
+    {
+      "id": "galloway2030",
+      "counts": "B=37156,A=0"
+    },
+    {
+      "id": "galloway2031",
+      "counts": "B=19561,A=0"
+    }
+  ],
+  "not_validated": [
+    "original Processing UI or Processing.js interpreter",
+    "original runtime random initialization stream",
+    "pixel identity with published artwork"
+  ]
+}

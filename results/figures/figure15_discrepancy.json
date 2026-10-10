@@ -1,0 +1,34 @@
+{
+  "caption": "Figure15 computed and historical-plate fixture trajectories agree through t7 (first8 rows). At t8 (generation9), positions51,56,58 first differ. Subsequent propagation of discrepancies produces5,091 unequal cells; this is not a count of hand-calculation errors. No cells were patched. Model: historical conditional norm, W83,T100, fixed Fig15 initial row.",
+  "data_sources": [
+    {
+      "file": "results/reconstruction/figure15/trajectory.csv",
+      "sha256": "5c81c85496dfe98e5cf5eaa7656d1bb6b48ee0d56c41dc96e8d4208972a82f9b"
+    },
+    {
+      "file": "fixtures/fig15-orig-from-lalaina-rahobisoa.csv",
+      "sha256": "dfc84c41d92031c40972646188863e9c13258b16306cc1eb49df873d13b92895"
+    }
+  ],
+  "renderer_files_sha256": {
+    "barricelli/plot.py": "719338fda46316629d7da79471a05d3f795aac437249ef36a8879276925c8a98",
+    "scripts/figures.py": "782fdd23c98554395e61bb54156bc1e2c40e94f7b20f2d3c07b90a5d39688eeb"
+  },
+  "palette": "configs/palette.json",
+  "palette_sha256": "13ffb2c86faf15747bfbdec649a9018ca94aff32361ac4f81d80f5cc0b38b82b",
+  "axes": [
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    },
+    {
+      "horizontal": "horizontal position x",
+      "vertical": "time t (downward)"
+    }
+  ],
+  "cell_rendering": "discrete unsmoothed pixels or numerical text when trajectories are shown"
+}

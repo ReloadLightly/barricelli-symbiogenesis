@@ -1,0 +1,1879 @@
+{
+  "declared_before_execution": true,
+  "runs": [
+    {
+      "id": "exploration_6100_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6100,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6100_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6100,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6100_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6100,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6100_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6100,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6100_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6100,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6101_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6101,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6101_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6101,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6101_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6101,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6101_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6101,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6101_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6101,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6102_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6102,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6102_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6102,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6102_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6102,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6102_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6102,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6102_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6102,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6103_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6103,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6103_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6103,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6103_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6103,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6103_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6103,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6103_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6103,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6104_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6104,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6104_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6104,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6104_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6104,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6104_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6104,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6104_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6104,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6105_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6105,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6105_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6105,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6105_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6105,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6105_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6105,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6105_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6105,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6106_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6106,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6106_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6106,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6106_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6106,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6106_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6106,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6106_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6106,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6107_galloway_A",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6107,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6107_galloway_B",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6107,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6107_galloway_AB_halves",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6107,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6107_galloway_AB_quarters",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6107,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "exploration_6107_galloway_AB_temporal",
+      "cohort": "exploration",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 512,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 6107,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9200_galloway_A",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9200,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9200_galloway_B",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9200,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9200_galloway_AB_halves",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9200,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9200_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9200,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9200_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9200,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9201_galloway_A",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9201,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9201_galloway_B",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9201,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9201_galloway_AB_halves",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9201,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9201_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9201,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9201_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9201,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9202_galloway_A",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9202,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9202_galloway_B",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9202,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9202_galloway_AB_halves",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9202,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9202_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9202,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9202_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9202,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9203_galloway_A",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_A_scaled",
+        "norm": "galloway_A",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9203,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_A",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9203_galloway_B",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_B_scaled",
+        "norm": "galloway_B",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9203,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_B",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9203_galloway_AB_halves",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_halves_scaled",
+        "norm": "galloway_AB_halves",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9203,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_halves",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9203_galloway_AB_quarters",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_quarters_scaled",
+        "norm": "galloway_AB_quarters",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9203,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_quarters",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    },
+    {
+      "id": "confirmation_9203_galloway_AB_temporal",
+      "cohort": "confirmation",
+      "config": {
+        "model": "research",
+        "variant": "galloway_AB_temporal_scaled",
+        "norm": "galloway_AB_temporal",
+        "width": 128,
+        "steps": 2048,
+        "boundary": "ring",
+        "iteration_order": "ascending",
+        "initialization": "designed_random",
+        "seed": 9203,
+        "alphabet": [
+          -9,
+          -7,
+          -3,
+          1,
+          5,
+          9,
+          11
+        ],
+        "density": 0.35,
+        "layout": "uniform",
+        "modifications": [
+          "scaled width128; published-style sequential original-source-relative copying with three-attempt cap",
+          "explicit collision rule: galloway_AB_temporal",
+          "whole-ring old-row nearest-number lookup across norm boundaries"
+        ]
+      }
+    }
+  ],
+  "primary_contrast": "spatial AB minus mean of homogeneous A andB on paired seeds; temporal AB separates spatial layout from constituent mixing",
+  "spatial_layouts": {
+    "AB_halves": "A at x0..63; B at64..127",
+    "AB_quarters": "A/B/A/B in32-cell intervals"
+  },
+  "temporal_control": "whole world A on even update times andB on odd times",
+  "units": "initial-state seeds; timepoints are not replicates",
+  "confirmation": "four unseen seeds9200..9203 at four-times horizon; chosen before exploration outcomes",
+  "damage": "exploration cohorts: saved row256, clear x48..55, replay128 updates; compare stored undamaged rows256..384; external intervention explicitly logged",
+  "limits": [
+    "repeated k-mers are structural diagnostics, not viable collectives",
+    "recurrence is right-censored when absent",
+    "no exchange treatment or unlimited-evolution claim"
+  ]
+}

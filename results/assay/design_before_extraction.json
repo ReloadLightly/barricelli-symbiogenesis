@@ -1,0 +1,40 @@
+{
+  "width": 256,
+  "steps": 48,
+  "placements": [
+    16,
+    112,
+    232
+  ],
+  "backgrounds": "empty; resident exclusion3001 row24; candidate original ecology if extracted",
+  "historical_motif": [
+    5,
+    -3,
+    1,
+    -3,
+    0,
+    -3,
+    1,
+    0
+  ],
+  "generated_extraction": "earliest t>=10, first four-cell two-sign window with >=3 disjoint exact matches in conditional3002",
+  "matching": {
+    "spatial": "all translations, no rotation; position/value tolerance0",
+    "temporal": "period-one template; all discrete times searched; extraction time reset as assay t0; no phase pooling"
+  },
+  "primary_outcome": ">=2 simultaneous motifs with two empty cells outside each full footprint; each recovered motif must persist for8 steps after isolation; numerical criterion does not itself prove ancestry",
+  "secondary_outcomes": [
+    "motif persistence last time",
+    "unseparated template count",
+    "occupied extent/expansion",
+    "helper effect and exact rescue"
+  ],
+  "controls": "single cell loss at same/other types; wrong helper occupies identical site; nonzero shuffle preserves exact occupancy mask",
+  "imperfections": [
+    "no integer is neutral",
+    "deleting another position changes gap geometry differently",
+    "resident motif masks replace pre-existing values inside the footprint",
+    "exact template can miss viable changed structures",
+    "two-cell guard is conservative and excludes contiguous tiling"
+  ]
+}

@@ -1,0 +1,1 @@
+Selected explanatory seed6100: five research collision environments, identical saved128-cell initial row and512 updates. Axes and research palette match. A andB settle into simple recurrent domains; this seed’s spatial halves treatment retains a nonrepeating transient. All other seeds are included in aggregate results. Time increases downward.

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barricelli-symbiogenesis"
+version = "0.1.0"
+description = "Numerical reconstructions and scoped causal assays of Barricelli patterns"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0-only"}
+dependencies = ["numpy==2.2.6", "matplotlib==3.10.9", "pypdf==6.20.0", "Pillow==12.3.0"]
+
+[tool.setuptools]
+packages = ["barricelli"]

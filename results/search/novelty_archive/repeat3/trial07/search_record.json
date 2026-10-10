@@ -1,0 +1,43 @@
+{
+  "method": "novelty_archive",
+  "repeat": 3,
+  "trial": 7,
+  "space_index": 38,
+  "theta": {
+    "alphabet_id": 3,
+    "density": 0.15,
+    "layout": "two_patches"
+  },
+  "seed": 4407,
+  "path": "results/search/novelty_archive/repeat3/trial07",
+  "reason": "descriptor-novel parent; untested one-factor neighbor",
+  "descriptors": {
+    "tail_occupancy": 0.6767578125,
+    "tail_activity": 0.6512096774193549,
+    "tail_repeated4_fraction": 0.6972849550504098,
+    "retained_repeated4_signatures": 15,
+    "tail_new4_signatures": 26,
+    "tail_entropy_bits": 2.0781824225758085,
+    "tail_compressibility": 0.9793701171875,
+    "exact_translation_fraction": 0.03225806451612903,
+    "median_best_shift": -1.0,
+    "signature_count_total": 1378,
+    "descriptor_seconds": 1.3548116590009158,
+    "recurrence": null,
+    "vector": [
+      0.6767578125,
+      0.6512096774193549,
+      0.6972849550504098,
+      0.9793701171875
+    ],
+    "archive_bin": [
+      3,
+      3,
+      3
+    ]
+  },
+  "novelty_to_previous_knn3": 0.4630332299059643,
+  "engine_seconds": 0.00529214,
+  "process_seconds": 0.01109555199946044,
+  "max_rss_kib": 3712
+}

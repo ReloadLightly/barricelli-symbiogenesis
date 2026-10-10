@@ -1,0 +1,25 @@
+{
+  "native_runs": 491,
+  "cell_updates": 18911625,
+  "engine_seconds_sum": 6.797447086,
+  "process_seconds_sum": 13.077047032009432,
+  "max_native_rss_kib": 3840,
+  "count_by_stage": {
+    "assay": 164,
+    "ensemble": 14,
+    "galloway_validation": 6,
+    "heterogeneity": 100,
+    "nearby": 4,
+    "partner_followup": 24,
+    "reconstruction": 23,
+    "search": 144,
+    "search_confirmation": 12
+  },
+  "excluded_from_counts": [
+    "original executable fixture-oracle replays",
+    "temporary Java source-level oracle replays",
+    "synthetic descriptor-control histories",
+    "development reruns and tests"
+  ],
+  "budget_scope": "retained scientific native trajectories, not all development compute"
+}

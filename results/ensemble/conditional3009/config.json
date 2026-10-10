@@ -1,0 +1,13 @@
+{
+  "model": "research",
+  "width": 83,
+  "steps": 100,
+  "norm": "conditional",
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "initialization": "two_coins",
+  "seed": 3009,
+  "modifications": [
+    "new saved PCG64 two-coin initial row; historical conditional norm"
+  ]
+}

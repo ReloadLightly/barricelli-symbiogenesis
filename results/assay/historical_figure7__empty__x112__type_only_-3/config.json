@@ -1,0 +1,20 @@
+{
+  "model": "research",
+  "norm": "exclusion",
+  "width": 256,
+  "steps": 48,
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/assay/historical_figure7__empty__x112__type_only_-3/frozen.csv",
+  "trace_steps": 8,
+  "modifications": [
+    "width256 and paired inoculation/ablation; underlying historical norm unchanged"
+  ],
+  "assay": {
+    "candidate": "historical_figure7",
+    "background": "empty",
+    "placement": 112,
+    "condition": "type_only_-3"
+  }
+}

@@ -1,0 +1,28 @@
+.venv/bin/python scripts/register.py
+{
+  "native_runs": 491,
+  "cell_updates": 18911625,
+  "engine_seconds_sum": 6.745822017999999,
+  "process_seconds_sum": 13.51204950301144,
+  "max_native_rss_kib": 3840,
+  "count_by_stage": {
+    "assay": 164,
+    "ensemble": 14,
+    "galloway_validation": 6,
+    "heterogeneity": 100,
+    "nearby": 4,
+    "partner_followup": 24,
+    "reconstruction": 23,
+    "search": 144,
+    "search_confirmation": 12
+  },
+  "excluded_from_counts": [
+    "original executable fixture-oracle replays",
+    "temporary Java source-level oracle replays",
+    "synthetic descriptor-control histories",
+    "development reruns and tests"
+  ],
+  "budget_scope": "retained scientific native trajectories, not all development compute"
+}
+.venv/bin/python scripts/build_atlas.py
+atlas worlds 19 registered native runs 491 payload bytes 5858542

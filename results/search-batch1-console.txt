@@ -1,0 +1,36 @@
+repeat 0 coverage 3
+12 {'alphabet_id': 1, 'density': 0.15, 'layout': 'uniform'} [0.921, 0.746, 0.971, 0.986] 8
+10 {'alphabet_id': 0, 'density': 0.9, 'layout': 'center_patch'} [1.0, 1.0, 1.0, 0.995] 2
+31 {'alphabet_id': 2, 'density': 0.65, 'layout': 'center_patch'} [1.0, 1.0, 1.0, 0.995] 2
+11 {'alphabet_id': 0, 'density': 0.9, 'layout': 'two_patches'} [1.0, 1.0, 1.0, 0.995] 2
+36 {'alphabet_id': 3, 'density': 0.15, 'layout': 'uniform'} [0.923, 0.846, 0.88, 0.979] 8
+39 {'alphabet_id': 3, 'density': 0.35, 'layout': 'uniform'} [0.907, 0.662, 0.813, 0.977] 3
+24 {'alphabet_id': 2, 'density': 0.15, 'layout': 'uniform'} [0.812, 0.922, 0.881, 0.988] 12
+14 {'alphabet_id': 1, 'density': 0.15, 'layout': 'two_patches'} [0.734, 0.734, 0.959, 0.991] 8
+repeat 1 coverage 5
+45 {'alphabet_id': 3, 'density': 0.9, 'layout': 'uniform'} [0.748, 0.851, 0.928, 0.985] 13
+3 {'alphabet_id': 0, 'density': 0.35, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+33 {'alphabet_id': 2, 'density': 0.9, 'layout': 'uniform'} [0.937, 0.633, 0.945, 0.977] 21
+42 {'alphabet_id': 3, 'density': 0.65, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+36 {'alphabet_id': 3, 'density': 0.15, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+37 {'alphabet_id': 3, 'density': 0.15, 'layout': 'center_patch'} [1.0, 1.0, 1.0, 0.995] 2
+24 {'alphabet_id': 2, 'density': 0.15, 'layout': 'uniform'} [0.93, 0.578, 0.963, 0.988] 12
+12 {'alphabet_id': 1, 'density': 0.15, 'layout': 'uniform'} [0.645, 0.706, 0.737, 0.984] 3
+repeat 2 coverage 3
+38 {'alphabet_id': 3, 'density': 0.15, 'layout': 'two_patches'} [0.961, 0.992, 0.894, 0.99] 3
+9 {'alphabet_id': 0, 'density': 0.9, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+45 {'alphabet_id': 3, 'density': 0.9, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+5 {'alphabet_id': 0, 'density': 0.35, 'layout': 'two_patches'} [1.0, 1.0, 1.0, 0.995] 2
+36 {'alphabet_id': 3, 'density': 0.15, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+39 {'alphabet_id': 3, 'density': 0.35, 'layout': 'uniform'} [0.662, 0.767, 0.442, 0.92] 7
+24 {'alphabet_id': 2, 'density': 0.15, 'layout': 'uniform'} [0.992, 1.0, 0.964, 0.992] 4
+13 {'alphabet_id': 1, 'density': 0.15, 'layout': 'center_patch'} [0.766, 0.906, 0.926, 0.99] 6
+repeat 3 coverage 4
+37 {'alphabet_id': 3, 'density': 0.15, 'layout': 'center_patch'} [1.0, 0.5, 1.0, 0.994] 4
+41 {'alphabet_id': 3, 'density': 0.35, 'layout': 'two_patches'} [1.0, 1.0, 1.0, 0.995] 2
+21 {'alphabet_id': 1, 'density': 0.9, 'layout': 'uniform'} [1.0, 1.0, 1.0, 0.995] 2
+43 {'alphabet_id': 3, 'density': 0.65, 'layout': 'center_patch'} [1.0, 1.0, 1.0, 0.995] 2
+36 {'alphabet_id': 3, 'density': 0.15, 'layout': 'uniform'} [0.957, 0.537, 0.886, 0.983] 2
+39 {'alphabet_id': 3, 'density': 0.35, 'layout': 'uniform'} [0.857, 0.949, 0.77, 0.96] 7
+24 {'alphabet_id': 2, 'density': 0.15, 'layout': 'uniform'} [1.0, 0.5, 1.0, 0.994] 4
+12 {'alphabet_id': 1, 'density': 0.15, 'layout': 'uniform'} [0.396, 0.513, 0.323, 0.953] 5

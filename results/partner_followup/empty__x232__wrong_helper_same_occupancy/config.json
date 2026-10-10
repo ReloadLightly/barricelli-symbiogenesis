@@ -1,0 +1,21 @@
+{
+  "model": "research",
+  "width": 256,
+  "steps": 48,
+  "norm": "exclusion",
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/partner_followup/empty__x232__wrong_helper_same_occupancy/frozen.csv",
+  "trace_steps": 0,
+  "modifications": [
+    "exploratory dependency-directed helper perturbation after first assay; historical exclusion updates unchanged"
+  ],
+  "assay": {
+    "candidate": "historical_figure7",
+    "background": "empty",
+    "placement": 232,
+    "condition": "wrong_helper_same_occupancy",
+    "helper_offset": 5
+  }
+}

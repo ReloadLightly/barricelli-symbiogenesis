@@ -1,0 +1,1 @@
+Figure15 computed and historical-plate fixture trajectories agree through t7 (first8 rows). At t8 (generation9), positions51,56,58 first differ. Subsequent propagation of discrepancies produces5,091 unequal cells; this is not a count of hand-calculation errors. No cells were patched. Model: historical conditional norm, W83,T100, fixed Fig15 initial row.

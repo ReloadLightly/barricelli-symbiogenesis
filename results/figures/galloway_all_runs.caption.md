@@ -1,0 +1,1 @@
+Complete six-run Galloway ensemble, seeds2026–2031, all W511 and511 updates (512 saved rows). Runs are unselected. Stable textures and moving boundaries show numerical dynamics; these panels do not identify reproducing collectives. Values outside the legacy palette remain distinct from empty cells in the research palette.

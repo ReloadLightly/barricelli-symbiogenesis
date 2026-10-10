@@ -1,0 +1,66 @@
+{
+  "runs": [
+    {
+      "id": "galloway2026",
+      "path": "results/reconstruction/galloway2026",
+      "steps": 511
+    },
+    {
+      "id": "galloway2027",
+      "path": "results/ensemble/galloway2027",
+      "steps": 511
+    },
+    {
+      "id": "galloway2028",
+      "path": "results/ensemble/galloway2028",
+      "steps": 511
+    },
+    {
+      "id": "galloway2029",
+      "path": "results/ensemble/galloway2029",
+      "steps": 511
+    },
+    {
+      "id": "galloway2030",
+      "path": "results/ensemble/galloway2030",
+      "steps": 511
+    },
+    {
+      "id": "galloway2031",
+      "path": "results/ensemble/galloway2031",
+      "steps": 511
+    },
+    {
+      "id": "empty",
+      "path": "results/galloway_validation/empty",
+      "steps": 8
+    },
+    {
+      "id": "same_helper",
+      "path": "results/galloway_validation/same_helper",
+      "steps": 8
+    },
+    {
+      "id": "seam",
+      "path": "results/galloway_validation/seam",
+      "steps": 8
+    },
+    {
+      "id": "erased_reuse",
+      "path": "results/galloway_validation/erased_reuse",
+      "steps": 8
+    },
+    {
+      "id": "mutation_under_empty",
+      "path": "results/galloway_validation/mutation_under_empty",
+      "steps": 8
+    },
+    {
+      "id": "mixed",
+      "path": "results/galloway_validation/mixed",
+      "steps": 8
+    }
+  ],
+  "source_sha256": "2b39ea4623ca9b350c5127fa324006ec2cdfa5690636f0b89a7ff3aaabfb65ae",
+  "method": "unchanged extracted Java-compatible numeric method bodies; source hash verified; fixed integer initial rows"
+}

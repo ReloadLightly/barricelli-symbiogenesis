@@ -1,0 +1,21 @@
+{
+  "model": "research",
+  "width": 256,
+  "steps": 48,
+  "norm": "exclusion",
+  "boundary": "open",
+  "iteration_order": "ascending",
+  "seed": null,
+  "initial_state_file": "results/partner_followup/resident__x112__same_type_damage_elsewhere/frozen.csv",
+  "trace_steps": 0,
+  "modifications": [
+    "exploratory dependency-directed helper perturbation after first assay; historical exclusion updates unchanged"
+  ],
+  "assay": {
+    "candidate": "historical_figure7",
+    "background": "resident",
+    "placement": 112,
+    "condition": "same_type_damage_elsewhere",
+    "helper_offset": 5
+  }
+}
