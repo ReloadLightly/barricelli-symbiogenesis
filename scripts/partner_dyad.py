@@ -110,6 +110,12 @@ def run_pair(plan):
     path = ROOT / plan['path']
     stats = {}
     for phase, conf in plan['configs'].items():
+        # The native engine deliberately omits events.csv when trace_steps=0.
+        # The shared completion cache hashes that path: an explicitly empty
+        # observation file records the absence of a trace, never invented edges.
+        if conf['trace_steps'] == 0 and not (path / phase / 'events.csv').exists():
+            (path / phase).mkdir(parents=True, exist_ok=True)
+            (path / phase / 'events.csv').touch()
         stats[phase] = ensure_native(conf, path / phase)
         oracle_run(path / phase, path / 'oracle' / (phase + '.csv'))
     if not np.array_equal(read_csv(path / 'trace/trajectory.csv'), read_csv(path / 'continuation/trajectory.csv')[:2]):
